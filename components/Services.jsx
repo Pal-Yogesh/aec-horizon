@@ -7,7 +7,7 @@ const Services = () => {
       <div className="px-[116px] pt-24 bg-[#DBE0F3]">
         <div>
           <div>
-            <h1 className="font-bold text-[45px] tet-[#4B336D] pb-9">
+            <h1 className="font-bold text-[45px] text-[#4B336D] pb-9">
               Our <span className="gradient-text">Services</span>
             </h1>
           </div>

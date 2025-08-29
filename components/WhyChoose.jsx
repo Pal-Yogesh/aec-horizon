@@ -87,7 +87,7 @@ const WhyChoose = () => {
         </div>
         <div className="flex justify-center items-center pt-12">
           <button
-            className="text-white text-[18px] px-6 py-4 rounded-[13px] shadow-xl"
+            className="text-white text-[18px] px-6 py-4 rounded-[13px] shadow-xl cursor-pointer"
             style={{
               background:
                 "linear-gradient(-106.4deg, #47099F 0.28%, #F8AD1D 158.99%)",
