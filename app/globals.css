@@ -27,3 +27,10 @@
   background-clip: text;
   color: transparent;
 }
+.gradient-text-number {
+  background: linear-gradient(90.13deg, #47099F -20.11%, #F8AD1D 125.29%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
