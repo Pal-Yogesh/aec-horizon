@@ -3,7 +3,7 @@ import React from "react";
 
 const WhyChoose = () => {
   return (
-    <div className="px-[116px] pt-20 pb-32">
+    <div className="px-[116px] pt-20 pb-10">
       <div>
         <div>
           <div>
@@ -84,6 +84,18 @@ const WhyChoose = () => {
               </div>
             </div>
           </div>
+        </div>
+        <div className="flex justify-center items-center pt-12">
+          <button
+            className="text-white text-[18px] px-6 py-4 rounded-[13px] shadow-xl"
+            style={{
+              background:
+                "linear-gradient(-106.4deg, #47099F 0.28%, #F8AD1D 158.99%)",
+              boxShadow: "0px 4px 4px 0px #00000040",
+            }}
+          >
+            View our services
+          </button>
         </div>
       </div>
     </div>
