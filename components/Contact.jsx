@@ -19,7 +19,6 @@ const Contact = () => {
             </div>
 
             {/* Heading */}
-
             <div className="flex justify-center items-center gap-28 pt-8">
               <div>
                 <div className="flex justify-center items-center">
@@ -33,7 +32,7 @@ const Contact = () => {
                 </div>
 
                 {/* Contact Card */}
-                <div className="flex  items-center gap-3 pt-10 pb-4">
+                <div className="flex items-center gap-3 pt-10 pb-4">
                   <div>
                     <div
                       className="w-[300px] h-[150px] bg-[#FFFFFF] rounded-[18px] text-[#4B336D]"
@@ -42,9 +41,7 @@ const Contact = () => {
                       }}
                     >
                       <div className="px-7 pt-2 leading-tight">
-                        <h1 className="text-[20px] font-semibold">
-                          Call us at
-                        </h1>
+                        <h1 className="text-[20px] font-semibold">Call us at</h1>
                         <h1 className="text-[20px] font-semibold">
                           874950450835
                         </h1>
@@ -67,9 +64,7 @@ const Contact = () => {
                           Our Head Offices
                         </h1>
                         <h1 className="text-[20px] font-semibold">Dubai</h1>
-                        <h1 className="text-[20px] font-semibold pt-7">
-                          India
-                        </h1>
+                        <h1 className="text-[20px] font-semibold pt-7">India</h1>
                         <h1 className="text-[20px] font-semibold">
                           Haryana, 5467009
                         </h1>
@@ -82,7 +77,7 @@ const Contact = () => {
               <div>
                 <div className="">
                   <div
-                    className="w-[400px] h-[51px] bg-[#FFFFFF] rounded-[25.5px] text-center " 
+                    className="w-[400px] h-[51px] bg-[#FFFFFF] rounded-[25.5px] text-center sheen-effect"
                     style={{
                       boxShadow: "0px 4px 4px 0px #00000040",
                     }}
@@ -134,7 +129,7 @@ const Contact = () => {
 
                       <div className="flex justify-center items-center">
                         <button
-                          className="text-white text-[13px]  rounded-[13px] shadow-xl cursor-pointer  w-[217px] h-[28px] "
+                          className="text-white text-[13px] rounded-[13px] shadow-xl cursor-pointer w-[217px] h-[28px] sheen-effect"
                           style={{
                             background:
                               "linear-gradient(-106.4deg, #47099F 0.28%, #F8AD1D 158.99%)",
