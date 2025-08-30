@@ -12,13 +12,19 @@ export default function Home() {
   return (
     <>
     <Navbar />
+    <div className="">
+
     <Banner />
+    </div>
+    <div className="-mt-[50%] z-[10] bg-[#D9DDEE] absolute ">
+
     <WhyChoose />
     <Services />
     <WhoWeServe />
     <OurProcess />
     <ProcessArchitecture />
     <Contact />
+    </div>
     </>
     
   );
