@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import SnakeAnimation from "./Infinity";
 
 const Banner = () => {
   return (
@@ -25,6 +26,10 @@ const Banner = () => {
               alt="earth"
               className="w-full h-full object-cover animate-spin-slow "
             />
+            <div className="z-30 w-[100vw] h-[100vh] absolute top-[30%] left-[60%] transform -translate-x-1/2 -translate-y-1/2">
+              <SnakeAnimation />
+
+            </div>
           </div>
         </div>
       </div>

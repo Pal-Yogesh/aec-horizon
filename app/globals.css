@@ -87,3 +87,68 @@
 .clip-half {
   clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%);
 }
+
+
+.infinity-loop {
+  width: 100px;
+  height: 100px;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(45deg);
+  background-clip: padding-box;
+}
+
+.animate-gradient {
+  animation: moveGradient 6s ease infinite;
+}
+
+.delay-200 {
+  animation-delay: 0.2s;
+}
+
+.delay-400 {
+  animation-delay: 0.4s;
+}
+
+@keyframes moveGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+/* globals.css */
+@keyframes gradient-move {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-gradient-move {
+  background: linear-gradient(
+    270deg,
+    #83a1ff,
+    #674cd5,
+    #ffad12,
+    #83a1ff,
+    #674cd5,
+    #ffad12
+  );
+  background-size: 400% 400%;
+  animation: gradient-move 4s ease infinite;
+}

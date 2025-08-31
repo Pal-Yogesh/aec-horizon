@@ -9,7 +9,7 @@ const ProcessArchitecture = () => {
           <div>
             <div className="flex justify-center items-center">
               <div>
-                <h2 class="gradient-text font-bold text-[45px]">
+                <h2 className="gradient-text font-bold text-[45px]">
                   Process From Drafts To Deals
                 </h2>
                 <h1 className="text-[#1C0044] font-semibold text-[45px]">

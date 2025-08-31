@@ -5,7 +5,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="fixed top-0 left-0 right-0 z-50 px-[116px] pt-[35px] bg-transparent">
+    <div className="fixed top-0 left-0 right-0 z-50 px-[116px] pt-[35px]  ">
       <div className="flex justify-between items-center p-4">
         {/* Logo */}
         <div>
@@ -19,7 +19,7 @@ const Navbar = () => {
         </div>
 
         {/* Menu Items */}
-        <div className="flex items-center justify-between gap-6 bg-[#FFFFFF47] py-2 rounded-[80px] border border-white text-[20px] text-[#4B336D] px-10">
+        <div className="flex items-center justify-between gap-6 bg-[#FFFFFF47] backdrop-blur-xl py-2 rounded-[80px] border border-white text-[20px] text-[#4B336D] px-10">
           {["Home", "Why us", "Service", "Our Expert", "Pricing"].map((item, index) => (
             <p
               key={index}
@@ -32,7 +32,7 @@ const Navbar = () => {
         </div>
 
         {/* Contact Button */}
-        <div className="bg-[#FFFFFF47] rounded-[80px] border border-white text-[20px] text-[#4B336D] px-10 py-3 cursor-pointer hover:bg-white transition-all duration-300">
+        <div className="bg-[#FFFFFF47] backdrop-blur-xl rounded-[80px] border border-white text-[20px] text-[#4B336D] px-10 py-3 cursor-pointer hover:bg-white transition-all duration-300">
           Contact
         </div>
       </div>
