@@ -11,14 +11,14 @@ import WhyChoose from "@/components/WhyChoose";
 
 export default function Home() {
   return (
-    <>
+    <div className="bg-[#D9DDEE]">
     <Navbar />
 
-    <div className="">
+    {/* <div className="">
 
     <Banner />
-    </div>
-    <div className="-mt-[50%] z-[10] bg-[#D9DDEE] absolute w-[100%] ">
+    </div> */}
+    {/* <div className="-mt-[50%] z-[10] bg-[#D9DDEE] absolute w-[100%] "> */}
 
     <WhyChoose />
     <Services />
@@ -26,8 +26,8 @@ export default function Home() {
     <OurProcess />
     <ProcessArchitecture />
     <Contact />
+    {/* </div> */}
     </div>
-    </>
     
   );
 }

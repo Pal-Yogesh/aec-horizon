@@ -52,9 +52,9 @@ const ProcessArchitecture = () => {
                       design documentation, 3D modeling,
                     </span>
                     <br />{" "}
-                    <sapn className="gradient-text">
+                    <span className="gradient-text">
                       and construction-ready plans.
-                    </sapn>
+                    </span>
                   </div>
                 </div>
               </div>
@@ -134,7 +134,7 @@ const ProcessArchitecture = () => {
                       <span className="gradient-text">
                         To attract clients, showcase completed
                       </span>
-                      <br /> <sapn className="gradient-text">projects.</sapn>
+                      <br /> <span className="gradient-text">projects.</span>
                     </div>
                   </div>
                 </div>

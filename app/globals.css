@@ -8,6 +8,14 @@
   background-clip: text;
   color: transparent;
 }
+.gradient-text-about {
+  background: linear-gradient(90.13deg, #47099F 30.64%, #F8AD1D 126.82%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+/* background: linear-gradient(90.13deg, #47099F 30.64%, #F8AD1D 126.82%); */
 
 .gradient-textsm {
   font-size: 23px; /* adjust as needed */
