@@ -159,3 +159,17 @@
   background-size: 400% 400%;
   animation: gradient-move 4s ease infinite;
 }
+
+
+
+
+/* shadow custom start */
+
+/* globals.css */
+.border-shadow-custom {
+  box-shadow: 0px 4px 6.8px 0px #00000040;
+}
+
+
+
+/* shadow custom ended */
