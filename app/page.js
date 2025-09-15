@@ -1,5 +1,6 @@
 import Banner from "@/components/Banner";
 import Contact from "@/components/Contact";
+import HeroSectionBg from "@/components/HeroSectionBg";
 
 import Navbar from "@/components/Navbar";
 import OurProcess from "@/components/OurProcess";
@@ -8,26 +9,25 @@ import Services from "@/components/Services";
 import WhoWeServe from "@/components/WhoWeServe";
 import WhyChoose from "@/components/WhyChoose";
 
-
 export default function Home() {
   return (
     <div className="bg-[#D9DDEE]">
-    <Navbar />
+      <Navbar />
 
-    {/* <div className="">
+      <HeroSectionBg />
+      {/* <div className="">
 
     <Banner />
     </div> */}
-    {/* <div className="-mt-[50%] z-[10] bg-[#D9DDEE] absolute w-[100%] "> */}
+      {/* <div className="-mt-[50%] z-[10] bg-[#D9DDEE] absolute w-[100%] "> */}
 
-    <WhyChoose />
-    <Services />
-    <WhoWeServe />
-    <OurProcess />
-    <ProcessArchitecture />
-    <Contact />
-    {/* </div> */}
+      <WhyChoose />
+      <Services />
+      <WhoWeServe />
+      <OurProcess />
+      <ProcessArchitecture />
+      <Contact />
+      {/* </div> */}
     </div>
-    
   );
 }
