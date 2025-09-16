@@ -1,5 +1,6 @@
 import Banner from "@/components/Banner";
 import Contact from "@/components/Contact";
+import HeroContent from "@/components/HeroContent";
 import HeroSectionBg from "@/components/HeroSectionBg";
 
 import Navbar from "@/components/Navbar";
@@ -14,20 +15,25 @@ export default function Home() {
     <div className="bg-[#D9DDEE]">
       <Navbar />
 
-      <HeroSectionBg />
+      <div className="relative w-full h-[120%] overflow-hidden  ">
+        <HeroSectionBg />
+
+        <div className="absolute top-36  w-[100%] ">
+          <HeroContent />
+        </div>
+      </div>
       {/* <div className="">
 
     <Banner />
     </div> */}
-      {/* <div className="-mt-[50%] z-[10] bg-[#D9DDEE] absolute w-[100%] "> */}
-
-      <WhyChoose />
-      <Services />
-      <WhoWeServe />
-      <OurProcess />
-      <ProcessArchitecture />
-      <Contact />
-      {/* </div> */}
+      <div className="-mt-[10%] z-[10] bg-[#D9DDEE] absolute w-[100%] ">
+        <WhyChoose />
+        <Services />
+        <WhoWeServe />
+        <OurProcess />
+        <ProcessArchitecture />
+        <Contact />
+      </div>
     </div>
   );
 }

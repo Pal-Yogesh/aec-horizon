@@ -173,3 +173,39 @@
 
 
 /* shadow custom ended */
+
+
+
+
+
+/* typing main heading start */
+
+.typing-heading {
+  overflow: hidden; /* Ensures the text is hidden until typed */
+  white-space: nowrap; /* Keeps text on a single line */
+ 
+  width: 0; /* Start hidden */
+  animation: typing 4s steps(30, end) forwards, blink 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #4B336D;
+  }
+}
+
+
+/* typing main heading end */

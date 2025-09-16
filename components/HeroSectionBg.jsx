@@ -366,7 +366,7 @@ const HeroSectionBg = () => {
   }, []);
 
   return (
-    <div className="relative w-full h-screen overflow-hidden">
+    <div className="relative w-full h-auto overflow-hidden">
       <canvas
         ref={canvasRef}
         width={1280}
