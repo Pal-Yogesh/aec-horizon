@@ -121,8 +121,8 @@ const AboutUs = () => {
 
   return (
     <div>
-      <div className="bg-[url('/faq.svg')] bg-cover bg-center h-full w-full">
-        <div className="pt-40 px-10">
+      <div className="bg-[url('/faq.svg')] bg-cover bg-center h-full w-full pb-20">
+        <div className="pt-40 px-32 ">
           {/* Header */}
           <div
             className="border-[4px] rounded-[30px] w-[210px] text-center py-2 font-semibold text-[25px] border-white"

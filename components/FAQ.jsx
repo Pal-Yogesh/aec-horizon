@@ -33,10 +33,10 @@ const FAQ = () => {
   };
 
   return (
-    <div className="bg-[url('/faq.svg')] bg-cover bg-center h-full w-full py-40 pb-32 px-20">
+    <div className="bg-[url('/faq.svg')] bg-cover bg-center h-full w-full py-40 pb-32 px-20 flex justify-center items-center">
       <div
         className="flex justify-center gap-[10%] border-[2px] p-16 rounded-[80px] border-white 
-        bg-[linear-gradient(180deg,rgba(255,255,255,0.39)_0%,rgba(125,135,255,0.3042)_100%)]"
+        bg-[linear-gradient(180deg,rgba(255,255,255,0.39)_0%,rgba(125,135,255,0.3042)_100%)] max-w-7xl"
         style={{
           backdropFilter: "blur(4px)",
           boxShadow: "0px 7px 21.3px 0px #0000004",
