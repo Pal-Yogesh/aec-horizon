@@ -175,22 +175,22 @@ const AboutUs = () => {
 
   return (
     <div>
-      <div className="bg-[url('/aboutus.svg')] bg-cover bg-center h-[250vh] w-full">
+      <div className=" w-full">
         <div>
-          <div className="text-center pt-52">
+          <div className="text-center pt-32">
             <h2 className="font-medium text-[80px] text-[#4B336D]">About</h2>
-            <h2 className="text-[80px] gradient-text-about font-bold lg:-mt-6">
+            <h2 className="text-[80px] gradient-text-about font-bold lg:-mt-7">
               AEC Horizon
             </h2>
             <p className="text-[#3B1D66] text-[40px] font-normal">
               AEC Horizon was built on the belief that
             </p>
-            <p className="text-[#3B1D66] text-[40px] font-medium lg:-mt-3">
+            <p className="text-[#3B1D66] text-[40px] font-medium lg:-mt-4">
               great projects need strong support.
             </p>
           </div>
 
-          <div className="flex justify-center items-center my-20 relative ">
+          <div className="flex justify-center items-center my-10 relative ">
             {/* Left Card (Previous) - Partially visible */}
             <div className="absolute left-[38%] transform -translate-x-1/2 z-0 opacity-60">
               <div
