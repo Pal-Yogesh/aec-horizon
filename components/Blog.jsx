@@ -76,6 +76,7 @@
 import Image from "next/image";
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import Link from "next/link";
 
 const blogData = [
   {
@@ -112,7 +113,7 @@ const blogData = [
     id: 6,
     title: "The Power of Interdisciplinary Collaboration",
     desc: "See how uniting architects, engineers, and business strategists creates stronger teams and breakthrough project results.",
-   img: "https://plus.unsplash.com/premium_photo-1757343190565-3b99182167e3?w=500&auto=format&fit=crop&q=60",
+    img: "https://plus.unsplash.com/premium_photo-1757343190565-3b99182167e3?w=500&auto=format&fit=crop&q=60",
   },
 ];
 
@@ -165,7 +166,7 @@ const AboutUs = () => {
                       />
                     </div>
 
-                    {/* Content */} 
+                    {/* Content */}
                     <div className="p-5 flex flex-col space-y-6 flex-grow">
                       <p className="text-[20px] text-[#4B336D] font-semibold">
                         {blog.title}
@@ -176,18 +177,18 @@ const AboutUs = () => {
 
                       {/* Button fixed at bottom */}
                       <div className="mt-4 flex justify-start">
-                        <motion.div
-                          whileHover={{ scale: 1.05 }}
-                          whileTap={{ scale: 0.95 }}
-                          className="text-center w-[117px] text-[#6D6D6D] rounded-[12.5px] cursor-pointer border-[0.5px] border-[#BCBCBC] py-1 hover:bg-[#6D6D6D] hover:text-white transition duration-300"
-                          style={{
-                            boxShadow: "0px 1px 4px 0px #00000040",
-                          }}
-                        >
-                          <button className="text-[15px] cursor-pointer">
-                            Read More
-                          </button>
-                        </motion.div>
+                        <Link href={`/blog/${blog.id}`}>
+                          <motion.div
+                            whileHover={{ scale: 1.05 }}
+                            whileTap={{ scale: 0.95 }}
+                            className="text-center w-[117px] text-[#6D6D6D] rounded-[12.5px] cursor-pointer border-[0.5px] border-[#BCBCBC] py-1 hover:bg-[#6D6D6D] hover:text-white transition duration-300"
+                            style={{ boxShadow: "0px 1px 4px 0px #00000040" }}
+                          >
+                            <button className="text-[15px] cursor-pointer">
+                              Read More
+                            </button>
+                          </motion.div>
+                        </Link>
                       </div>
                     </div>
                   </div>
