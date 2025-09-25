@@ -101,7 +101,7 @@ const ServiceCard = () => {
       {cardsData.map((card, index) => (
         <div
           key={index}
-          className="w-[312px] h-[380px] border-[4px] border-white rounded-[23px] p-5 relative overflow-hidden"
+          className="w-[312px] h-[380px] border-[4px] border-white rounded-[23px] px-3 py-5 relative overflow-hidden"
           style={{
             background:
               "linear-gradient(180deg, rgba(255, 255, 255, 0.4) 0%, rgba(215, 215, 255, 0.4) 100%)",
@@ -115,22 +115,24 @@ const ServiceCard = () => {
             style={{
               background:
                 "linear-gradient(261.45deg, rgba(255, 255, 255, 0.63) 37.39%, rgba(219, 213, 255, 0.63) 106.65%)",
+                boxShadow: "0px 4px 6.8px 0px #00000040"
             }}
+
           >
             <p className="gradient-text-about">{card.heading}</p>
           </div>
 
           {/* Scrollable Content */}
           <div
-            className="relative h-[250px] overflow-y-scroll px-4 custom-scroll mt-7"
+            className="relative h-[200px] overflow-y-scroll px-4 pl-8 custom-scroll mt-7"
             style={{ direction: "rtl" }}
           >
             <div
-              className="text-[#656565] text-[15px] font-medium "
+              className="text-[#656565] text-[13px] font-medium "
               style={{ direction: "ltr" }}
             >
               {card.points.map((point, i) => (
-                <p key={i}>{point}</p>
+                <li className="list-disc " key={i}>{point}</li>
               ))}
             </div>
           </div>

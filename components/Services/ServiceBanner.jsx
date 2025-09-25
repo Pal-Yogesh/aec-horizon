@@ -97,7 +97,7 @@ const ServiceBanner = () => {
         <div className="relative flex justify-center items-center pt-20">
           {/* Fixed Background Circle */}
           <Image
-            src="/circlefinal.svg"
+            src="/groupcircle.svg"
             width={1000}
             height={1000}
             alt="Services Image 1"
@@ -109,7 +109,10 @@ const ServiceBanner = () => {
             {/* Orbit Container */}
             <div className="relative w-full h-full">
               {/* Circle 1 (Top) */}
-              <div className="absolute top-0 left-1/2 transform -translate-x-1/2">
+              <div
+                className="absolute top-0 left-1/2 transform -translate-x-1/2  "
+              
+              >
                 <Image
                   src="/c1.svg"
                   width={150}
@@ -141,7 +144,6 @@ const ServiceBanner = () => {
             </div>
           </div>
         </div>
-
 
         <ServiceCard />
       </div>
