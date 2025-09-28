@@ -175,9 +175,9 @@ const AboutUs = () => {
 
   return (
     <div>
-      <div className=" w-full">
+        <div className="bg-[url('/aboutus.svg')] bg-cover bg-center h-[250vh] w-full">
         <div>
-          <div className="text-center pt-32">
+          <div className="text-center pt-52">
             <h2 className="font-medium text-[80px] text-[#4B336D]">About</h2>
             <h2 className="text-[80px] gradient-text-about font-bold lg:-mt-7">
               AEC Horizon

@@ -13,13 +13,15 @@ const page = () => {
           <AboutUs />
         </div>
       </div> */}
-        <div className="relative w-full h-full  pb-20 ">
+        {/* <div className="relative w-full h-full  pb-20 ">
               <HeroDot />
       
               <div className="absolute top-0  w-[100%] ">
                 <AboutUs />
               </div>
-            </div>
+            </div> */}
+                <AboutUs />
+
     </>
   );
 };
