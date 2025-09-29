@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <>
       <div>
-        <div className="bg-[url('/footer.svg')] bg-cover bg-center w-full h-full pb-12">
+        <div id="contact" className="bg-[url('/footer.svg')] bg-cover bg-center w-full h-full pb-12">
           <div>
             {/* Contact Us Badge */}
             <div className="flex justify-center items-center gap-3 pt-14 pb-4">
