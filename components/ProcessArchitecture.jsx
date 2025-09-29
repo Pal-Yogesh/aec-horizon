@@ -175,7 +175,7 @@
 //       {/* Background group image */}
 //       <motion.div
 //         initial={{ opacity: 0, scale: 0.8 }}
-//         animate={{ opacity: 1, scale: 1 }}
+//         whileInView={{ opacity: 1, scale: 1 }}
 //         transition={{ duration: 0.8, ease: "easeOut" }}
 //         className="absolute"
 //       >
@@ -486,7 +486,7 @@ import { motion } from "framer-motion";
 const ProcessArchitecture = () => {
   return (
     <>
-      <div className="flex justify-center items-center pt-20 pb-10">
+      <div className="flex justify-center items-center pt-20 pb-10 ">
         <div>
           <h2 className="gradient-text font-bold text-[45px]">
             Process From Drafts To Deals
@@ -497,13 +497,14 @@ const ProcessArchitecture = () => {
         </div>
       </div>
 
-      <div className="relative w-full h-[200vh] flex items-center justify-center overflow-hidden">
+      <div className="relative w-full h-[150vh] flex items-center justify-center overflow-hidden">
         {/* Container for background and overlay images */}
         <div className="relative w-[50vw] max-w-[742px] aspect-[1042/1004]">
           {/* Background group image */}
           <motion.div
             initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true, amount: 0.3 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="absolute inset-0"
           >
@@ -519,7 +520,8 @@ const ProcessArchitecture = () => {
           {/* Top circle (g1) with text above */}
           <motion.div
             initial={{ opacity: 0, y: -100, scale: 0.5 }}
-            animate={{ opacity: 1, y: 0, scale: 1 }}
+            whileInView={{ opacity: 1, y: 0, scale: 1 }}
+            viewport={{ once: true, amount: 0.3 }}
             transition={{
               duration: 0.8,
               delay: 0.3,
@@ -572,7 +574,8 @@ const ProcessArchitecture = () => {
           {/* Bottom left circle (g2) with text below */}
           <motion.div
             initial={{ opacity: 0, x: -100, y: 100, scale: 0.5 }}
-            animate={{ opacity: 1, x: 0, y: 0, scale: 1 }}
+            whileInView={{ opacity: 1, x: 0, y: 0, scale: 1 }}
+            viewport={{ once: true, amount: 0.3 }}
             transition={{
               duration: 0.8,
               delay: 0.6,
@@ -624,7 +627,8 @@ const ProcessArchitecture = () => {
           {/* Bottom right circle (g3) with text below */}
           <motion.div
             initial={{ opacity: 0, x: 100, y: 100, scale: 0.5 }}
-            animate={{ opacity: 1, x: 0, y: 0, scale: 1 }}
+            whileInView={{ opacity: 1, x: 0, y: 0, scale: 1 }}
+            viewport={{ once: true, amount: 0.3 }}
             transition={{
               duration: 0.8,
               delay: 0.9,
