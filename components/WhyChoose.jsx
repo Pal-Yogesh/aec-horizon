@@ -120,6 +120,7 @@
 import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const cardVariants = {
   hidden: { opacity: 0, y: 50, scale: 0.95 },
@@ -248,7 +249,8 @@ const WhyChoose = () => {
 
         {/* Button */}
         <div className="flex justify-center items-center pt-12">
-          <button
+          <Link
+          href="/services"
             className="text-white text-[18px] px-6 py-4 rounded-[13px] shadow-xl cursor-pointer"
             style={{
               background:
@@ -257,7 +259,7 @@ const WhyChoose = () => {
             }}
           >
             View our services
-          </button>
+          </Link>
         </div>
       </div>
     </div>

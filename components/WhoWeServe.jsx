@@ -51,6 +51,7 @@
 import React, { useRef } from "react";
 import { motion, useInView, useAnimation } from "framer-motion";
 import { useEffect } from "react";
+import Link from "next/link";
 
 const WhoWeServe = () => {
   // Refs and controls for animated elements
@@ -795,12 +796,13 @@ const WhoWeServe = () => {
           initial="hidden"
           animate={controlsButton}
         >
-          <button
+          <Link
+          href="/about"
             className="rounded-2xl bg-gradient-to-r from-[#C76F4E] via-[#772b85] to-[#47099F] px-6 py-3 text-sm font-semibold text-white shadow-[0_10px_22px_rgba(120,90,200,0.35)] hover:opacity-95"
             type="button"
           >
             Get Solutions For your Industry
-          </button>
+          </Link>
         </motion.div>
       </div>
     </section>

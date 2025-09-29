@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const ProcessArchitecture = () => {
@@ -141,7 +142,8 @@ const ProcessArchitecture = () => {
               </div>
 
               <div className="flex justify-center items-center pt-20 ">
-                <button
+                <Link
+                href="/services"
                   className="text-white text-[18px] px-6 py-4 rounded-[13px] shadow-xl  border border-white    cursor-pointer  "
                   style={{
                     background:
@@ -150,7 +152,7 @@ const ProcessArchitecture = () => {
                   }}
                 >
                   View Our Services
-                </button>
+                </Link>
               </div>
             </div>
           </div>
