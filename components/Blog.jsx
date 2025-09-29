@@ -122,7 +122,7 @@ const AboutUs = () => {
 
   return (
     <div>
-      <div className="bg-[url('/faq.svg')] bg-cover bg-center h-full w-full pb-20">
+      <div className="bg-[url('/faq.svg')] bg-cover bg-center h-full w-full pb-20 flex justify-center items-center">
         <div className="pt-40 px-32 ">
           {/* Header */}
           <div
@@ -137,7 +137,7 @@ const AboutUs = () => {
           <span className="gradient-text font-bold text-[65px]">Blogs</span>
 
           {/* Blogs Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 mt-10">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-14 mt-10">
             <AnimatePresence>
               {blogData.map((blog) => (
                 <motion.div
