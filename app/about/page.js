@@ -1,6 +1,7 @@
-import AboutUs from "../../components/AboutUs";
+import AboutUs from "../../components/AboutUS/AboutUs";
 import React from "react";
 import HeroDot from "@/components/HeroDot";
+import OurAchievement from "@/components/AboutUS/OurAchievement";
 
 const page = () => {
   return (
@@ -21,6 +22,7 @@ const page = () => {
               </div>
             </div> */}
                 <AboutUs />
+                {/* <OurAchievement /> */}
 
     </>
   );
