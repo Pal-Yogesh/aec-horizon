@@ -75,7 +75,7 @@ import ServiceCard from "./ServiceCard";
 const ServiceBanner = () => {
   return (
     <div>
-      <div className="bg-[url('/faq.svg')] bg-cover bg-center h-full w-full pb-20">
+      <div className="bg-[url('/servicebg.svg')] bg-cover bg-center h-full w-full pb-20">
         <div className="pt-40 px-32 ">
           {/* Header */}
           <div

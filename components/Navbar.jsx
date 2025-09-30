@@ -25,7 +25,7 @@ const Navbar = () => {
               alt="logo"
               width={100}
               height={100}
-              className="w-[86px] h-[55px] cursor-pointer"
+              className="w-[86px] h-[55px] cursor-pointer backdrop-blur-[5px]"
             />
           </Link>
         </div>
