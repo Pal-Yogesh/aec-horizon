@@ -60,10 +60,8 @@ const OurAchievement = () => {
               }}
             >
               <div
-                className="bg-[#ECEAF3] border-[1px] border-white rounded-[18px] flex justify-center items-center w-[156px] h-[88px] "
-                style={{
-                  boxShadow: "0px 4px 4px 0px #00000040",
-                }}
+                className=" flex justify-center items-center w-[156px] h-[88px] "
+                
               >
                 <p className="text-[80px] gradient-text-about font-medium text-center ">
                   10+
