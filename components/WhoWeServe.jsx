@@ -175,7 +175,7 @@ const WhoWeServe = () => {
           </svg>
         </div>
       </div>
-      <div className="relative mx-auto max-w-5xl px-4 py-10 sm:py-20 lg:py-24">
+      <div className="relative mx-auto max-w-5xl  py-10 sm:py-20 lg:py-24 px-[5%]">
         <motion.div
           className="text-left"
           style={{ opacity: 1, transform: "none" }}
@@ -184,7 +184,7 @@ const WhoWeServe = () => {
           animate={controlsTitle}
         >
           <h2
-            className="font-bold text-[45px] text-[#4B336D]"
+            className="font-bold text-[45px] text-[#4B336D] "
             style={{ opacity: 1, transform: "none" }}
           >
             Who We 

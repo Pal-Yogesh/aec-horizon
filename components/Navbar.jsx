@@ -20,7 +20,7 @@ const Navbar = () => {
     <div className="fixed top-0 left-0 right-0 z-50 px-[116px] pt-[35px]">
       <div className="flex justify-between items-center p-4">
         {/* Logo */}
-        <div>
+        <div className=" w-[117px] h-[72px] bg-[#FFFFFF47] backdrop-blur-xl rounded-[15px] flex justify-center items-center">
           <Link href="/">
             <Image
               src="/logo.svg"

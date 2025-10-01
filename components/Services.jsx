@@ -185,9 +185,9 @@ const Services = () => {
 
   return (
     <section className="relative scale-100 min-h-screen py-16 bg-gradient-to-b from-[#D8DDED] to-[#E1E8FF]">
-      <div className="w-full mx-auto px-32  ">
+      <div className="w-full mx-auto px-[10%]  ">
         <h2
-          className="font-bold text-[45px] text-[#4B336D] mb-20"
+          className="font-bold text-[45px] text-[#4B336D] mb-20 px-[13%]"
           style={{ opacity: 1, transform: "none" }}
         >
           Our{" "}
@@ -223,9 +223,9 @@ const Services = () => {
                 className="relative shrink-0 ml-24 translate-x-20 scale-200 z-10"
                 style={{ opacity: 1, transform: "none" }}
               >
-                <div className="h-36 w-36 rounded-full bg-white shadow-[0_16px_48px_rgba(0,0,0,0.2)] grid place-items-center relative z-20 border-8 border-white">
+                <div className="h-32 w-32 rounded-full bg-white shadow-[0_16px_48px_rgba(0,0,0,0.2)] grid place-items-center relative z-20 border-8 border-white">
                   <div
-                    className="h-32 w-32 rounded-full grid place-items-center text-white text-4xl shadow-inner"
+                    className="h-28 w-28 rounded-full grid place-items-center text-white text-4xl shadow-inner"
                     style={{ background: "rgb(215, 225, 255)" }}
                   >
                     <svg
@@ -286,7 +286,7 @@ const Services = () => {
                 </div>
               </div>
               <div
-                className="flex-1 rounded-3xl px-10 py-6 ml-[3rem] pl-16 shadow-[0_12px_32px_rgba(0,0,0,0.12)] backdrop-blur-sm relative border-1 border-white"
+                className="flex-1 rounded-[36px] px-10 py-3 ml-[3rem] pl-16 shadow-[0_12px_32px_rgba(0,0,0,0.12)] backdrop-blur-sm relative border-1 border-white"
                 style={{
                   background:
                     "linear-gradient(to right, rgb(220, 229, 255), rgb(191, 207, 255))",
@@ -294,12 +294,12 @@ const Services = () => {
                 }}
               >
                 <h3
-                  className="gradient-textsm text-[23px] mb-6 ml-15"
+                  className="gradient-textsm mb-2 ml-15"
                   style={{ opacity: 1, transform: "none" }}
                 >
                   BIM Services
                 </h3>
-                <ul className="space-y-1 ml-15 gradient-textli text-[23px]">
+                <ul className="space-y-1 ml-15 gradient-textli">
                   {[
                     "BIM Modeling (LOD 100–500)",
                     "Revit Family & Template Creation",
@@ -310,7 +310,7 @@ const Services = () => {
                     <li
                       key={index}
                       className="flex items-center  "
-                      // style={{ opacity: 1, transform: 'none' }}
+                      style={{ opacity: 1, transform: "none" }}
                     >
                       <span className="w-1 h-1 bg-[#6F6BD9] rounded-full mr-4 shrink-0"></span>
                       {item}
@@ -335,9 +335,9 @@ const Services = () => {
                 className="relative shrink-0 ml-24 translate-x-20 scale-200 z-10"
                 style={{ opacity: 1, transform: "none" }}
               >
-                <div className="h-36 w-36 rounded-full bg-white shadow-[0_16px_48px_rgba(0,0,0,0.2)] grid place-items-center relative z-20 border-8 border-white">
+                <div className="h-32 w-32 rounded-full bg-white shadow-[0_16px_48px_rgba(0,0,0,0.2)] grid place-items-center relative z-20 border-8 border-white">
                   <div
-                    className="h-32 w-32 rounded-full grid place-items-center text-white text-4xl shadow-inner"
+                    className="h-28 w-28 rounded-full grid place-items-center text-white text-4xl shadow-inner"
                     style={{ background: "rgb(191, 175, 255)" }}
                   >
                     <svg
@@ -402,7 +402,7 @@ const Services = () => {
                 </div>
               </div>
               <div
-                className="flex-1 rounded-3xl px-10 py-6 ml-[3rem] pl-16 shadow-[0_12px_32px_rgba(0,0,0,0.12)] backdrop-blur-sm relative border-1 border-white"
+                className="flex-1 rounded-[36px] px-10 py-3 ml-[3rem] pl-16 shadow-[0_12px_32px_rgba(0,0,0,0.12)] backdrop-blur-sm relative border-1 border-white"
                 style={{
                   background:
                     "linear-gradient(to right, rgb(186, 169, 255), rgb(206, 194, 255))",
@@ -410,12 +410,12 @@ const Services = () => {
                 }}
               >
                 <h3
-                  className="gradient-textsm text-[23px] mb-6 ml-15"
+                  className="gradient-textsm  mb-3 ml-15"
                   style={{ opacity: 1, transform: "none" }}
                 >
                   Business Development
                 </h3>
-                <ul className="space-y-1 ml-15 gradient-textli text-[23px]">
+                <ul className="space-y-1 ml-15 gradient-textli ">
                   {[
                     "Go-to-Market for BIM startups",
                     "Proposal & Estimation",
@@ -451,9 +451,9 @@ const Services = () => {
                 className="relative shrink-0 ml-24 translate-x-20 scale-200 z-10"
                 style={{ opacity: 1, transform: "none" }}
               >
-                <div className="h-36 w-36 rounded-full bg-white shadow-[0_16px_48px_rgba(0,0,0,0.2)] grid place-items-center relative z-20 border-8 border-white">
+                <div className="h-32 w-32 rounded-full bg-white shadow-[0_16px_48px_rgba(0,0,0,0.2)] grid place-items-center relative z-20 border-8 border-white">
                   <div
-                    className="h-32 w-32 rounded-full grid place-items-center text-white text-4xl shadow-inner"
+                    className="h-28 w-28 rounded-full grid place-items-center text-white text-4xl shadow-inner"
                     style={{ background: "rgb(255, 229, 177)" }}
                   >
                     <svg
@@ -514,7 +514,7 @@ const Services = () => {
                 </div>
               </div>
               <div
-                className="flex-1 rounded-3xl px-10 py-6 ml-[3rem] pl-16 shadow-[0_12px_32px_rgba(0,0,0,0.12)] backdrop-blur-sm relative border-1 border-white"
+                className="flex-1 rounded-[36px] px-10 py-3 ml-[3rem] pl-16 shadow-[0_12px_32px_rgba(0,0,0,0.12)] backdrop-blur-sm relative border-1 border-white"
                 style={{
                   background:
                     "linear-gradient(to right, rgb(255, 205, 110), rgb(255, 232, 189))",
@@ -522,11 +522,12 @@ const Services = () => {
                 }}
               >
                 <h3
-className="gradient-textsm text-[23px] mb-6 ml-15"                  style={{ opacity: 1, transform: "none" }}
+                  className="gradient-textsm  mb-3 ml-15"
+                  style={{ opacity: 1, transform: "none" }}
                 >
                   Digital Marketing & Branding
                 </h3>
-                <ul className="space-y-1 ml-15 gradient-textli text-[23px]">
+                <ul className="space-y-1 ml-15 gradient-textli ">
                   {[
                     "SEO for BIM & AEC",
                     "Social Media & Email Campaigns",

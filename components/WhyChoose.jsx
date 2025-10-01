@@ -115,7 +115,6 @@
 
 // export default WhyChoose;
 
-
 "use client";
 import Image from "next/image";
 import React from "react";
@@ -132,125 +131,112 @@ const cardVariants = {
   },
 };
 
+// ✅ Card data array
+const cardData = [
+  {
+    id: 1,
+    title: "Transparent Process",
+    desc: "From consultation to delivery, every step mapped.",
+  },
+  {
+    id: 2,
+    title: "Innovation First",
+    desc: "Automation, Revit families, custom strategies.",
+  },
+  {
+    id: 3,
+    title: "End to End Coverage",
+    desc: "BIM, Business Development, digital strategy—all under one roof.",
+  },
+  {
+    id: 4,
+    title: "Real People. Real Results.",
+    desc: "No fluff. Just expert-driven solutions.",
+  },
+];
+
 const WhyChoose = () => {
   return (
-    <div className="px-[116px] pt-20 pb-10">
+    <div className="px-[20%] pt-20 pb-10">
       <div>
-        <div>
-          <div>
-            <h1 className="text-[#4B336D] text-[45px]">
-              Why Choose{" "}
-              <span className="gradient-text font-bold">AEC Horizon?</span>
-            </h1>
-          </div>
+        <h1 className="text-[#4B336D] text-[45px]">
+          Why Choose{" "}
+          <span className="gradient-text font-bold">AEC Horizon?</span>
+        </h1>
 
-          {/* Top row */}
-          <div className="flex justify-between items-center pt-10">
+        {/* ✅ Top row (first 2 cards) */}
+        <div className="flex justify-between items-center pt-10">
+          {cardData.slice(0, 2).map((card) => (
             <motion.div
+              key={card.id}
               variants={cardVariants}
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true, amount: 0.2 }}
             >
-              <div className="bg-[#FFFFFF47] w-[420px] h-[250px] rounded-[40px] border border-white shadow-[0px_4px_4px_0px_#00000040]">
+              <div className="bg-[#FFFFFF47] w-[319px] h-[193px] rounded-[40px] border border-white shadow-[0px_4px_4px_0px_#00000040]">
                 <div className="pt-3">
-                  <h1 className="font-bold text-[30px] gradient-text text-center">
-                    Transparent Process
+                  <h1 className="font-bold text-[22.5px] gradient-text text-center">
+                    {card.title}
                   </h1>
-                  <p className="w-full h-[2px] my-3 bg-[#FFFFFF]"></p>
-                  <p className="px-10 text-[28px] text-center text-[#4B336D] pt-2">
-                    From consultation to delivery, every step mapped.
+                  <p className="w-full h-[2px] my-2 bg-[#FFFFFF]"></p>
+                  <p className="px-10 text-[21px] text-center text-[#4B336D] ">
+                    {card.desc}
                   </p>
                 </div>
               </div>
             </motion.div>
-
-            <motion.div
-              variants={cardVariants}
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true, amount: 0.2 }}
-            >
-              <div className="bg-[#FFFFFF47] w-[420px] h-[250px] rounded-[40px] border border-white shadow-[0px_4px_4px_0px_#00000040]">
-                <div className="pt-3">
-                  <h1 className="font-bold text-[30px] gradient-text text-center">
-                    Innovation First
-                  </h1>
-                  <p className="w-full h-[2px] my-3 bg-[#FFFFFF]"></p>
-                  <p className="px-10 text-[28px] text-center text-[#4B336D] pt-2">
-                    Automation, Revit families, custom strategies.
-                  </p>
-                </div>
-              </div>
-            </motion.div>
-          </div>
-
-          {/* Plus sign */}
-          <div className="flex justify-center items-center relative">
-            <motion.div
-              initial={{ rotate: 0 }}
-              whileInView={{ rotate: 720 }} // 2 spins (360*2)
-              transition={{ duration: 2, ease: "easeInOut" }}
-              viewport={{ once: true }}
-              className="absolute -top-4 left-1/2 -translate-x-1/2"
-            >
-              <Image
-                src="/plus.svg"
-                alt="plus"
-                width={115}
-                height={89}
-                className="w-[115px] h-[89px]"
-              />
-            </motion.div>
-          </div>
-
-          {/* Bottom row */}
-          <div className="flex justify-between items-center pt-12">
-            <motion.div
-              variants={cardVariants}
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true, amount: 0.2 }}
-            >
-              <div className="bg-[#FFFFFF47] w-[420px] h-[250px] rounded-[40px] border border-white shadow-[0px_4px_4px_0px_#00000040]">
-                <div className="pt-3">
-                  <h1 className="font-bold text-[30px] gradient-text text-center">
-                    End to End Coverage
-                  </h1>
-                  <p className="w-full h-[2px] my-3 bg-[#FFFFFF]"></p>
-                  <p className="px-8 text-[28px] text-center text-[#4B336D] pt-2">
-                    BIM, Business Development, digital strategy—all under one
-                    roof.
-                  </p>
-                </div>
-              </div>
-            </motion.div>
-
-            <motion.div
-              variants={cardVariants}
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true, amount: 0.2 }}
-            >
-              <div className="bg-[#FFFFFF47] w-[420px] h-[250px] rounded-[40px] border border-white shadow-[0px_4px_4px_0px_#00000040]">
-                <div className="pt-3">
-                  <h1 className="font-bold text-[30px] gradient-text text-center">
-                    Real People. Real Results.
-                  </h1>
-                  <p className="w-full h-[2px] my-3 bg-[#FFFFFF]"></p>
-                  <p className="px-10 text-[28px] text-center text-[#4B336D] pt-2">
-                    No fluff. <br /> Just expert-driven solutions.
-                  </p>
-                </div>
-              </div>
-            </motion.div>
-          </div>
+          ))}
         </div>
 
-        {/* Button */}
+        {/* ✅ Plus sign animation */}
+        <div className="flex justify-center items-center relative">
+          <motion.div
+            initial={{ rotate: 0 }}
+            whileInView={{ rotate: 720 }}
+            transition={{ duration: 2, ease: "easeInOut" }}
+            viewport={{ once: true }}
+            className="absolute -top-4 left-1/2 -translate-x-1/2"
+          >
+            <Image
+              src="/plus.svg"
+              alt="plus"
+              width={115}
+              height={89}
+              className="w-[115px] h-[89px]"
+            />
+          </motion.div>
+        </div>
+
+        {/* ✅ Bottom row (last 2 cards) */}
+        <div className="flex justify-between items-center pt-12">
+          {cardData.slice(2, 4).map((card) => (
+            <motion.div
+              key={card.id}
+              variants={cardVariants}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.2 }}
+            >
+              <div className="bg-[#FFFFFF47] w-[319px] h-[200px] rounded-[40px] border border-white shadow-[0px_4px_4px_0px_#00000040]">
+                <div className="pt-3">
+                  <h1 className="font-bold text-[22.5px] gradient-text text-center">
+                    {card.title}
+                  </h1>
+                  <p className="w-full h-[2px] my-2 bg-[#FFFFFF]"></p>
+                  <p className="px-10 text-[21px] text-center text-[#4B336D]">
+                    {card.desc}
+                  </p>
+                </div>
+              </div>
+            </motion.div>
+          ))}
+        </div>
+
+        {/* ✅ Button */}
         <div className="flex justify-center items-center pt-12">
           <Link
-          href="/services"
+            href="/services"
             className="text-white text-[18px] px-6 py-4 rounded-[13px] shadow-xl cursor-pointer"
             style={{
               background:

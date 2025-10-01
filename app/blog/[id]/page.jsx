@@ -461,15 +461,17 @@ export default function BlogDetail() {
 
   return (
     <div className="bg-[url('/faq.svg')] bg-cover bg-center h-full w-full pb-20">
-      <div className="pt-40 px-32 ">
+      <div className="pt-40 px-[20%] ">
         <div
-          className="border-[4px] rounded-[30px] w-[210px] text-center py-2 font-semibold text-[25px] border-white"
+          className="border-[4px] rounded-[30px] w-[210px] text-center py-1 font-semibold text-[25px] border-white"
           style={{
             background:
               "linear-gradient(261.45deg, rgba(255, 255, 255, 0.63) 37.39%, rgba(219, 213, 255, 0.63) 106.65%)",
+              boxShadow: "0px 4px 6.8px 0px #00000040",
+
           }}
         >
-          <p className="gradient-text-about">Read Blogs</p>
+          <p className="gradient-text-about text-[25px] ">Read Blogs</p>
         </div>
         <span className="gradient-text font-bold text-[65px]">Blogs</span>
 

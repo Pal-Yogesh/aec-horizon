@@ -168,13 +168,13 @@ const OurProcess = () => {
     <>
       <div className="py-14 relative overflow-hidden">
         {/* Heading */}
-        <div className="px-[116px]">
+        <div className="px-[22%]">
           <h1 className="font-bold text-[45px] text-[#4B336D]">
             Our <span className="gradient-text">Process</span>
           </h1>
           <p className="text-[#000000] text-[25px]">
             We don&apos;t just deliver projects — we engineer clarity,
-            collaboration, and measurable <br /> results at every phase.
+            collaboration, and measurable  results at every phase.
           </p>
         </div>
 
