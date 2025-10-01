@@ -19,9 +19,18 @@ const Footer = () => {
 
   return (
     <footer className="bg-[url('/footer2.svg')] bg-cover bg-center py-16">
-      <div className="max-w-7xl mx-auto flex flex-col lg:flex-row justify-center items-stretch gap-2 px-4">
+      <div
+        className="max-w-7xl mx-auto flex flex-col lg:flex-row justify-center items-stretch gap-1 px-4"
+       
+      >
         {/* Newsletter Section */}
-        <div className="bg-[#FFFFFF90]  w-full lg:w-1/2 p-8 rounded-[40px] lg:rounded-r-none flex flex-col justify-between">
+        <div className="bg-[#FFFFFF90]  w-full lg:w-1/2 p-8 rounded-[40px] lg:rounded-r-none flex flex-col justify-between"
+         style={{
+          backdropFilter: "blur(8.199999809265137px)",
+
+          boxShadow: "0px 4px 4px 0px #00000040",
+        }}>
+
           {/* Heading + Description */}
           <div>
             <h2 className="text-transparent w-[230px] bg-clip-text bg-gradient-to-r from-[#4B336D] to-[#C2ACE2] text-[28px] sm:text-[30px] font-bold leading-snug">
@@ -63,7 +72,12 @@ const Footer = () => {
         </div>
 
         {/* Links Section */}
-        <div className="bg-[#FFFFFF90] w-full lg:w-1/2 p-8 rounded-[38px] lg:rounded-l-none">
+        <div className="bg-[#FFFFFF90] w-full lg:w-1/2 p-8 rounded-[38px] lg:rounded-l-none"
+         style={{
+          backdropFilter: "blur(8.199999809265137px)",
+
+          boxShadow: "0px 4px 4px 0px #00000040",
+        }}>
           {/* Logo */}
           <div>
             <Image
@@ -84,7 +98,10 @@ const Footer = () => {
                 </h3>
                 <ul className="space-y-1 text-[13px] font-medium text-[#705C8D]">
                   {section.links.map((link, linkIdx) => (
-                    <li key={linkIdx} className="hover:text-[#4B336D] transition cursor-pointer" >
+                    <li
+                      key={linkIdx}
+                      className="hover:text-[#4B336D] transition cursor-pointer"
+                    >
                       {link}
                     </li>
                   ))}
