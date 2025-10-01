@@ -3,7 +3,7 @@ import React from "react";
 const OurAchievement = () => {
   return (
     <div className="">
-        <div className="flex justify-center items-center pt-40">
+        <div className="flex justify-center items-center pt-28">
 
       <span className="text-[80px] gradient-text-about font-semibold">
         Our Achievements
