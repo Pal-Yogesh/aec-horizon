@@ -184,7 +184,7 @@ const Services = () => {
   }, [isInView1, controls1, controls2, controls3]);
 
   return (
-    <section className="relative scale-100 min-h-screen py-16 bg-gradient-to-b from-[#D8DDED] to-[#E1E8FF]">
+    <section className="relative scale-100 ">
       <div className="w-full mx-auto px-[10%]  ">
         <h2
           className="font-bold text-[45px] text-[#4B336D] mb-20 px-[13%]"

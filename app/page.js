@@ -20,14 +20,16 @@ export default function Home() {
         </div>
       </div>
       
-      <div className="  bg-[#D9DDEE]  w-[100%] ">
+      {/* <div className="  bg-[#D9DDEE]  w-[100%] "> */}
+                <div className="bg-[url('/hero.svg')] bg-cover bg-center  h-[100%] w-full">
+
         <WhyChoose />
         <Services />
         <WhoWeServe />
         <OurProcess />
         <ProcessArchitecture />
-        <Contact />
       </div>
+        <Contact />
     </div>
   );
 }
