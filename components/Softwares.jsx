@@ -209,10 +209,12 @@ const Softwares = () => {
       {/* Header */}
       <div className="pt-40 pb-20 px-[22%] ">
         <div
-          className="border-[4px] rounded-[30px] w-[320px] text-center py-2 font-semibold text-[25px] border-white"
+          className="border-[4px] rounded-[21px] w-[236px] text-center py-1 font-semibold text-[25px] border-white"
           style={{
             background:
               "linear-gradient(261.45deg, rgba(255, 255, 255, 0.63) 37.39%, rgba(219, 213, 255, 0.63) 106.65%)",
+              boxShadow: "0px 2.96px 5.03px 0px #00000040"
+
           }}
         >
           <p className="gradient-text-about text-[18.49px]">

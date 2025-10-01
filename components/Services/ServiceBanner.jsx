@@ -76,19 +76,22 @@ const ServiceBanner = () => {
   return (
     <div>
       <div className="bg-[url('/servicebg.svg')] bg-cover bg-center h-full w-full pb-20">
-        <div className="pt-40 px-32 ">
+        <div className="pt-40 px-[22%] ">
           {/* Header */}
           <div
-            className="border-[4px] rounded-[30px] w-[320px] text-center py-2 font-semibold text-[25px] border-white"
+            className="border-[2.5px] rounded-[21px] w-[251px] text-center py-1 font-semibold text-[25px] border-white"
             style={{
               background:
                 "linear-gradient(261.45deg, rgba(255, 255, 255, 0.63) 37.39%, rgba(219, 213, 255, 0.63) 106.65%)",
+                boxShadow: "0px 2.73px 4.65px 0px #00000040",
+
+                
             }}
           >
-            <p className="gradient-text-about">Detailed View Of Services</p>
+            <p className="gradient-text-about text-[18px]">Detailed View Of Services</p>
           </div>
-          <span className="gradient-text font-bold text-[65px]">Services</span>
-          <p className="gradient-text text-[45px]">
+          <span className="gradient-text font-bold text-[48px]">Services</span>
+          <p className="gradient-text text-[30px]">
             Here&apos;s an exact look at what we offer
           </p>
         </div>
@@ -101,7 +104,7 @@ const ServiceBanner = () => {
             width={1000}
             height={1000}
             alt="Services Image 1"
-            className="w-[850px] h-[850px]"
+            className="w-[480px] h-[480px]"
           />
 
           {/* Rotating Wrapper */}
@@ -110,7 +113,7 @@ const ServiceBanner = () => {
             <div className="relative w-full h-full">
               {/* Circle 1 (Top) */}
               <div
-                className="absolute top-0 left-1/2 transform -translate-x-1/2  "
+                className="absolute top-[18%] left-1/2 transform -translate-x-1/2  "
               
               >
                 <Image
@@ -118,28 +121,27 @@ const ServiceBanner = () => {
                   width={150}
                   height={150}
                   alt="c1"
-                  className="w-[320px] h-[320px]"
+                  className="w-[194px] h-[204px]"
                 />
               </div>
               {/* Circle 2 (Bottom Left) */}
-              <div className="absolute bottom-36 left-6">
+              <div className="absolute bottom-64 left-[199px]">
                 <Image
                   src="/c2.svg"
                   width={150}
                   height={150}
                   alt="c2"
-                  className="w-[320px] h-[320px]"
+                  className="w-[194px] h-[204px]"
                 />
               </div>
               {/* Circle 3 (Bottom Right) */}
-              <div className="absolute bottom-36 right-6">
+              <div className="absolute bottom-64 right-[199px]">
                 <Image
                   src="/c3.svg"
                   width={150}
                   height={150}
                   alt="c3"
-                  className="w-[320px] h-[320px]"
-                />
+                  className="w-[194px] h-[204px]"                />
               </div>
             </div>
           </div>
