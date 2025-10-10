@@ -2,6 +2,8 @@ import AboutUs from "../../components/AboutUS/AboutUs";
 import React from "react";
 import HeroDot from "@/components/HeroDot";
 import OurAchievement from "@/components/AboutUS/OurAchievement";
+import Testmonial from "@/components/Testmonial";
+import FAQ from "@/components/FAQ";
 
 const page = () => {
   return (
@@ -23,6 +25,8 @@ const page = () => {
             </div> */}
                 <AboutUs />
                 {/* <OurAchievement /> */}
+                <Testmonial />
+                <FAQ />
 
     </>
   );

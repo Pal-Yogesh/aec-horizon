@@ -199,7 +199,7 @@ const Testmonial = () => {
       <div className="relative bg-[url('/testimonials.svg')] bg-cover bg-center min-h-screen w-full flex flex-col items-center py-20 overflow-hidden">
         
         {/* ✨ Floating Dust Particles */}
-        <div className="absolute top-0 left-0 w-full h-[450px] pointer-events-none overflow-hidden">
+        {/* <div className="absolute top-0 left-0 w-full h-[450px] pointer-events-none overflow-hidden">
           {dustParticles.map((dust) => (
             <motion.div
               key={dust.id}
@@ -223,7 +223,7 @@ const Testmonial = () => {
               }}
             />
           ))}
-        </div>
+        </div> */}
 
         {/* Title Button */}
         <div className="flex justify-center items-center pt-20 relative z-10">
@@ -244,10 +244,10 @@ const Testmonial = () => {
           {testimonials.map((item) => (
             <motion.div
               key={item.id}
-              className="relative w-[306px] h-[286px] cursor-pointer rounded-[45px] overflow-visible"
+              className="relative w-[355px] h-[139px] cursor-pointer rounded-[45px] overflow-visible"
               whileHover={{
                 scale: 1.05,
-                backgroundColor: "rgba(255, 255, 255, 0.2)",
+                // backgroundColor: "rgba(255, 255, 255, 0.2)",
               }}
               transition={{
                 type: "spring",
@@ -257,7 +257,7 @@ const Testmonial = () => {
             >
               {/* Frame SVG as background */}
               <Image
-                src="/frame.svg"
+                src="/testimonial2.svg"
                 alt="testimonial frame"
                 fill
                 className="object-contain z-0"
@@ -265,17 +265,17 @@ const Testmonial = () => {
 
               {/* Text content above the frame */}
               <div className="absolute top-4 left-6 right-6 z-10">
-                <p className="text-[30px] gradient-text-about leading-snug">
+                <p className="text-[21px] gradient-text-about leading-snug">
                   {item.text}
                 </p>
-                <p className="text-black text-[25px] mt-3">{item.name},</p>
-                <p className="text-black text-[25px] font-bold">{item.role}</p>
+                <p className="text-black text-[17px] mt-3">{item.name},</p>
+               
               </div>
 
               {/* Avatar */}
-              <div className="absolute bottom-2 -right-2 z-20">
+              <div className="absolute bottom-1 -right-0 z-20">
                 <div
-                  className="bg-[#FFFFFF91] rounded-[36px] w-[105px] h-[100px] flex justify-center items-center"
+                  className="bg-[#FFFFFF91] rounded-[25.49px] w-[119px] h-[48px] flex justify-between pr-4 pl-1 items-center"
                   style={{
                     boxShadow: "0px 4px 4px 0px #00000040",
                   }}
@@ -285,8 +285,9 @@ const Testmonial = () => {
                     alt={item.name}
                     width={92}
                     height={92}
-                    className="w-[87px] h-[85px] rounded-[38.5px]"
+                    className="w-[43px] h-[42px] rounded-[27.26px]"
                   />
+                <p className="text-black text-[17px] font-bold">{item.role}</p>
                 </div>
               </div>
             </motion.div>
