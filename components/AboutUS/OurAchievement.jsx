@@ -236,7 +236,8 @@ const OurAchievement = () => {
   ];
 
   return (
-    <div ref={ref}>
+    <div ref={ref} className=""
+   >
       <div className="flex justify-center items-center pt-28">
         <span className="text-[40px] gradient-text-about font-semibold">
           Our Achievements

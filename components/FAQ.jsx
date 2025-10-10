@@ -33,16 +33,21 @@ const FAQ = () => {
   };
 
   return (
-    <div className="bg-[url('/faq.svg')] bg-cover bg-center h-full w-full py-40 pb-32 px-20 flex justify-center items-center">
+    <div className=" h-full w-full py-20 pb-40   px-20 flex justify-center items-center ">
       <div
-        className="flex justify-center gap-[10%] border-[3.5px] p-16 rounded-[80px] border-white  max-w-7xl pl-32
-        bg-[linear-gradient(138.51deg, rgba(255, 255, 255, 0.63) 21.25%, rgba(161, 172, 254, 0.63) 96.47%)]
+        className="flex justify-center gap-[10%] border-[3.5px] p-16 rounded-[80px] border-white  pl-32 bg-gradient-to-b from-[#FFFFFF] to-[#7d88ff4f] 
+      
  max-w-7xl"
+
         style={{
+          // background: "linear-gradient(180deg, rgba(255, 255, 255, 0.39) 0%, rgba(125, 135, 255, 0.3042) 100%)",
+
           backdropFilter: "blur(4px)",
-          boxShadow: "0px 7px 21.3px 0px #0000004",
+          boxShadow: "0px 7px 21.3px 0px #00000040",
+          
         }}
       >
+      
         {/* Left Section */}
         <div>
           <div className="text-[45px] font-semibold gradient-text-about w-[360px]">

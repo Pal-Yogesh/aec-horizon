@@ -46,7 +46,7 @@ const AboutUs = () => {
 
   return (
     <div>
-      <div className="bg-[url('/about.svg')] bg-cover bg-center h-[310vh] w-full ">
+      <div className= "w-full ">
         <div>
           <div className="text-center pt-48">
             <h2 className="font-medium text-[58.25px] text-[#4B336D]">About</h2>
@@ -189,7 +189,6 @@ const AboutUs = () => {
           </div>
         </div>
 
-        <OurAchievement />
       </div>
     </div>
   );

@@ -196,7 +196,7 @@ const dustParticles = generateDustParticles(40);
 const Testmonial = () => {
   return (
     <>
-      <div className="relative bg-[url('/testimonials.svg')] bg-cover bg-center min-h-screen w-full flex flex-col items-center py-20 overflow-hidden">
+      <div className="relative min-h-screen w-full flex flex-col items-center py-20 overflow-hidden">
         
         {/* ✨ Floating Dust Particles */}
         {/* <div className="absolute top-0 left-0 w-full h-[450px] pointer-events-none overflow-hidden">

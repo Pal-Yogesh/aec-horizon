@@ -4,31 +4,25 @@ import HeroDot from "@/components/HeroDot";
 import OurAchievement from "@/components/AboutUS/OurAchievement";
 import Testmonial from "@/components/Testmonial";
 import FAQ from "@/components/FAQ";
+import AboutSectionBg from "@/components/AboutUS/AboutSectionBg";
+import MeetCrew from "@/components/MeetCrew";
 
 const page = () => {
   return (
-    <>
-      {/* <div className="relative w-full h-auto overflow-hidden bg-[#D9DDEE]">
-        <div>
-          <HeroDot />
-        </div>
-        <div className=" -mt-[20%] z-[10]  absolute w-[100%] ">
+    <div className="bg-[url('/aboutgrp.svg')] bg-cover bg-center h-full w-full  bg-[#d9e9ff8e]">
+      
+      <div className="relative w-full h-[120%] overflow-hidden  ">
+        <AboutSectionBg />
+
+        <div className="absolute -top-10  w-[100%] ">
           <AboutUs />
         </div>
-      </div> */}
-        {/* <div className="relative w-full h-full  pb-20 ">
-              <HeroDot />
-      
-              <div className="absolute top-0  w-[100%] ">
-                <AboutUs />
-              </div>
-            </div> */}
-                <AboutUs />
-                {/* <OurAchievement /> */}
-                <Testmonial />
-                <FAQ />
-
-    </>
+      </div>
+      <OurAchievement />
+      <MeetCrew />
+      <Testmonial />
+      <FAQ />
+    </div>
   );
 };
 

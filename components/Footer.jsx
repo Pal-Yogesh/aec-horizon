@@ -18,7 +18,10 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-[url('/footer2.svg')] bg-cover bg-center py-16">
+    <footer className="py-16"
+    style={{
+      background: "linear-gradient(92.03deg, #FFFFFF -4%, #C8D0E9 37.31%)",
+    }}>
       <div
         className="max-w-7xl mx-auto flex flex-col lg:flex-row justify-center items-stretch gap-1 px-4"
        
