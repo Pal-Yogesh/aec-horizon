@@ -50,7 +50,7 @@ export default function Home() {
           <ProcessArchitecture />
         </div>
       </div>
-      <Contact />
+      {/* <Contact /> */}
     </div>
   );
 }

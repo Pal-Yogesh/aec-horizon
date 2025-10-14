@@ -54,16 +54,16 @@ const Navbar = () => {
           Contact
         </Link> */}
         <Link
-          href="#contact"
+          href="/contact"
           scroll={false}
           className="bg-[#FFFFFF47] backdrop-blur-xl rounded-[80px] border border-white text-[20px] text-[#4B336D] px-10 py-3 cursor-pointer hover:bg-white transition-all duration-300"
-          onClick={(e) => {
-            e.preventDefault();
-            const contactSection = document.getElementById("contact");
-            if (contactSection) {
-              contactSection.scrollIntoView({ behavior: "smooth" });
-            }
-          }}
+          // onClick={(e) => {
+          //   e.preventDefault();
+          //   const contactSection = document.getElementById("contact");
+          //   if (contactSection) {
+          //     contactSection.scrollIntoView({ behavior: "smooth" });
+          //   }
+          // }}
         >
           Contact
         </Link>
