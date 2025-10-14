@@ -49,10 +49,12 @@
 
 // export default ServiceCard;
 
+import Link from "next/link";
 import React from "react";
 
 const cardsData = [
   {
+    href: "/services/bim-drafting",
     heading: "BIM & Drafting",
     points: [
       "BIM Modeling & Drafting (LOD 100-500)",
@@ -68,6 +70,7 @@ const cardsData = [
     ],
   },
   {
+    href: "/services/technical-development",
     heading: "Technical Development",
     points: [
       "Go-to-Market Strategy for AEC Services",
@@ -83,6 +86,7 @@ const cardsData = [
     ],
   },
   {
+    href: "/services/digital-marketing",
     heading: "Digital Marketing",
     points: [
       "SEO for Construction & BIM",
@@ -110,18 +114,18 @@ const ServiceCard = () => {
           }}
         >
           {/* Title */}
-          <div
-            className="border-[4px] rounded-[30px] w-[220px] text-center py-2 font-semibold text-[15px] border-white mx-auto"
-            style={{
-              background:
-                "linear-gradient(261.45deg, rgba(255, 255, 255, 0.63) 37.39%, rgba(219, 213, 255, 0.63) 106.65%)",
-                boxShadow: "0px 4px 6.8px 0px #00000040"
-            }}
-
-          >
-            <p className="gradient-text-about">{card.heading}</p>
-          </div>
-
+          <Link href={card.href}>
+            <div
+              className="border-[4px] rounded-[30px] w-[100%] text-center py-2 font-semibold text-[15px] border-white mx-auto"
+              style={{
+                background:
+                  "linear-gradient(261.45deg, rgba(255, 255, 255, 0.63) 37.39%, rgba(219, 213, 255, 0.63) 106.65%)",
+                boxShadow: "0px 4px 6.8px 0px #00000040",
+              }}
+            >
+              <p className="gradient-text-about">{card.heading}</p>
+            </div>
+          </Link>
           {/* Scrollable Content */}
           <div
             className="relative h-[200px] overflow-y-scroll px-4 pl-8 custom-scroll mt-7"
@@ -132,7 +136,9 @@ const ServiceCard = () => {
               style={{ direction: "ltr" }}
             >
               {card.points.map((point, i) => (
-                <li className="list-disc " key={i}>{point}</li>
+                <li className="list-disc " key={i}>
+                  {point}
+                </li>
               ))}
             </div>
           </div>
