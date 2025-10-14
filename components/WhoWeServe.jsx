@@ -184,7 +184,7 @@ const WhoWeServe = () => {
           animate={controlsTitle}
         >
           <h2
-            className="font-bold text-[45px] text-[#4B336D] "
+            className="font-bold text-[29px] text-[#4B336D] "
             style={{ opacity: 1, transform: "none" }}
           >
             Who We 
@@ -192,7 +192,7 @@ const WhoWeServe = () => {
              &nbsp; Serve
             </span>
           </h2>
-          <p className="mt-3 text-[#000000] text-[25px]">
+          <p className="mt-3 text-[#000000] text-[19px]">
             From startups to skyscrapers—our clients shape the built world.
           </p>
         </motion.div>
@@ -420,7 +420,9 @@ const WhoWeServe = () => {
                 </div>
               </div>
             </div>
-            <span className="mt-3 rounded-[27.5px] bg-white/40 px-2 py-2 text-sm text-slate-700 border border-white shadow-[0px_4px_4px_rgba(0,0,0,0.25)]">
+            <span className="mt-3 rounded-[27.5px] bg-white/40 px-2 py-2 text-sm text-[#4B336D] border border-white shadow-[0px_4px_4px_rgba(0,0,0,0.25)]">
+             {/* <span className="p h-[30px] mt-5 text-[#4B336D] text-center bg-[#FFFFFF40] rounded-[19.5px] backdrop-blur-[3px] border border-white"  */}
+             
               Architects & Engineers
             </span>
           </motion.div>
@@ -505,7 +507,7 @@ const WhoWeServe = () => {
                 </div>
               </div>
             </div>
-            <span className="mt-3 rounded-[27.5px] bg-white/40 px-2 py-2 text-sm text-slate-700 border border-white shadow-[0px_4px_4px_rgba(0,0,0,0.25)]">
+            <span className="mt-3 rounded-[27.5px] bg-white/40 px-2 py-2 text-sm text-[#4B336D] border border-white shadow-[0px_4px_4px_rgba(0,0,0,0.25)]">
               Construction Firms
             </span>
           </motion.div>
@@ -651,7 +653,7 @@ const WhoWeServe = () => {
                 </div>
               </div>
             </div>
-            <span className="mt-3 rounded-[27.5px] bg-white/40 px-2 py-2 text-sm text-slate-700 border border-white shadow-[0px_4px_4px_rgba(0,0,0,0.25)]">
+            <span className="mt-3 rounded-[27.5px] bg-white/40 px-2 py-2 text-sm text-[#4B336D] border border-white shadow-[0px_4px_4px_rgba(0,0,0,0.25)]">
               BIM Startups & SaaS AEC Tech
             </span>
           </motion.div>
@@ -784,7 +786,7 @@ const WhoWeServe = () => {
                 </div>
               </div>
             </div>
-            <span className="mt-3 rounded-[27.5px] bg-white/40 px-2 py-2 text-sm text-slate-700 border border-white shadow-[0px_4px_4px_rgba(0,0,0,0.25)]">
+            <span className="mt-3 rounded-[27.5px] bg-white/40 px-2 py-2 text-sm text-[#4B336D] border border-white shadow-[0px_4px_4px_rgba(0,0,0,0.25)]">
               Urban planning & Smart Infra
             </span>
           </motion.div>

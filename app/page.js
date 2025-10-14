@@ -1,4 +1,5 @@
 import Contact from "@/components/Contact";
+import GlobalAEC from "@/components/GlobalAEC";
 import HeroContent from "@/components/HeroContent";
 import HeroSectionBg from "@/components/HeroSectionBg";
 
@@ -38,6 +39,7 @@ export default function Home() {
         <WhyChoose />
         <Services />
         <WhoWeServe />
+        <GlobalAEC />
         <OurProcess />
         <ProcessArchitecture />
       </div>
