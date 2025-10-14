@@ -5,7 +5,7 @@ import React from "react";
 
 const page = () => {
   return (
-    <div className="bg-[url('/contact.svg')] bg-cover bg-center w-full h-[200vh] pt-36 pb-12">
+    <div className="bg-[url('/contact.svg')] bg-cover bg-center w-full h-[190vh] pt-36 ">
       <div className="relative w-full h-[100%] overflow-hidden  ">
         <AboutSectionBg />
 
