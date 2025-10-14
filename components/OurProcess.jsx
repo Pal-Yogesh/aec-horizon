@@ -166,33 +166,33 @@ const steps = [
 const OurProcess = () => {
   return (
     <>
-      <div className="py-14 relative overflow-hidden">
+      <div className="py-14 relative ">
         {/* Heading */}
         <div className="px-[22%]">
-          <h1 className="font-bold text-[45px] text-[#4B336D]">
+          <h1 className="font-bold text-[29px] text-[#4B336D]">
             Our <span className="gradient-text">Process</span>
           </h1>
-          <p className="text-[#000000] text-[25px]">
+          <p className="text-[#000000] text-[19px]">
             We don&apos;t just deliver projects — we engineer clarity,
             collaboration, and measurable  results at every phase.
           </p>
         </div>
 
         {/* Background Image */}
-        <div className="flex justify-start relative pt-24">
-          <div className="w-[50%] h-full absolute top-40 -left-[370px]">
+        <div className="flex justify-start relative pt-16">
+          <div className="w-[50%] h-full absolute top-24 -left-[190px]">
             <Image
               src="/process.svg"
               width={1000}
               height={1000}
               alt="process"
-              className="w-full h-[100vh]"
+              className="w-full h-[85vh]"
             />
           </div>
         </div>
 
         {/* Process Steps */}
-        <div className="space-y-10 z-[10] relative">
+        <div className="space-y-10 z-[10] relative mt-1 ml-14">
           {steps.map((step, index) => (
             <motion.div
               key={step.id}
@@ -205,13 +205,13 @@ const OurProcess = () => {
               }}
               viewport={{ once: true, amount: 0.3 }}
             >
-              <div className="w-[780px] bg-[#FFFFFF52] border border-[#FFFFFF52] rounded-[40px] shadow-[0px_4px_4px_0px_#00000040] flex backdrop-blur-sm">
-                <div className="p-8 bg-[#FFFFFF] w-[95px] h-[166px] rounded-l-[40px] flex justify-center items-center">
-                  <h1 className="gradient-text-number font-semibold text-[60px]">
+              <div className="w-[585px] h-[123px] bg-[#FFFFFF52] border border-[#FFFFFF52] rounded-[20px] shadow-[0px_4px_4px_0px_#00000040] flex backdrop-blur-sm">
+                <div className="p-8 bg-[#FFFFFF] w-[95px] h-[123px] rounded-l-[20px] flex justify-center items-center">
+                  <h1 className="gradient-text-number font-semibold text-[44px]">
                     {step.id}
                   </h1>
                 </div>
-                <div className="text-[25px] text-[#000000] px-10 pt-2">
+                <div className="text-[15.75px] text-[#000000] px-10 pt-2">
                   <h1 className="font-semibold">{step.title}</h1>
                   <p className="">{step.description}</p>
                 </div>

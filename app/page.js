@@ -39,7 +39,10 @@ export default function Home() {
       <Services />
       <WhoWeServe />
       <GlobalAEC />
+      <div className="mb-[7%]">
+        
       <OurProcess />
+      </div>
       <div className="relative w-full h-[110vh] overflow-hidden  ">
         <AboutSectionBg />
 
