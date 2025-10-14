@@ -18,24 +18,19 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="py-16"
-    style={{
-      background: "linear-gradient(92.03deg, #FFFFFF -4%, #C8D0E9 37.31%)",
-    }}>
-      <div
-        className="max-w-7xl mx-auto flex flex-col lg:flex-row justify-center items-stretch gap-1 px-4"
-       
-      >
+    <footer className="py-16 bg-[url('/footerbg.svg')] bg-cover bg-center w-full h-full">
+      <div className="max-w-7xl mx-auto flex flex-col lg:flex-row justify-center items-stretch gap-1 px-4">
         {/* Newsletter Section */}
-        <div className="bg-[#FFFFFF90]  w-full lg:w-1/2 p-8 rounded-[40px] lg:rounded-r-none flex flex-col justify-between"
-         style={{
-          backdropFilter: "blur(8.199999809265137px)",
+        <div
+          className="bg-[#FFFFFF90]   w-full lg:w-1/2 p-8 pl-14 rounded-[40px] lg:rounded-r-none flex flex-col justify-between"
+          style={{
+            backdropFilter: "blur(8.199999809265137px)",
 
-          boxShadow: "0px 4px 4px 0px #00000040",
-        }}>
-
+            boxShadow: "0px 4px 4px 0px #00000040",
+          }}
+        >
           {/* Heading + Description */}
-          <div>
+          <div className="">
             <h2 className="text-transparent w-[230px] bg-clip-text bg-gradient-to-r from-[#4B336D] to-[#C2ACE2] text-[28px] sm:text-[30px] font-bold leading-snug">
               Subscribe to Our Newsletter
             </h2>
@@ -53,11 +48,11 @@ const Footer = () => {
               Stay up to date
             </p>
 
-            <div className="flex items-center gap-3">
+            <div className="flex items-center pt-2 gap-3">
               <input
                 type="text"
                 placeholder="Enter your email"
-                className="text-[13px] text-[#4B336D] placeholder-[#4B336D70] bg-[#C6D0F3] pl-4 focus:outline-none rounded-[20.5px] w-[200px] h-[41px]"
+                className="text-[13px] text-[#4B336D] placeholder-[#4B336D70] bg-[#ffffff] pl-4 focus:outline-none rounded-[20.5px] w-[200px] h-[41px]"
               />
 
               <button
@@ -75,14 +70,16 @@ const Footer = () => {
         </div>
 
         {/* Links Section */}
-        <div className="bg-[#FFFFFF90] w-full lg:w-1/2 p-8 rounded-[38px] lg:rounded-l-none"
-         style={{
-          backdropFilter: "blur(8.199999809265137px)",
+        <div
+          className="bg-[#FFFFFF90] w-full lg:w-1/2 p-8 rounded-[38px] lg:rounded-l-none"
+          style={{
+            backdropFilter: "blur(8.199999809265137px)",
 
-          boxShadow: "0px 4px 4px 0px #00000040",
-        }}>
+            boxShadow: "0px 4px 4px 0px #00000040",
+          }}
+        >
           {/* Logo */}
-          <div>
+          <div className="flex justify-center">
             <Image
               src="/aec.svg"
               width={1000}
@@ -111,6 +108,51 @@ const Footer = () => {
                 </ul>
               </div>
             ))}
+          </div>
+
+          <div className="flex justify-center ">
+
+          <div className="relative w-[180px] h-[70px] flex justify-center items-center">
+            {/* Footer frame as background */}
+            <Image
+              src="/footerframe.svg"
+              alt="footer frame"
+              fill
+              className="object-contain"
+            />
+
+            {/* Social icons above the frame */}
+            <div className="absolute flex items-center justify-center gap-2">
+              <Image
+                src="/whatsapp.svg"
+                alt="whatsapp"
+                width={40}
+                height={40}
+                className="w-[40px] h-[40px] cursor-pointer"
+              />
+              <Image
+                src="/insta.svg"
+                alt="instagram"
+                width={27}
+                height={27}
+                className="w-[27px] h-[27px] cursor-pointer"
+              />
+              <Image
+                src="/linkdin.svg"
+                alt="linkedin"
+                width={27}
+                height={27}
+                className="w-[27px] h-[27px] cursor-pointer"
+              />
+              <Image
+                src="/mail.svg"
+                alt="mail"
+                width={27}
+                height={27}
+                className="w-[27px] h-[27px] cursor-pointer"
+              />
+            </div>
+          </div>
           </div>
         </div>
       </div>
