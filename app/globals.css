@@ -25,8 +25,17 @@
   background-clip: text;
   color: transparent;
 }
+.gradient-textservice {
+  font-size: 19px; /* adjust as needed */
+  font-weight: bold;
+  background: linear-gradient(90.13deg, #47099F 0.11%, #F8AD1D 125.29%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
 .gradient-textli {
-  font-size: 23px; /* adjust as needed */
+  font-size: 15px; /* adjust as needed */
   background: linear-gradient(90.13deg, #47099F 0.11%, #F8AD1D 125.29%);
   -webkit-background-clip: text;
    list-style-type: disc !important;

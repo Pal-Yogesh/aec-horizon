@@ -35,7 +35,7 @@
 //                 />
 //               </div>
 //               <div className="absolute top-10 right-[33%]">
-//                 <h1 className="gradient-textsm text-[23px]">BIM Services</h1>
+//                 <h1 className="gradient-textservice text-[23px]">BIM Services</h1>
 //                 <ul className="list-disc list-inside text-[#4B336D] text-[23px] ml-10">
 //                   <li>
 //                     <span className="gradient-textli">
@@ -76,7 +76,7 @@
 //                 />
 //               </div>
 //               <div className="absolute top-12 right-[33%]">
-//                 <h1 className="gradient-textsm text-[23px]">
+//                 <h1 className="gradient-textservice text-[23px]">
 //                   Business Development
 //                 </h1>
 //                 <ul className="list-disc list-inside text-[#4B336D] text-[23px] ml-10">
@@ -117,7 +117,7 @@
 //                 />
 //               </div>
 //               <div className="absolute top-12 right-[33%]">
-//                 <h1 className="gradient-textsm text-[23px]">
+//                 <h1 className="gradient-textservice text-[23px]">
 //                   Digital Marketing & Branding
 //                 </h1>
 //                 <ul className="list-disc list-inside text-[#4B336D] text-[23px] ml-10">
@@ -155,6 +155,7 @@
 import React, { useRef } from "react";
 import { motion, useInView, useAnimation } from "framer-motion";
 import { useEffect } from "react";
+import Image from "next/image";
 
 const Services = () => {
   // Refs and controls for each service card
@@ -184,10 +185,13 @@ const Services = () => {
   }, [isInView1, controls1, controls2, controls3]);
 
   return (
-    <section className="relative scale-100 ">
-      <div className="w-full mx-auto px-[10%]  ">
+
+    <div className="flex justify-center items-center py-20">
+    
+    <section className="relative scale-100 flex justify-center items-center ">
+      <div className="w-full   ">
         <h2
-          className="font-bold text-[45px] text-[#4B336D] mb-20 px-[13%]"
+          className="font-bold text-[29px] text-[#4B336D] mb-20 px-[13%]"
           style={{ opacity: 1, transform: "none" }}
         >
           Our{" "}
@@ -223,12 +227,15 @@ const Services = () => {
                 className="relative shrink-0 ml-24 translate-x-20 scale-200 z-10"
                 style={{ opacity: 1, transform: "none" }}
               >
-                <div className="h-32 w-32 rounded-full bg-white shadow-[0_16px_48px_rgba(0,0,0,0.2)] grid place-items-center relative z-20 border-8 border-white">
+                <div className="h-28 w-28 rounded-full bg-white shadow-[0_16px_48px_rgba(0,0,0,0.2)] grid place-items-center relative z-20 border-8 border-white">
                   <div
-                    className="h-28 w-28 rounded-full grid place-items-center text-white text-4xl shadow-inner"
+                    className="h-24 w-24 rounded-full grid place-items-center text-white text-4xl shadow-inner"
                     style={{ background: "rgb(215, 225, 255)" }}
                   >
-                    <svg
+                    <div>
+                      <Image src="/s1.svg" alt="vector" className="w-[70px] h-[70px]" width={1000} height={1000} />
+                    </div>
+                    {/* <svg
                       width="90"
                       height="95"
                       viewBox="0 0 151 151"
@@ -281,12 +288,12 @@ const Services = () => {
                           />
                         </filter>
                       </defs>
-                    </svg>
+                    </svg> */}
                   </div>
                 </div>
               </div>
               <div
-                className="flex-1 rounded-[36px] px-10 py-3 ml-[3rem] pl-16 shadow-[0_12px_32px_rgba(0,0,0,0.12)] backdrop-blur-sm relative border-1 border-white"
+                className="w-[590px] rounded-[36px]  px-10 py-3 ml-[3rem] pl-16 shadow-[0_12px_32px_rgba(0,0,0,0.12)] backdrop-blur-sm relative border-1 border-white"
                 style={{
                   background:
                     "linear-gradient(to right, rgb(220, 229, 255), rgb(191, 207, 255))",
@@ -294,7 +301,7 @@ const Services = () => {
                 }}
               >
                 <h3
-                  className="gradient-textsm mb-2 ml-15"
+                  className="gradient-textservice mb-2 ml-15"
                   style={{ opacity: 1, transform: "none" }}
                 >
                   BIM Services
@@ -335,12 +342,15 @@ const Services = () => {
                 className="relative shrink-0 ml-24 translate-x-20 scale-200 z-10"
                 style={{ opacity: 1, transform: "none" }}
               >
-                <div className="h-32 w-32 rounded-full bg-white shadow-[0_16px_48px_rgba(0,0,0,0.2)] grid place-items-center relative z-20 border-8 border-white">
+                <div className="h-28 w-28 rounded-full bg-white shadow-[0_16px_48px_rgba(0,0,0,0.2)] grid place-items-center relative z-20 border-8 border-white">
                   <div
-                    className="h-28 w-28 rounded-full grid place-items-center text-white text-4xl shadow-inner"
+                    className="h-24 w-24 rounded-full grid place-items-center text-white text-4xl shadow-inner"
                     style={{ background: "rgb(191, 175, 255)" }}
                   >
-                    <svg
+                    <div>
+                      <Image src="/s2.svg" alt="vector" className="w-[70px] h-[70px]" width={1000} height={1000} />
+                    </div>
+                    {/* <svg
                       width="86"
                       height="96"
                       viewBox="0 0 151 144"
@@ -397,12 +407,12 @@ const Services = () => {
                           />
                         </filter>
                       </defs>
-                    </svg>
+                    </svg> */}
                   </div>
                 </div>
               </div>
               <div
-                className="flex-1 rounded-[36px] px-10 py-3 ml-[3rem] pl-16 shadow-[0_12px_32px_rgba(0,0,0,0.12)] backdrop-blur-sm relative border-1 border-white"
+                className="w-[590px] rounded-[36px] px-10 py-3 ml-[3rem] pl-16 shadow-[0_12px_32px_rgba(0,0,0,0.12)] backdrop-blur-sm relative border-1 border-white"
                 style={{
                   background:
                     "linear-gradient(to right, rgb(186, 169, 255), rgb(206, 194, 255))",
@@ -410,7 +420,7 @@ const Services = () => {
                 }}
               >
                 <h3
-                  className="gradient-textsm  mb-3 ml-15"
+                  className="gradient-textservice  mb-3 ml-15"
                   style={{ opacity: 1, transform: "none" }}
                 >
                   Business Development
@@ -451,12 +461,15 @@ const Services = () => {
                 className="relative shrink-0 ml-24 translate-x-20 scale-200 z-10"
                 style={{ opacity: 1, transform: "none" }}
               >
-                <div className="h-32 w-32 rounded-full bg-white shadow-[0_16px_48px_rgba(0,0,0,0.2)] grid place-items-center relative z-20 border-8 border-white">
+                <div className="h-28 w-28 rounded-full bg-white shadow-[0_16px_48px_rgba(0,0,0,0.2)] grid place-items-center relative z-20 border-8 border-white">
                   <div
-                    className="h-28 w-28 rounded-full grid place-items-center text-white text-4xl shadow-inner"
+                    className="h-24 w-24 rounded-full grid place-items-center text-white text-4xl shadow-inner"
                     style={{ background: "rgb(255, 229, 177)" }}
                   >
-                    <svg
+                    <div>
+                      <Image src="/s3.svg" alt="vector" className="w-[70px] h-[70px]" width={1000} height={1000} />
+                    </div>
+                    {/* <svg
                       width="94"
                       height="85"
                       viewBox="0 0 182 163"
@@ -509,12 +522,12 @@ const Services = () => {
                           />
                         </filter>
                       </defs>
-                    </svg>
+                    </svg> */}
                   </div>
                 </div>
               </div>
               <div
-                className="flex-1 rounded-[36px] px-10 py-3 ml-[3rem] pl-16 shadow-[0_12px_32px_rgba(0,0,0,0.12)] backdrop-blur-sm relative border-1 border-white"
+                className="w-[590px] rounded-[36px] px-10 py-3 ml-[3rem] pl-16 shadow-[0_12px_32px_rgba(0,0,0,0.12)] backdrop-blur-sm relative border-1 border-white"
                 style={{
                   background:
                     "linear-gradient(to right, rgb(255, 205, 110), rgb(255, 232, 189))",
@@ -522,7 +535,7 @@ const Services = () => {
                 }}
               >
                 <h3
-                  className="gradient-textsm  mb-3 ml-15"
+                  className="gradient-textservice  mb-3 ml-15"
                   style={{ opacity: 1, transform: "none" }}
                 >
                   Digital Marketing & Branding
@@ -551,6 +564,7 @@ const Services = () => {
         </div>
       </div>
     </section>
+    </div>
   );
 };
 

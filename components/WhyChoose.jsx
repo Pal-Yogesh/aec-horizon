@@ -157,95 +157,125 @@ const cardData = [
 
 const WhyChoose = () => {
   return (
-    <div className="px-[20%] pt-20 pb-10">
-      <div>
-        <h1 className="text-[#4B336D] text-[45px]">
-          Why Choose{" "}
-          <span className="gradient-text font-bold">AEC Horizon?</span>
-        </h1>
+    <div className="relative z-10">
+      <div className="relative -z-10">
+        <div className="absolute -top-64 -left-[20%]">
+          <Image
+            src="/blur.svg"
+            width={1000}
+            height={1000}
+            alt="blur"
+            className="w-[900px] h-[100%]"
+          />
+        </div>
+      </div>
 
-        {/* ✅ Top row (first 2 cards) */}
-        <div className="flex justify-between items-center pt-10">
-          {cardData.slice(0, 2).map((card) => (
-            <motion.div
-              key={card.id}
-              variants={cardVariants}
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true, amount: 0.2 }}
-            >
-              <div className="bg-[#FFFFFF47] w-[319px] h-[193px] rounded-[40px] border border-white shadow-[0px_4px_4px_0px_#00000040]">
-                <div className="pt-3">
-                  <h1 className="font-bold text-[22.5px] gradient-text text-center">
-                    {card.title}
-                  </h1>
-                  <p className="w-full h-[2px] my-2 bg-[#FFFFFF]"></p>
-                  <p className="px-10 text-[21px] text-center text-[#4B336D] ">
-                    {card.desc}
-                  </p>
+      <div className="px-[20%] pt-20 pb-10 ">
+        <div>
+          <h1 className="text-[#4B336D] text-[29px]">
+            Why Choose{" "}
+            <span className="gradient-text font-bold">AEC Horizon?</span>
+          </h1>
+
+          {/* ✅ Top row (first 2 cards) */}
+          <div className="flex justify-center gap-32 items-center pt-10">
+            {cardData.slice(0, 2).map((card) => (
+              <motion.div
+                key={card.id}
+                variants={cardVariants}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, amount: 0.2 }}
+              >
+                <div
+                  className="bg-[#FFFFFF47] w-[280px] h-[170px] rounded-[28.5px] border border-white "
+                  style={{
+                    boxShadow: "0px 2.63px 2.63px 0px #00000040",
+
+                    backdropFilter: "blur(26.26546287536621px)",
+                    boxShadow: "0px 3.5px 19px 0px #809CFF",
+                  }}
+                >
+                  <div className="pt-3">
+                    <h1 className="font-bold text-[19px] gradient-text text-center">
+                      {card.title}
+                    </h1>
+                    <p className="w-full h-[2px] my-2 bg-[#FFFFFF]"></p>
+                    <p className="px-10 text-[18.39px] text-center text-[#4B336D] ">
+                      {card.desc}
+                    </p>
+                  </div>
                 </div>
-              </div>
-            </motion.div>
-          ))}
-        </div>
+              </motion.div>
+            ))}
+          </div>
 
-        {/* ✅ Plus sign animation */}
-        <div className="flex justify-center items-center relative">
-          <motion.div
-            initial={{ rotate: 0 }}
-            whileInView={{ rotate: 720 }}
-            transition={{ duration: 2, ease: "easeInOut" }}
-            viewport={{ once: true }}
-            className="absolute -top-4 left-1/2 -translate-x-1/2"
-          >
-            <Image
-              src="/plus.svg"
-              alt="plus"
-              width={115}
-              height={89}
-              className="w-[115px] h-[89px]"
-            />
-          </motion.div>
-        </div>
-
-        {/* ✅ Bottom row (last 2 cards) */}
-        <div className="flex justify-between items-center pt-12">
-          {cardData.slice(2, 4).map((card) => (
+          {/* ✅ Plus sign animation */}
+          <div className="flex justify-center items-center relative">
             <motion.div
-              key={card.id}
-              variants={cardVariants}
-              initial="hidden"
-              whileInView="visible"
-              viewport={{ once: true, amount: 0.2 }}
+              initial={{ rotate: 0 }}
+              whileInView={{ rotate: 720 }}
+              transition={{ duration: 2, ease: "easeInOut" }}
+              viewport={{ once: true }}
+              className="absolute -top-4 left-1/2 -translate-x-1/2"
             >
-              <div className="bg-[#FFFFFF47] w-[319px] h-[200px] rounded-[40px] border border-white shadow-[0px_4px_4px_0px_#00000040]">
-                <div className="pt-3">
-                  <h1 className="font-bold text-[22.5px] gradient-text text-center">
-                    {card.title}
-                  </h1>
-                  <p className="w-full h-[2px] my-2 bg-[#FFFFFF]"></p>
-                  <p className="px-10 text-[21px] text-center text-[#4B336D]">
-                    {card.desc}
-                  </p>
-                </div>
-              </div>
+              <Image
+                src="/plus.svg"
+                alt="plus"
+                width={115}
+                height={89}
+                className="w-[100px] h-[70px]"
+              />
             </motion.div>
-          ))}
-        </div>
+          </div>
 
-        {/* ✅ Button */}
-        <div className="flex justify-center items-center pt-12">
-          <Link
-            href="/services"
-            className="text-white text-[18px] px-6 py-4 rounded-[13px] shadow-xl cursor-pointer"
-            style={{
-              background:
-                "linear-gradient(-106.4deg, #47099F 0.28%, #F8AD1D 158.99%)",
-              boxShadow: "0px 4px 4px 0px #00000040",
-            }}
-          >
-            View our services
-          </Link>
+          {/* ✅ Bottom row (last 2 cards) */}
+          <div className="flex justify-center gap-32 items-center pt-12">
+            {cardData.slice(2, 4).map((card) => (
+              <motion.div
+                key={card.id}
+                variants={cardVariants}
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true, amount: 0.2 }}
+              >
+                <div
+                  className="bg-[#FFFFFF47] w-[280px] h-[180px] rounded-[28.5px] border border-white"
+                  style={{
+                    boxShadow: "0px 2.63px 2.63px 0px #00000040",
+
+                    backdropFilter: "blur(26.26546287536621px)",
+                    boxShadow: "0px 3.5px 19px 0px #809CFF",
+                  }}
+                >
+                  <div className="pt-3">
+                    <h1 className="font-bold text-[19px] gradient-text text-center">
+                      {card.title}
+                    </h1>
+                    <p className="w-full h-[2px] my-2 bg-[#FFFFFF]"></p>
+                    <p className="px-10 text-[18.39px] text-center text-[#4B336D]">
+                      {card.desc}
+                    </p>
+                  </div>
+                </div>
+              </motion.div>
+            ))}
+          </div>
+
+          {/* ✅ Button */}
+          <div className="flex justify-center items-center py-12">
+            <Link
+              href="/services"
+              className="text-white text-[18px] px-6 py-4 rounded-[13px] shadow-xl cursor-pointer"
+              style={{
+                background:
+                  "linear-gradient(-106.4deg, #47099F 0.28%, #F8AD1D 158.99%)",
+                boxShadow: "0px 4px 4px 0px #00000040",
+              }}
+            >
+              View our services
+            </Link>
+          </div>
         </div>
       </div>
     </div>
