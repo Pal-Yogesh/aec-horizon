@@ -9,11 +9,10 @@ const Navbar = () => {
   const menuItems = [
     { name: "Home", path: "/" },
     { name: "About", path: "/about" },
-    { name: "Service", path: "/services" },
+    { name: "Services", path: "/services" },
     { name: "Blog", path: "/blog" },
-    { name: "Testimonial", path: "/testimonial" },
-    { name: "Software", path: "/softwares" },
-    { name: "FAQ", path: "/faq" },
+    { name: "Projects", path: "/projects" },
+    { name: "Contact", path: "/contact" },
   ];
 
   return (
@@ -54,7 +53,7 @@ const Navbar = () => {
           Contact
         </Link> */}
         <Link
-          href="/contact"
+          href="/get-a-quote"
           scroll={false}
           className="bg-[#FFFFFF47] backdrop-blur-xl rounded-[80px] border border-white text-[20px] text-[#4B336D] px-10 py-3 cursor-pointer hover:bg-white transition-all duration-300"
           // onClick={(e) => {
@@ -65,7 +64,7 @@ const Navbar = () => {
           //   }
           // }}
         >
-          Contact
+          Get A Quote
         </Link>
       </div>
     </div>
