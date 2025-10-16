@@ -18,7 +18,10 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="py-16 bg-[url('/footerbg.svg')] bg-cover bg-center w-full h-full">
+    <footer className=" bg-[url('/footerbg.svg')] bg-cover bg-center ">
+
+      <div className="py-10">
+
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row justify-center items-stretch gap-1 px-4">
         {/* Newsletter Section */}
         <div
@@ -155,6 +158,7 @@ const Footer = () => {
           </div>
           </div>
         </div>
+      </div>
       </div>
     </footer>
   );
