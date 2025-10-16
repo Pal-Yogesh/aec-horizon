@@ -242,3 +242,17 @@
   background: #e5e5e5; /* Slight hover effect */
 }
 /* Custom scrollbar services end */
+
+
+/* navbar dropdown animation start */
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+/* navbar dropdown animation end */
