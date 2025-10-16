@@ -123,6 +123,8 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import React from "react";
 import AboutSectionBg from "./AboutUS/AboutSectionBg";
+import ConnectedBlobs from "./AnimatedBlobs";
+import AnimatedBlobBackground from "./AnimatedBlobs";
 
 const softwareDataTop = [
   {
@@ -206,8 +208,7 @@ const softwareDataBottom = [
 
 const TechStack3 = () => {
   return (
-    <div className="  -mt-[12%] ">
-  
+    <div className=" relative  -mt-[12%] ">
       <div className="h-full w-full relative overflow-hidden bg-transparent ">
         {/* Cards Container with Border Frame */}
         <div className="flex justify-center items-center -mb-16 relative ">
@@ -220,8 +221,11 @@ const TechStack3 = () => {
             Digital Marketing & Branding
           </div>
         </div>
-        <div className="bg-[url('/ts3.svg')] bg-cover pb-[10%] ">
+        <div className="bg-[url('/ts3.svg')] bg-cover pb-[10%]  ">
           <div className="relative pt-[10%] ">
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 w-full h-full bg-transparent backdrop-blur-2xl z-0 ">
+              <AnimatedBlobBackground />
+            </div>
             {/* <Image src="/ts2.svg" alt="techstack" width={1000} height={1000} className="w-full h-full" /> */}
 
             {/* Top Row */}

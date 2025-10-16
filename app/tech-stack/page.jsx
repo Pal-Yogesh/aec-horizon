@@ -35,13 +35,13 @@ const page = () => {
         <TechStack2 />
       </div>
       <div className="relative z-10">
-        <div className="absolute top-[30%] -left-[15%] z-10">
+        <div className="absolute top-0 -left-[10%] z-10">
           <Image
             src="/blur.svg"
             width={1000}
             height={1000}
             alt="blur"
-            className="w-[600px] h-[60%]"
+            className="w-[700px] h-[20%]"
           />
         </div>
         <div className="absolute -bottom-[12%] -right-[12%] z-10">
