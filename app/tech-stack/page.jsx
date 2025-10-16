@@ -8,33 +8,63 @@ import React from "react";
 
 const page = () => {
   return (
-    <div className="relative w-full h-full bg-[#D8DDED] overflow-hidden">
-      
-      <div className="absolute inset-0 z-10 ">
-        <AboutSectionBg />
-        <div className="absolute -top-60 -left-[18%] -z-10">
-          <Image
-            src="/blur.svg"
-            width={1000}
-            height={1000}
-            alt="blur"
-            className="w-[900px] h-[100%]"
-          />
+    <>
+      <div className="relative w-full h-full bg-[#D8DDED] overflow-hidden">
+        <div className="absolute inset-0 z-10 ">
+          <AboutSectionBg />
+          <div className="absolute -top-60 -left-[18%] -z-10">
+            <Image
+              src="/blur.svg"
+              width={1000}
+              height={1000}
+              alt="blur"
+              className="w-[900px] h-[100%]"
+            />
+          </div>
+          <div className="absolute -top-48 -right-[18%] -z-10">
+            <Image
+              src="/blur.svg"
+              width={1000}
+              height={1000}
+              alt="blur"
+              className="w-[900px] h-[100%]"
+            />
+          </div>
         </div>
-        <div className="absolute -top-48 -right-[18%] -z-10">
-          <Image
-            src="/blur.svg"
-            width={1000}
-            height={1000}
-            alt="blur"
-            className="w-[900px] h-[100%]"
-          />
-        </div>
+        <TechStack />
+        <TechStack2 />
       </div>
-      <TechStack />
-      <TechStack2 />
-      <TechStack3 />
-    </div>
+      <div className="relative z-10">
+        <div className="absolute top-[30%] -left-[15%] z-10">
+          <Image
+            src="/blur.svg"
+            width={1000}
+            height={1000}
+            alt="blur"
+            className="w-[600px] h-[60%]"
+          />
+        </div>
+        <div className="absolute -bottom-[12%] -right-[12%] z-10">
+          <Image
+            src="/blur.svg"
+            width={1000}
+            height={1000}
+            alt="blur"
+            className="w-[500px] h-[50%]"
+          />
+        </div>
+        <div className="absolute bottom-[40%] -right-[20%] z-10">
+          <Image
+            src="/blur.svg"
+            width={1000}
+            height={1000}
+            alt="blur"
+            className="w-[900px] h-[100%]"
+          />
+        </div>
+        <TechStack3 />
+      </div>
+    </>
   );
 };
 
