@@ -57,15 +57,15 @@ const page = () => {
             className="w-[500px] h-[50%]"
           />
         </div> */}
-        {/* <div className="absolute bottom-[35%] -right-[5%] z-10 overflow-x-hidden">
+        <div className="absolute bottom-[35%] right-0 z-10 overflow-hidden">
           <Image
             src="/blur.svg"
             width={1000}
             height={1000}
             alt="blur"
-            className="w-[300px] h-[100%]"
+            className="w-[400px] h-[100%]"
           />
-        </div> */}
+        </div>
         <TechStack3 />
       </div>
     </>
