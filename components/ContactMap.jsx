@@ -34,7 +34,8 @@ const ContactMap = () => {
             </div>
             {/* map */}
             <div className="w-[722px]">
-                <Image src="/map.svg" alt="map" width={1000} height={1000} className="w-[100%] h-[100%]" />
+              <Image src="/map.svg" alt="map" width={1000} height={1000} className="w-[100%] h-[100%]" />
+              
             </div>
           </div>
         </div>
