@@ -275,7 +275,6 @@
 
 // export default Navbar;
 
-
 "use client";
 
 import Image from "next/image";
@@ -288,12 +287,15 @@ const Navbar = () => {
   const [showServices, setShowServices] = useState(false);
   const [hoveredService, setHoveredService] = useState(null);
 
+  const [showResources, setShowResources] = useState(false);
+  const [hoveredResource, setHoveredResource] = useState(null);
+
   const menuItems = [
     { name: "Home", path: "/" },
     { name: "About", path: "/about" },
     { name: "Services", path: "/services", hasDropdown: true },
-    { name: "Projects", path: "/projects" },
     { name: "Tech Stack", path: "/tech-stack" },
+    { name: "Resources", path: "/", hasDropdown: true },
     { name: "Contact", path: "/contact" },
   ];
 
@@ -360,9 +362,37 @@ const Navbar = () => {
     },
   ];
 
+  const resources = [
+    {
+      id: 1,
+      name: "Projects",
+      href: "/projects",
+      bgColor: "#CED8FF",
+      color: "from-[#A8C8FF] to-[#6B9FFF]",
+    },
+    {
+      id: 2,
+      name: "Case Studies",
+      href: "/",
+      bgColor: "#CED8FF",
+      color: "from-[#D4B8FF] to-[#B08FFF]",
+    },
+    {
+      id: 3,
+      name: "Blogs",
+      href: "/blog",
+      bgColor: "#CED8FF",
+      color: "from-[#FFD4A8] to-[#FFB366]",
+    },
+  ];
+
   const handleServiceClick = (path) => {
     setShowServices(false);
     setHoveredService(null);
+  };
+  const handleResourceClick = (path) => {
+    setShowResources(false);
+    setHoveredResource(null);
   };
 
   return (
@@ -389,15 +419,24 @@ const Navbar = () => {
               className="relative"
               onMouseEnter={() => {
                 if (item.hasDropdown) {
-                  setShowServices(true);
+                  if (item.name === "Services") {
+                    setShowServices(true);
+                  } else if (item.name === "Resources") {
+                    setShowResources(true);
+                  }
                 }
               }}
               onMouseLeave={() => {
                 if (item.hasDropdown) {
                   setTimeout(() => {
                     if (!document.querySelector(".dropdown-area:hover")) {
-                      setShowServices(false);
-                      setHoveredService(null);
+                      if (item.name === "Services") {
+                        setShowServices(false);
+                        setHoveredService(null);
+                      } else if (item.name === "Resources") {
+                        setShowResources(false);
+                        setHoveredResource(null);
+                      }
                     }
                   }, 100);
                 }
@@ -442,9 +481,7 @@ const Navbar = () => {
           {/* <div className="absolute -top-3 left-1/2 -translate-x-1/2 w-0 h-0 border-l-[10px] border-l-transparent border-r-[10px] border-r-transparent border-b-[10px] border-b-white/70"></div> */}
 
           {/* Left Panel - Fixed width */}
-          <div
-            className="relative bg-[#EFF2FF40] backdrop-blur-xl rounded-[22px] p-4 border border-white shadow-2xl w-[320px] h-[230px] transition-all duration-300 flex-shrink-0"
-          >
+          <div className="relative bg-[#EFF2FF40] backdrop-blur-xl rounded-[22px] p-4 border border-white shadow-2xl w-[320px] h-[230px] transition-all duration-300 flex-shrink-0">
             <div className="space-y-4">
               {services.map((service) => (
                 <Link
@@ -523,6 +560,67 @@ const Navbar = () => {
               </div>
             </div>
           )}
+        </div>
+      )}
+
+      {showResources && (
+        <div
+          className="dropdown-area fixed left-[51%] top-[130px] flex gap-4 z-40"
+          style={{ width: "max-content" }}
+          onMouseLeave={() => {
+            setShowResources(false);
+            setHoveredResource(null);
+          }}
+        >
+          {/* ▼ Top Arrow below Services button */}
+          {/* <div className="absolute -top-3 left-1/2 -translate-x-1/2 w-0 h-0 border-l-[10px] border-l-transparent border-r-[10px] border-r-transparent border-b-[10px] border-b-white/70"></div> */}
+
+          {/* Left Panel - Fixed width */}
+          <div className="relative bg-[#EFF2FF40] backdrop-blur-xl rounded-[22px] p-4 border border-white shadow-2xl w-[290px] h-[200px] transition-all duration-300 flex-shrink-0">
+            <div className="space-y-4">
+              {resources.map((resource) => (
+                <Link
+                  href={resource.href}
+                  key={resource.id}
+                  onMouseEnter={() => setHoveredResource(resource)}
+                  onClick={() => handleResourceClick(resource.href)}
+                  style={{
+                    backgroundColor: resource.bgColor,
+                    boxShadow: "0px 4px 10.8px 0px #9BC1FF",
+                  }}
+                  className={`w-full text-center px-4 py-3 rounded-[25px] border border-white transition-all duration-300 flex items-center justify-center group ${
+                    hoveredResource?.id === resource.id
+                      ? `bg-gradient-to-r ${resource.color} text-[#4B4B6B] shadow-lg scale-[1.02]`
+                      : "bg-white/50 text-[#4B336D] hover:bg-white/70"
+                  }`}
+                >
+                  <p className="text-[12px] text-[#4B336D] text-center">
+                    {resource.name}
+                  </p>
+                  {/* <div
+                    style={{ boxShadow: "0px 4px 9.8px 0px #00000040" }}
+                    className={`w-[26px] h-[26px] rounded-full flex items-center justify-center transition-all duration-300 ${
+                      hoveredResource?.id === resource.id
+                        ? "bg-white shadow-md"
+                        : "bg-white/50 group-hover:bg-white"
+                    }`}
+                  >
+                    <ArrowRight
+                      style={{ color: resource.arrowColor }}
+                      size={18}
+                      className="w-[24px] h-[24px]"
+                      strokeWidth={2.5}
+                    />
+                  </div> */}
+                </Link>
+              ))}
+            </div>
+
+            {/* ▶️ Arrow for right panel */}
+            {/* {hoveredService && (
+              <div className="absolute top-1/2 -right-[10px] -translate-y-1/2 w-0 h-0 border-t-[10px] border-t-transparent border-b-[10px] border-b-transparent border-l-[10px] border-l-white/80"></div>
+            )} */}
+          </div>
         </div>
       )}
 
