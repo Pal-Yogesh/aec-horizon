@@ -7,6 +7,7 @@ import FAQ from "@/components/FAQ";
 import AboutSectionBg from "@/components/AboutUS/AboutSectionBg";
 import MeetCrew from "@/components/MeetCrew";
 import Image from "next/image";
+import Milestone from "@/components/AboutUS/Milestone";
 
 const page = () => {
   return (
@@ -31,6 +32,7 @@ const page = () => {
       <OurAchievement />
       <MeetCrew />
       <Testmonial />
+      <Milestone />
       <FAQ />
     </div>
   );
