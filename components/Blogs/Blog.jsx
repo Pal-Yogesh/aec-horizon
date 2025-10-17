@@ -117,12 +117,12 @@ const blogData = [
   },
 ];
 
-const AboutUs = () => {
+const Blog = () => {
   // const [visibleBlogs, setVisibleBlogs] = useState(blogData);
 
   return (
     <div>
-      <div className="bg-[url('/software.svg')] bg-cover bg-center h-full w-full pb-20 flex justify-center items-center">
+      <div className=" h-full w-full pb-20 flex justify-center items-center">
         <div className="pt-40 px-[20%] ">
           {/* Header */}
           <div
@@ -202,4 +202,4 @@ const AboutUs = () => {
   );
 };
 
-export default AboutUs;
+export default Blog;
