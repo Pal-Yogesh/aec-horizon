@@ -718,6 +718,7 @@
 
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 import React, { useEffect, useState } from "react";
 
 const HeroContent = () => {
@@ -754,14 +755,16 @@ const HeroContent = () => {
         <div className="relative w-full max-w-6xl mx-auto  puzzle-container">
           {/* Block 1 - Left piece */}
           <div className={`puzzle-piece block1 ${isLoaded ? "connected" : ""}`}>
+            <Link href="/services/bim-drafting">
             <div
-              className="border-[1px] border-[#FFFFFF] rounded-[25.5px] bg-[#FFFFFF94] w-[250px] px-5 py-3 text-center absolute top-6 left-[48%] transform -translate-x-1/2"
+              className="border-[1px] cursor-pointer border-[#FFFFFF] rounded-[25.5px] bg-[#FFFFFF94] w-[250px] px-5 py-3 text-center absolute top-6 left-[48%] transform -translate-x-1/2"
               style={{
                 boxShadow: "0px 4px 4px 0px #00000040",
               }}
-            >
+              >
               BIM & Drafting Services
             </div>
+              </Link>
             <Image
               src="/block1.svg"
               alt="block1 Image"
@@ -780,18 +783,21 @@ const HeroContent = () => {
               height={1000}
               className="w-full max-w-[303.25px] h-auto"
             />
+            <Link href="/services/technical-development">
             <div
-              className="border-[1px] border-[#FFFFFF] rounded-[25.5px] bg-[#FFFFFF94] w-[250px] px-5 py-3 text-center absolute top-[60%] left-1/2 transform -translate-x-1/2"
+              className="border-[1px] cursor-pointer border-[#FFFFFF] rounded-[25.5px] bg-[#FFFFFF94] w-[250px] px-5 py-3 text-center absolute top-[60%] left-1/2 transform -translate-x-1/2"
               style={{
                 boxShadow: "0px 4px 4px 0px #00000040",
               }}
-            >
+              >
               Technical Business Development
             </div>
+              </Link>
           </div>
 
           {/* Block 3 - Right piece */}
           <div className={`puzzle-piece block3 ${isLoaded ? "connected" : ""}`}>
+            <Link href="/services/digital-marketing">
             <div
               className="border-[1px] border-[#FFFFFF] rounded-[25.5px] bg-[#FFFFFF94] w-[250px] px-5 py-3 text-center absolute top-6 left-[62%] transform -translate-x-1/2"
               style={{
@@ -801,6 +807,7 @@ const HeroContent = () => {
               Digital Marketing &<br />
               Branding Services
             </div>
+            </Link>
             <Image
               src="/block3.svg"
               alt="block3 Image"

@@ -219,6 +219,7 @@
 "use client";
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import CountUp from "react-countup";
 import { useInView } from "react-intersection-observer";
@@ -333,16 +334,19 @@ const OurAchievement = () => {
       </div>
 
       <div className="flex justify-center items-center pt-20 relative z-10 gap-4">
+        <Link href="/projects">
           <button
             className="text-white text-[27px] rounded-[47px] shadow-xl cursor-pointer w-[259px] h-[51px] sheen-effect"
             style={{
               background:
-                "linear-gradient(-106.4deg, #47099F 0.28%, #F8AD1D 158.99%)",
+              "linear-gradient(-106.4deg, #47099F 0.28%, #F8AD1D 158.99%)",
               boxShadow: "0px 4px 4px 0px #00000040",
             }}
-          >
+            >
             View Our Projects
           </button>
+            </Link>
+            <Link href="/projects">
           <button
             className="text-white text-[27px] rounded-[47px] shadow-xl cursor-pointer w-[57px] h-[58px]  flex justify-center items-center"
             style={{
@@ -353,7 +357,7 @@ const OurAchievement = () => {
           >
             <ArrowRight size={32} className="text-white font-bold" />
           </button>
-
+            </Link>
         </div>
     </div>
   );
