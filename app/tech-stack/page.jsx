@@ -12,6 +12,7 @@ const page = () => {
       <div className="relative w-full h-full bg-[#D8DDED] overflow-hidden">
         <div className="absolute inset-0 z-10 ">
           <AboutSectionBg />
+          <AboutSectionBg />
           <div className="absolute -top-60 -left-[18%] -z-10">
             <Image
               src="/blur.svg"
@@ -35,6 +36,9 @@ const page = () => {
         <TechStack2 />
       </div>
       <div className="relative z-10">
+        <div className="absolute inset-0 z-10 ">
+          <AboutSectionBg />
+        </div>
         <div className="absolute top-0 -left-[10%] z-10">
           <Image
             src="/blur.svg"
