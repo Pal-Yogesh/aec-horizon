@@ -396,7 +396,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="fixed top-0 left-0 right-0 z-50 px-[116px] pt-[35px]">
+    <div className="fixed top-0 left-0 right-0 z-50 px-[116px] pt-[25px]">
       <div className="flex justify-between items-center p-4">
         {/* Logo */}
         <div className="w-[117px] h-[72px] bg-[#FFFFFF47] backdrop-blur-xl rounded-[15px] flex justify-center items-center">
@@ -449,7 +449,7 @@ const Navbar = () => {
               ) : (
                 <Link
                   href={item.path}
-                  className="relative py-1 px-4 cursor-pointer transition-all duration-300 ease-in-out hover:bg-white hover:text-[#4B336D] rounded-full font-medium inline-block"
+                  className="relative py-1 px-4 cursor-pointer transition-all duration-300 text-[17px] ease-in-out hover:bg-white hover:text-[#4B336D] rounded-full font-medium inline-block"
                 >
                   {item.name}
                 </Link>
@@ -461,7 +461,7 @@ const Navbar = () => {
         <Link
           href="/get-a-quote"
           scroll={false}
-          className="bg-[#FFFFFF47] backdrop-blur-xl rounded-[80px] border border-white text-[20px] text-[#4B336D] px-10 py-3 cursor-pointer hover:bg-white transition-all duration-300"
+          className="bg-[#FFFFFF47] backdrop-blur-xl rounded-[80px] border border-white text-[17px] text-[#4B336D] px-10 py-4 cursor-pointer hover:bg-white transition-all duration-300"
         >
           Get A Quote
         </Link>

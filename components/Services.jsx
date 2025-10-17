@@ -185,7 +185,19 @@ const Services = () => {
   }, [isInView1, controls1, controls2, controls3]);
 
   return (
-
+    <>
+      <div className="relative z-0 ">
+        <div className="absolute top-0 right-0 z-[1] ">
+          <Image
+            src="/yellowblur.svg"
+            width={1000}
+            height={1000}
+            alt="blur"
+            className="w-[650px] h-[100%]"
+          />
+        </div>
+      
+      </div>
     <div className="flex justify-center items-center py-20">
     
     <section className="relative scale-100 flex justify-center items-center ">
@@ -565,6 +577,8 @@ const Services = () => {
       </div>
     </section>
     </div>
+    </>
+
   );
 };
 

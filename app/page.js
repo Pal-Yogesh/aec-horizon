@@ -1,9 +1,7 @@
 import AboutSectionBg from "@/components/AboutUS/AboutSectionBg";
-import Contact from "@/components/Contact";
 import GlobalAEC from "@/components/GlobalAEC";
 import HeroContent from "@/components/HeroContent";
 import HeroSectionBg from "@/components/HeroSectionBg";
-
 import OurProcess from "@/components/OurProcess";
 import ProcessArchitecture from "@/components/ProcessArchitecture";
 import Services from "@/components/Services";
@@ -14,7 +12,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="bg-[#D9DDEE]">
-      <div className="relative w-full h-[120%] overflow-hidden  ">
+      <div className="relative w-full h-[108vh] overflow-hidden  ">
         <div className="relative ">
           <div className="absolute -top-60 -right-60">
             <Image
@@ -26,6 +24,15 @@ export default function Home() {
             />
           </div>
         </div>
+        <div className="absolute top-10">
+          <Image
+            src="/infiniteline.svg"
+            width={1000}
+            height={1000}
+            alt="blur"
+            className="w-full h-[120vh] object-cover"
+          />
+        </div>
         <HeroSectionBg />
 
         <div className="absolute top-36  w-[100%] ">
@@ -33,24 +40,33 @@ export default function Home() {
         </div>
       </div>
 
-      {/* <div className="  bg-[#D9DDEE]  w-[100%] "> */}
-
-      <WhyChoose />
-      <Services />
+      <div className="bg-[url('/vectors.svg')] bg-cover bg-center w-full h-full py-10 ">
+        <WhyChoose />
+        <Services />
+      </div>
       <WhoWeServe />
       <GlobalAEC />
-      <div className="mb-[7%]">
-        
-      <OurProcess />
-      </div>
-      <div className="relative w-full h-[110vh] overflow-hidden  ">
-        <AboutSectionBg />
+      <div className="relative z-0 ">
+        <div className="absolute bottom-[13%] -left-40 z-[1] ">
+          <Image
+            src="/blur.svg"
+            width={1000}
+            height={1000}
+            alt="blur"
+            className="w-[900px] h-[100%]"
+          />
+        </div>
+        <div className="mb-[7%]">
+          <OurProcess />
+        </div>
+        <div className="relative w-full h-[110vh] overflow-hidden  ">
+          <AboutSectionBg />
 
-        <div className="absolute -top-10  w-[100%] ">
-          <ProcessArchitecture />
+          <div className="absolute -top-10  w-[100%] ">
+            <ProcessArchitecture />
+          </div>
         </div>
       </div>
-      {/* <Contact /> */}
     </div>
   );
 }

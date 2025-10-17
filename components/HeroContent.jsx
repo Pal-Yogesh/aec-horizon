@@ -716,7 +716,6 @@
 
 // export default HeroContent;
 
-
 "use client";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
@@ -737,26 +736,24 @@ const HeroContent = () => {
     <>
       <div className="relative w-full">
         <div className="flex flex-col items-center justify-center text-center px-4">
-          <h1 className="typing-heading gradient-text-about text-[75px] font-semibold z-40">
+          <h1 className="typing-heading gradient-text-about mt-1 text-[29px] font-semibold z-40">
             Where Every Piece Fits.
           </h1>
           <div
-            className="text-[45px] mt-4 mb-40 leading-tight text-[#4B336D] bg-[#FFFFFF99] rounded-[63px] px-14 py-3 border-[2px] border-[#FFFFFF]"
+            className="text-[19px] mt-3 mb-20 w-[530px] leading-tight text-[#4B336D] bg-[#FFFFFF99] rounded-[55px] px-14 py-3 border-[2px] border-[#FFFFFF]"
             style={{
               boxShadow: "0px 4px 4px 0px #00000040",
               backdropFilter: "blur(11.300000190734863px)",
             }}
           >
             <p>Three specialized services, perfectly</p>
-            <p className="font-semibold">interlocked to build your success</p>
+            <p className="font-semibold">interlocked to build your success.</p>
           </div>
         </div>
 
         <div className="relative w-full max-w-6xl mx-auto  puzzle-container">
           {/* Block 1 - Left piece */}
-          <div
-            className={`puzzle-piece block1 ${isLoaded ? "connected" : ""}`}
-          >
+          <div className={`puzzle-piece block1 ${isLoaded ? "connected" : ""}`}>
             <div
               className="border-[1px] border-[#FFFFFF] rounded-[25.5px] bg-[#FFFFFF94] w-[250px] px-5 py-3 text-center absolute top-6 left-[48%] transform -translate-x-1/2"
               style={{
@@ -775,9 +772,7 @@ const HeroContent = () => {
           </div>
 
           {/* Block 2 - Center piece */}
-          <div
-            className={`puzzle-piece block2 ${isLoaded ? "connected" : ""}`}
-          >
+          <div className={`puzzle-piece block2 ${isLoaded ? "connected" : ""}`}>
             <Image
               src="/block2.svg"
               alt="block2 Image"
@@ -796,16 +791,15 @@ const HeroContent = () => {
           </div>
 
           {/* Block 3 - Right piece */}
-          <div
-            className={`puzzle-piece block3 ${isLoaded ? "connected" : ""}`}
-          >
+          <div className={`puzzle-piece block3 ${isLoaded ? "connected" : ""}`}>
             <div
               className="border-[1px] border-[#FFFFFF] rounded-[25.5px] bg-[#FFFFFF94] w-[250px] px-5 py-3 text-center absolute top-6 left-[62%] transform -translate-x-1/2"
               style={{
                 boxShadow: "0px 4px 4px 0px #00000040",
               }}
             >
-              Digital Marketing &<br />Branding Services
+              Digital Marketing &<br />
+              Branding Services
             </div>
             <Image
               src="/block3.svg"

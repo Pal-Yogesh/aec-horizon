@@ -495,6 +495,20 @@ const ProcessArchitecture = () => {
         </div>
       </div>
 
+      <div className="relative z-0 ">
+      
+        <div className="absolute -top-40 right-0 z-[1] ">
+          <Image
+            src="/yellowblur.svg"
+            width={1000}
+            height={1000}
+            alt="blur"
+            className="w-[650px] h-[100%]"
+          />
+        </div>
+      
+      </div>
+
       <div className="relative w-full h-[80vh] flex items-center justify-center ">
         {/* Container for background and overlay images */}
         <div className="relative w-[400px] max-w-[400px] aspect-[400/400]">

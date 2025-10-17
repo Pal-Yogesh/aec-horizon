@@ -171,7 +171,7 @@ const WhyChoose = () => {
       </div>
 
       <div className="px-[20%] pt-20 pb-10 ">
-        <div>
+        <div className=" ">
           <h1 className="text-[#4B336D] text-[29px]">
             Why Choose{" "}
             <span className="gradient-text font-bold">AEC Horizon?</span>
