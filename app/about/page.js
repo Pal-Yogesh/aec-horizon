@@ -12,7 +12,7 @@ const page = () => {
   return (
     <div className="bg-[url('/aboutgrp.svg')] bg-cover bg-center h-full w-full  bg-[#d9e9ff8e]">
       
-      <div className="relative w-full h-[120%] overflow-hidden  ">
+      <div className="relative w-full h-full overflow-hidden   ">
       <div className="absolute top-10">
           <Image
             src="/infiniteline.svg"
@@ -24,7 +24,7 @@ const page = () => {
         </div>
         <AboutSectionBg />
 
-        <div className="absolute -top-10  w-[100%] ">
+        <div className="absolute -top-4  w-[100%] ">
           <AboutUs />
         </div>
       </div>
