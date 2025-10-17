@@ -308,7 +308,7 @@ const sections = [
 
 const CSResults = () => {
   return (
-    <div className="overflow-x-hidden">
+    <div className="">
       {/* Results Section */}
       <div className="flex flex-col items-center">
         <h2 className="text-[29px] text-center font-semibold gradient-text-about mb-8">
