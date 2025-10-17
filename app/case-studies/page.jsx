@@ -16,7 +16,7 @@ export default function Home() {
       <div className="absolute -top-[26.1%] w-[100%] ">
         <CaseStudy />
       </div>
-      <div className="absolute top-[80%] w-[100%] ">
+      <div className="absolute top-[80%] w-[100%] overflow-x-hidden">
         <CSResults />
         <div className="mt-[8%]">
           <CSOperations />
