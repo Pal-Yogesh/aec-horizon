@@ -48,7 +48,7 @@ const page = () => {
             className="w-[700px] h-[20%]"
           />
         </div>
-        <div className="absolute -bottom-[12%] -right-[12%] z-10">
+        {/* <div className="absolute -bottom-[12%] -right-[12%] z-10">
           <Image
             src="/blur.svg"
             width={1000}
@@ -56,16 +56,16 @@ const page = () => {
             alt="blur"
             className="w-[500px] h-[50%]"
           />
-        </div>
-        <div className="absolute bottom-[40%] -right-[20%] z-10">
+        </div> */}
+        {/* <div className="absolute bottom-[35%] -right-[5%] z-10 overflow-x-hidden">
           <Image
             src="/blur.svg"
             width={1000}
             height={1000}
             alt="blur"
-            className="w-[900px] h-[100%]"
+            className="w-[300px] h-[100%]"
           />
-        </div>
+        </div> */}
         <TechStack3 />
       </div>
     </>
