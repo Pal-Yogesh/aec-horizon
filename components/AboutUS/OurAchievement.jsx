@@ -218,6 +218,7 @@
 
 "use client";
 import { ArrowRight } from "lucide-react";
+import Image from "next/image";
 import React from "react";
 import CountUp from "react-countup";
 import { useInView } from "react-intersection-observer";
@@ -252,7 +253,8 @@ const OurAchievement = () => {
             style={{ boxShadow: "0px 4px 4px 0px #00000040" }}
           >
             <div className="flex justify-center items-center flex-col pt-4">
-              <div className="bg-[#FBFAFF] border-[1px] border-white rounded-[18px] flex justify-center items-center w-[117px] h-[88px]">
+              <div className="bg-[#FBFAFF] border-[1px] border-white rounded-[18px] flex justify-center items-center w-[117px] h-[88px]"
+              style={{ boxShadow: "0px 4px 4px 0px #00000040" }}>
                 <p className="text-[68px] gradient-text-about font-medium w-32 text-center">
                   {inView ? <CountUp end={achievements[0].number} duration={2} /> : "0"}+
                 </p>
@@ -318,6 +320,15 @@ const OurAchievement = () => {
               </span>
             ))}
           </p>
+          <div className="  mt-8">
+            <Image
+              src="/bank.svg"
+              width={1000}
+              height={1000}
+              alt="blur"
+              className="w-[100px] h-[100px]"
+            />
+          </div>
         </div>
       </div>
 
