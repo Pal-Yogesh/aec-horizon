@@ -1,15 +1,9 @@
-import AboutSectionBg from "@/components/AboutUS/AboutSectionBg";
 import CaseStudy from "@/components/CaseStudies/CaseStudy";
+import CSOperations from "@/components/CaseStudies/CSOperations";
 import CSResults from "@/components/CaseStudies/CSResults";
-import GlobalAEC from "@/components/GlobalAEC";
-import HeroContent from "@/components/HeroContent";
+import CSSectionBg from "@/components/CSSectionBg";
+
 import HeroSectionBg from "@/components/HeroSectionBg";
-import OurProcess from "@/components/OurProcess";
-import ProcessArchitecture from "@/components/ProcessArchitecture";
-import Services from "@/components/Services";
-import WhoWeServe from "@/components/WhoWeServe";
-import WhyChoose from "@/components/WhyChoose";
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -17,14 +11,16 @@ export default function Home() {
       <div className="relative w-full   ">
         <HeroSectionBg />
         <HeroSectionBg />
+        <CSSectionBg />
       </div>
       <div className="absolute -top-[26.1%] w-[100%] ">
         <CaseStudy />
       </div>
-      <div className="absolute top-[90%] w-[100%] ">
-
-
-      <CSResults />
+      <div className="absolute top-[80%] w-[100%] ">
+        <CSResults />
+        <div className="mt-[8%]">
+          <CSOperations />
+        </div>
       </div>
     </div>
   );

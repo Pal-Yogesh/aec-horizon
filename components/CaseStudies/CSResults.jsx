@@ -308,7 +308,7 @@ const sections = [
 
 const CSResults = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
       {/* Results Section */}
       <div className="flex flex-col items-center">
         <h2 className="text-[29px] text-center font-semibold gradient-text-about mb-8">
@@ -335,64 +335,80 @@ const CSResults = () => {
         </div>
       </div>
 
-      {/* Section Mapping */}
-      {sections.map((section) => (
-        <div
-          key={section.id}
-          className="relative w-full flex justify-center mt-20"
-        >
+      <div className="relative z-10">
+        <Image
+          src="/csleft.svg"
+          alt="case-study-bg"
+          width={1000}
+          height={1000}
+          className="absolute top-[27%] -left-[12%] w-[700px] h-[700px] z-0"
+        />
+        <Image
+          src="/csright.svg"
+          alt="case-study-bg"
+          width={1000}
+          height={1000}
+          className="absolute top-[27%] -right-[12%] w-[700px] h-[700px] z-0"
+        />
+        {/* Section Mapping */}
+        {sections.map((section) => (
           <div
-            className={`relative flex items-center justify-between px-8 pt-7 ${
-              section.reverse ? "flex-row-reverse" : ""
-            }`}
+            key={section.id}
+            className="relative w-full flex justify-center mt-20"
           >
-            <Image
-              src={section.image}
-              alt="background-connector"
-              width={1000}
-              height={1000}
-              className="absolute inset-0 object-contain"
-            />
-
-            {/* Card */}
             <div
-              className={`flex justify-center items-center relative z-10 ${
-                section.customMargin || ""
+              className={`relative flex items-center justify-between px-8 pt-7 ${
+                section.reverse ? "flex-row-reverse" : ""
               }`}
             >
+              <Image
+                src={section.image}
+                alt="background-connector"
+                width={1000}
+                height={1000}
+                className="absolute inset-0 object-contain"
+              />
+
+              {/* Card */}
               <div
-                className="w-[162px] h-[176px] bg-[#E3E9FF] rounded-[21px] flex justify-center items-center"
-                style={{ boxShadow: "0px 4px 20.4px 0px #1242FF40" }}
+                className={`flex justify-center items-center relative z-10 ${
+                  section.customMargin || ""
+                }`}
               >
                 <div
-                  className="w-[144px] h-[155px] bg-[#E3E9FF] rounded-[21px] flex flex-col justify-center items-center p-3"
+                  className="w-[162px] h-[176px] bg-[#E3E9FF] rounded-[21px] flex justify-center items-center"
                   style={{ boxShadow: "0px 4px 20.4px 0px #1242FF40" }}
                 >
-                  <p className="text-[17px] text-[#4B336D] font-semibold text-center leading-snug mb-3">
-                    {section.cardTitle}
-                  </p>
-                  <Image
-                    src={section.cardImage}
-                    alt="case-study-bg"
-                    width={75}
-                    height={62}
-                    className="w-[75px] h-[62px]"
-                  />
+                  <div
+                    className="w-[144px] h-[155px] bg-[#E3E9FF] rounded-[21px] flex flex-col justify-center items-center p-3"
+                    style={{ boxShadow: "0px 4px 20.4px 0px #1242FF40" }}
+                  >
+                    <p className="text-[17px] text-[#4B336D] font-semibold text-center leading-snug mb-3">
+                      {section.cardTitle}
+                    </p>
+                    <Image
+                      src={section.cardImage}
+                      alt="case-study-bg"
+                      width={75}
+                      height={62}
+                      className="w-[75px] h-[62px]"
+                    />
+                  </div>
                 </div>
               </div>
-            </div>
 
-            {/* Text Content */}
-            <div
-              className={`relative z-10 max-w-[750px] text-[#2C1E4A] text-[17px] font-normal leading-relaxed ${
-                section.reverse ? "pr-10" : "px-10 pt-4"
-              } ${section.id === 3 ? "pt-14" : ""}`}
-            >
-              {section.text}
+              {/* Text Content */}
+              <div
+                className={`relative z-10 max-w-[750px] text-[#2C1E4A] text-[17px] font-normal leading-relaxed ${
+                  section.reverse ? "pr-10" : "px-10 pt-4"
+                } ${section.id === 3 ? "pt-14" : ""}`}
+              >
+                {section.text}
+              </div>
             </div>
           </div>
-        </div>
-      ))}
+        ))}
+      </div>
     </div>
   );
 };
