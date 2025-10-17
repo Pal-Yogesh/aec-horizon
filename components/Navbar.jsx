@@ -373,7 +373,7 @@ const Navbar = () => {
     {
       id: 2,
       name: "Case Studies",
-      href: "/",
+      href: "/case-studies",
       bgColor: "#CED8FF",
       color: "from-[#D4B8FF] to-[#B08FFF]",
     },
