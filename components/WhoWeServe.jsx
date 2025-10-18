@@ -187,17 +187,14 @@ const WhoWeServe = () => {
             className="font-bold text-[29px] text-[#4B336D] "
             style={{ opacity: 1, transform: "none" }}
           >
-            Who We 
-            <span className="gradient-text">
-             &nbsp; Serve
-            </span>
+            Who We <span> </span>
+            <span className="gradient-text">Serve</span>
           </h2>
           <p className="mt-3 text-[#000000] text-[19px]">
             From startups to skyscrapers—our clients shape the built world.
           </p>
         </motion.div>
 
-        
         <div className="relative mx-auto mt-25 grid h-[520px] w-full max-w-3xl place-items-center scale-[1.1] -translate-y-[-2rem]">
           <div
             className="pointer-events-none absolute h-[640px] w-[170px] -rotate-45 rounded-full bg-gradient-to-r from-[#A0B0DA] to-[#6982C4] border-1 border-white"
@@ -421,8 +418,7 @@ const WhoWeServe = () => {
               </div>
             </div>
             <span className="mt-3 rounded-[27.5px] bg-white/40 px-2 py-2 text-sm text-[#4B336D] border border-white shadow-[0px_4px_4px_rgba(0,0,0,0.25)]">
-             {/* <span className="p h-[30px] mt-5 text-[#4B336D] text-center bg-[#FFFFFF40] rounded-[19.5px] backdrop-blur-[3px] border border-white"  */}
-             
+              {/* <span className="p h-[30px] mt-5 text-[#4B336D] text-center bg-[#FFFFFF40] rounded-[19.5px] backdrop-blur-[3px] border border-white"  */}
               Architects & Engineers
             </span>
           </motion.div>
@@ -799,7 +795,7 @@ const WhoWeServe = () => {
           animate={controlsButton}
         >
           <Link
-          href="/about"
+            href="/about"
             className="rounded-2xl bg-gradient-to-r from-[#C76F4E] via-[#772b85] to-[#47099F] px-6 py-3 text-sm font-semibold text-white shadow-[0_10px_22px_rgba(120,90,200,0.35)] hover:opacity-95"
             type="button"
           >
