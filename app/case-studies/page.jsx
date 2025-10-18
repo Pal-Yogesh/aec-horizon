@@ -7,7 +7,7 @@ import HeroSectionBg from "@/components/HeroSectionBg";
 
 export default function Home() {
   return (
-    <div className="bg-gradient-to-b from-[#D9DFFF] to-[#A4BAFF]">
+    <div className="bg-gradient-to-b from-[#D9DFFF] to-[#C3D2FF]">
       <div className="relative w-full   ">
         <HeroSectionBg />
         <HeroSectionBg />
