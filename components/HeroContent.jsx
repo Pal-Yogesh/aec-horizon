@@ -757,7 +757,7 @@ const HeroContent = () => {
           <div className={`puzzle-piece block1 ${isLoaded ? "connected" : ""}`}>
             <Link href="/services/bim-drafting">
             <div
-              className="border-[1px] cursor-pointer border-[#FFFFFF] rounded-[25.5px] bg-[#FFFFFF94] w-[250px] px-5 py-3 text-center absolute top-6 left-[48%] transform -translate-x-1/2"
+              className="border-[1px] cursor-pointer hover:bg-gray-100 transition-all duration-300 border-[#FFFFFF] rounded-[25.5px] bg-[#FFFFFF94] w-[250px] px-5 py-3 text-center absolute top-6 left-[48%] transform -translate-x-1/2"
               style={{
                 boxShadow: "0px 4px 4px 0px #00000040",
               }}
@@ -785,7 +785,7 @@ const HeroContent = () => {
             />
             <Link href="/services/technical-development">
             <div
-              className="border-[1px] cursor-pointer border-[#FFFFFF] rounded-[25.5px] bg-[#FFFFFF94] w-[250px] px-5 py-3 text-center absolute top-[60%] left-1/2 transform -translate-x-1/2"
+              className="border-[1px] cursor-pointer border-[#FFFFFF] hover:bg-purple-200 transition-all  rounded-[25.5px] bg-[#FFFFFF94] w-[250px] px-5 py-3 text-center absolute top-[60%] left-1/2 transform -translate-x-1/2"
               style={{
                 boxShadow: "0px 4px 4px 0px #00000040",
               }}
@@ -799,7 +799,7 @@ const HeroContent = () => {
           <div className={`puzzle-piece block3 ${isLoaded ? "connected" : ""}`}>
             <Link href="/services/digital-marketing">
             <div
-              className="border-[1px] border-[#FFFFFF] rounded-[25.5px] bg-[#FFFFFF94] w-[250px] px-5 py-3 text-center absolute top-6 left-[62%] transform -translate-x-1/2"
+              className="border-[1px] border-[#FFFFFF] rounded-[25.5px]  hover:bg-orange-200 transition-all  bg-[#FFFFFF94] w-[250px] px-5 py-3 text-center absolute top-6 left-[62%] transform -translate-x-1/2"
               style={{
                 boxShadow: "0px 4px 4px 0px #00000040",
               }}

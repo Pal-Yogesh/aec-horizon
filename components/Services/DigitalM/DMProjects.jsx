@@ -43,7 +43,7 @@ const blogData = [
   },
 ];
 
-const TDProjects
+const DMProjects
  = () => {
   return (
     <div className="z-20 relative">
@@ -160,5 +160,5 @@ const TDProjects
   );
 };
 
-export default TDProjects
+export default DMProjects
 ;

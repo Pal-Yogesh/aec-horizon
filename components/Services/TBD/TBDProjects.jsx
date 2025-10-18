@@ -43,7 +43,7 @@ const blogData = [
   },
 ];
 
-const DMProjects
+const TBDProjects
  = () => {
   return (
     <div className="z-20 relative">
@@ -160,5 +160,5 @@ const DMProjects
   );
 };
 
-export default DMProjects
+export default TBDProjects
 ;

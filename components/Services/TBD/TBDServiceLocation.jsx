@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-const TDServiceLocation = () => {
+const TBDServiceLocation = () => {
   const serviceLocations = [
     { id: 1, country: "Spain" },
     { id: 2, country: "United States" },
@@ -65,4 +65,4 @@ const TDServiceLocation = () => {
   );
 };
 
-export default TDServiceLocation;
+export default TBDServiceLocation;

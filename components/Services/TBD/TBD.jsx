@@ -1,13 +1,13 @@
 import Image from "next/image";
 import React from "react";
 
-const TD = () => {
+const TBD = () => {
   return (
     <div className=" w-full pb-40  text-[#364483] text-[20px] font-semibold">
       
       <div className=" flex items-center justify-center pt-40 pb-12">
         <p
-          className="bg-gradient-to-r from-[#FFC375] to-[#FFF2C6] text-[#905D20]   text-[10px] py-2 px-4  border-[1px] border-white rounded-[24.18px]"
+          className="bg-gradient-to-r from-[#E8D4FF] to-[#D2ACFF] text-[#62228B]   text-[10px] py-2 px-4  border-[1px] border-white rounded-[24.18px]"
           style={{
             boxShadow: "0px 1.93px 7.09px 0px #00000040",
           }}
@@ -26,7 +26,7 @@ const TD = () => {
             className="gradient-text  text-[90px] font-semibold  h-[350px] flex items-center justify-center  border-[1px] border-[#FFFFFF] rounded-[43px] my-4 mb-8"
             style={{
               boxShadow: "0px 4px 15.5px 0px #00000040",
-              background: "#FED59F",
+              background: "#E8D4FF",
             }}
           >
             <div className="px-24 z-10" >
@@ -48,7 +48,7 @@ const TD = () => {
         <div className="flex items-center justify-center gap-10 -mt-[9%]">
           <div>
             <Image
-              src="/td1.svg"
+              src="/dm1.svg"
               alt="s13"
               width={1000}
               height={1000}
@@ -57,7 +57,7 @@ const TD = () => {
           </div>
           <div>
             <Image
-              src="/td2.svg"
+              src="/dm2.svg"
               alt="s13"
               width={1000}
               height={1000}
@@ -66,7 +66,7 @@ const TD = () => {
           </div>
           <div>
             <Image
-              src="/td3.svg"
+              src="/dm3.svg"
               alt="s13"
               width={1000}
               height={1000}
@@ -75,7 +75,7 @@ const TD = () => {
           </div>
           <div>
             <Image
-              src="/td4.svg"
+              src="/dm4.svg"
               alt="s13"
               width={1000}
               height={1000}
@@ -124,7 +124,7 @@ const TD = () => {
 
         <div className="relative w-full flex justify-center items-center z-20">
           <div
-            className=" absolute -left-[18%] bg-gradient-to-r from-[#DADFF100] to-[#FFEDD2] w-[80%] h-[250px] border border-white rounded-[43px] "
+            className=" absolute -left-[18%] bg-gradient-to-r from-[#DADFF100] to-[#BBA0FF] w-[80%] h-[250px] border border-white rounded-[43px] "
             style={{
               boxShadow: "0px 4px 15.5px 0px #00000040",
             }}
@@ -143,7 +143,7 @@ const TD = () => {
 
           <div className="absolute  -z-10 mt-2 left-[40%]">
             <Image
-              src="/td.svg"
+              src="/dm.svg"
               alt="bim5"
               width={1000}
               height={1000}
@@ -177,7 +177,7 @@ const TD = () => {
 
         <div className="relative w-full flex justify-center items-center z-20">
           <div
-            className=" absolute -left-[18%] bg-gradient-to-r rom-[#DADFF100] to-[#FFEDD2] w-[80%] h-[250px] border border-white rounded-[43px] "
+            className=" absolute -left-[18%] bg-gradient-to-r from-[#DADFF100] to-[#BBA0FF] w-[80%] h-[250px] border border-white rounded-[43px] "
             style={{
               boxShadow: "0px 4px 15.5px 0px #00000040",
             }}
@@ -202,7 +202,7 @@ const TD = () => {
 
           <div className="absolute  -z-10 mt-2 left-[40%]">
             <Image
-              src="/td.svg"
+              src="/dm.svg"
               alt="bim5"
               width={1000}
               height={1000}
@@ -215,4 +215,4 @@ const TD = () => {
   );
 };
 
-export default TD;
+export default TBD;
