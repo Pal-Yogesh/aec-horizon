@@ -6,12 +6,12 @@ const MeetCrew = () => {
     <div>
       <div className="flex justify-center items-center mt-40">
         <div
-          className="bg-[#FFFFFF64] border-[1px] border-[#FFFFFF] text-center px-20 rounded-[70.5px] py-5"
+          className="bg-[#FFFFFF64] border-[1px] border-[#FFFFFF] text-center px-16 rounded-[70.5px] py-3"
           style={{
             boxShadow: "0px 11px 13.5px 0px #00000040",
           }}
         >
-          <p className="text-[35px] gradient-text-about font-semibold">
+          <p className="text-[29px] gradient-text-about font-semibold">
             Meet The Crew Making It All Happen{" "}
           </p>
         </div>
