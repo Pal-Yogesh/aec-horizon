@@ -1,5 +1,5 @@
 import AboutSectionBg from "@/components/AboutUS/AboutSectionBg";
-
+import SectionBg from "@/components/Background/SectionBg";
 import TechStack from "@/components/TechStack";
 import TechStack2 from "@/components/TechStack2";
 import TechStack3 from "@/components/TechStack3";
@@ -37,7 +37,7 @@ const page = () => {
       </div>
       <div className="relative z-10">
         <div className="absolute inset-0 z-10 ">
-          <AboutSectionBg />
+          <SectionBg />
         </div>
         <div className="absolute top-0 -left-[10%] z-10">
           <Image

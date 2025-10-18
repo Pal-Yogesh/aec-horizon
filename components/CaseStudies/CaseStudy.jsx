@@ -10,10 +10,10 @@ const results = [
 ];
 const CaseStudy = () => {
   return (
-    <div> 
-      <div className="relative w-full flex justify-center items-center">
+    <div>
+      <div className="relative w-full flex items-center">
         {/* Background block image */}
-        <div className="relative w-[831px] h-[840px]">
+        <div className="relative w-[831px] h-[420px] left-[48%] 2xl:left-[48.4%] -translate-x-1/2 ">
           <Image
             src="/caseblock.svg"
             alt="case-study-bg"
@@ -52,7 +52,7 @@ const CaseStudy = () => {
         </div>
 
         <div
-          className="absolute bottom-[8%] left-1/2 -translate-x-1/2 border-[2px] rounded-[19px] bg-[#E1E7FF] w-[600px] flex justify-center items-center h-[70px] font-semibold text-[16px] border-white text-center"
+          className="absolute -bottom-[20vh]  left-[48%] 2xl:left-[48.4%] -translate-x-1/2 border-[2px] rounded-[19px] bg-[#E1E7FF] w-[600px] flex justify-center items-center h-[70px] font-semibold text-[16px] border-white text-center"
           style={{
             boxShadow: "0px 4px 10.5px 0px #00000040",
           }}
@@ -63,8 +63,6 @@ const CaseStudy = () => {
           </p>
         </div>
       </div>
-
-     
     </div>
   );
 };

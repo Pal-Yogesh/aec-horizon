@@ -13,7 +13,7 @@ export default function Home() {
         <HeroSectionBg />
         <CSSectionBg />
       </div>
-      <div className="absolute -top-[26.1%] w-[100%] ">
+      <div className="absolute top-0 w-[100%] ">
         <CaseStudy />
       </div>
       <div className="absolute top-[80%] w-[100%] overflow-x-hidden">
