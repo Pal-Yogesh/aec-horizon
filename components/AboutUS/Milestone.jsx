@@ -193,7 +193,7 @@ const Timeline = () => {
   ];
 
   return (
-    <div className=" py-20 px-[14%] overflow-hidden">
+    <div className=" py-[5%] px-[14%] ">
       <div ref={containerRef} className="max-w-7xl mx-auto">
         {/* Header Section */}
         <motion.div
