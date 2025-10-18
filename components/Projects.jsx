@@ -1,7 +1,16 @@
 "use client";
 import Image from "next/image";
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 import { ArrowLeft, ArrowRight } from 'lucide-react';
+
+// Helper function to generate slug from title
+// const generateSlug = (title) => {
+//   return title
+//     .toLowerCase()
+//     .replace(/[^a-z0-9]+/g, '-')
+//     .replace(/(^-|-$)/g, '');
+// };
 
 const projectsData1 = [
   {
@@ -9,6 +18,7 @@ const projectsData1 = [
     img: "/b1.svg",
     category: "Commercial",
     title: "Vantage Point Towers",
+    slug: "vantage-point-towers",
     desc: "We delivered full architectural BIM modeling and MEP coordination for this 40-story landmark. Our clash detection saved $200k in potential rework.",
   },
   {
@@ -16,6 +26,7 @@ const projectsData1 = [
     img: "/b2.svg",
     category: "Commercial",
     title: "Skyline Heights",
+    slug: "skyline-heights",
     desc: "A 50-story commercial complex where BIM coordination helped streamline construction and reduce overall costs by 15%.",
   },
   {
@@ -23,6 +34,7 @@ const projectsData1 = [
     img: "/b3.svg",
     category: "Residential",
     title: "Green Living Apartments",
+    slug: "green-living-apartments",
     desc: "Comprehensive BIM and MEP modeling for sustainable living spaces with zero-clash detection.",
   },
   {
@@ -30,6 +42,7 @@ const projectsData1 = [
     img: "/b4.svg",
     category: "Industrial",
     title: "Fusion Industrial Park",
+    slug: "fusion-industrial-park",
     desc: "Delivered detailed MEP coordination and 3D BIM modeling for industrial-grade facilities.",
   },
   {
@@ -37,6 +50,7 @@ const projectsData1 = [
     img: "/b1.svg",
     category: "Commercial",
     title: "Techno Valley Plaza",
+    slug: "techno-valley-plaza",
     desc: "Architectural and structural BIM coordination for a cutting-edge IT park.",
   },
   {
@@ -44,6 +58,7 @@ const projectsData1 = [
     img: "/b2.svg",
     category: "Hospitality",
     title: "BlueWave Hotel",
+    slug: "bluewave-hotel",
     desc: "Executed end-to-end BIM coordination and clash detection for luxury hospitality construction.",
   },
 ];
@@ -53,6 +68,7 @@ const projectsData2 = [
     img: "/b3.svg",
     category: "Residential",
     title: "Lakeside Residences",
+    slug: "lakeside-residences",
     desc: "BIM coordination for luxury lake-facing homes with advanced sustainability integrations.",
   },
   {
@@ -60,6 +76,7 @@ const projectsData2 = [
     img: "/b4.svg",
     category: "Industrial",
     title: "Solar Tech Factory",
+    slug: "solar-tech-factory",
     desc: "3D BIM modeling for an energy-efficient solar panel production facility.",
   },
   {
@@ -67,6 +84,7 @@ const projectsData2 = [
     img: "/b2.svg",
     category: "Commercial",
     title: "The Horizon Complex",
+    slug: "the-horizon-complex",
     desc: "Detailed MEP and structural coordination for a smart commercial hub.",
   },
   {
@@ -74,6 +92,7 @@ const projectsData2 = [
     img: "/b1.svg",
     category: "Hospitality",
     title: "Urban Suites",
+    slug: "urban-suites",
     desc: "BIM implementation for seamless design-to-construction process in urban hospitality.",
   },
   {
@@ -81,6 +100,7 @@ const projectsData2 = [
     img: "/b3.svg",
     category: "Residential",
     title: "Skyview Apartments",
+    slug: "skyview-apartments",
     desc: "End-to-end BIM execution for premium high-rise apartments.",
   },
   {
@@ -88,12 +108,14 @@ const projectsData2 = [
     img: "/b4.svg",
     category: "Industrial",
     title: "Metro Logistics Park",
+    slug: "metro-logistics-park",
     desc: "Delivered MEP and architectural BIM solutions for industrial warehousing.",
   },
 ];
 
 function ProjectCarousel({ data, arrowCard = 3 }) { 
   const [index, setIndex] = useState(0);
+  const router = useRouter();
 
   const nextSlide = () => {
     if (index + 4 < data.length) setIndex(index + 1);
@@ -101,6 +123,10 @@ function ProjectCarousel({ data, arrowCard = 3 }) {
 
   const prevSlide = () => {
     if (index > 0) setIndex(index - 1);
+  };
+
+  const handleProjectClick = (slug) => {
+    router.push(`/projects/${slug}`);
   };
 
   return (
@@ -130,6 +156,7 @@ function ProjectCarousel({ data, arrowCard = 3 }) {
                 style={{
                   boxShadow: "0px 4px 4px 0px #00000040",
                 }}
+                onClick={() => handleProjectClick(project.slug)}
                 onMouseEnter={(e) => {
                   e.currentTarget.style.background =
                     "linear-gradient(180deg, rgba(92, 124, 255, 0.83) 0%, rgba(201, 212, 255, 0.83) 100%)";
@@ -188,7 +215,10 @@ function ProjectCarousel({ data, arrowCard = 3 }) {
                 {isArrowCard && (
                   <>
                     <button
-                      onClick={prevSlide}
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        prevSlide();
+                      }}
                       disabled={index === 0}
                       className={`absolute left-[-20px] top-1/2 -translate-y-1/2 w-[50px] h-[50px] rounded-full flex items-center justify-center transition-all duration-300 z-10 ${
                         index === 0
@@ -210,7 +240,10 @@ function ProjectCarousel({ data, arrowCard = 3 }) {
                     </button>
 
                     <button
-                      onClick={nextSlide}
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        nextSlide();
+                      }}
                       disabled={index + 4 >= data.length}
                       className={`absolute right-[-20px] top-1/2 -translate-y-1/2 w-[50px] h-[50px] rounded-full flex items-center justify-center transition-all duration-300 z-10 ${
                         index + 4 >= data.length
