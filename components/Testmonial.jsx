@@ -133,6 +133,7 @@
 import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
+import SectionBg from "./Background/SectionBg";
 
 const testimonials = [
   {
@@ -196,6 +197,11 @@ const dustParticles = generateDustParticles(40);
 const Testmonial = () => {
   return (
     <>
+      <div className="relative w-full h-full ">
+      <div className="absolute top-40 left-0 w-full h-full">
+
+<SectionBg />
+      </div>
       <div className="relative  w-full flex flex-col items-center py-20 overflow-hidden">
         
         {/* ✨ Floating Dust Particles */}
@@ -240,7 +246,7 @@ const Testmonial = () => {
         </div>
 
         {/* Testimonials Section */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20 mt-20 px-10 relative z-10">
+        <div className="grid grid-cols-1 md:grid-cols-2  gap-20 mt-20 px-10 relative z-10">
           {testimonials.map((item) => (
             <motion.div
               key={item.id}
@@ -294,6 +300,7 @@ const Testmonial = () => {
           ))}
         </div>
       </div>
+    </div>
     </>
   );
 };

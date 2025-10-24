@@ -223,6 +223,7 @@ import Link from "next/link";
 import React from "react";
 import CountUp from "react-countup";
 import { useInView } from "react-intersection-observer";
+import SectionBg from "../Background/SectionBg";
 
 const OurAchievement = () => {
   const { ref, inView } = useInView({
@@ -238,6 +239,13 @@ const OurAchievement = () => {
   ];
 
   return (
+
+
+    <div className="relative w-full h-full z-10">
+    <div className="absolute top-0 left-0 w-full h-full -z-10">
+
+<SectionBg />
+    </div>
     <div ref={ref} className=""
    >
       <div className="flex justify-center items-center ">
@@ -359,6 +367,7 @@ const OurAchievement = () => {
           </button>
             </Link>
         </div>
+    </div>
     </div>
   );
 };

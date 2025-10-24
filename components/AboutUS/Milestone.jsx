@@ -3,6 +3,7 @@
 import React, { useRef, useState } from "react";
 import { motion, useInView } from "framer-motion";
 import { Eye, Handshake, Rocket } from "lucide-react";
+import SectionBg2 from "../Background/SectionBG2";
 
 const TimelineNode = ({
   icon: Icon,
@@ -193,6 +194,13 @@ const Timeline = () => {
   ];
 
   return (
+
+
+    <div className="relative w-full h-full ">
+    <div className="absolute top-0 left-0 w-full h-full">
+
+<SectionBg2 />
+    </div>
     <div className=" py-[5%] px-[14%] ">
       <div ref={containerRef} className="max-w-7xl mx-auto">
         {/* Header Section */}
@@ -328,6 +336,8 @@ const Timeline = () => {
         </div>
       </div>
     </div>
+    </div>
+    
   );
 };
 
