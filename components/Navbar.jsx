@@ -27,40 +27,40 @@ const Navbar = () => {
       id: 1,
       name: "Bim & Drafting",
       href: "/services/bim-drafting",
-      bgColor: "#9BC1FF",
+      bgColor: "#A6B6FD",
       arrowColor: "#49689A",
       color: "from-[#A8C8FF] to-[#6B9FFF]",
       subServices: [
-        "Bim & Drafting",
-        "Bim & Drafting",
-        "Bim & Drafting",
-        "Bim & Drafting",
-        "Bim & Drafting",
-        "Bim & Drafting",
-        "Bim & Drafting",
-        "Bim & Drafting",
-        "Bim & Drafting",
-        "Bim & Drafting",
+        "BIM Modelling & Drafting (LOD 100-500)",
+        "Revit Family Creation",
+        "BIM Template & Content Creation",
+        "BIM Automation",
+        "BIM Coordination & Clash Detection",
+        "MEPF Coordination",
+        "Scan to BIM",
+        "Construction Documention Set/ As-built drawings",
+        "PDF/CAD to BIM",
+        "Structural 3D Modeling",
       ],
     },
     {
       id: 2,
       name: "Technical business development",
       href: "/services/technical-development",
-      bgColor: "#CFA6FF",
+      bgColor: "#B9A6FF",
       arrowColor: "#7F50B6",
       color: "from-[#D4B8FF] to-[#B08FFF]",
       subServices: [
-        "Technical business development",
-        "Technical business development",
-        "Technical business development",
-        "Technical business development",
-        "Technical business development",
-        "Technical business development",
-        "Technical business development",
-        "Technical business development",
-        "Technical business development",
-        "Technical business development",
+        "Go to Market Strategy for AEC Services",
+        "Strategic Partnerships",
+        "Proposal and RFP Support",
+        "Sales Enablement Tools",
+        "Lead Generation & CRM Setup",
+        "Branding & Positioning ",
+        "Proposal Development & Estimation",
+        "Client Engagement Strategies",
+        "Market Research & Analysis",
+        "Digital Transformation Consulting",
       ],
     },
     {
@@ -71,16 +71,12 @@ const Navbar = () => {
       arrowColor: "#8D723C",
       color: "from-[#FFD4A8] to-[#FFB366]",
       subServices: [
-        "Digital Marketing & Branding",
-        "Digital Marketing & Branding",
-        "Digital Marketing & Branding",
-        "Digital Marketing & Branding",
-        "Digital Marketing & Branding",
-        "Digital Marketing & Branding",
-        "Digital Marketing & Branding",
-        "Digital Marketing & Branding",
-        "Digital Marketing & Branding",
-        "Digital Marketing & Branding",
+        "SEO for Construction & BIM",
+        "Marketing Presentation",
+        "Project Planning & Scheduling",
+        "Social Media Marketing",
+        "BIM Content Creation",
+        "Email Campaigns, Pitch decks",
       ],
     },
   ];
@@ -166,11 +162,14 @@ const Navbar = () => {
               }}
             >
               {item.hasDropdown ? (
-                <button className={`relative py-1 px-4 cursor-pointer transition-all duration-300 text-[17px] ease-in-out rounded-full font-medium ${
-                  (item.name === "Services" && showServices) || (item.name === "Resources" && showResources)
-                    ? "bg-white text-[#4B336D]"
-                    : "hover:bg-white hover:text-[#4B336D]"
-                }`}>
+                <button
+                  className={`relative py-1 px-4 cursor-pointer transition-all duration-300 text-[17px] ease-in-out rounded-full font-medium ${
+                    (item.name === "Services" && showServices) ||
+                    (item.name === "Resources" && showResources)
+                      ? "bg-white text-[#4B336D]"
+                      : "hover:bg-white hover:text-[#4B336D]"
+                  }`}
+                >
                   {item.name}
                 </button>
               ) : (
@@ -257,15 +256,16 @@ const Navbar = () => {
           {/* Right Panel - Fixed position beside left panel */}
           {hoveredService && (
             <div
-              className={`bg-gradient-to-br ${hoveredService.color} backdrop-blur-xl rounded-[30px] p-6 border border-white shadow-2xl w-[500px] transition-all duration-300 flex-shrink-0`}
+              className={`bg-gradient-to-br  ${hoveredService.name === "Digital Marketing & Branding" ? "h-[175px] mt-28" : ""} ${hoveredService.color} p-6 backdrop-blur-xl rounded-[22px]  border border-white shadow-2xl w-[500px] transition-all duration-300 flex-shrink-0`}
               style={{
                 animation: "fadeInRight 0.3s ease-out",
+               
               }}
             >
               {/* Arrow from left to right */}
               {/* <div className="absolute top-1/2 -left-[10px] -translate-y-1/2 w-0 h-0 border-t-[10px] border-t-transparent border-b-[10px] border-b-transparent border-r-[10px] border-r-white/80"></div> */}
 
-              <div className="grid grid-cols-2 gap-3">
+              <div className="grid grid-cols-2 gap-3 ">
                 {hoveredService.subServices.map((subService, index) => (
                   <Link
                     key={index}
@@ -275,7 +275,7 @@ const Navbar = () => {
                         `/services/${hoveredService.id}/${index}`
                       )
                     }
-                    className="bg-[#DCE3FE] backdrop-blur-sm hover:bg-[#DCE3FE]/80 text-[#49689A] text-[12px] px-3 py-2 rounded-[9px] text-center transition-all duration-300 hover:scale-105 hover:shadow-lg border border-white/60 inline-block"
+                    className="bg-[#DCE3FE] backdrop-blur-sm hover:bg-[#DCE3FE]/80 text-[#49689A] font-semibold text-[10px] px-3 py-2 rounded-[9px]  transition-all duration-300 hover:scale-105 hover:shadow-lg border border-white/60 inline-block"
                     style={{
                       animation: `fadeInUp 0.3s ease-out ${index * 0.03}s both`,
                       boxShadow: "0px 4px 6.6px 0px #00000040",
