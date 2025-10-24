@@ -122,61 +122,59 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import React from "react";
-import AboutSectionBg from "./AboutUS/AboutSectionBg";
-import ConnectedBlobs from "./AnimatedBlobs";
 import AnimatedBlobBackground from "./AnimatedBlobs";
 
 const softwareDataTop = [
   {
     id: 1,
-    img: "/image 1787.svg",
-    title: "Autodesk Revit",
-    desc: "Multidisciplinary BIM industry standard.",
+    img: "/image 1806.svg",
+    title: "SEMrush",
+    desc: "SEO optimization and competitor analysis.",
   },
   {
     id: 2,
-    img: "/image 1788.svg",
-    title: "Graphisoft ArchiCAD",
-    desc: "Architectural-focused BIM design.",
+    img: "/image 1808.svg",
+    title: "Canva",
+    desc: "Quick design and branding assets.",
   },
   {
     id: 3,
-    img: "/image 1789.svg",
-    title: "Bentley OpenBuildings ",
-    desc: "Project review and coordination tool.",
+    img: "/image 1794.svg",
+    title: "Hootsuite",
+    desc: "Social media scheduling and analytics.",
   },
   {
     id: 4,
-    img: "/image 1790.svg",
-    title: "Tekla Structures",
-    desc: "Detailed structural steel modeling.",
+    img: "/image 1809.svg",
+    title: "Google Analytics",
+    desc: "Website traffic and performance tracking.",
   },
 ];
 
 const softwareDataCenter = [
   {
     id: 5,
-    img: "/image 1791.svg",
-    title: "HubSpot",
-    desc: "All-in-one CRM and marketing platform.",
+    img: "/image 1807.svg",
+    title: "Vidyard",
+    desc: "Video creation and engagement tracking.",
   },
   {
     id: 6,
-    img: "/image 1792.svg",
-    title: "LinkedIn Sales Navigator",
-    desc: "Targeted B2B lead generation.",
+    img: "/image 1793.svg",
+    title: "Mailchimp",
+    desc: "Email marketing and automation campaigns.",
   },
   {
     id: 7,
-    img: "/image 1793.svg",
-    title: "Mailchimp",
-    desc: "Email marketing and audience engagement.",
+    img: "/image 1811.svg",
+    title: "Adobe Creative Cloud",
+    desc: "Professional design and content creation.",
   },
   {
     id: 8,
-    img: "/image 1794.svg",
-    title: "RhiHootsuite",
-    desc: "Social media scheduling and management.",
+    img: "/image 1812.svg",
+    title: "HubSpot Marketing",
+    desc: "Campaign automation and lead nurturing.",
   },
 ];
 const softwareDataBottom = [

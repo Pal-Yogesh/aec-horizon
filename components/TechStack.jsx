@@ -126,80 +126,80 @@ import React from "react";
 const softwareDataTop = [
   {
     id: 1,
+    img: "/image 1817.svg",
+    title: "AutoCad",
+    desc: "Precise, technical, 2D/3D design software.",
+  },
+  {
+    id: 2,
     img: "/image 1787.svg",
     title: "Autodesk Revit",
     desc: "Multidisciplinary BIM industry standard.",
   },
   {
-    id: 2,
-    img: "/image 1788.svg",
-    title: "Graphisoft ArchiCAD",
-    desc: "Architectural-focused BIM design.",
-  },
-  {
     id: 3,
-    img: "/image 1789.svg",
-    title: "Bentley OpenBuildings ",
-    desc: "Project review and coordination tool.",
+    img: "/NMAN.svg",
+    title: "Autodesk Navisworks Manage ",
+    desc: "For large-scale infrastructure projects.",
   },
   {
     id: 4,
-    img: "/image 1790.svg",
-    title: "Tekla Structures",
-    desc: "Detailed structural steel modeling.",
+    img: "/image 1803.svg",
+    title: "Autodesk Construction Cloud (ACC)",
+    desc: "Multidisciplinary BIM industry standard.",
   },
 ];
 
 const softwareDataCenter = [
   {
     id: 5,
-    img: "/image 1791.svg",
-    title: "HubSpot",
-    desc: "All-in-one CRM and marketing platform.",
+    img: "/image 1799.svg",
+    title: "BIM 360",
+    desc: "Multidisciplinary BIM industry standard.",
   },
   {
     id: 6,
-    img: "/image 1792.svg",
-    title: "LinkedIn Sales Navigator",
-    desc: "Targeted B2B lead generation.",
+    img: "/SOLIBRI.svg",
+    title: "Solibri Office",
+    desc: "Detailed structural steel modeling.",
   },
   {
     id: 7,
-    img: "/image 1793.svg",
-    title: "Mailchimp",
-    desc: "Email marketing and audience engagement.",
+    img: "/image 1801.svg",
+    title: "Synchro 4D",
+    desc: "For large-scale infrastructure projects.",
   },
   {
     id: 8,
-    img: "/image 1794.svg",
-    title: "RhiHootsuite",
-    desc: "Social media scheduling and management.",
+    img: "/image 1788.svg",
+    title: "Graphisoft ArchiCAD",
+    desc: "Architectural-focused BIM design.",
   },
 ];
 const softwareDataBottom = [
   {
     id: 9,
-    img: "/image 1791.svg",
-    title: "HubSpot",
-    desc: "All-in-one CRM and marketing platform.",
+    img: "/image 1804.svg",
+    title: "ETABS",
+    desc: "Architectural-focused BIM design.",
   },
   {
     id: 10,
-    img: "/image 1792.svg",
-    title: "LinkedIn Sales Navigator",
-    desc: "Targeted B2B lead generation.",
+    img: "/image 1800.svg",
+    title: "Tekla Structural Designer",
+    desc: "Architectural-focused BIM design.",
   },
   {
     id: 11,
-    img: "/image 1793.svg",
-    title: "Mailchimp",
-    desc: "Email marketing and audience engagement.",
+    img: "/image 1802.svg",
+    title: "Enscape",
+    desc: "Detailed structural steel modeling.",
   },
   {
     id: 12,
-    img: "/image 1794.svg",
-    title: "RhiHootsuite",
-    desc: "Social media scheduling and management.",
+    img: "/image 1805.svg",
+    title: "Twinmotion",
+    desc: "For large-scale infrastructure projects.",
   },
 ];
 
@@ -230,10 +230,12 @@ const TechStack = () => {
 
       <div className="bg-[url('/ts2.svg')] bg-cover  pb-[20%]">
         <div className="flex justify-center items-center">
-          <div className="text-[20px] text-white px-10 py-3 border-[1px] border-white rounded-[50px] bg-[#7595FF] "
-           style={{
-            boxShadow: "0px 4px 14.7px 0px #00000040",
-          }}>
+          <div
+            className="text-[20px] text-white px-10 py-3 border-[1px] border-white rounded-[50px] bg-[#7595FF] "
+            style={{
+              boxShadow: "0px 4px 14.7px 0px #00000040",
+            }}
+          >
             BIM & Drafting
           </div>
         </div>

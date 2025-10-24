@@ -122,85 +122,58 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import React from "react";
-import AboutSectionBg from "./AboutUS/AboutSectionBg";
 
 const softwareDataTop = [
   {
     id: 1,
-    img: "/image 1787.svg",
-    title: "Autodesk Revit",
-    desc: "Multidisciplinary BIM industry standard.",
+    img: "/image 1791.svg",
+    title: "HubSpot CRM",
+    desc: "Lead management and deal tracking.",
   },
   {
     id: 2,
-    img: "/image 1788.svg",
-    title: "Graphisoft ArchiCAD",
-    desc: "Architectural-focused BIM design.",
+    img: "/image 1792.svg",
+    title: "LinkedIn Sales Navigator",
+    desc: "Targeted B2B prospecting tool.",
   },
   {
     id: 3,
-    img: "/image 1789.svg",
-    title: "Bentley OpenBuildings ",
-    desc: "Project review and coordination tool.",
+    img: "/apollo.svg",
+    title: "Apollo.io",
+    desc: "Lead enrichment and outreach automation.",
   },
   {
     id: 4,
-    img: "/image 1790.svg",
-    title: "Tekla Structures",
-    desc: "Detailed structural steel modeling.",
+    img: "/sense6.svg",
+    title: "6sense",
+    desc: "Buyer intent and account insights.",
   },
 ];
 
 const softwareDataCenter = [
   {
     id: 5,
-    img: "/image 1791.svg",
-    title: "HubSpot",
-    desc: "All-in-one CRM and marketing platform.",
+    img: "/image 1795.svg",
+    title: "PandaDoc",
+    desc: "Proposal and contract automation.",
   },
   {
     id: 6,
-    img: "/image 1792.svg",
-    title: "LinkedIn Sales Navigator",
-    desc: "Targeted B2B lead generation.",
+    img: "/image 1796.svg",
+    title: "Notion",
+    desc: "Team collaboration and workflow management.",
   },
   {
     id: 7,
-    img: "/image 1793.svg",
-    title: "Mailchimp",
-    desc: "Email marketing and audience engagement.",
+    img: "/image 1797.svg",
+    title: "ZoomInfo",
+    desc: "Company intelligence and contact discovery.",
   },
   {
     id: 8,
-    img: "/image 1794.svg",
-    title: "RhiHootsuite",
-    desc: "Social media scheduling and management.",
-  },
-];
-const softwareDataBottom = [
-  {
-    id: 9,
-    img: "/image 1791.svg",
-    title: "HubSpot",
-    desc: "All-in-one CRM and marketing platform.",
-  },
-  {
-    id: 10,
-    img: "/image 1792.svg",
-    title: "LinkedIn Sales Navigator",
-    desc: "Targeted B2B lead generation.",
-  },
-  {
-    id: 11,
-    img: "/image 1793.svg",
-    title: "Mailchimp",
-    desc: "Email marketing and audience engagement.",
-  },
-  {
-    id: 12,
-    img: "/image 1794.svg",
-    title: "RhiHootsuite",
-    desc: "Social media scheduling and management.",
+    img: "/image 1798.svg",
+    title: "Jira",
+    desc: "Technical task tracking and coordination.",
   },
 ];
 
