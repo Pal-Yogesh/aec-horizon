@@ -9,7 +9,7 @@ const CSOperations = () => {
       <div>
         <div className="flex justify-center items-center flex-col ">
           <div
-            className="bg-[#DEE4FF] w-[370px] flex justify-center items-center rounded-[20px]   py-1.5"
+            className="bg-[#DEE4FF] w-[336px] flex justify-center items-center rounded-[7px]   py-1.5"
             style={{
               boxShadow: "0px 4px 7.8px 0px #92B3FF",
             }}

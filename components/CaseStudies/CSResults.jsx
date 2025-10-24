@@ -225,10 +225,13 @@
 import Image from "next/image";
 import React from "react";
 
+import CountUp from "react-countup";
+import { useInView } from "react-intersection-observer";
+
 const results = [
-  { label: "90 Days", width: "w-[185px]" },
-  { label: "6+ Key Screens Delivered", width: "w-[300px]" },
-  { label: "0 Revisions & Reviews", width: "w-[300px]" },
+  { number: 90, label: "Days", width: "w-[185px]" },
+  { number: 6, label: "Key Screens Delivered", width: "w-[300px]" },
+  { number: 0, label: "Revisions & Reviews", width: "w-[300px]" },
 ];
 
 const sections = [
@@ -307,8 +310,13 @@ const sections = [
 ];
 
 const CSResults = () => {
+
+  const { ref, inView } = useInView({
+    threshold: 0.3, // trigger when 30% visible
+    triggerOnce: true, // animate once
+  });
   return (
-    <div className="">
+    <div className="overflow-x-hidden pb-[4%]" ref={ref}>
       {/* Results Section */}
       <div className="flex flex-col items-center">
         <h2 className="text-[29px] text-center font-semibold gradient-text-about mb-8">
@@ -316,6 +324,21 @@ const CSResults = () => {
         </h2>
         <div className="flex flex-wrap justify-center items-center gap-8">
           {results.map((item, index) => (
+            // <div
+            //   key={index}
+            //   className="text-[29px] text-white flex flex-col justify-center items-center"
+            // >
+            //   <div
+            //     className="bg-white w-[31px] h-[31px] rounded-full flex justify-center items-center z-10"
+            //     style={{ boxShadow: "0px 4px 4px 0px #00000040" }}
+            //   ></div>
+            //   <div
+            //     className={`bg-gradient-to-b from-[#C5D1FF87] to-[#9CB0FF] -mt-4 z-0 ${item.width} h-[107px] flex justify-center items-center rounded-[18px] p-4 border border-white`}
+            //     style={{ boxShadow: "0px 4px 4px 0px #00000040 inset" }}
+            //   >
+            //     <p className="text-center leading-tight ">{item.label}</p>
+            //   </div>
+            // </div>
             <div
               key={index}
               className="text-[29px] text-white flex flex-col justify-center items-center"
@@ -324,18 +347,25 @@ const CSResults = () => {
                 className="bg-white w-[31px] h-[31px] rounded-full flex justify-center items-center z-10"
                 style={{ boxShadow: "0px 4px 4px 0px #00000040" }}
               ></div>
+
               <div
-                className={`bg-gradient-to-b from-[#C5D1FF87] to-[#9CB0FF] -mt-4 z-0 ${item.width} h-[107px] flex justify-center items-center rounded-[18px] p-4 border border-white`}
+                className={`bg-gradient-to-b from-[#C5D1FF87] to-[#9CB0FF] -mt-4 z-0 ${item.width} h-[107px] flex flex-col justify-center items-center rounded-[18px] p-4 border border-white`}
                 style={{ boxShadow: "0px 4px 4px 0px #00000040 inset" }}
               >
-                <p className="text-center leading-tight">{item.label}</p>
+                <p className="text-[40px] font-bold  text-center leading-tight">
+                  {inView ? <CountUp end={item.number} duration={2} /> : "0"}
+                  {item.number > 0 && item.number < 10 ? "+" : ""}
+                </p>
+                <p className="text-white text-[18px] font-medium text-center leading-tight">
+                  {item.label}
+                </p>
               </div>
             </div>
           ))}
         </div>
       </div>
 
-      <div className="relative z-10">
+      <div className="relative z-10  ">
         <Image
           src="/csleft.svg"
           alt="case-study-bg"
@@ -354,7 +384,7 @@ const CSResults = () => {
         {sections.map((section) => (
           <div
             key={section.id}
-            className="relative w-full flex justify-center mt-20"
+            className="relative w-full flex justify-center mt-20 "
           >
             <div
               className={`relative flex items-center justify-between px-8 pt-7 ${

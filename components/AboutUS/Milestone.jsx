@@ -262,7 +262,7 @@ const Timeline = () => {
           <div className="flex justify-between items-center relative gap-4">
             {/* Starting circle - 2023 */}
             <motion.div
-              className="relative flex-shrink-0"
+              className="relative flex-shrink-0 z-20"
               initial={{ opacity: 0, x: -30, scale: 0.8 }}
               animate={
                 isInView

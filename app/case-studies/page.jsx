@@ -1,6 +1,7 @@
 import CaseStudy from "@/components/CaseStudies/CaseStudy";
 import CSOperations from "@/components/CaseStudies/CSOperations";
 import CSResults from "@/components/CaseStudies/CSResults";
+import OtherCaseStudy from "@/components/CaseStudies/OtherCaseStudy";
 import CSSectionBg from "@/components/CSSectionBg";
 
 import HeroSectionBg from "@/components/HeroSectionBg";
@@ -11,15 +12,19 @@ export default function Home() {
       <div className="relative w-full   ">
         <HeroSectionBg />
         <HeroSectionBg />
+        {/* <HeroSectionBg /> */}
         <CSSectionBg />
       </div>
       <div className="absolute top-0 w-[100%] ">
         <CaseStudy />
       </div>
-      <div className="absolute top-[80%] w-[100%] overflow-x-hidden">
+      <div className="absolute top-[80%] w-[100%]  ">
         <CSResults />
-        <div className="mt-[8%]">
+        <div className="mt-[5%] ">
           <CSOperations />
+        </div>
+        <div className=" w-[100%]  ">
+          <OtherCaseStudy />
         </div>
       </div>
     </div>

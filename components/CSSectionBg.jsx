@@ -336,8 +336,8 @@ const CSSectionBg = () => {
       <canvas
         ref={canvasRef}
         width={1280}
-        height={300}
-        className="w-full h-full object-cover"
+        height={730}
+        className="w-full h-full "
       />
     </div>
   );
