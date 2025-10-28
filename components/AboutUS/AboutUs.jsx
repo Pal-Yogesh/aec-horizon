@@ -201,7 +201,7 @@ import { ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
 import React, { useState } from "react";
 
 const AboutUs = () => {
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const [currentIndex, setCurrentIndex] = useState(1);
 
   const carouselData = [
     {

@@ -218,7 +218,7 @@ const CSOperations = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.25, duration: 0.5 }}
               >
-                Optimasation
+                Optimisation
               </motion.text>
             </motion.g>
 
