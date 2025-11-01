@@ -13,6 +13,14 @@ const Navbar = () => {
   const [showResources, setShowResources] = useState(false);
   const [hoveredResource, setHoveredResource] = useState(null);
 
+  // Helper function to convert service name to slug
+  const slugify = (text) => {
+    return text
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-+|-+$/g, "");
+  };
+
   const menuItems = [
     { name: "Home", path: "/" },
     { name: "About", path: "/about" },
@@ -26,6 +34,7 @@ const Navbar = () => {
     {
       id: 1,
       name: "Bim & Drafting",
+      slug: "bim-drafting",
       href: "/services/bim-drafting",
       bgColor: "#A6B6FD",
       arrowColor: "#49689A",
@@ -46,6 +55,7 @@ const Navbar = () => {
     {
       id: 2,
       name: "Technical business development",
+      slug: "technical-development",
       href: "/services/technical-development",
       bgColor: "#B9A6FF",
       arrowColor: "#7F50B6",
@@ -66,6 +76,7 @@ const Navbar = () => {
     {
       id: 3,
       name: "Digital Marketing & Branding",
+      slug: "digital-marketing",
       href: "/services/digital-marketing",
       bgColor: "#FFD47E",
       arrowColor: "#8D723C",
@@ -225,7 +236,10 @@ const Navbar = () => {
                       : "bg-white/50 text-[#4B336D] hover:bg-white/70"
                   }`}
                 >
-                  <span className="text-[12px] text-[#49689A]">
+                  <span
+                    className="text-[12px]"
+                    style={{ color: service.arrowColor }}
+                  >
                     {service.name}
                   </span>
                   <div
@@ -256,34 +270,44 @@ const Navbar = () => {
           {/* Right Panel - Fixed position beside left panel */}
           {hoveredService && (
             <div
-              className={`bg-gradient-to-br  ${hoveredService.name === "Digital Marketing & Branding" ? "h-[175px] mt-28" : ""} ${hoveredService.color} p-6 backdrop-blur-xl rounded-[22px]  border border-white shadow-2xl w-[500px] transition-all duration-300 flex-shrink-0`}
+              className={`bg-gradient-to-br  ${
+                hoveredService.name === "Digital Marketing & Branding"
+                  ? "h-[175px] mt-28"
+                  : ""
+              }  ${
+                hoveredService.color
+              } p-6 backdrop-blur-xl rounded-[22px]  border border-white shadow-2xl w-[500px] transition-all duration-300 flex-shrink-0`}
               style={{
                 animation: "fadeInRight 0.3s ease-out",
-               
               }}
             >
               {/* Arrow from left to right */}
               {/* <div className="absolute top-1/2 -left-[10px] -translate-y-1/2 w-0 h-0 border-t-[10px] border-t-transparent border-b-[10px] border-b-transparent border-r-[10px] border-r-white/80"></div> */}
 
               <div className="grid grid-cols-2 gap-3 ">
-                {hoveredService.subServices.map((subService, index) => (
-                  <Link
-                    key={index}
-                    href={`/services/${hoveredService.id}/${index}`}
-                    onClick={() =>
-                      handleServiceClick(
-                        `/services/${hoveredService.id}/${index}`
-                      )
-                    }
-                    className="bg-[#DCE3FE] backdrop-blur-sm hover:bg-[#DCE3FE]/80 text-[#49689A] font-semibold text-[10px] px-3 py-2 rounded-[9px]  transition-all duration-300 hover:scale-105 hover:shadow-lg border border-white/60 inline-block"
-                    style={{
-                      animation: `fadeInUp 0.3s ease-out ${index * 0.03}s both`,
-                      boxShadow: "0px 4px 6.6px 0px #00000040",
-                    }}
-                  >
-                    {subService}
-                  </Link>
-                ))}
+                {hoveredService.subServices.map((subService, index) => {
+                  const subServiceSlug = slugify(subService);
+                  const subServiceUrl = `/services/${hoveredService.slug}/${subServiceSlug}`;
+
+                  return (
+                    <Link
+                      key={index}
+                      href={subServiceUrl}
+                      onClick={() => handleServiceClick(subServiceUrl)}
+                      className="bg-[#DCE3FE] backdrop-blur-sm hover:bg-[#DCE3FE]/80 font-semibold text-[10px] px-3 py-2 rounded-[9px]  transition-all duration-300 hover:scale-105 hover:shadow-lg border border-white/60 inline-block"
+                      style={{
+                        color: hoveredService.arrowColor,
+
+                        animation: `fadeInUp 0.3s ease-out ${
+                          index * 0.03
+                        }s both`,
+                        boxShadow: "0px 4px 6.6px 0px #00000040",
+                      }}
+                    >
+                      {subService}
+                    </Link>
+                  );
+                })}
               </div>
             </div>
           )}
