@@ -68,7 +68,7 @@ const DMProjects
                 boxShadow: "0px 4px 15.5px 0px #00000040",
               }}
             >
-              <p className=" text-[35px] font-semibold text-[#374688] text-center">
+              <p className=" text-[35px] font-semibold text-[#B57930] text-center">
                 Projects with this BIM Service
               </p>
             </div>

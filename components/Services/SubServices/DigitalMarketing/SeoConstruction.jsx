@@ -16,22 +16,22 @@ const SeoConstruction = () => {
     whatWeOffer: [
       {
         id: 1,
-        title: "Technical SEO Audit",
+        title: "Technical SEO Audit:",
         desc: "A thorough evaluation of the information structure, website architecture, and BIM keyword relevancy.",
       },
       {
         id: 2,
-        title: "Industry Keyword Mapping",
-        desc: "Finding high-intent terms associated with AEC workflows, Revit modeling, and BIM outsourcing.",
+        title: "Finding high-intent terms",
+        desc: "associated with AEC workflows, Revit modeling, and BIM outsourcing is known as industry keyword mapping.",
       },
       {
         id: 3,
-        title: "On-Page & Structural Optimization",
+        title: "On-Page & Structural Optimization:",
         desc: "Improving user flow, load speed, and content readability to satisfy international SERP guidelines.",
       },
       {
         id: 4,
-        title: "Off-Page SEO & Authority Building",
+        title: "Off-Page SEO & Authority Building:",
         desc: "Using digital magazines, engineering blogs, and BIM-focused websites to strategically build backlinks.",
       },
       {
@@ -101,27 +101,27 @@ const SeoConstruction = () => {
     whyChooseAec: [
       {
         id: 1,
-        title: "AEC-Driven Search Strategy",
+        title: "AEC-Driven Search Strategy:",
         desc: "A thorough understanding of how contractors, consultants, and purchasers in the construction industry search for solutions, ensuring high-intent visibility.",
       },
       {
         id: 2,
-        title: "Technical Precision",
+        title: "Technical Precision:",
         desc: "Focused on CAD environments, LOD, Revit, and BIM coordination keywords rather than general marketing terms, driving technical relevance and authority.",
       },
       {
         id: 3,
-        title: "Holistic Integration",
+        title: "Holistic Integration:",
         desc: "SEO strategies that work seamlessly with lead nurturing funnels, PPC advertising, and CRM data for unified growth performance.",
       },
       {
         id: 4,
-        title: "Performance Intelligence",
+        title: "Performance Intelligence:",
         desc: "Clear dashboards that directly link measurable business results with search visibility and digital reach.",
       },
       {
         id: 5,
-        title: "Global Reach",
+        title: "Global Reach:",
         desc: "Scalable SEO strategies tailored for international markets while maintaining contextual depth and regional authenticity.",
       },
     ],
@@ -129,23 +129,23 @@ const SeoConstruction = () => {
     ourExpertiseCover2: [
       {
         id: 1,
-        desc: "Elevated market perception and brand authority.",
+        desc: "Increased digital visibility for decision-makers in AEC and BIM.",
       },
       {
         id: 2,
-        desc: "Clear differentiation in RFP evaluations and partner discussions.",
+        desc: "Regular lead flow from technical audiences with the necessary qualifications.",
       },
       {
         id: 3,
-        desc: "Cohesive identity across all client-facing material.",
+        desc: "Higher rankings for construction management software, Revit services, and BIM modeling.",
       },
       {
         id: 4,
-        desc: "Improved visibility in prequalification and digital procurement systems.",
+        desc: "Increased brand trust as a result of natural presence and authority.",
       },
       {
         id: 5,
-        desc: "Strengthened internal alignment between leadership, marketing, and technical teams.",
+        desc: "Scalable SEO frameworks that can be modified to accommodate new regions and service growth.",
       },
     ],
     imagePath: "/s11.svg",

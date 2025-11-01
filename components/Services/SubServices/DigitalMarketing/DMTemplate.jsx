@@ -82,17 +82,17 @@ const DMTemplate = ({ data }) => {
                 <p className="font-normal">{data.desc3}</p>
               </div>
               <div className="text-[20px] py-12">
-                <h2 className="font-semibold ">What we offer:</h2>
+                <h2 className="font-semibold  text-[#6C3612]">What we offer:</h2>
 
                 <div>
                   <div>
                     <ul className="pt-5 space-y-2">
                       {data.whatWeOffer.map((p) => (
                         <li key={p.id} className="flex items-start gap-3">
-                          <span className="mt-[14px] w-[4px] h-[4px] bg-[#364483] inline-block"></span>
+                          {/* <span className="mt-[14px] w-[4px] h-[4px] bg-[#FFC074] inline-block"></span> */}
 
                           <p className=" leading-relaxed">
-                            <span className="font-semibold ">{p.title}:</span>{" "}
+                            <span className="font-semibold text-[#6C3612] ">{p.title}</span>{" "}
                             <span className="font-normal ">{p.desc}</span>
                           </p>
                         </li>
@@ -105,7 +105,7 @@ const DMTemplate = ({ data }) => {
 
             <div className="relative w-full flex justify-center items-center z-20">
               <div
-                className=" absolute -left-[18%]  w-[80%] h-[450px] border backdrop-blur-2xl border-white rounded-[43px] "
+                className=" absolute -left-[18%]  w-[90%] pr-24 h-[450px] border backdrop-blur-2xl border-white rounded-[43px] "
                 style={{
                   boxShadow: "0px 4px 15.5px 0px #00000040",
                   background:
@@ -114,10 +114,10 @@ const DMTemplate = ({ data }) => {
               >
                 <div className="ml-[39%] pt-5 ">
                   {" "}
-                  <ul className="list-disc list-inside   ">
+                  <ul className="list-disc list-inside  ">
                     <p className=" mb-3">Our Expertise Covers:</p>
                     {data.ourExpertiseCover.map((p) => (
-                      <li key={p.id} className="font-normal">
+                      <li key={p.id} className="font-normal ">
                         {p.desc}
                       </li>
                     ))}
@@ -125,13 +125,13 @@ const DMTemplate = ({ data }) => {
                 </div>
               </div>
 
-              <div className="absolute  -z-10 left-[30%]">
+              <div className="absolute  -z-10 left-[45%]">
                 <Image
-                  src="/td.svg"
+                  src="/newtd.svg"
                   alt="dm"
                   width={1000}
                   height={1000}
-                  className="object-contain w-[800px] h-[800px]  "
+                  className=" w-[700px] h-[478px] mt-2  "
                 />
               </div>
             </div>
@@ -146,10 +146,10 @@ const DMTemplate = ({ data }) => {
                     <ul className="pt-5 space-y-2">
                       {data.whyChooseAec.map((p) => (
                         <li key={p.id} className="flex items-start gap-3">
-                          <span className="mt-[14px] w-[4px] h-[4px] bg-[#364483] inline-block"></span>
+                          {/* <span className="mt-[14px] w-[4px] h-[4px] bg-[#FFC074] inline-block"></span> */}
 
                           <p className=" leading-relaxed">
-                            <span className="font-semibold ">{p.title}:</span>{" "}
+                            <span className="font-semibold  text-[#6C3612]">{p.title}</span>{" "}
                             <span className="font-normal ">{p.desc}</span>
                           </p>
                         </li>
@@ -165,14 +165,14 @@ const DMTemplate = ({ data }) => {
 
             <div className="relative w-full flex justify-center items-center z-20">
               <div
-                className=" absolute -left-[18%]  w-[80%] h-[300px] border  backdrop-blur-2xl border-white rounded-[43px] "
+                className=" absolute -left-[25%]   w-[98%]  h-[320px] border  backdrop-blur-2xl border-white rounded-[43px] "
                 style={{
                   boxShadow: "0px 4px 15.5px 0px #00000040",
                   background:
                     "linear-gradient(90deg, rgba(218, 223, 241, 0) 0%, #FFEDD2 81.25%)",
                 }}
               >
-                <div className=" absolute left-[39%] py-5">
+                <div className=" absolute left-[39%] py-5 pr-20">
                   <ul className="list-disc list-inside  ">
                     <p className=" mb-3">Our Expertise Covers:</p>
                     {data.ourExpertiseCover2.map((p) => (
@@ -184,13 +184,13 @@ const DMTemplate = ({ data }) => {
                 </div>
               </div>
 
-              <div className="absolute  -z-10 left-[35%]">
+              <div className="absolute  -z-10 left-[60%]">
                 <Image
-                  src="/td.svg"
+                  src="/newtd.svg"
                   alt="dm"
                   width={1000}
                   height={1000}
-                  className="w-[801px] mt-3  h-[600px]"
+                  className="w-[800px] mt-2  h-[337px]"
                 />
               </div>
             </div>
