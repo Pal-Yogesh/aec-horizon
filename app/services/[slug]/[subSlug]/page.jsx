@@ -22,12 +22,12 @@ import ClientEngagement from "@/components/Services/SubServices/TechnicalDevelop
 import DigitalTransformation from "@/components/Services/SubServices/TechnicalDevelopment/DigitalTransformation";
 
 // Digital Marketing Sub-Services
-import SeoConstruction from "@/components/Services/SubServices/SeoConstruction";
 import MarketingPresentation from "@/components/Services/SubServices/MarketingPresentation";
 import ProjectPlanning from "@/components/Services/SubServices/ProjectPlanning";
 import SocialMediaMarketing from "@/components/Services/SubServices/SocialMediaMarketing";
 import BimContent from "@/components/Services/SubServices/BimContent";
 import EmailCampaigns from "@/components/Services/SubServices/EmailCampaigns";
+import SeoConstruction from "@/components/Services/SubServices/DigitalMarketing/SeoConstruction";
 
 export default async function SubServicePage({ params }) {
   const { slug, subSlug } = await params;
