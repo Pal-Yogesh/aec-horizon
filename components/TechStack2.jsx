@@ -179,11 +179,11 @@ const softwareDataCenter = [
 
 const TechStack2 = () => {
   return (
-    <div className="-mt-[15%] ">
-      <div className="h-full w-full  relative  bg-transparent ">
-        <div className="flex justify-center items-center   ">
+    <div className="-mt-[15%] md:-mt-[15%]">
+      <div className="h-full w-full relative bg-transparent">
+        <div className="flex justify-center items-center">
           <div
-            className="bg-[#AA8BFF] text-white -mb-10 text-[20px] px-10 py-3 border-[1px] border-white rounded-[50px]"
+            className="bg-[#AA8BFF] text-white -mb-6 md:-mb-10 text-[16px] md:text-[20px] px-6 md:px-10 py-2 md:py-3 border-[1px] border-white rounded-[50px]"
             style={{
               boxShadow: "0px 4px 14.7px 0px #00000040",
             }}
@@ -191,33 +191,33 @@ const TechStack2 = () => {
             Technical Business Development
           </div>
         </div>
-        <div className="bg-[url('/ts1.svg')] bg-cover pb-[20%] ">
-          <div className="relative pt-[10%]">
-            <div className="flex justify-center gap-14 relative z-20">
-              <div className="flex justify-center gap-3 relative z-20">
+        <div className="bg-[url('/ts1.svg')] bg-cover pb-12 md:pb-[20%]">
+          <div className="relative pt-8 md:pt-[10%] px-4 md:px-0">
+            <div className="flex justify-center gap-3 md:gap-14 relative z-20">
+              <div className="grid grid-cols-2 md:flex md:justify-center gap-2 md:gap-3 relative z-20 max-w-[340px] md:max-w-none">
                 {softwareDataTop.map((software) => (
                   <div
                     key={software.id}
-                    className="group w-[188px] h-[198px] rounded-[29px] text-center pt-3 px-2 transition-all duration-300 hover:scale-105 cursor-pointer"
+                    className="group w-[160px] h-[170px] md:w-[188px] md:h-[198px] rounded-[22px] md:rounded-[29px] text-center pt-2 md:pt-3 px-2 transition-all duration-300 hover:scale-105 cursor-pointer"
                     style={{
                       background:
                         "radial-gradient(64.61% 64.61% at 59.41% 35.39%, #DAE3FF 0%, #FFFFFF 100%)",
                       boxShadow: "0px 8px 4px 0px #00000040",
                     }}
                   >
-                    <div className="flex justify-center items-center mb-3">
+                    <div className="flex justify-center items-center mb-2 md:mb-3">
                       <Image
                         src={software.img}
                         alt={software.title}
                         width={1000}
                         height={1000}
-                        className="w-[77px] h-[77px] transition-all duration-300 group-hover:brightness-200"
+                        className="w-[60px] h-[60px] md:w-[77px] md:h-[77px] transition-all duration-300 group-hover:brightness-200"
                       />
                     </div>
-                    <p className="text-[14px] text-[#4B336D] font-bold transition-all duration-300 group-hover:text-[#E1E8FF]">
+                    <p className="text-[12px] md:text-[14px] text-[#4B336D] font-bold transition-all duration-300 group-hover:text-[#E1E8FF] leading-tight">
                       {software.title}
                     </p>
-                    <p className="text-[14px] text-[#4B336D] transition-all duration-300 group-hover:text-[#E1E8FF]">
+                    <p className="text-[11px] md:text-[14px] text-[#4B336D] transition-all duration-300 group-hover:text-[#E1E8FF] leading-tight mt-1">
                       {software.desc}
                     </p>
 
@@ -233,7 +233,7 @@ const TechStack2 = () => {
             </div>
 
             {/* Plus Icon with Animated Rotation */}
-            <div className="flex justify-center items-center relative my-1 z-20">
+            <div className="flex justify-center items-center relative my-1 md:my-1 z-20">
               <motion.div
                 initial={{ rotate: 0 }}
                 whileInView={{ rotate: 720 }}
@@ -246,37 +246,37 @@ const TechStack2 = () => {
                   alt="plus"
                   width={1000}
                   height={1000}
-                  className="w-[85px] h-[130px]"
+                  className="w-[60px] h-[100px] md:w-[85px] md:h-[130px]"
                 />
               </motion.div>
             </div>
 
             {/* center Row */}
-            <div className="flex justify-center gap-14 relative z-20">
-              <div className="flex justify-center gap-3 relative z-20">
+            <div className="flex justify-center gap-3 md:gap-14 relative z-20">
+              <div className="grid grid-cols-2 md:flex md:justify-center gap-2 md:gap-3 relative z-20 max-w-[340px] md:max-w-none">
                 {softwareDataCenter.map((software) => (
                   <div
                     key={software.id}
-                    className="group w-[188px] h-[198px] rounded-[29px] text-center pt-3 px-2 transition-all duration-300 hover:scale-105 cursor-pointer"
+                    className="group w-[160px] h-[170px] md:w-[188px] md:h-[198px] rounded-[22px] md:rounded-[29px] text-center pt-2 md:pt-3 px-2 transition-all duration-300 hover:scale-105 cursor-pointer"
                     style={{
                       background:
                         "radial-gradient(64.61% 64.61% at 59.41% 35.39%, #DAE3FF 0%, #FFFFFF 100%)",
                       boxShadow: "0px 8px 4px 0px #00000040",
                     }}
                   >
-                    <div className="flex justify-center items-center mb-3">
+                    <div className="flex justify-center items-center mb-2 md:mb-3">
                       <Image
                         src={software.img}
                         alt={software.title}
                         width={1000}
                         height={1000}
-                        className="w-[77px] h-[77px] transition-all duration-300 group-hover:brightness-200"
+                        className="w-[60px] h-[60px] md:w-[77px] md:h-[77px] transition-all duration-300 group-hover:brightness-200"
                       />
                     </div>
-                    <p className="text-[14px] text-[#4B336D] font-bold transition-all duration-300 group-hover:text-[#E1E8FF]">
+                    <p className="text-[12px] md:text-[14px] text-[#4B336D] font-bold transition-all duration-300 group-hover:text-[#E1E8FF] leading-tight">
                       {software.title}
                     </p>
-                    <p className="text-[14px] text-[#4B336D] transition-all duration-300 group-hover:text-[#E1E8FF]">
+                    <p className="text-[11px] md:text-[14px] text-[#4B336D] transition-all duration-300 group-hover:text-[#E1E8FF] leading-tight mt-1">
                       {software.desc}
                     </p>
 

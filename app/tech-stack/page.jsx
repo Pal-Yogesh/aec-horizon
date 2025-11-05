@@ -13,7 +13,7 @@ const page = () => {
         <div className="absolute inset-0 z-10 ">
           <AboutSectionBg />
           <AboutSectionBg />
-          <div className="absolute -top-60 -left-[18%] -z-10">
+          <div className="absolute -top-60 -left-[18%] -z-10 hidden lg:block">
             <Image
               src="/blur.svg"
               width={1000}
@@ -22,7 +22,7 @@ const page = () => {
               className="w-[900px] h-[100%]"
             />
           </div>
-          <div className="absolute -top-48 -right-[18%] -z-10">
+          <div className="absolute -top-48 -right-[18%] -z-10 hidden lg:block">
             <Image
               src="/blur.svg"
               width={1000}
@@ -39,7 +39,7 @@ const page = () => {
         <div className="absolute inset-0 z-10 ">
           <SectionBg />
         </div>
-        <div className="absolute top-0 -left-[10%] z-10">
+        <div className="absolute top-0 -left-[10%] z-10 hidden lg:block">
           <Image
             src="/blur.svg"
             width={1000}
