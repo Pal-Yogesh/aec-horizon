@@ -3,11 +3,10 @@ import React from "react";
 import OurAchievement from "@/components/AboutUS/OurAchievement";
 import Testmonial from "@/components/Testmonial";
 import FAQ from "@/components/FAQ";
-import AboutSectionBg from "@/components/AboutUS/AboutSectionBg";
 import MeetCrew from "@/components/MeetCrew";
 import Image from "next/image";
 import Milestone from "@/components/AboutUS/Milestone";
-import SectionBg2 from "@/components/Background/SectionBG2";
+import MilestoneMobile from "@/components/AboutUS/MilestoneMobile";
 
 const page = () => {
   return (
@@ -22,16 +21,19 @@ const page = () => {
             className="w-full h-[120vh] object-cover"
           />
         </div>
-        <SectionBg2 />
 
-        <div className="absolute top-0 2xl:-top-[0%]  w-[100%] ">
+        <div className=" ">
           <AboutUs />
-        </div>
-        <div className="mt-[13%] 2xl:mt-0 ">
           <OurAchievement />
           <MeetCrew />
           <Testmonial />
-          <Milestone />
+          <div className="hidden lg:block">
+            <Milestone />
+          </div>
+
+          <div className="block lg:hidden">
+            <MilestoneMobile />
+          </div>
           <FAQ />
         </div>
       </div>
