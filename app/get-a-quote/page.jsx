@@ -5,7 +5,7 @@ import React from "react";
 
 const page = () => {
   return (
-    <div className="bg-[url('/getaquote.svg')] bg-cover bg-center w-full h-[100vh] pt-36 ">
+    <div className="bg-[url('/getaquote.svg')] bg-cover bg-center w-full h-[175vh] lg:h-[100vh] pt-36 ">
       <div className="relative w-full h-[100%] overflow-hidden  ">
         <AboutSectionBg />
 
