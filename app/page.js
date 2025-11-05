@@ -1,6 +1,7 @@
 import AboutSectionBg from "@/components/AboutUS/AboutSectionBg";
 import GlobalAEC from "@/components/GlobalAEC";
 import HeroContent from "@/components/HeroContent";
+import HeroContentMobile from "@/components/HeroContentMobile";
 import HeroSectionBg from "@/components/HeroSectionBg";
 import OurProcess from "@/components/OurProcess";
 import ProcessArchitecture from "@/components/ProcessArchitecture";
@@ -12,7 +13,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="bg-[#D9DDEE]">
-      <div className="relative w-full h-[108vh] overflow-hidden  ">
+      <div className="relative w-full h-[80vh] lg:h-[108vh] overflow-hidden  ">
         <div className="relative ">
           <div className="absolute -top-60 -right-60">
             <Image
@@ -30,13 +31,16 @@ export default function Home() {
             width={1000}
             height={1000}
             alt="blur"
-            className="w-full h-[120vh] object-cover"
+            className="w-full h-[40vh] lg:h-[120vh] object-cover"
           />
         </div>
         <HeroSectionBg />
 
-        <div className="absolute top-36  w-[100%] ">
+        <div className="absolute top-36  w-[100%]  hidden lg:block">
           <HeroContent />
+        </div>
+        <div className="absolute top-28  w-[100%] block lg:hidden">
+          <HeroContentMobile />
         </div>
       </div>
 

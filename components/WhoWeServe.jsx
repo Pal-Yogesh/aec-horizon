@@ -1,51 +1,3 @@
-// import Image from "next/image";
-// import React from "react";
-
-// const WhoWeServe = () => {
-//   return (
-//     <>
-//       <div className="px-[116px] pt-20">
-//         <div>
-//           <div>
-// <div>
-//   <h1 className="font-bold text-[45px] text-[#4B336D] ">
-//     Who we <span className="gradient-text">Serve</span>
-//   </h1>
-//   <p className="text-[#000000] text-[25px]">
-//     From startups to skyscrapers—our clients shape the <br /> built
-//     world.
-//   </p>
-// </div>
-//             <div className="pt-5">
-//               <Image
-//                 src="/weserve.svg"
-//                 alt="serve"
-//                 width={1000}
-//                 height={1000}
-//                 className="w-full h-[100%] object-cover"
-//               />
-//               <div className="flex justify-center items-center pt-12 relative">
-//                 <button
-//                   className="text-white text-[18px] px-6 py-4 rounded-[13px] shadow-xl absolute -top-11 cursor-pointer  "
-//                   style={{
-//                     background:
-//                       "linear-gradient(-106.4deg, #47099F 0.28%, #F8AD1D 158.99%)",
-//                     boxShadow: "0px 4px 4px 0px #00000040",
-//                   }}
-//                 >
-//                   Get Solutions For your Industry
-//                 </button>
-//               </div>
-//             </div>
-//           </div>
-//         </div>
-//       </div>
-//     </>
-//   );
-// };
-
-// export default WhoWeServe;
-
 "use client";
 
 import React, { useRef } from "react";
@@ -115,7 +67,7 @@ const WhoWeServe = () => {
 
   return (
     <section ref={sectionRef} className="relative overflow-hidden">
-      <div className="absolute left-0">
+      <div className="hidden lg:block absolute left-0">
         <div className="relative">
           <svg
             width="908"
@@ -145,7 +97,7 @@ const WhoWeServe = () => {
           </svg>
         </div>
       </div>
-      <div className="absolute right-0">
+      <div className="hidden lg:block absolute right-0">
         <div className="relative">
           <svg
             width="897"
@@ -175,37 +127,37 @@ const WhoWeServe = () => {
           </svg>
         </div>
       </div>
-      <div className="relative mx-auto max-w-5xl  py-10 sm:py-20 lg:py-24 px-[5%]">
+      <div className="relative mx-auto max-w-5xl py-8 sm:py-12 md:py-16 lg:py-24 px-[5%] sm:px-[6%] md:px-[8%] lg:px-[5%]">
         <motion.div
-          className="text-left"
+          className="text-center sm:text-left "
           style={{ opacity: 1, transform: "none" }}
           variants={fadeUp}
           initial="hidden"
           animate={controlsTitle}
         >
           <h2
-            className="font-bold text-[29px] text-[#4B336D] "
+            className="font-bold text-[24px] md:text-[26px] lg:text-[29px] text-[#4B336D]"
             style={{ opacity: 1, transform: "none" }}
           >
             Who We <span> </span>
             <span className="gradient-text">Serve</span>
           </h2>
-          <p className="mt-3 text-[#000000] text-[19px]">
+          <p className="mt-2 sm:mt-3 text-[#000000] text-[14px] sm:text-[16px] md:text-[18px] lg:text-[19px]">
             From startups to skyscrapers—our clients shape the built world.
           </p>
         </motion.div>
 
-        <div className="relative mx-auto mt-25 grid h-[520px] w-full max-w-3xl place-items-center scale-[1.1] -translate-y-[-2rem]">
+        <div className="relative mx-auto mt-12 sm:mt-16 md:mt-20 lg:mt-25 grid h-[320px] sm:h-[400px] md:h-[460px] lg:h-[520px] w-full max-w-3xl place-items-center scale-[0.75] sm:scale-[0.85] md:scale-[0.95] lg:scale-[1.1] -translate-y-[-1rem] sm:-translate-y-[-1.5rem] md:-translate-y-[-1.8rem] lg:-translate-y-[-2rem]">
           <div
-            className="pointer-events-none absolute h-[640px] w-[170px] -rotate-45 rounded-full bg-gradient-to-r from-[#A0B0DA] to-[#6982C4] border-1 border-white"
+            className="pointer-events-none absolute h-[400px] sm:h-[500px] md:h-[570px] lg:h-[640px] w-[110px] sm:w-[130px] md:w-[150px] lg:w-[170px] -rotate-45 rounded-full bg-gradient-to-r from-[#A0B0DA] to-[#6982C4] border-1 border-white"
             style={{ opacity: 1, transform: "none" }}
           ></div>
           <div
-            className="pointer-events-none absolute h-[640px] w-[170px] rotate-45 rounded-full bg-gradient-to-r from-[#A0B0DA] to-[#7486B5] border-1 border-white"
+            className="pointer-events-none absolute h-[400px] sm:h-[500px] md:h-[570px] lg:h-[640px] w-[110px] sm:w-[130px] md:w-[150px] lg:w-[170px] rotate-45 rounded-full bg-gradient-to-r from-[#A0B0DA] to-[#7486B5] border-1 border-white"
             style={{ opacity: 1, transform: "none" }}
           ></div>
           <motion.div
-            className="rotate-45 relative z-10 grid place-items-center rounded-2xl bg-white px-8 py-10 shadow-[0_10px_24px_rgba(80,80,160,0.25)] h-40 w-40 scale-[1.2]"
+            className="rotate-45 relative z-10 grid place-items-center rounded-xl sm:rounded-2xl bg-white px-4 sm:px-6 md:px-8 py-6 sm:py-8 md:py-10 shadow-[0_8px_18px_rgba(80,80,160,0.2)] sm:shadow-[0_10px_24px_rgba(80,80,160,0.25)] h-28 w-28 sm:h-32 sm:w-32 md:h-36 md:w-36 lg:h-40 lg:w-40 scale-[1.1] sm:scale-[1.15] md:scale-[1.18] lg:scale-[1.2]"
             style={{ transform: "none", opacity: 1 }}
             variants={scaleUp}
             initial="hidden"
@@ -213,9 +165,9 @@ const WhoWeServe = () => {
           >
             <div className="absolute">
               <svg
-                width="190"
-                height="190"
-                className="rotate-[-45deg]"
+                width="140"
+                height="140"
+                className="sm:w-[160px] sm:h-[160px] md:w-[175px] md:h-[175px] lg:w-[190px] lg:h-[190px] rotate-[-45deg]"
                 viewBox="0 0 329 329"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -282,27 +234,28 @@ const WhoWeServe = () => {
                 </defs>
               </svg>
             </div>
-            <div className="text-center rotate-[-45deg] scale-130">
-              <p className="text-l font-semibold tracking-wide bg-gradient-to-r from-[#47099F] to-[#b97c0c] bg-clip-text text-transparent">
+            <div className="text-center rotate-[-45deg] scale-110 sm:scale-120 md:scale-125 lg:scale-130">
+              <p className="text-[10px] sm:text-[11px] md:text-[12px] lg:text-l font-semibold tracking-wide bg-gradient-to-r from-[#47099F] to-[#b97c0c] bg-clip-text text-transparent">
                 Who Do
               </p>
-              <p className="text-l font-semibold bg-gradient-to-r from-[#47099F] to-[#b97c0c] bg-clip-text text-transparent mt-[-2]">
+              <p className="text-[10px] sm:text-[11px] md:text-[12px] lg:text-l font-semibold bg-gradient-to-r from-[#47099F] to-[#b97c0c] bg-clip-text text-transparent mt-[-2]">
                 We Serve?
               </p>
             </div>
           </motion.div>
           <motion.div
-            className="absolute -translate-x-3 left-[9.7rem] -top-[1.6rem] flex flex-col-reverse items-center gap-2 scale-150"
+            className="absolute -translate-x-[101px] sm:-translate-x-2.5 lg:-translate-x-3 md:-translate-x-9  sm:left-[8rem] md:left-[9rem] lg:left-[9.7rem] -top-[2rem] sm:-top-[1.2rem] md:-top-[1.4rem] lg:-top-[1.6rem] flex flex-col-reverse items-center gap-1 sm:gap-1.5 md:gap-1.5 lg:gap-2 scale-100 sm:scale-110 md:scale-130 lg:scale-150"
             style={{ opacity: 1, transform: "none" }}
             variants={fadeLeft}
             initial="hidden"
             animate={controlsCard1}
           >
-            <div className="rounded-full bg-white p-4 shadow-[0_8px_18px_rgba(90,90,170,0.22)] ring-2 ring-white">
+            <div className="rounded-full bg-white p-2 sm:p-3 md:p-3.5 lg:p-4 shadow-[0_6px_14px_rgba(90,90,170,0.18)] sm:shadow-[0_7px_16px_rgba(90,90,170,0.2)] lg:shadow-[0_8px_18px_rgba(90,90,170,0.22)] ring-1 sm:ring-1.5 lg:ring-2 ring-white">
               <div>
                 <svg
-                  width="68"
-                  height="68"
+                  width="70"
+                  height="70"
+                  className="sm:w-[52px] sm:h-[52px] md:w-[60px] md:h-[60px] lg:w-[68px] lg:h-[68px]"
                   viewBox="0 0 221 221"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -358,8 +311,9 @@ const WhoWeServe = () => {
                 </svg>
                 <div className="absolute top-1/2 left-1/2 -translate-x-1/2">
                   <svg
-                    width="50"
-                    height="50"
+                    width="32"
+                    height="32"
+                    className="sm:w-[38px] sm:h-[38px] md:w-[44px] md:h-[44px] lg:w-[50px] lg:h-[50px]"
                     viewBox="0 0 113 113"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -417,23 +371,23 @@ const WhoWeServe = () => {
                 </div>
               </div>
             </div>
-            <span className="mt-3 rounded-[27.5px] bg-white/40 px-2 py-2 text-sm text-[#4B336D] border border-white shadow-[0px_4px_4px_rgba(0,0,0,0.25)]">
-              {/* <span className="p h-[30px] mt-5 text-[#4B336D] text-center bg-[#FFFFFF40] rounded-[19.5px] backdrop-blur-[3px] border border-white"  */}
+            <span className="mt-1.5 sm:mt-2 md:mt-2.5 lg:mt-3 rounded-[20px] sm:rounded-[24px] lg:rounded-[27.5px] bg-white/40 px-1.5 sm:px-2 py-1.5 sm:py-2 text-[10px] sm:text-[11px] md:text-[12px] lg:text-sm text-[#4B336D] border border-white shadow-[0px_3px_3px_rgba(0,0,0,0.2)] sm:shadow-[0px_4px_4px_rgba(0,0,0,0.25)]">
               Architects & Engineers
             </span>
           </motion.div>
           <motion.div
-            className="absolute translate-x-3 right-[10.3rem] top-[-1.6rem] flex flex-col-reverse items-center gap-2 scale-150"
+            className="absolute translate-x-[105px] sm:translate-x-2.5 lg:translate-x-3 md:translate-x-10  sm:right-[8.5rem] md:right-[9.5rem] lg:right-[10.3rem] -top-[2rem] sm:-top-[1.2rem] md:-top-[1.4rem] lg:-top-[1.6rem] flex flex-col-reverse items-center gap-1 sm:gap-1.5 md:gap-1.5 lg:gap-2 scale-100 sm:scale-110 md:scale-130 lg:scale-150"
             style={{ opacity: 1, transform: "none" }}
             variants={fadeRight}
             initial="hidden"
             animate={controlsCard2}
           >
-            <div className="rounded-full bg-white p-4 shadow-[0_8px_18px_rgba(90,90,170,0.22)] ring-2 ring-white">
+            <div className="rounded-full bg-white p-2 sm:p-3 md:p-3.5 lg:p-4 shadow-[0_6px_14px_rgba(90,90,170,0.18)] sm:shadow-[0_7px_16px_rgba(90,90,170,0.2)] lg:shadow-[0_8px_18px_rgba(90,90,170,0.22)] ring-1 sm:ring-1.5 lg:ring-2 ring-white">
               <div>
                 <svg
-                  width="68"
-                  height="68"
+                  width="70"
+                  height="70"
+                  className="sm:w-[52px] sm:h-[52px] md:w-[60px] md:h-[60px] lg:w-[68px] lg:h-[68px]"
                   viewBox="0 0 221 221"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -489,8 +443,9 @@ const WhoWeServe = () => {
                 </svg>
                 <div className="absolute top-1/2 left-1/2 -translate-x-1/2">
                   <svg
-                    width="48"
-                    height="48"
+                    width="30"
+                    height="30"
+                    className="sm:w-[36px] sm:h-[36px] md:w-[42px] md:h-[42px] lg:w-[48px] lg:h-[48px]"
                     viewBox="0 0 94 95"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -503,22 +458,23 @@ const WhoWeServe = () => {
                 </div>
               </div>
             </div>
-            <span className="mt-3 rounded-[27.5px] bg-white/40 px-2 py-2 text-sm text-[#4B336D] border border-white shadow-[0px_4px_4px_rgba(0,0,0,0.25)]">
+            <span className="mt-1.5 sm:mt-2 md:mt-2.5 lg:mt-3 rounded-[20px] sm:rounded-[24px] lg:rounded-[27.5px] bg-white/40 px-1.5 sm:px-2 py-1.5 sm:py-2 text-[10px] sm:text-[11px] md:text-[12px] lg:text-sm text-[#4B336D] border border-white shadow-[0px_3px_3px_rgba(0,0,0,0.2)] sm:shadow-[0px_4px_4px_rgba(0,0,0,0.25)]">
               Construction Firms
             </span>
           </motion.div>
           <motion.div
-            className="absolute -translate-x-3 left-[7.7rem] -bottom-[1.6rem] flex flex-col items-center gap-2 scale-150"
+            className="absolute -translate-x-[101px] sm:-translate-x-2.5 lg:-translate-x-3 md:-translate-x-9  sm:left-[6.2rem] md:left-[7rem] lg:left-[7.7rem] -bottom-[1.75rem] sm:-bottom-[1.2rem] md:-bottom-[1.4rem] lg:-bottom-[1.6rem] flex flex-col items-center gap-1 sm:gap-1.5 md:gap-1.5 lg:gap-2 scale-100 sm:scale-110 md:scale-130 lg:scale-150"
             style={{ opacity: 1, transform: "none" }}
             variants={fadeLeft}
             initial="hidden"
             animate={controlsCard3}
           >
-            <div className="rounded-full bg-white p-4 shadow-[0_8px_18px_rgba(90,90,170,0.22)] ring-2 ring-white">
+            <div className="rounded-full bg-white p-2  sm:p-3 md:p-3.5 lg:p-4 shadow-[0_6px_14px_rgba(90,90,170,0.18)] sm:shadow-[0_7px_16px_rgba(90,90,170,0.2)] lg:shadow-[0_8px_18px_rgba(90,90,170,0.22)] ring-1 sm:ring-1.5 lg:ring-2 ring-white">
               <div>
                 <svg
-                  width="68"
-                  height="68"
+                  width="70"
+                  height="70"
+                  className="sm:w-[52px] sm:h-[52px] md:w-[60px] md:h-[60px] lg:w-[68px] lg:h-[68px]"
                   viewBox="0 0 221 221"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -572,10 +528,11 @@ const WhoWeServe = () => {
                     </filter>
                   </defs>
                 </svg>
-                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-15">
+                <div className="absolute top-[65%] sm:top-1/2 left-1/2 -translate-x-1/2 -translate-y-15">
                   <svg
-                    width="57"
-                    height="57"
+                    width="36"
+                    height="36"
+                    className="sm:w-[44px] sm:h-[44px] md:w-[50px] md:h-[50px] lg:w-[57px] lg:h-[57px]"
                     viewBox="0 0 116 114"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -649,22 +606,23 @@ const WhoWeServe = () => {
                 </div>
               </div>
             </div>
-            <span className="mt-3 rounded-[27.5px] bg-white/40 px-2 py-2 text-sm text-[#4B336D] border border-white shadow-[0px_4px_4px_rgba(0,0,0,0.25)]">
+            <span className="mt-1.5 sm:mt-2 md:mt-2.5 lg:mt-3 rounded-[20px] sm:rounded-[24px] lg:rounded-[27.5px] bg-white/40 px-1.5 sm:px-2 py-1.5 sm:py-2 text-[10px] sm:text-[11px] md:text-[12px] lg:text-sm text-[#4B336D] border border-white shadow-[0px_3px_3px_rgba(0,0,0,0.2)] sm:shadow-[0px_4px_4px_rgba(0,0,0,0.25)]">
               BIM Startups & SaaS AEC Tech
             </span>
           </motion.div>
           <motion.div
-            className="absolute translate-x-3 right-[8.3rem] bottom-[-1.6rem] flex flex-col items-center gap-2 scale-150"
+            className="absolute translate-x-[105px] sm:translate-x-2.5 md:translate-x-10 lg:translate-x-3  sm:right-[6.8rem] md:right-[7.5rem] lg:right-[8.3rem] -bottom-[1.75rem] sm:-bottom-[1.2rem] md:-bottom-[1.4rem] lg:-bottom-[1.6rem] flex flex-col items-center gap-1 sm:gap-1.5 md:gap-1.5 lg:gap-2 scale-100 sm:scale-110 md:scale-130 lg:scale-150"
             style={{ opacity: 1, transform: "none" }}
             variants={fadeRight}
             initial="hidden"
             animate={controlsCard4}
           >
-            <div className="rounded-full bg-white p-4 shadow-[0_8px_18px_rgba(90,90,170,0.22)] ring-2 ring-white">
+            <div className="rounded-full bg-white p-2 sm:p-3 md:p-3.5 lg:p-4 shadow-[0_6px_14px_rgba(90,90,170,0.18)] sm:shadow-[0_7px_16px_rgba(90,90,170,0.2)] lg:shadow-[0_8px_18px_rgba(90,90,170,0.22)] ring-1 sm:ring-1.5 lg:ring-2 ring-white">
               <div>
                 <svg
-                  width="68"
-                  height="68"
+                  width="70"
+                  height="70"
+                  className="sm:w-[52px] sm:h-[52px] md:w-[60px] md:h-[60px] lg:w-[68px] lg:h-[68px]"
                   viewBox="0 0 221 221"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -718,10 +676,11 @@ const WhoWeServe = () => {
                     </filter>
                   </defs>
                 </svg>
-                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-15">
+                <div className="absolute top-[65%] sm:top-1/2 left-1/2 -translate-x-1/2 -translate-y-15">
                   <svg
-                    width="65"
-                    height="65"
+                    width="42"
+                    height="42"
+                    className="sm:w-[50px] sm:h-[50px] md:w-[57px] md:h-[57px] lg:w-[65px] lg:h-[65px]"
                     viewBox="0 0 135 135"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -782,13 +741,13 @@ const WhoWeServe = () => {
                 </div>
               </div>
             </div>
-            <span className="mt-3 rounded-[27.5px] bg-white/40 px-2 py-2 text-sm text-[#4B336D] border border-white shadow-[0px_4px_4px_rgba(0,0,0,0.25)]">
+            <span className="mt-1.5 sm:mt-2 md:mt-2.5 lg:mt-3 rounded-[20px] sm:rounded-[24px] lg:rounded-[27.5px] bg-white/40 px-1.5 sm:px-2 py-1.5 sm:py-2 text-[10px] sm:text-[11px] md:text-[12px] lg:text-sm text-[#4B336D] border border-white shadow-[0px_3px_3px_rgba(0,0,0,0.2)] sm:shadow-[0px_4px_4px_rgba(0,0,0,0.25)]">
               Urban planning & Smart Infra
             </span>
           </motion.div>
         </div>
         <motion.div
-          className="mt-50 flex justify-center scale-[1.1]"
+          className="mt-20 sm:mt-32 md:mt-40 lg:mt-50 flex justify-center scale-[0.85] sm:scale-[0.95] md:scale-[1.05] lg:scale-[1.1]"
           style={{ opacity: 1, transform: "none" }}
           variants={fadeUp}
           initial="hidden"
@@ -796,7 +755,7 @@ const WhoWeServe = () => {
         >
           <Link
             href="/about"
-            className="rounded-2xl bg-gradient-to-r from-[#C76F4E] via-[#772b85] to-[#47099F] px-6 py-3 text-sm font-semibold text-white shadow-[0_10px_22px_rgba(120,90,200,0.35)] hover:opacity-95"
+            className="rounded-xl sm:rounded-2xl bg-gradient-to-r from-[#C76F4E] via-[#772b85] to-[#47099F] px-4 sm:px-5 md:px-6 py-2 sm:py-2.5 md:py-3 text-[12px] sm:text-[13px] md:text-sm font-semibold text-white shadow-[0_8px_18px_rgba(120,90,200,0.3)] sm:shadow-[0_10px_22px_rgba(120,90,200,0.35)] hover:opacity-95 transition-opacity duration-300"
             type="button"
           >
             Get Solutions For your Industry

@@ -1,120 +1,3 @@
-// "use client";
-// import Image from "next/image";
-// import React from "react";
-// import { motion } from "framer-motion";
-
-// const WhyChoose = () => {
-//   return (
-//     <div className="px-[116px] pt-20 pb-10">
-//       <div>
-//         <div>
-//           <div>
-//             <h1 className="text-[#4B336D] text-[45px]">
-//               Why Choose{" "}
-//               <span className="gradient-text font-bold">AEC Horizon?</span>
-//             </h1>
-//           </div>
-
-//           <div className="flex justify-between items-center pt-10">
-//             <div className="">
-//               <div className="bg-[#FFFFFF47] w-[420px] h-[250px] rounded-[40px] border border-white shadow-[0px_4px_4px_0px_#00000040]">
-//                 <div className="pt-3">
-//                   <h1 className="font-bold text-[30px] gradient-text text-center ">
-//                     {" "}
-//                     Transparent Process
-//                   </h1>
-//                   <p className="w-full h-[2px] my-3 bg-[#FFFFFF]"></p>
-//                   <p className="px-10 text-[28px] text-center text-[#4B336D] pt-2">
-//                     From consultation to delivery, every step mapped.
-//                   </p>
-//                 </div>
-//               </div>
-//             </div>
-//             <div className="">
-//               <div className="bg-[#FFFFFF47] w-[420px] h-[250px] rounded-[40px] border border-white shadow-[0px_4px_4px_0px_#00000040]">
-//                 <div className="pt-3">
-//                   <h1 className="font-bold text-[30px] gradient-text text-center ">
-//                     {" "}
-//                     Innovation First
-//                   </h1>
-//                   <p className="w-full h-[2px] my-3 bg-[#FFFFFF]"></p>
-//                   <p className="px-10 text-[28px] text-center text-[#4B336D] pt-2">
-//                     Automation, Revit families, custom strategies.
-//                   </p>
-//                 </div>
-//               </div>
-//             </div>
-//           </div>
-
-//           <div className="flex justify-center items-center relative">
-//       <motion.div
-//         initial={{ rotate: 0 }}
-//         whileInView={{ rotate: 360 }}
-//         transition={{ duration: 2, ease: "linear" }}
-//         viewport={{ once: true }} // rotates only the first time it's in view
-//         className="absolute -top-4 left-1/2 -translate-x-1/2"
-//       >
-//         <Image
-//           src="/plus.svg"
-//           alt="plus"
-//           width={115}
-//           height={89}
-//           className="w-[115px] h-[89px]"
-//         />
-//       </motion.div>
-//     </div>
-
-//           <div className="flex justify-between items-center pt-12">
-//             <div className="">
-//               <div className="bg-[#FFFFFF47] w-[420px] h-[250px] rounded-[40px] border border-white shadow-[0px_4px_4px_0px_#00000040]">
-//                 <div className="pt-3">
-//                   <h1 className="font-bold text-[30px] gradient-text text-center ">
-//                     {" "}
-//                     End to End Coverage
-//                   </h1>
-//                   <p className="w-full h-[2px] my-3 bg-[#FFFFFF]"></p>
-//                   <p className="px-8 text-[28px] text-center text-[#4B336D] pt-2">
-//                     BIM, Business Development, digital strategy—all under one
-//                     roof.
-//                   </p>
-//                 </div>
-//               </div>
-//             </div>
-//             <div className="">
-//               <div className="bg-[#FFFFFF47] w-[420px] h-[250px] rounded-[40px] border border-white shadow-[0px_4px_4px_0px_#00000040]">
-//                 <div className="pt-3">
-//                   <h1 className="font-bold text-[30px] gradient-text text-center ">
-//                     {" "}
-//                     Real People. Real Results.
-//                   </h1>
-//                   <p className="w-full h-[2px] my-3 bg-[#FFFFFF]"></p>
-//                   <p className="px-10 text-[28px] text-center text-[#4B336D] pt-2">
-//                     No fluff. <br /> Just expert-driven solutions.
-//                   </p>
-//                 </div>
-//               </div>
-//             </div>
-//           </div>
-//         </div>
-//         <div className="flex justify-center items-center pt-12">
-//           <button
-//             className="text-white text-[18px] px-6 py-4 rounded-[13px] shadow-xl cursor-pointer"
-//             style={{
-//               background:
-//                 "linear-gradient(-106.4deg, #47099F 0.28%, #F8AD1D 158.99%)",
-//               boxShadow: "0px 4px 4px 0px #00000040",
-//             }}
-//           >
-//             View our services
-//           </button>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default WhyChoose;
-
 "use client";
 import Image from "next/image";
 import React from "react";
@@ -158,8 +41,9 @@ const cardData = [
 const WhyChoose = () => {
   return (
     <div className="relative z-10">
+      {/* Background Blur - Hidden on mobile/tablet */}
       <div className="relative -z-10">
-        <div className="absolute -top-64 -left-[20%]">
+        <div className="hidden lg:block absolute -top-64 -left-[20%]">
           <Image
             src="/blur.svg"
             width={1000}
@@ -170,15 +54,15 @@ const WhyChoose = () => {
         </div>
       </div>
 
-      <div className="px-[20%] pt-20 pb-10 ">
-        <div className=" ">
-          <h1 className="text-[#4B336D] text-[29px]">
+      <div className="px-4 sm:px-8 md:px-12 lg:px-[15%] xl:px-[20%] pt-12 sm:pt-16 lg:pt-20 pb-6 sm:pb-8 lg:pb-10">
+        <div>
+          <h1 className="text-[#4B336D] text-[24px] sm:text-[26px] lg:text-[29px] text-center lg:text-left">
             Why Choose{" "}
             <span className="gradient-text font-bold">AEC Horizon?</span>
           </h1>
 
           {/* ✅ Top row (first 2 cards) */}
-          <div className="flex justify-center gap-32 items-center pt-10">
+          <div className="flex flex-col sm:flex-row justify-center px-4 gap-6 sm:gap-8 md:gap-12 lg:gap-20 xl:gap-32 items-center pt-6 sm:pt-8 lg:pt-10">
             {cardData.slice(0, 2).map((card) => (
               <motion.div
                 key={card.id}
@@ -188,20 +72,19 @@ const WhyChoose = () => {
                 viewport={{ once: true, amount: 0.2 }}
               >
                 <div
-                  className="bg-[#FFFFFF47] w-[280px] h-[170px] rounded-[28.5px] border border-white "
+                  className="bg-[#FFFFFF47] w-[19rem] sm:w-[240px] md:w-[260px] lg:w-[280px] h-[150px] sm:h-[170px] rounded-[24px] sm:rounded-[28.5px] border border-white"
                   style={{
                     boxShadow: "0px 2.63px 2.63px 0px #00000040",
-
                     backdropFilter: "blur(26.26546287536621px)",
                     boxShadow: "0px 3.5px 19px 0px #809CFF",
                   }}
                 >
-                  <div className="pt-3">
-                    <h1 className="font-bold text-[19px] gradient-text text-center">
+                  <div className="pt-3 sm:pt-3">
+                    <h1 className="font-bold text-[16px] sm:text-[18px] lg:text-[19px] gradient-text text-center px-2">
                       {card.title}
                     </h1>
                     <p className="w-full h-[2px] my-2 bg-[#FFFFFF]"></p>
-                    <p className="px-10 text-[18.39px] text-center text-[#4B336D] ">
+                    <p className="px-6 sm:px-8 lg:px-10 text-[15px] sm:text-[17px] lg:text-[18.39px] text-center text-[#4B336D]">
                       {card.desc}
                     </p>
                   </div>
@@ -211,26 +94,26 @@ const WhyChoose = () => {
           </div>
 
           {/* ✅ Plus sign animation */}
-          <div className="flex justify-center items-center relative">
+          <div className="flex justify-center items-center relative mt-4 sm:mt-0 sm:my-6 lg:my-0">
             <motion.div
               initial={{ rotate: 0 }}
               whileInView={{ rotate: 720 }}
               transition={{ duration: 2, ease: "easeInOut" }}
               viewport={{ once: true }}
-              className="absolute -top-4 left-1/2 -translate-x-1/2"
+              className="relative sm:absolute sm:-top-4 sm:left-1/2 sm:-translate-x-1/2"
             >
               <Image
                 src="/plus.svg"
                 alt="plus"
                 width={115}
                 height={89}
-                className="w-[100px] h-[70px]"
+                className="w-[70px] h-[50px] sm:w-[85px] sm:h-[60px] lg:w-[100px] lg:h-[70px]"
               />
             </motion.div>
           </div>
 
           {/* ✅ Bottom row (last 2 cards) */}
-          <div className="flex justify-center gap-32 items-center pt-12">
+          <div className="flex flex-col sm:flex-row   justify-center gap-6 sm:gap-8 md:gap-12 lg:gap-20 xl:gap-32 items-center pt-6 sm:pt-8 lg:pt-12">
             {cardData.slice(2, 4).map((card) => (
               <motion.div
                 key={card.id}
@@ -240,20 +123,19 @@ const WhyChoose = () => {
                 viewport={{ once: true, amount: 0.2 }}
               >
                 <div
-                  className="bg-[#FFFFFF47] w-[280px] h-[180px] rounded-[28.5px] border border-white"
+                  className="bg-[#FFFFFF47] w-[19rem]  sm:w-[240px] md:w-[260px] lg:w-[280px] h-[150px] sm:h-[180px] rounded-[24px] sm:rounded-[28.5px] border border-white"
                   style={{
                     boxShadow: "0px 2.63px 2.63px 0px #00000040",
-
                     backdropFilter: "blur(26.26546287536621px)",
                     boxShadow: "0px 3.5px 19px 0px #809CFF",
                   }}
                 >
-                  <div className="pt-3">
-                    <h1 className="font-bold text-[19px] gradient-text text-center">
+                  <div className="pt-3 sm:pt-3">
+                    <h1 className="font-bold text-[16px] sm:text-[18px] lg:text-[19px] gradient-text text-center px-2">
                       {card.title}
                     </h1>
                     <p className="w-full h-[2px] my-2 bg-[#FFFFFF]"></p>
-                    <p className="px-10 text-[18.39px] text-center text-[#4B336D]">
+                    <p className="px-6 sm:px-8 lg:px-10 text-[15px] sm:text-[17px] lg:text-[18.39px] text-center text-[#4B336D]">
                       {card.desc}
                     </p>
                   </div>
@@ -263,10 +145,10 @@ const WhyChoose = () => {
           </div>
 
           {/* ✅ Button */}
-          <div className="flex justify-center items-center py-12">
+          <div className="flex justify-center items-center py-8 sm:py-10 lg:py-12">
             <Link
               href="/services"
-              className="text-white text-[18px] px-6 py-4 rounded-[13px] shadow-xl cursor-pointer"
+              className="text-white text-[15px] sm:text-[17px] lg:text-[18px] px-5 sm:px-6 py-3 sm:py-4 rounded-[13px] shadow-xl cursor-pointer hover:scale-105 transition-transform duration-300"
               style={{
                 background:
                   "linear-gradient(-106.4deg, #47099F 0.28%, #F8AD1D 158.99%)",
