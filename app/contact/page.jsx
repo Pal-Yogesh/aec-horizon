@@ -12,7 +12,7 @@ const page = () => {
         <div className="absolute -top-10  w-[100%] ">
           <Contact />
         </div>
-        <div className="absolute top-[50%]  w-[100%] ">
+        <div className="absolute top-[72%] lg:top-[50%]  w-[100%] ">
           <ContactMap />
         </div>
       </div>
