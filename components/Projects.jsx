@@ -1,16 +1,9 @@
 "use client";
 import Image from "next/image";
-import { useState } from "react";
+import React, { useState } from "react";
 import { useRouter } from "next/navigation";
-import { ArrowLeft, ArrowRight } from 'lucide-react';
-
-// Helper function to generate slug from title
-// const generateSlug = (title) => {
-//   return title
-//     .toLowerCase()
-//     .replace(/[^a-z0-9]+/g, '-')
-//     .replace(/(^-|-$)/g, '');
-// };
+import { ArrowLeft, ArrowRight } from "lucide-react";
+import AboutSectionBg from "./AboutUS/AboutSectionBg";
 
 const projectsData1 = [
   {
@@ -113,16 +106,210 @@ const projectsData2 = [
   },
 ];
 
-function ProjectCarousel({ data, arrowCard = 3 }) { 
+// function ProjectCarousel({ data, arrowCard = 3 }) {
+//   const [index, setIndex] = useState(0);
+//   const router = useRouter();
+
+//   const nextSlide = () => {
+//     if (index + 4 < data.length) setIndex(index + 1);
+//   };
+
+//   const prevSlide = () => {
+//     if (index > 0) setIndex(index - 1);
+//   };
+
+//   const handleProjectClick = (slug) => {
+//     router.push(`/projects/${slug}`);
+//   };
+
+//   return (
+//     <div className="relative w-full">
+//       <div
+//         className="flex gap-6 transition-transform duration-700 ease-out"
+//         style={{
+//           transform: `translateX(-${index * (290 + 24)}px)`,
+//         }}
+//       >
+//         {data.map((project, i) => {
+//           const isVisible = i >= index && i < index + 4;
+//           const isArrowCard = i === index + (arrowCard - 1); // 👈 dynamically set card
+
+//           return (
+//             <div
+//               key={project.id}
+//               className={`flex-shrink-0 transition-all duration-700 ease-out ${
+//                 isVisible ? "opacity-100 scale-100" : "opacity-30 scale-90"
+//               }`}
+//               style={{
+//                 transform: isVisible ? "translateY(0)" : "translateY(20px)",
+//               }}
+//             >
+//               <div
+//                 className="relative bg-white/80 backdrop-blur-sm border-4 hover:scale-105 border-white rounded-[31px] w-[290px] h-[410px] flex justify-center items-center text-[#575757] group hover:text-white transition-all duration-500 ease-out cursor-pointer"
+//                 style={{
+//                   boxShadow: "0px 4px 4px 0px #00000040",
+//                 }}
+//                 onClick={() => handleProjectClick(project.slug)}
+//                 onMouseEnter={(e) => {
+//                   e.currentTarget.style.background =
+//                     "linear-gradient(180deg, rgba(92, 124, 255, 0.83) 0%, rgba(201, 212, 255, 0.83) 100%)";
+//                 }}
+//                 onMouseLeave={(e) => {
+//                   e.currentTarget.style.background = "rgba(255, 255, 255, 0.8)";
+//                 }}
+//               >
+//                 <div
+//                   className="rounded-[31px] w-[250px] p-2 flex flex-col justify-center items-center"
+//                   style={{
+//                     boxShadow: "0px 4px 14.9px 0px #A9BBFF",
+//                   }}
+//                 >
+//                   {/* Image */}
+//                   <div
+//                     className="flex justify-center items-center rounded-[31px]"
+//                     style={{
+//                       background:
+//                         "linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(179, 193, 255, 0.83) 100%)",
+//                       boxShadow: "0px -12px 17.6px 0px #B8C6FF29 inset",
+//                     }}
+//                   >
+//                     <div className="w-[214px] h-[166px] flex items-center justify-center text-7xl group-hover:scale-125 transition-transform duration-500 ease-out">
+//                       <Image
+//                         src={project.img}
+//                         alt={project.title}
+//                         width={214}
+//                         height={166}
+//                       />
+//                     </div>
+//                   </div>
+
+//                   {/* Category */}
+//                   <div
+//                     className="border-[1.48px] rounded-[10.9px] w-[118px] h-[17px] text-center font-semibold border-white mt-4"
+//                     style={{
+//                       background:
+//                         "linear-gradient(261.45deg, rgba(255, 255, 255, 0.63) 37.39%, rgba(219, 213, 255, 0.63) 106.65%)",
+//                       boxShadow: "0px 1.48px 2.51px 0px #00000040",
+//                     }}
+//                   >
+//                     <p className="gradient-text-about text-[10px]">
+//                       {project.category}
+//                     </p>
+//                   </div>
+
+//                   {/* Text */}
+//                   <div className="text-center font-semibold p-1 mt-2">
+//                     <p className="text-[20px]">{project.title}</p>
+//                     <p className="text-[12px] leading-tight">{project.desc}</p>
+//                   </div>
+//                 </div>
+
+//                 {/* Navigation Buttons on selected card */}
+//                 {isArrowCard && (
+//                   <>
+//                     <button
+//                       onClick={(e) => {
+//                         e.stopPropagation();
+//                         prevSlide();
+//                       }}
+//                       disabled={index === 0}
+//                       className={`absolute left-[-20px] top-1/2 -translate-y-1/2 w-[50px] h-[50px] rounded-full flex items-center justify-center transition-all duration-300 z-10 ${
+//                         index === 0
+//                           ? "bg-[#829BFF] cursor-not-allowed opacity-40"
+//                           : "bg-[#829BFF] hover:bg-[#6B84FF] hover:scale-110 shadow-lg hover:shadow-xl"
+//                       }`}
+//                       style={{
+//                         border: "2px solid #FFFFFF",
+//                         boxShadow: "0px 4px 13.6px 0px #00000052",
+//                       }}
+//                     >
+//                       <ArrowLeft
+//                         size={24}
+//                         className={index === 0 ? "text-gray-300" : "text-white"}
+//                         strokeWidth={3}
+//                       />
+//                     </button>
+
+//                     <button
+//                       onClick={(e) => {
+//                         e.stopPropagation();
+//                         nextSlide();
+//                       }}
+//                       disabled={index + 4 >= data.length}
+//                       className={`absolute right-[-20px] top-1/2 -translate-y-1/2 w-[50px] h-[50px] rounded-full flex items-center justify-center transition-all duration-300 z-10 ${
+//                         index + 4 >= data.length
+//                           ? "bg-[#829BFF] cursor-not-allowed opacity-40"
+//                           : "bg-[#829BFF] hover:bg-[#6B84FF] hover:scale-110 shadow-lg hover:shadow-xl"
+//                       }`}
+//                       style={{
+//                         border: "2px solid #FFFFFF",
+//                         boxShadow: "0px 4px 13.6px 0px #00000052",
+//                       }}
+//                     >
+//                       <ArrowRight
+//                         size={24}
+//                         className={
+//                           index + 4 >= data.length
+//                             ? "text-gray-300"
+//                             : "text-white"
+//                         }
+//                         strokeWidth={3}
+//                       />
+//                     </button>
+//                   </>
+//                 )}
+//               </div>
+//             </div>
+//           );
+//         })}
+//       </div>
+
+//       {/* Pagination */}
+//       <div className="flex justify-center gap-2 mt-8">
+//         {Array.from({ length: data.length - 3 }).map((_, i) => (
+//           <button
+//             key={i}
+//             onClick={() => setIndex(i)}
+//             className={`transition-all duration-300 rounded-full ${
+//               i === index
+//                 ? "w-8 h-3 bg-[#829BFF]"
+//                 : "w-3 h-3 bg-[#C4D0FF] hover:bg-[#A0B0FF]"
+//             }`}
+//           />
+//         ))}
+//       </div>
+//     </div>
+//   );
+// }
+
+function ProjectCarousel({ data, arrowCard = 3 }) {
   const [index, setIndex] = useState(0);
+  const [cardsPerView, setCardsPerView] = useState(4);
   const router = useRouter();
 
+  // 🧠 Detect screen width and adjust visible cards
+  React.useEffect(() => {
+    const updateCardsPerView = () => {
+      if (window.innerWidth < 640) setCardsPerView(1); // mobile
+      else if (window.innerWidth < 1024) setCardsPerView(2); // tablet
+      else setCardsPerView(4); // desktop
+    };
+
+    updateCardsPerView();
+    window.addEventListener("resize", updateCardsPerView);
+    return () => window.removeEventListener("resize", updateCardsPerView);
+  }, []);
+
   const nextSlide = () => {
-    if (index + 4 < data.length) setIndex(index + 1);
+    if (index + cardsPerView < data.length) {
+      setIndex(index + 1);
+    }
   };
 
   const prevSlide = () => {
-    if (index > 0) setIndex(index - 1);
+    if (index > 0) {
+      setIndex(index - 1);
+    }
   };
 
   const handleProjectClick = (slug) => {
@@ -130,16 +317,16 @@ function ProjectCarousel({ data, arrowCard = 3 }) {
   };
 
   return (
-    <div className="relative w-full">
+    <div className="relative w-full ">
       <div
-        className="flex gap-6 transition-transform duration-700 ease-out"
+        className="flex   gap-10 sm:gap-6 transition-transform duration-700 ease-out"
         style={{
           transform: `translateX(-${index * (290 + 24)}px)`,
         }}
       >
         {data.map((project, i) => {
-          const isVisible = i >= index && i < index + 4;
-          const isArrowCard = i === index + (arrowCard - 1); // 👈 dynamically set card
+          const isVisible = i >= index && i < index + cardsPerView;
+          const isArrowCard = i === index + (arrowCard - 1);
 
           return (
             <div
@@ -232,9 +419,7 @@ function ProjectCarousel({ data, arrowCard = 3 }) {
                     >
                       <ArrowLeft
                         size={24}
-                        className={
-                          index === 0 ? "text-gray-300" : "text-white"
-                        }
+                        className={index === 0 ? "text-gray-300" : "text-white"}
                         strokeWidth={3}
                       />
                     </button>
@@ -244,9 +429,9 @@ function ProjectCarousel({ data, arrowCard = 3 }) {
                         e.stopPropagation();
                         nextSlide();
                       }}
-                      disabled={index + 4 >= data.length}
+                      disabled={index + cardsPerView >= data.length}
                       className={`absolute right-[-20px] top-1/2 -translate-y-1/2 w-[50px] h-[50px] rounded-full flex items-center justify-center transition-all duration-300 z-10 ${
-                        index + 4 >= data.length
+                        index + cardsPerView >= data.length
                           ? "bg-[#829BFF] cursor-not-allowed opacity-40"
                           : "bg-[#829BFF] hover:bg-[#6B84FF] hover:scale-110 shadow-lg hover:shadow-xl"
                       }`}
@@ -258,7 +443,7 @@ function ProjectCarousel({ data, arrowCard = 3 }) {
                       <ArrowRight
                         size={24}
                         className={
-                          index + 4 >= data.length
+                          index + cardsPerView >= data.length
                             ? "text-gray-300"
                             : "text-white"
                         }
@@ -275,7 +460,7 @@ function ProjectCarousel({ data, arrowCard = 3 }) {
 
       {/* Pagination */}
       <div className="flex justify-center gap-2 mt-8">
-        {Array.from({ length: data.length - 3 }).map((_, i) => (
+        {Array.from({ length: data.length - cardsPerView + 1 }).map((_, i) => (
           <button
             key={i}
             onClick={() => setIndex(i)}
@@ -293,38 +478,65 @@ function ProjectCarousel({ data, arrowCard = 3 }) {
 
 export default function Projects() {
   return (
-    <div className="py-16">
-      <div className="pt-28 pb-20 px-4 sm:px-8 lg:px-[8%] overflow-x-hidden">
-        {/* Header */}
-        <div className="text-center mb-12">
-          <div
-            className="border-4 rounded-[21px] w-[244px] mx-auto py-1 font-semibold text-[25px] border-white"
-            style={{
-              background:
-                "linear-gradient(261.45deg, rgba(255, 255, 255, 0.63) 37.39%, rgba(219, 213, 255, 0.63) 106.65%)",
-              boxShadow: "0px 2.96px 5.03px 0px #00000040",
-            }}
-          >
-            <p className="gradient-text-about text-[18.49px]">
-              Detailed View of Services
-            </p>
-          </div>
-          <span className="gradient-text font-bold text-[48.08px]">
-            Projects
-          </span>
-          <p className="gradient-text text-[22.19px] leading-tight">
-            Here&apos;s an exact look at what we worked on
-          </p>
+    <>
+      <div className="relative w-full h-full overflow-hidden">
+        <div className="absolute top-0 left-0 w-full h-full">
+          <AboutSectionBg />
         </div>
+        <div className="py-16 ">
+          <div className="pt-28 pb-20 px-4 sm:px-8 lg:px-[8%] overflow-x-hidden">
+            {/* Header */}
+            <div className="text-center mb-12">
+              <div
+                className="border-4 mb-3 sm:mb-0 rounded-[21px] w-[244px] mx-auto py-1 font-semibold text-[25px] border-white"
+                style={{
+                  background:
+                    "linear-gradient(261.45deg, rgba(255, 255, 255, 0.63) 37.39%, rgba(219, 213, 255, 0.63) 106.65%)",
+                  boxShadow: "0px 2.96px 5.03px 0px #00000040",
+                }}
+              >
+                <p className="gradient-text-about text-[16px] md:text-[18.49px]">
+                  Detailed View of Services
+                </p>
+              </div>
+              <span className="gradient-text font-bold lg:text-[48.08px] text-[24px] md:text-[32px]">
+                Projects
+              </span>
+              <p className="gradient-text pt-3 sm:pt-0 lg:text-[22.19px] text-[16px] md:text-[18px] leading-tight">
+                Here&apos;s an exact look at what we worked on
+              </p>
+            </div>
 
-        {/* First carousel — arrows on 2nd card */}
-        <ProjectCarousel data={projectsData1} arrowCard={2} />
+            <div className="hidden lg:block">
+              {/* First carousel — arrows on 2nd card */}
+              <ProjectCarousel data={projectsData1} arrowCard={2} />
 
-        {/* Second carousel — arrows on 3rd card */}
-        <div className="mt-10">
-          <ProjectCarousel data={projectsData2} arrowCard={3} />
+              {/* Second carousel — arrows on 3rd card */}
+              <div className="mt-10 ">
+                <ProjectCarousel data={projectsData2} arrowCard={3} />
+              </div>
+            </div>
+            <div className="lg:hidden hidden md:block">
+              {/* First carousel — arrows on 2nd card */}
+              <ProjectCarousel data={projectsData1} arrowCard={2} />
+
+              {/* Second carousel — arrows on 3rd card */}
+              <div className="mt-10 ">
+                <ProjectCarousel data={projectsData2} arrowCard={2} />
+              </div>
+            </div>
+            <div className="lg:hidden md:hidden block ml-[4%] ">
+              {/* First carousel — arrows on 2nd card */}
+              <ProjectCarousel data={projectsData1} arrowCard={1} />
+
+              {/* Second carousel — arrows on 3rd card */}
+              <div className="mt-10 ">
+                <ProjectCarousel data={projectsData2} arrowCard={1} />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }

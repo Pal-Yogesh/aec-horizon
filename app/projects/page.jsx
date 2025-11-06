@@ -5,10 +5,10 @@ import React from "react";
 
 const page = () => {
   return (
-    <div className="bg-gradient-to-br from-[#FFFFFF] to-[#C8D0E9] pb-40">
+    <div className="bg-gradient-to-br from-[#FFFFFF] to-[#C8D0E9] lg:pb-40 overflow-hidden">
 
       <div className="relative w-full h-[100%]   ">
-        <AboutSectionBg />
+        {/* <AboutSectionBg /> */}
         <div className="absolute -top-60 -left-[18%]">
           <Image
             src="/blur.svg"
@@ -27,10 +27,11 @@ const page = () => {
             className="w-[900px] h-[100%]"
           />
         </div>
-        <div className="absolute -top-10  w-[100%]">
+        {/* <div className="absolute -top-10  w-[100%]">
           <Projects />
-        </div>
+        </div> */}
       </div>
+      <Projects />
     </div>
   );
 };
