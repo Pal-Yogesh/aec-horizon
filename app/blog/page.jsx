@@ -18,12 +18,12 @@ const page = () => {
               className="w-[150vw] h-[150vh] object-cover"
             />
           </div>
-          <AboutSectionBg />
+          {/* <AboutSectionBg /> */}
 
-          <div className="absolute -top-10  w-[100%] ">
+        </div>
+          <div className="">
             <Blog />
           </div>
-        </div>
       </div>
     </>
   );

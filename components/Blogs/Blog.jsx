@@ -1,82 +1,9 @@
-// "use client";
-// import Image from "next/image";
-// import React from "react";
-
-// const AboutUs = () => {
-//   return (
-//     <div>
-//       <div className="bg-[url('/faq.svg')] bg-cover bg-center h-full w-full">
-//         <div className="pt-40 px-10">
-//           <div
-//             className="border-[4px] rounded-[30px] w-[210px] text-center py-2 font-semibold text-[25px] border-white"
-//             style={{
-//               background:
-//                 "linear-gradient(261.45deg, rgba(255, 255, 255, 0.63) 37.39%, rgba(219, 213, 255, 0.63) 106.65%)",
-//             }}
-//           >
-//             <p className="gradient-text-about">Resources</p>
-//           </div>
-
-//           <span className="gradient-text font-bold text-[65px]">Blogs</span>
-
-//           <div>
-//             <div>
-//               <div
-//                 className="w-[337px] h-full bg-[#FFFFFFA1]   rounded-[44px]"
-//                 style={{
-//                   boxShadow: "0px 9px 10.4px 0px #A09DCA",
-//                 }}
-//               >
-//                 <div className=" ">
-//                   <Image
-//                     src="https://plus.unsplash.com/premium_photo-1757343190565-3b99182167e3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxfHx8ZW58MHx8fHx8"
-//                     width={1000}
-//                     height={1000}
-//                     alt="blog1"
-//                     className="w-full  h-[109px] object-cover rounded-[40px] border-[9px] border-white"
-//                     style={{ boxShadow: "0px 9px 10.4px 0px #A09DCA" }}
-//                   />
-//                 </div>
-
-//                 <div className="p-5 space-y-6 ">
-//                   <p className="text-[20px] text-[#4B336D] font-semibold">
-//                     Reimagining Workflows with BIM
-//                   </p>
-
-//                   <p className="text-[15px] text-[#6D6D6D] font-semibold ">
-//                     Discover how Building Information Modeling (BIM) is
-//                     revolutionizing collaboration, reducing errors, and
-//                     accelerating timelines across multidisciplinary teams.
-//                   </p>
-
-//                   <div className="flex justify-start">
-//                     <div
-//                       className="text-center w-[117px]  text-[#6D6D6D] rounded-[12.5px] cursor-pointer border-[0.5px] border-[#BCBCBC] py-1 hover:bg-[#6D6D6D] hover:text-white transition duration-300"
-//                       style={{
-//                         boxShadow: "0px 1px 4px 0px #00000040",
-//                       }}
-//                     >
-//                       <button className="text-[15px] cursor-pointer ">
-//                         Read More
-//                       </button>
-//                     </div>
-//                   </div>
-//                 </div>
-//               </div>
-//             </div>
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default AboutUs;
 "use client";
 import Image from "next/image";
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
+import SectionBg2 from "../Background/SectionBG2";
 
 const blogData = [
   {
@@ -118,23 +45,16 @@ const blogData = [
 ];
 
 const Blog = () => {
-  // const [visibleBlogs, setVisibleBlogs] = useState(blogData);
-
   return (
-    <div>
+    <div className="relative w-full h-full z-10  lg:pt-10 sm:px-6 lg:px-8">
+      <div className="absolute top-0 left-0 w-full h-full -z-10">
+        <SectionBg2 />
+      </div>
       <div className=" h-full w-full pb-20 flex justify-center items-center">
-        <div className="pt-40 px-[20%] ">
-          {/* Header */}
-          <div
-            className="border-[4px] rounded-[34px] w-[180px] text-center py-1 font-semibold text-[25px] border-white"
-            style={{
-              background:
-                "linear-gradient(261.45deg, rgba(255, 255, 255, 0.63) 37.39%, rgba(219, 213, 255, 0.63) 106.65%)",
-            }}
-          >
-            <p className="gradient-text-about text-[18px]">Resources</p>
-          </div>
-          <span className="gradient-text font-bold text-[65px]">Blogs</span>
+        <div className="pt-32 lg:pt-40 lg:px-[20%] ">
+          <span className="gradient-text font-bold lg:text-[65px] text-[30px] md:text-[32px]">
+            Blogs
+          </span>
 
           {/* Blogs Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
@@ -184,9 +104,7 @@ const Blog = () => {
                             className="text-center w-[90px] h-[19.34px] text-[#6D6D6D] rounded-[9.67px] cursor-pointer border-[0.39px] border-[#BCBCBC]  hover:bg-[#6D6D6D] hover:text-white transition duration-300"
                             style={{ boxShadow: "0px 1px 4px 0px #00000040" }}
                           >
-                            <p className="text-[11px] pt-[0.5px]">
-                              Read More
-                            </p>
+                            <p className="text-[11px] pt-[0.5px]">Read More</p>
                           </motion.div>
                         </Link>
                       </div>
