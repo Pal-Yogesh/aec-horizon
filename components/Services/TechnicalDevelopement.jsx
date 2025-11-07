@@ -16,16 +16,16 @@
 // export default TechnicalDevelopement
 
 import React from 'react'
-import DM from './TBD/TBD'
-import DMProjects from './TBD/TBDProjects'
-import DMServiceLocation from './TBD/TBDServiceLocation'
+import TBD from './TBD/TBD'
+import TBDProjects from './TBD/TBDProjects'
+import TBDServiceLocation from './TBD/TBDServiceLocation'
 
 const DigitalMarketing = () => {
   return (
     <div className="bg-gradient-to-b from-[#D5CBF0] to-[#E3DDFF] w-full pb-32  ">
-      <DM />
-      <DMProjects />
-      <DMServiceLocation />
+      <TBD />
+      <TBDProjects />
+      <TBDServiceLocation />
     </div>
   )
 }
