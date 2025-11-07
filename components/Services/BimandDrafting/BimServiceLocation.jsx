@@ -10,14 +10,14 @@ const BimServiceLocation = () => {
   ];
 
   return (
-    <div className="pt-20 flex flex-col items-center">
+    <div className="pt-20 flex flex-col items-center overflow-hidden">
       {/* Heading */}
-      <h2 className="font-semibold text-[40px] gradient-text text-center w-[400px]">
+      <h2 className="font-semibold text-[26px] md:text-[40px] gradient-text text-center w-[400px]">
         Our Service Locations
       </h2>
 
       <div
-        className="border-[4px] rounded-[30px] w-[404px] text-center py-1 font-semibold text-[30px] mt-4 border-white"
+        className="border-[2px] md:border-[4px] rounded-[22px] md:rounded-[30px] px-8 md:px-0 md:w-[404px] text-center py-1 font-semibold text-[20px] md:text-[30px] mt-4 border-white"
         style={{
           background:
             "linear-gradient(261.45deg, rgba(255, 255, 255, 0.63) 37.39%, rgba(219, 213, 255, 0.63) 106.65%)",
@@ -27,15 +27,21 @@ const BimServiceLocation = () => {
       </div>
 
       {/* Cards Row */}
-      <div className="mt-16 flex flex-wrap justify-center gap-10 px-6">
+      <div
+        className="
+          mt-16 flex gap-6 px-4  
+        
+          w-full
+         
+          overflow-y-auto lg:overflow-visible pb-5 lg:pb-0
+        "
+      >
         {serviceLocations.map((item) => (
-          <div key={item.id} className="flex flex-col items-center space-y-5">
+          <div key={item.id} className="flex flex-col items-center space-y-5 ">
             {/* Card Image */}
             <div
               className="bg-[#FFFFFFA1] border-[1px] backdrop-blur-[30.5px] border-white rounded-[34px] w-[315px] h-[195px] flex justify-center items-center"
-              style={{
-                boxShadow: "0px 6.96px 8.05px 0px #A09DCA",
-              }}
+              style={{ boxShadow: "0px 6.96px 8.05px 0px #A09DCA" }}
             >
               <Image
                 src="/biml1.svg"
@@ -49,9 +55,7 @@ const BimServiceLocation = () => {
             {/* Card Text */}
             <div
               className="bg-[#FFFFFFA1] text-[12px] text-[#4B336D] border-[1px] backdrop-blur-[30.5px] border-white rounded-[34px] px-3 h-[45px] flex flex-col justify-center items-center"
-              style={{
-                boxShadow: "0px 6.96px 8.05px 0px #A09DCA",
-              }}
+              style={{ boxShadow: "0px 6.96px 8.05px 0px #A09DCA" }}
             >
               <p>Operating Services in {item.country}</p>
               <button className="gradient-text text-[12px] underline cursor-pointer">
