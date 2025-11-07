@@ -27,11 +27,11 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased `}
       >
-        {/* <LoaderWrapper> */}
+        <LoaderWrapper>
           <Navbar />
           {children}
           <Footer />
-        {/* </LoaderWrapper> */}
+        </LoaderWrapper>
         <Toaster
         position="top-center"
         reverseOrder={false}
