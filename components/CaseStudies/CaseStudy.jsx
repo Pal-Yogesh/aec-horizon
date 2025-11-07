@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import React from "react";
+import CSSectionBg from "../CSSectionBg";
 
 const results = [
   { label: "90 Days", width: "w-[185px]" },
@@ -10,10 +11,13 @@ const results = [
 ];
 const CaseStudy = () => {
   return (
-    <div>
+    <div className="relative w-full h-full z-10 -mt-32 sm:-mt-5 sm:ml-5 lg:ml-0 lg:-mt-0   px-4 sm:px-6 lg:px-8">
+      <div className="absolute top-0 left-0 w-full h-full -z-10">
+        <CSSectionBg />
+      </div>
       <div className="relative w-full flex items-center">
         {/* Background block image */}
-        <div className="relative w-[831px] h-[420px] left-[48%] 2xl:left-[48.4%] -translate-x-1/2 ">
+        <div className="relative w-[831px] h-[420px] left-[50%] md:left-[48%] 2xl:left-[48.4%] -translate-x-1/2 ">
           <Image
             src="/caseblock.svg"
             alt="case-study-bg"
@@ -22,15 +26,15 @@ const CaseStudy = () => {
           />
 
           {/* Centered text content */}
-          <div className="absolute top-[60%] left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col items-center gap-6 z-20">
+          <div className="absolute top-[67.5%] md:top-[60%] left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col items-center gap-6 z-20">
             {/* Title box */}
             <div
-              className="bg-[#CCD7FF] w-[360px] rounded-[20px] p-4 text-center"
+              className="bg-[#CCD7FF] md:w-[360px]  rounded-[20px] p-4 text-center"
               style={{
                 boxShadow: "0px 4px 10.5px 0px #00000040",
               }}
             >
-              <div className="text-[40px] gradient-text-about font-semibold leading-tight">
+              <div className="text-[15px] md:text-[40px] gradient-text-about font-semibold leading-tight">
                 <span className="block">AEC Horizon</span>
                 <span className="block">Case Study</span>
               </div>
@@ -49,18 +53,6 @@ const CaseStudy = () => {
               </p>
             </div>
           </div>
-        </div>
-
-        <div
-          className="absolute -bottom-[20vh]  left-[48%] 2xl:left-[48.4%] -translate-x-1/2 border-[2px] rounded-[19px] bg-[#E1E7FF] w-[600px] flex justify-center items-center h-[70px] font-semibold text-[16px] border-white text-center"
-          style={{
-            boxShadow: "0px 4px 10.5px 0px #00000040",
-          }}
-        >
-          <p className="gradient-text-about leading-relaxed">
-            Streamlining AEC Operations with Unified Expertise with AEC
-            Horizon&apos;s Technical Expertise
-          </p>
         </div>
       </div>
     </div>

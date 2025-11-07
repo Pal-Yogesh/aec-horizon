@@ -2,7 +2,6 @@
 import React from "react";
 
 const OtherCaseStudy = () => {
-  // Dummy array for 8 cards
   const caseStudies = [
     {
       id: 1,
@@ -47,65 +46,79 @@ const OtherCaseStudy = () => {
   ];
 
   return (
-    <>
-      <div className="pb-10 ">
-        {/* Header */}
-        <div className="flex justify-center items-center mb-8">
-          <div
-            className="bg-[#DEE4FF] w-[370px] flex justify-center items-center rounded-[7px] py-1.5"
-            style={{
-              boxShadow: "0px 4px 7.8px 0px #92B3FF",
-            }}
-          >
-            <p className="gradient-text text-[29px] font-bold">
-              View Other Case Studies
-            </p>
-          </div>
-        </div>
-
-        {/* Cards Row */}
-        <div className="flex justify-center items-start gap-8 overflow-hidden p-4">
-          {caseStudies.map((item) => (
-            <div
-              key={item.id}
-              className="w-[260px] flex-shrink-0 cursor-pointer transition-transform duration-300 hover:scale-105"
-            >
-              {/* Outer Box */}
-              <div
-                className="w-[255px] h-[264px] bg-[#E3E9FF] rounded-[21px] flex justify-center items-center"
-                style={{
-                  boxShadow: "0px 4px 20.4px 0px #1242FF40",
-                }}
-              >
-                <div
-                  className="w-[212px] h-[233px] bg-[#F1F4FF] rounded-[21px]"
-                  style={{
-                    boxShadow: "0px 4px 20.4px 0px #1242FF40",
-                  }}
-                ></div>
-              </div>
-
-              {/* Title */}
-              <div
-                className="bg-[#F1F4FF] rounded-[12px] w-[197px] h-[24px] mt-3 mx-auto"
-                style={{
-                  boxShadow: "0px 4px 4px 0px #9FB3FF",
-                }}
-              >
-                <div className="text-[18px] font-semibold gradient-text-about text-center">
-                  {item.title}
-                </div>
-              </div>
-
-              {/* Description */}
-              <div className="mt-2 text-center">
-                <p className="text-[#4B336D] text-[16px]">{item.desc}</p>
-              </div>
-            </div>
-          ))}
+    <div className="pb-10 pt-10">
+      {/* Header */}
+      <div className="flex justify-center items-center mb-8">
+        <div
+          className="bg-[#DEE4FF] w-[250px] sm:w-[300px] md:w-[370px] flex justify-center items-center rounded-[7px] py-1.5"
+          style={{
+            boxShadow: "0px 4px 7.8px 0px #92B3FF",
+          }}
+        >
+          <p className="gradient-text text-[18px] sm:text-[22px] md:text-[29px] font-bold text-center">
+            View Other Case Studies
+          </p>
         </div>
       </div>
-    </>
+
+      {/* Cards Container */}
+      <div
+        className="
+          flex 
+          gap-6 
+          sm:gap-8 
+          px-4 
+          sm:px-6 
+          md:px-10 
+          overflow-x-auto 
+          scrollbar-thin 
+          scrollbar-thumb-[#9CB0FF] 
+          scrollbar-track-[#E1E7FF] 
+          scrollbar-thumb-rounded-full 
+          scrollbar-track-rounded-full 
+          scroll-smooth
+        "
+      >
+        {caseStudies.map((item) => (
+          <div
+            key={item.id}
+            className="flex-shrink-0 w-[210px] sm:w-[240px] md:w-[260px] cursor-pointer transition-transform duration-300 hover:scale-105"
+          >
+            {/* Outer Card */}
+            <div
+              className="bg-[#E3E9FF] rounded-[18px] flex justify-center items-center p-2 md:p-3"
+              style={{
+                boxShadow: "0px 4px 20.4px 0px #1242FF40",
+              }}
+            >
+              <div
+                className="bg-[#F1F4FF] rounded-[18px] w-full h-[200px] sm:h-[220px] md:h-[233px]"
+                style={{
+                  boxShadow: "0px 4px 20.4px 0px #1242FF40 inset",
+                }}
+              ></div>
+            </div>
+
+            {/* Title */}
+            <div
+              className="bg-[#F1F4FF] rounded-[10px] w-[80%] mx-auto mt-3 py-1 text-center"
+              style={{
+                boxShadow: "0px 4px 4px 0px #9FB3FF",
+              }}
+            >
+              <div className="text-[14px] sm:text-[16px] md:text-[18px] font-semibold gradient-text-about leading-snug">
+                {item.title}
+              </div>
+            </div>
+
+            {/* Description */}
+            <p className="text-[#4B336D] text-[13px] sm:text-[15px] md:text-[16px] text-center mt-2">
+              {item.desc}
+            </p>
+          </div>
+        ))}
+      </div>
+    </div>
   );
 };
 
