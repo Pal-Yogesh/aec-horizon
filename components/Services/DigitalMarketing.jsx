@@ -1,16 +1,16 @@
 import React from 'react'
-import TD from './DigitalM/DM'
-import TDProjects from './DigitalM/DMProjects'
-import TDServiceLocation from './DigitalM/DMServiceLocation'
+import DM from './DigitalM/DM'
+import DMProjects from './DigitalM/DMProjects'
+import DMServiceLocation from './DigitalM/DMServiceLocation'
 
-const TechnicalDevelopement = () => {
+const DigitalMarketing = () => {
   return (
     <div className="bg-gradient-to-b from-[#FFF5EC] to-[#FDEAB2] w-full pb-32  ">
-      <TD />
-      <TDProjects />
-      <TDServiceLocation />
+      <DM />
+      <DMProjects />
+      <DMServiceLocation />
     </div>
   )
 }
 
-export default TechnicalDevelopement
+export default DigitalMarketing

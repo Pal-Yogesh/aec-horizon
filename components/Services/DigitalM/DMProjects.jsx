@@ -43,39 +43,42 @@ const blogData = [
   },
 ];
 
-const DMProjects
- = () => {
+const DMProjects = () => {
   return (
     <div className="z-20 relative">
-      <div className="relative">
-        <div className="absolute top-80 -z-10 ">
-          <Image
-            src="/yellowline.svg"
-            alt="line"
-            width={1000}
-            height={1000}
-            className="w-[100vw] object-cover h-full  "
-          />
-        </div>
+      {/* Background Line */}
+      <div className="absolute top-40 md:top-80 -z-10">
+        <Image
+          src="/yellowline.svg"
+          alt="line"
+          width={1000}
+          height={1000}
+          className="w-[100vw] object-cover h-full"
+        />
       </div>
-      <div className=" h-full w-full pb-20 flex justify-center items-center">
-        <div className="pt-20 px-[20%] ">
+      <div className="h-full w-full pb-20 flex justify-center items-center">
+        <div className="lg:pt-20 w-full md:flex md:flex-col md:items-center md:justify-center">
           {/* Header */}
           <div className="flex justify-center items-center">
             <div
-              className=" rounded-[43px] w-[700px] h-[70px] bg-[#F6D7A9] border-[1px]  text-center py-1 font-semibold text-[25px] border-white"
+              className="rounded-[32px] md:rounded-[43px] w-[320px] md:w-[700px] h-[43px] md:h-[70px] bg-[#F6D7A9] border-[1px] text-center py-1 font-semibold border-white"
               style={{
                 boxShadow: "0px 4px 15.5px 0px #00000040",
               }}
             >
-              <p className=" text-[35px] font-semibold text-[#B57930] text-center">
+              <p className="text-[20px] md:text-[35px] font-semibold text-[#B57930] text-center">
                 Projects with this BIM Service
               </p>
             </div>
           </div>
 
           {/* Blogs Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
+          <div
+            className="
+              flex overflow-x-auto sm:grid sm:grid-cols-2 lg:grid-cols-3 px-5
+              gap-6 mt-10 scrollbar-thin scrollbar-thumb-[#F6D7A9] scrollbar-track-[#FFF8ED] pb-4
+            "
+          >
             <AnimatePresence>
               {blogData.map((blog) => (
                 <motion.div
@@ -85,6 +88,7 @@ const DMProjects
                   exit={{ opacity: 0, y: -50, scale: 0.95 }}
                   transition={{ duration: 0.6, ease: "easeOut" }}
                   whileHover={{ scale: 1.03, y: -5 }}
+                  className="flex-shrink-0 sm:flex-shrink md:flex-shrink-0"
                 >
                   <div
                     className="w-[270px] h-full bg-[#ffffffd7] border-[1px] border-white rounded-[34px] flex flex-col justify-between"
@@ -133,20 +137,20 @@ const DMProjects
       </div>
 
       <div className="relative">
-        <div className="absolute -top-64 -z-10 ">
+        <div className="absolute -top-48 md:-top-64 -z-10">
           <Image
             src="/yellowline.svg"
             alt="line"
             width={1000}
             height={1000}
-            className="w-[100vw] object-cover h-full  "
+            className="w-[100vw] object-cover h-full"
           />
         </div>
       </div>
 
-      <div className="flex justify-center items-center  relative z-10">
+      <div className="flex justify-center items-center relative z-10">
         <button
-          className="text-white text-[21px] rounded-[34px] shadow-xl cursor-pointer w-[272px] h-[50px] sheen-effect"
+          className="text-white text-[16px] md:text-[21px] px-10 py-2 md:py-0 md:px-0 rounded-[34px] shadow-xl cursor-pointer md:w-[272px] md:h-[50px] sheen-effect"
           style={{
             background:
               "linear-gradient(-106.4deg, #47099F 0.28%, #F8AD1D 158.99%)",
@@ -160,5 +164,4 @@ const DMProjects
   );
 };
 
-export default DMProjects
-;
+export default DMProjects;
