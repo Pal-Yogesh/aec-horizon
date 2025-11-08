@@ -33,7 +33,7 @@ const TBD = () => {
             }}
           >
             <div className="sm:px-8 lg:px-24 text-center sm:text-left md:block hidden">
-              <p>LiDar</p>
+              <p className="gradient-text">LiDar</p>
               <p className="-mt-4 sm:-mt-7 lg:-mt-10 gradient-text">Mapping</p>
             </div>
             <div className="">

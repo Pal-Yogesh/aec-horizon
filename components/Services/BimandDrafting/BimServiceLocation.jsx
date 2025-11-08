@@ -10,7 +10,7 @@ const BimServiceLocation = () => {
   ];
 
   return (
-    <div className="pt-20 flex flex-col items-center overflow-hidden">
+    <div className="pt-20 flex flex-col items-center">
       {/* Heading */}
       <h2 className="font-semibold text-[26px] md:text-[40px] gradient-text text-center w-[400px]">
         Our Service Locations
@@ -26,44 +26,51 @@ const BimServiceLocation = () => {
         <p className="text-[#4B336D]">Places where we operate</p>
       </div>
 
-      {/* Cards Row */}
+      {/* Scrollable Row */}
       <div
         className="
-          mt-16 flex gap-6 px-4  
-        
-          w-full
-         
-          overflow-y-auto lg:overflow-visible pb-5 lg:pb-0
+          mt-16 w-full 
+          flex justify-center
         "
       >
-        {serviceLocations.map((item) => (
-          <div key={item.id} className="flex flex-col items-center space-y-5 ">
-            {/* Card Image */}
+        <div
+          className="
+            flex gap-6 px-6
+            overflow-x-auto 
+  pb-5 snap-x snap-mandatory          "
+        >
+          {serviceLocations.map((item) => (
             <div
-              className="bg-[#FFFFFFA1] border-[1px] backdrop-blur-[30.5px] border-white rounded-[34px] w-[315px] h-[195px] flex justify-center items-center"
-              style={{ boxShadow: "0px 6.96px 8.05px 0px #A09DCA" }}
+              key={item.id}
+              className="flex flex-col items-center space-y-5 flex-shrink-0 snap-center"
             >
-              <Image
-                src="/biml1.svg"
-                alt="location"
-                width={300}
-                height={200}
-                className="w-[300px] h-[200px] pt-2"
-              />
-            </div>
+              {/* Card Image */}
+              <div
+                className="bg-[#FFFFFFA1] border-[1px] backdrop-blur-[30.5px] border-white rounded-[34px] w-[315px] h-[195px] flex justify-center items-center"
+                style={{ boxShadow: "0px 6.96px 8.05px 0px #A09DCA" }}
+              >
+                <Image
+                  src="/biml1.svg"
+                  alt="location"
+                  width={300}
+                  height={200}
+                  className="w-[300px] h-[200px] pt-2"
+                />
+              </div>
 
-            {/* Card Text */}
-            <div
-              className="bg-[#FFFFFFA1] text-[12px] text-[#4B336D] border-[1px] backdrop-blur-[30.5px] border-white rounded-[34px] px-3 h-[45px] flex flex-col justify-center items-center"
-              style={{ boxShadow: "0px 6.96px 8.05px 0px #A09DCA" }}
-            >
-              <p>Operating Services in {item.country}</p>
-              <button className="gradient-text text-[12px] underline cursor-pointer">
-                Read More
-              </button>
+              {/* Card Text */}
+              <div
+                className="bg-[#FFFFFFA1] text-[12px] text-[#4B336D] border-[1px] backdrop-blur-[30.5px] border-white rounded-[34px] px-3 h-[45px] flex flex-col justify-center items-center"
+                style={{ boxShadow: "0px 6.96px 8.05px 0px #A09DCA" }}
+              >
+                <p>Operating Services in {item.country}</p>
+                <button className="gradient-text text-[12px] underline cursor-pointer">
+                  Read More
+                </button>
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </div>
   );

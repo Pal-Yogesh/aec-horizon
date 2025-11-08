@@ -66,7 +66,8 @@ const OtherCaseStudy = () => {
         className="
           flex 
           gap-6 
-          sm:gap-8 
+          pb-1 md:pb-5
+          sm:gap-3
           px-4 
           sm:px-6 
           md:px-10 
@@ -82,7 +83,8 @@ const OtherCaseStudy = () => {
         {caseStudies.map((item) => (
           <div
             key={item.id}
-            className="flex-shrink-0 w-[210px] sm:w-[240px] md:w-[260px] cursor-pointer transition-transform duration-300 hover:scale-105"
+            className="flex-shrink-0 w-[210px] sm:w-[240px] md:w-[260px] cursor-pointer lg:
+            m-3 transition-transform duration-300 hover:scale-105"
           >
             {/* Outer Card */}
             <div

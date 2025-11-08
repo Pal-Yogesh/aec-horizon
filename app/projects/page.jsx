@@ -5,7 +5,7 @@ import React from "react";
 
 const page = () => {
   return (
-    <div className="bg-gradient-to-br from-[#FFFFFF] to-[#C8D0E9] lg:pb-40 overflow-hidden">
+    <div className="bg-gradient-to-br from-[#FFFFFF] to-[#C8D0E9] lg:pt-14 overflow-hidden">
 
       <div className="relative w-full h-[100%]   ">
         {/* <AboutSectionBg /> */}
