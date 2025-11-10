@@ -6,16 +6,16 @@ import DMServiceLocation from "../../DigitalM/DMServiceLocation";
 const DMTemplate = ({ data }) => {
   return (
     <div
-      className=" text-[#905D20]   w-full pb-32"
+      className="text-[#905D20] w-full pb-20 sm:pb-32 lg:pb-32 px-4 sm:px-6 lg:px-0"
       style={{
         background:
           "linear-gradient(179.59deg, #FFF5EC 10.54%, #FDEAB2 68.04%)",
       }}
     >
-      <div className="w-full pb-40  text-[20px] font-semibold">
-        <div className="flex items-center justify-center pt-40 pb-12">
+      <div className="w-full pb-20 sm:pb-32 lg:pb-40 text-[16px] sm:text-[18px] lg:text-[20px] font-semibold">
+        <div className="flex items-center justify-center pt-24 sm:pt-32 lg:pt-40 pb-8 sm:pb-10 lg:pb-12">
           <p
-            className="bg-gradient-to-r from-[#FFC375] to-[#FFF2C6] text-[#905D20] text-[10px]  py-2 px-4 border-[1px] border-white rounded-[24.18px]"
+            className="bg-gradient-to-r from-[#FFC375] to-[#FFF2C6] text-[#905D20] text-[9px] sm:text-[10px] py-1.5 sm:py-2 px-3 sm:px-4 border-[1px] border-white rounded-[20px] sm:rounded-[24.18px]"
             style={{
               boxShadow: "0px 1.93px 7.09px 0px #00000040",
             }}
@@ -24,29 +24,36 @@ const DMTemplate = ({ data }) => {
           </p>
         </div>
 
-        <div className="mx-[7%]">
+        {/* Mobile Title - Shows before image on mobile */}
+        <div className="sm:px-8 lg:px-24 text-center text-[40px] sm:text-left md:hidden block">
+          <p className="gradient-text">{data.title}</p>
+        </div>
+
+        <div className="mx-0 sm:mx-[3%] lg:mx-[7%]">
           <div
-            className="flex items-center justify-center p-3 bg-[#FDF9EE] border-[1px] border-[#FFFFFF] rounded-[43px]"
+            className="flex items-center justify-center p-2 sm:p-3 bg-[#FDF9EE] border-[1px] border-[#FFFFFF] rounded-[30px] sm:rounded-[40px] lg:rounded-[43px]"
             style={{
               boxShadow: "0px 4px 12.3px 0px #00000040",
             }}
           >
             <div
-              className=" bg-[#FED59F]  text-[58px] font-semibold  h-[350px] mx-8 flex items-center justify-center  border-[1px] border-[#FFFFFF] rounded-[43px] my-8"
+              className="gradient-text sm:text-[60px] lg:text-[58px] font-semibold h-[200px] sm:h-[280px] lg:h-[350px] flex flex-col sm:flex-row items-center justify-center border-[1px] border-[#FFFFFF] rounded-[30px] sm:rounded-[40px] lg:rounded-[43px] my-4 sm:my-6 lg:my-8 px-4 sm:px-6"
               style={{
                 boxShadow: "0px 4px 15.5px 0px #00000040",
+                background: "#FED59F",
               }}
             >
-              <div className="px-10 w-[60%] gradient-text">
-                <p>{data.title}</p>
+              {/* Desktop Title - Shows on desktop */}
+              <div className="sm:px-8 lg:px-10 text-center sm:text-left md:block hidden w-full sm:w-[60%]">
+                <p className="gradient-text">{data.title}</p>
               </div>
-              <div className="w-[50%]">
+              <div className="w-full sm:w-[50%]">
                 <Image
                   src={data.imagePath}
                   alt={data.title}
                   width={1000}
                   height={1000}
-                  className="w-[500px] h-[311px] object-cover"
+                  className="w-[250px] h-[155px] sm:w-[350px] sm:h-[218px] lg:w-[500px] lg:h-[311px] object-cover"
                 />
               </div>
             </div>
@@ -54,7 +61,7 @@ const DMTemplate = ({ data }) => {
 
           {/* Features Section */}
           {data.features && data.features.length > 0 && (
-            <div className="flex items-center justify-center gap-10 -mt-[9%]">
+            <div className="flex items-center justify-center gap-3 sm:gap-6 lg:gap-10 -mt-[9%] sm:-mt-[9%] lg:-mt-[9%]">
               {data.features.map((feature, index) => (
                 <div key={index}>
                   <Image
@@ -62,7 +69,7 @@ const DMTemplate = ({ data }) => {
                     alt={feature.title}
                     width={1000}
                     height={1000}
-                    className="w-[152px] h-[197px]"
+                    className="w-[80px] h-[104px] sm:w-[120px] sm:h-[155px] lg:w-[152px] lg:h-[197px]"
                   />
                 </div>
               ))}
@@ -70,30 +77,32 @@ const DMTemplate = ({ data }) => {
           )}
 
           <div>
-            <div className="my-14 pb-40 mx-[13%] ">
-              <div className="space-y-9 ">
-                <h2 className="text-[35px] w-[100%] text-center gradient-text-about">
+            <div className="my-8 sm:my-12 lg:my-14  sm:pb-18 lg:pb-40 mx-[5%] sm:mx-[10%] lg:mx-[13%]">
+              <div className="space-y-5 sm:space-y-7 lg:space-y-9">
+                <h2 className="text-[22px] sm:text-[28px] lg:text-[35px] w-[100%] text-center gradient-text-about leading-tight">
                   {data.heading}
                 </h2>
 
-                <p className="font-normal">{data.desc1}</p>
+                <p className="font-normal text-[14px] sm:text-[16px] lg:text-[18px]">{data.desc1}</p>
 
-                <p className="font-normal">{data.desc2}</p>
-                <p className="font-normal">{data.desc3}</p>
+                <p className="font-normal text-[14px] sm:text-[16px] lg:text-[18px]">{data.desc2}</p>
+                <p className="font-normal text-[14px] sm:text-[16px] lg:text-[18px]">{data.desc3}</p>
               </div>
-              <div className="text-[20px] py-12">
-                <h2 className="font-semibold  text-[#6C3612]">What we offer:</h2>
+              <div className="text-[16px] sm:text-[18px] lg:text-[20px] py-8 sm:py-10 lg:py-12">
+                <h2 className="font-semibold text-[#6C3612]">
+                  What we offer:
+                </h2>
 
                 <div>
                   <div>
                     <ul className="pt-5 space-y-2">
                       {data.whatWeOffer.map((p) => (
                         <li key={p.id} className="flex items-start gap-3">
-                          {/* <span className="mt-[14px] w-[4px] h-[4px] bg-[#FFC074] inline-block"></span> */}
-
-                          <p className=" leading-relaxed">
-                            <span className="font-semibold text-[#6C3612] ">{p.title}</span>{" "}
-                            <span className="font-normal ">{p.desc}</span>
+                          <p className="leading-relaxed text-[14px] sm:text-[16px] lg:text-[18px]">
+                            <span className="font-semibold text-[#6C3612]">
+                              {p.title}
+                            </span>{" "}
+                            <span className="font-normal">{p.desc}</span>
                           </p>
                         </li>
                       ))}
@@ -103,21 +112,42 @@ const DMTemplate = ({ data }) => {
               </div>
             </div>
 
-            <div className="relative w-full flex justify-center items-center z-20">
+            {/* Mobile/Tablet: Simple Card Layout */}
+            <div className="lg:hidden mx-[5%] sm:mx-[10%]">
               <div
-                className=" absolute -left-[18%]  w-[90%] pr-24 h-[450px] border backdrop-blur-2xl border-white rounded-[43px] "
+                className="bg-gradient-to-r from-[#DADFF100] to-[#FFEDD2] border border-white rounded-[25px] sm:rounded-[35px] p-6 sm:p-8"
+                style={{
+                  boxShadow: "0px 4px 15.5px 0px #00000040",
+                }}
+              >
+                <ul className="list-disc list-inside text-[#6C3612] text-[14px] sm:text-[16px] space-y-2">
+                  <p className="mb-3 font-semibold text-[16px] sm:text-[18px]">
+                    Our Expertise Covers:
+                  </p>
+                  {data.ourExpertiseCover.map((p) => (
+                    <li key={p.id} className="font-normal">
+                      {p.desc}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+
+            {/* Desktop: Complex Overlapping Layout */}
+            <div className="hidden lg:flex relative w-full justify-center items-center z-20">
+              <div
+                className="absolute -left-[18%] w-[90%] pr-24 h-[450px] border backdrop-blur-2xl border-white rounded-[43px]"
                 style={{
                   boxShadow: "0px 4px 15.5px 0px #00000040",
                   background:
                     "linear-gradient(90deg, rgba(218, 223, 241, 0) 0%, #FFEDD2 81.25%)",
                 }}
               >
-                <div className="ml-[39%] pt-5 ">
-                  {" "}
-                  <ul className="list-disc list-inside  ">
-                    <p className=" mb-3">Our Expertise Covers:</p>
+                <div className="ml-[39%] pt-5">
+                  <ul className="list-disc list-inside text-[18px]">
+                    <p className="mb-3">Our Expertise Covers:</p>
                     {data.ourExpertiseCover.map((p) => (
-                      <li key={p.id} className="font-normal ">
+                      <li key={p.id} className="font-normal">
                         {p.desc}
                       </li>
                     ))}
@@ -125,32 +155,32 @@ const DMTemplate = ({ data }) => {
                 </div>
               </div>
 
-              <div className="absolute  -z-10 left-[45%]">
+              <div className="absolute -z-10 left-[45%]">
                 <Image
                   src="/newtd.svg"
                   alt="dm"
                   width={1000}
                   height={1000}
-                  className=" w-[700px] h-[478px] mt-2  "
+                  className="w-[700px] h-[478px] mt-2"
                 />
               </div>
             </div>
           </div>
           <div>
-            <div className="pt-52  pb-40 mx-[13%] ">
-              <div className="text-[20px] py-12">
-                <h2 className="font-semibold ">Why choose AEC Horizon?</h2>
+            <div className="pt-10 sm:pt-32 lg:pt-52 pb-10 sm:pb-32 lg:pb-40 mx-[5%] sm:mx-[10%] lg:mx-[13%]">
+              <div className="text-[16px] sm:text-[18px] lg:text-[20px] py-8 sm:py-10 lg:py-12">
+                <h2 className="font-semibold">Why choose AEC Horizon?</h2>
 
                 <div>
                   <div>
                     <ul className="pt-5 space-y-2">
                       {data.whyChooseAec.map((p) => (
                         <li key={p.id} className="flex items-start gap-3">
-                          {/* <span className="mt-[14px] w-[4px] h-[4px] bg-[#FFC074] inline-block"></span> */}
-
-                          <p className=" leading-relaxed">
-                            <span className="font-semibold  text-[#6C3612]">{p.title}</span>{" "}
-                            <span className="font-normal ">{p.desc}</span>
+                          <p className="leading-relaxed text-[14px] sm:text-[16px] lg:text-[18px]">
+                            <span className="font-semibold text-[#6C3612]">
+                              {p.title}
+                            </span>{" "}
+                            <span className="font-normal">{p.desc}</span>
                           </p>
                         </li>
                       ))}
@@ -158,23 +188,41 @@ const DMTemplate = ({ data }) => {
                   </div>
                 </div>
               </div>
-              <h2 className="text-[35px] w-[100%] px-[12%] text-center gradient-text-about mb-8">
+              <h2 className="text-[22px] sm:text-[28px] lg:text-[35px] w-[100%] px-0 sm:px-[8%] lg:px-[12%] text-center gradient-text-about  sm:mb-8">
                 Key Benefits Offered
               </h2>
             </div>
 
-            <div className="relative w-full flex justify-center items-center z-20">
+            {/* Mobile/Tablet: Simple Card Layout */}
+            <div className="lg:hidden mx-[5%] sm:mx-[10%]">
               <div
-                className=" absolute -left-[25%]   w-[98%]  h-[320px] border  backdrop-blur-2xl border-white rounded-[43px] "
+                className="bg-gradient-to-r from-[#DADFF100] to-[#FFEDD2] border border-white rounded-[25px] sm:rounded-[35px] p-6 sm:p-8"
+                style={{
+                  boxShadow: "0px 4px 15.5px 0px #00000040",
+                }}
+              >
+                <ul className="list-disc list-inside text-[#6C3612] text-[14px] sm:text-[16px] space-y-2">
+                  {data.ourExpertiseCover2.map((p) => (
+                    <li key={p.id} className="font-normal">
+                      {p.desc}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+
+            {/* Desktop: Complex Overlapping Layout */}
+            <div className="hidden lg:flex relative w-full justify-center items-center z-20">
+              <div
+                className="absolute -left-[25%] w-[98%] h-[320px] border backdrop-blur-2xl border-white rounded-[43px]"
                 style={{
                   boxShadow: "0px 4px 15.5px 0px #00000040",
                   background:
                     "linear-gradient(90deg, rgba(218, 223, 241, 0) 0%, #FFEDD2 81.25%)",
                 }}
               >
-                <div className=" absolute left-[39%] py-5 pr-20">
-                  <ul className="list-disc list-inside  ">
-                    <p className=" mb-3">Our Expertise Covers:</p>
+                <div className="absolute left-[39%] py-5 pr-20">
+                  <ul className="list-disc list-inside text-[18px]">
                     {data.ourExpertiseCover2.map((p) => (
                       <li key={p.id} className="font-normal">
                         {p.desc}
@@ -184,13 +232,13 @@ const DMTemplate = ({ data }) => {
                 </div>
               </div>
 
-              <div className="absolute  -z-10 left-[60%]">
+              <div className="absolute -z-10 left-[60%]">
                 <Image
                   src="/newtd.svg"
                   alt="dm"
                   width={1000}
                   height={1000}
-                  className="w-[800px] mt-2  h-[337px]"
+                  className="w-[800px] mt-2 h-[337px]"
                 />
               </div>
             </div>
