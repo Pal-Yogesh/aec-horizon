@@ -96,7 +96,7 @@ const BimProjects = () => {
                   className="flex-shrink-0 sm:flex-shrink md:flex-shrink-0"
                 >
                   <div
-                    className="w-[270px] h-full bg-[#ffffffd7]  border-[1px] border-white rounded-[34px] flex flex-col justify-between"
+                    className="w-[270px] h-full bg-[#ffffff]  border-[1px] border-white rounded-[34px] flex flex-col justify-between"
                     style={{
                       boxShadow: "0px 9px 10.4px 0px #A09DCA",
                     }}
