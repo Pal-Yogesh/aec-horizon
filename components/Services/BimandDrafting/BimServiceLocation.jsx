@@ -10,7 +10,7 @@ const BimServiceLocation = () => {
   ];
 
   return (
-    <div className="pt-20 flex flex-col items-center">
+    <div className="pt-20 flex flex-col items-center overflow-hidden">
       {/* Heading */}
       <h2 className="font-semibold text-[26px] md:text-[40px] gradient-text text-center w-[400px]">
         Our Service Locations
