@@ -54,7 +54,7 @@ const WhyChoose = () => {
         </div>
       </div>
 
-      <div className="px-4 sm:px-8 md:px-12 lg:px-[15%] xl:px-[20%] pt-12 sm:pt-16 lg:pt-20 pb-6 sm:pb-8 lg:pb-10">
+      <div className="px-4 sm:px-8 md:px-12 lg:px-[15%] xl:px-[20%]  sm:pt-16 lg:pt-20 pb-6 sm:pb-8 lg:pb-10">
         <div>
           <h1 className="text-[#4B336D] text-[24px] sm:text-[26px] lg:text-[29px] text-center lg:text-left">
             Why Choose{" "}

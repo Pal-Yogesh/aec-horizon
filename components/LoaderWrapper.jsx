@@ -15,8 +15,8 @@ const LoaderWrapper = ({ children }) => {
       { opacity: 1 },
       {
         opacity: 0,
-        duration: 1.5,
-        delay: 4.5,
+        duration: 1,
+        delay: 1,
         onComplete: () => {
           setIsLoading(false);
           setShowContent(true);

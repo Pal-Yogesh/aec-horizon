@@ -13,7 +13,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className="bg-[#D9DDEE]">
-      <div className="relative w-full h-[80vh] lg:h-[108vh] overflow-hidden  ">
+      <div className="relative w-full h-[60vh] md:h-[80vh] lg:h-[108vh] overflow-hidden  ">
         <div className="relative ">
           <div className="absolute -top-60 -right-60">
             <Image
@@ -39,7 +39,7 @@ export default function Home() {
         <div className="absolute top-36  w-[100%]  hidden lg:block">
           <HeroContent />
         </div>
-        <div className="absolute top-28  w-[100%] block lg:hidden">
+        <div className="absolute top-24  w-[100%] block lg:hidden">
           <HeroContentMobile />
         </div>
       </div>
