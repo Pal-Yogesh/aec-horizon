@@ -32,7 +32,7 @@ const LoaderWrapper = ({ children }) => {
       {isLoading && (
         <>
           <div
-            className="loading-page"
+            className="loading-page bg-[#AEBDFF]"
             style={{
               display: "flex",
               justifyContent: "center",
