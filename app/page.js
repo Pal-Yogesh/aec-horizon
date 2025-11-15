@@ -22,6 +22,8 @@ export default function Home() {
               height={1000}
               alt="blur"
               className="w-[900px] h-[100%]"
+              priority={false}
+              loading="lazy"
             />
           </div>
         </div>
@@ -30,8 +32,10 @@ export default function Home() {
             src="/infiniteline.svg"
             width={1000}
             height={1000}
-            alt="blur"
+            alt="hero infinite line"
             className="w-full h-[40vh] lg:h-[120vh] object-cover"
+            priority
+            fetchPriority="high"
           />
         </div>
         <HeroSectionBg />
