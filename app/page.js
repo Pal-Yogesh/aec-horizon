@@ -48,7 +48,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="bg-[url('/vectors.svg')] bg-cover bg-center w-full h-full py-10 ">
+      <div className="lg:bg-[url('/vectors.svg')] lg:bg-cover lg:bg-center w-full h-full py-10 ">
         <WhyChoose />
         <Services />
       </div>

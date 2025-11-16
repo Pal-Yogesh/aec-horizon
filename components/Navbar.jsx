@@ -913,8 +913,9 @@ const Navbar = () => {
                                           onClick={() =>
                                             handleServiceClick(subServiceUrl)
                                           }
-                                          className="block bg-[#DCE3FE] backdrop-blur-sm px-3 py-2 rounded-[9px] border border-white/60 text-[11px] font-semibold transition-all duration-300 hover:scale-[1.02]"
+                                          className="block  backdrop-blur-sm px-3 py-2 rounded-[9px] border border-white/60 text-[11px] font-semibold transition-all duration-300 hover:scale-[1.02]"
                                           style={{
+                                            backgroundColor: service.bgColor,    
                                             color: service.arrowColor,
                                             marginBottom: "0.1rem",
                                             marginBottom: "0.1rem",
