@@ -58,7 +58,7 @@ const Contact = () => {
         <div>
           <div>
             {/* Contact Us Badge */}
-            <div className="flex justify-center items-center gap-3 pt-10 sm:pt-12 lg:pt-14 pb-3 sm:pb-4">
+            <div className="flex justify-center items-center gap-3  sm:pt-12 lg:pt-14 pb-3 sm:pb-4">
               <div
                 className="w-[160px] sm:w-[180px] lg:w-[194px] h-[26px] sm:h-[28px] lg:h-[30px] bg-[#EBEEF88F] rounded-[15px] sm:rounded-[18px] text-center pt-[2px]"
                 style={{

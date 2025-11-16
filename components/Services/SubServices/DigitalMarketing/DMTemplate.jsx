@@ -37,7 +37,7 @@ const DMTemplate = ({ data }) => {
             }}
           >
             <div
-              className="gradient-text sm:text-[60px] lg:text-[58px] font-semibold h-[200px] sm:h-[280px] lg:h-[350px] flex flex-col sm:flex-row items-center justify-center border-[1px] border-[#FFFFFF] rounded-[30px] sm:rounded-[40px] lg:rounded-[43px] my-4 sm:my-6 lg:my-8 px-4 sm:px-6"
+              className="gradient-text sm:text-[40px] lg:text-[58px] font-semibold h-[200px] sm:h-[280px] lg:h-[350px] flex flex-col sm:flex-row items-center justify-center border-[1px] border-[#FFFFFF] rounded-[30px] sm:rounded-[40px] lg:rounded-[43px] my-4 sm:my-6 lg:my-8 px-4 sm:px-6"
               style={{
                 boxShadow: "0px 4px 15.5px 0px #00000040",
                 background: "#FED59F",

@@ -55,7 +55,7 @@ export default function Home() {
       <WhoWeServe />
       <GlobalAEC />
       <div className="relative z-0 ">
-        <div className="absolute bottom-[13%] -left-40 z-[1] ">
+        <div className="absolute bottom-[13%] -left-40 z-[1] hidden lg:block">
           <Image
             src="/blur.svg"
             width={1000}
