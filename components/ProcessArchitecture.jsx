@@ -30,9 +30,9 @@ const ProcessArchitecture = () => {
           </div>
         </div>
 
-        <div className="relative w-full h-[80vh] flex items-center justify-center mt-10 md:mt-0 ">
+        <div className="relative w-full h-[80vh] flex items-center justify-center  ">
           {/* Container for background and overlay images */}
-          <div className="relative w-[300px] max-w-[300px] aspect-[300/300] lg:w-[400px] lg:max-w-[400px] lg:aspect-[400/400]">
+          <div className="relative w-[260px] max-w-[260px] aspect-[260/260] mr-4">
             {/* Background group image */}
             <motion.div
               initial={{ opacity: 0, scale: 0.8 }}
@@ -62,12 +62,12 @@ const ProcessArchitecture = () => {
                 type: "spring",
                 stiffness: 100,
               }}
-              className="absolute top-[-40%] left-[48%] -translate-x-1/2 flex flex-col items-center"
+              className="absolute top-[-38.5%] left-[48%] -translate-x-1/2 flex flex-col items-center"
             >
               {/* Text above g1 */}
-              <div className="flex justify-center items-center gap-3 pb-3">
+              <div className="flex justify-center items-center gap-1 pb-3">
                 <div
-                  className="lg:w-[175px] px-3 py-1 lg:px-0 lg:py-0 lg:h-[38px] bg-[#FFFFFF] rounded-[19px] text-center font-bold text-[12px] lg:text-[20px] lg:pt-1"
+                  className=" px-3 py-1 lg:px-0 lg:py-0 bg-[#FFFFFF] rounded-[19px] text-center font-bold text-[12px] lg:text-[20px] lg:pt-1"
                   style={{ boxShadow: "0px 2.29px 2.29px 0px #00000040" }}
                 >
                   <h1 className="gradient-text">A: Architecture</h1>
@@ -79,7 +79,7 @@ const ProcessArchitecture = () => {
                   <h1 className="gradient-text">1</h1>
                 </div>
               </div>
-              <div className="flex justify-center items-center text-[8px] lg:text-[11px] pb-6">
+              <div className="flex justify-center items-center text-[8px] w-[160px]">
                 <div className="text-center">
                   <span className="gradient-text">
                     BIM & Drafting Services → For precise
@@ -100,7 +100,7 @@ const ProcessArchitecture = () => {
                 width={1000}
                 height={1000}
                 alt="group"
-                className="lg:w-[123px] lg:h-[123px] lg:max-w-[123px] w-[100px] h-[100px] max-w-[100px] object-contain mt-[26%] lg:mt-[12%]"
+                className=" w-[90px] h-[90px] max-w-[90px] object-contain mt-[25.5%]"
               />
             </motion.div>
 
@@ -124,12 +124,12 @@ const ProcessArchitecture = () => {
                 width={1000}
                 height={1000}
                 alt="group"
-                className=" w-[100px] h-[100px] max-w-[100px] object-contain mt-[26%] lg:mt-[12%]"
+                className=" w-[90px] h-[90px] max-w-[90px] object-contain mt-[26%] lg:mt-[12%]"
               />
               {/* Text below g2 */}
 
               <div className="absolute right-[-32%] top-[93%]">
-                <div className="mt-[17%] flex justify-center items-center gap-3  pt-3 ">
+                <div className="mt-[17%] flex justify-center items-center gap-1  pt-3 ">
                   <div
                     className="w-[120px] py-1 bg-[#FFFFFF] rounded-[19px] text-center font-bold text-[12px]"
                     style={{ boxShadow: "0px 2.29px 2.29px 0px #00000040" }}
@@ -143,7 +143,7 @@ const ProcessArchitecture = () => {
                     <h1 className="gradient-text">2</h1>
                   </div>
                 </div>
-                <div className="flex justify-center items-center text-[9px] pt-2">
+                <div className="flex justify-center items-center text-[8px] pt-2">
                   <div className="text-center">
                     <span className="gradient-text">
                       Technical Business Development → To
@@ -169,7 +169,7 @@ const ProcessArchitecture = () => {
                 type: "spring",
                 stiffness: 100,
               }}
-              className="absolute bottom-[-27.5%] right-[-16.5%]  "
+              className="absolute bottom-[-32.5%] right-[-21.5%]  "
             >
               {/* g3 SVG */}
               <Image
@@ -177,10 +177,10 @@ const ProcessArchitecture = () => {
                 width={1000}
                 height={1000}
                 alt="group"
-                className=" w-[100px] h-[100px] max-w-[100px] object-contain "
+                className=" w-[90px] h-[90px] max-w-[90px] object-contain "
               />
               {/* Text below g3 */}
-              <div className="mt-[12%] flex justify-center items-center gap-3 pt-3 ">
+              <div className="mt-[12%] flex justify-center items-center gap-1 pt-3 ">
                 <div
                   className="w-7 h-7 bg-[#FFFFFF] rounded-full text-center font-bold text-[12px] pt-1"
                   style={{ boxShadow: "0px 2.29px 2.29px 0px #00000040" }}
