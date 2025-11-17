@@ -70,6 +70,11 @@ const Testimonial = () => {
     <div className="relative w-full h-full py-16 px-4 sm:px-6 lg:px-8 overflow-hidden lg:overflow-visible ">
       <div className="absolute top-40 left-0 w-full h-full">
         <SectionBg />
+        <div className="block md:hidden">
+
+        <SectionBg />
+        <SectionBg />
+        </div>
       </div>
       {/* Title Button */}
       <div className="flex justify-center items-center pt-20 relative z-10">

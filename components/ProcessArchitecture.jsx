@@ -7,7 +7,7 @@ const ProcessArchitecture = () => {
   return (
     <>
       <div className="block lg:hidden">
-        <div className="flex justify-center items-center pt-20 pb-10 ">
+        <div className="flex justify-center items-center pt-20 md:pb-10 ">
           <div>
             <h2 className="gradient-text font-bold text-[22px] lg:text-[29px]">
               Process From Drafts To Deals
@@ -30,7 +30,7 @@ const ProcessArchitecture = () => {
           </div>
         </div>
 
-        <div className="relative w-full h-[80vh] flex items-center justify-center  ">
+        <div className="relative w-full h-[75vh] flex items-center justify-center  ">
           {/* Container for background and overlay images */}
           <div className="relative w-[260px] max-w-[260px] aspect-[260/260] mr-4">
             {/* Background group image */}

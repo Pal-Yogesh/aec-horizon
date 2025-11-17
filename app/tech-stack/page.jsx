@@ -13,6 +13,13 @@ const page = () => {
         <div className="absolute inset-0 z-10 ">
           <AboutSectionBg />
           <AboutSectionBg />
+          <div className="block md:hidden">
+            <AboutSectionBg />
+            <AboutSectionBg />
+            <AboutSectionBg />
+            <AboutSectionBg />
+            <AboutSectionBg />
+          </div>
           <div className="absolute -top-60 -left-[18%] -z-10 hidden lg:block">
             <Image
               src="/blur.svg"
@@ -38,6 +45,11 @@ const page = () => {
       <div className="relative z-10">
         <div className="absolute inset-0 z-10 ">
           <SectionBg />
+          <div className="block md:hidden mt-14">
+            <SectionBg />
+            <SectionBg />
+            <SectionBg />
+          </div>
         </div>
         <div className="absolute top-0 -left-[10%] z-10 hidden lg:block">
           <Image

@@ -39,6 +39,9 @@ export default function Home() {
           />
         </div>
         <HeroSectionBg />
+        <div className="block md:hidden">
+        <HeroSectionBg />
+        </div>
 
         <div className="absolute top-36  w-[100%]  hidden lg:block">
           <HeroContent />
@@ -67,8 +70,11 @@ export default function Home() {
         <div className="mb-[7%]">
           <OurProcess />
         </div>
-        <div className="relative w-full h-[110vh] overflow-hidden  ">
+        <div className="relative w-full h-[90vh] md:h-[110vh] overflow-hidden  ">
           <AboutSectionBg />
+          <div className="block md:hidden">
+            <AboutSectionBg />
+          </div>
 
           <div className="absolute -top-10  w-[100%] ">
             <ProcessArchitecture />

@@ -10,7 +10,11 @@ import MilestoneMobile from "@/components/AboutUS/MilestoneMobile";
 
 const page = () => {
   return (
-    <div className="bg-[url('/aboutgrp.svg')] bg-cover bg-center h-full w-full  bg-[#d9e9ff8e]">
+    <div className="lg:bg-[url('/aboutgrp.svg')] lg:bg-cover lg:bg-center h-full w-full  bg-[#d9e9ff8e]"
+    style={{
+      background: "linear-gradient(180deg, #D8DDED 0%, #E1E8FF 68.17%)",
+
+    }}>
       <div className="relative w-full     ">
         <div className="absolute top-10">
           <Image

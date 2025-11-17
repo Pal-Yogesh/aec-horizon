@@ -14,6 +14,11 @@ const CaseStudy = () => {
     <div className="relative w-full h-full z-10 -mt-32 sm:-mt-5 sm:ml-5 lg:ml-0 lg:-mt-0   px-4 sm:px-6 lg:px-8">
       <div className="absolute top-0 left-0 w-full h-full -z-10">
         <CSSectionBg />
+        <div className="block md:hidden">
+
+        <CSSectionBg />
+        <CSSectionBg />
+        </div>
       </div>
       <div className="relative w-full flex items-center">
         {/* Background block image */}

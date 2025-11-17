@@ -6,9 +6,13 @@ import React from "react";
 const page = () => {
   return (
     <div className="bg-[url('/contact.svg')] bg-cover bg-center w-full h-[100%] pt-36 ">
-      <div className="relative w-full ">
-        <div className="absolute inset-0 z-10">
+      <div className="relative w-full z-10">
+        <div className="absolute inset-0 -z-10">
           <AboutSectionBg />
+          <div className="block md:hidden">
+            <AboutSectionBg />
+            <AboutSectionBg />
+          </div>
         </div>
 
         {/* <div className="absolute -top-10  w-[100%] "> */}

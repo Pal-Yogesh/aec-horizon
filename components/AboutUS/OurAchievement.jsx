@@ -42,6 +42,13 @@ const OurAchievement = () => {
     <div className="relative w-full h-full z-10  lg:pt-20 px-4 sm:px-6 lg:px-8">
       <div className="absolute top-0 left-0 w-full h-full -z-10">
         <SectionBg />
+        <div className="block md:hidden">
+
+        <SectionBg />
+        <SectionBg />
+        <SectionBg />
+        </div>
+
       </div>
       <div ref={ref} className="">
         <div className="flex justify-center items-center">

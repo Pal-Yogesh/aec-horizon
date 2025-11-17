@@ -8,6 +8,9 @@ const page = () => {
     <div className="bg-[url('/getaquote.svg')] bg-cover bg-center w-full h-[175vh] lg:h-[100vh] pt-36 ">
       <div className="relative w-full h-[100%] overflow-hidden  ">
         <AboutSectionBg />
+        <div className="block md:hidden">
+          <AboutSectionBg />
+        </div>
 
         <div className="absolute -top-10  w-[100%] ">
           <GetaQuote />

@@ -9,6 +9,9 @@ const CSOperations = () => {
       <div className="relative w-full h-full z-10 pt-20 px-4 sm:px-6 lg:px-8">
         <div className="absolute top-0 left-0 w-full h-full -z-10">
           <CSSectionBg />
+          <div className="block md:hidden">
+            <CSSectionBg />
+          </div>
         </div>
         <div className="flex justify-center items-center flex-col ">
           <div

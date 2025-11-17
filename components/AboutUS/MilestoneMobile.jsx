@@ -184,6 +184,9 @@ const MilestoneMobile = () => {
     <div className="relative w-full h-full">
       <div className="absolute top-0 left-0 w-full h-full">
         <SectionBg2 />
+        <div className="block md:hidden mt-40">
+        <SectionBg2 />
+        </div>
       </div>
       <div className=" sm:px-8">
         <div ref={containerRef} className="max-w-2xl mx-auto ">

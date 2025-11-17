@@ -48,6 +48,11 @@ const AboutUs = () => {
     <div className="relative w-full h-full overflow-hidden">
       <div className="absolute top-0 left-0 w-full h-full">
         <SectionBg />
+        <div className="block md:hidden">
+
+        <SectionBg />
+        <SectionBg />
+        </div>
       </div>
       <div className="relative  w-full flex flex-col items-center ">
         <div>
