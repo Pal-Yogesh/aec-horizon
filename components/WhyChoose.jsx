@@ -19,22 +19,22 @@ const cardData = [
   {
     id: 1,
     title: "Transparent Process",
-    desc: "From consultation to delivery, every step mapped.",
+    desc: "From consultation to delivery, every step of your BIM, business development, and digital marketing journey is meticulously mapped for clarity and confidence.",
   },
   {
     id: 2,
     title: "Innovation First",
-    desc: "Automation, Revit families, custom strategies.",
+    desc: "Harness the latest technology with automation, custom Revit families, and bespoke strategies designed to accelerate your project outcomes.",
   },
   {
     id: 3,
     title: "End to End Coverage",
-    desc: "BIM, Business Development, digital strategy—all under one roof.",
+    desc: "Comprehensive solutions combining BIM services, strategic business development, and digital marketing expertise, all seamlessly integrated under one roof.",
   },
   {
     id: 4,
     title: "Real People. Real Results.",
-    desc: "No fluff. Just expert-driven solutions.",
+    desc: "Expert-driven, no fluff. Our team delivers practical, measurable results that empower your growth and project success.",
   },
 ];
 
@@ -72,7 +72,7 @@ const WhyChoose = () => {
                 viewport={{ once: true, amount: 0.2 }}
               >
                 <div
-                  className="bg-[#FFFFFF47] w-[19rem] sm:w-[240px] md:w-[260px] lg:w-[280px] h-[150px] sm:h-[170px] rounded-[24px] sm:rounded-[28.5px] border border-white"
+                  className="bg-[#FFFFFF47] w-[20rem] sm:w-[240px] md:w-[320px] lg:w-[380px] h-full pb-4 sm:pb-0 sm:h-[220px] rounded-[24px] sm:rounded-[28.5px] border border-white"
                   style={{
                     boxShadow: "0px 2.63px 2.63px 0px #00000040",
                     backdropFilter: "blur(26.26546287536621px)",
@@ -123,7 +123,7 @@ const WhyChoose = () => {
                 viewport={{ once: true, amount: 0.2 }}
               >
                 <div
-                  className="bg-[#FFFFFF47] w-[19rem]  sm:w-[240px] md:w-[260px] lg:w-[280px] h-[150px] sm:h-[180px] rounded-[24px] sm:rounded-[28.5px] border border-white"
+                  className="bg-[#FFFFFF47] w-[19rem]  sm:w-[240px] md:w-[320px] lg:w-[380px] h-full pb-4 sm:pb-0 sm:h-[220px] rounded-[24px] sm:rounded-[28.5px] border border-white"
                   style={{
                     boxShadow: "0px 2.63px 2.63px 0px #00000040",
                     backdropFilter: "blur(26.26546287536621px)",

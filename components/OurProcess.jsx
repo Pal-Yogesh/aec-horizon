@@ -110,33 +110,33 @@ import { motion } from "framer-motion";
 const steps = [
   {
     id: 1,
-    title: "We listen first.",
+    title: "Discover & Diagnose",
     description:
-      "We dive deep into your goals, existing workflows, and challenges. This phase includes audits, stakeholder calls, and strategic alignment.",
+      "We begin with a deep analysis of your AEC workflows, BIM environment, and business operations, identifying bottlenecks, opportunities, and technology needs.",
   },
   {
     id: 2,
-    title: "We build the blueprint.",
+    title: "System Architecture & Design",
     description:
-      "A custom project plan is created with timelines, milestones, and deliverables tailored to your objectives.",
+      "Our team architects a connected BIM and business system, aligning collaborative model workflows, digital infrastructure, and documentation to your project goals.",
   },
   {
     id: 3,
-    title: "We bring your project to life.",
+    title: "Develop & Streamline",
     description:
-      "From BIM modeling to business development and marketing assets — this is where strategy turns into structure.",
+      "Next, we develop and implement core solutions: BIM modeling, business process automation, and integrated marketing, bringing every phase of your AEC pipeline into harmony.",
   },
   {
     id: 4,
-    title: "Review & Optimization.",
+    title: "Digital Amplification",
     description:
-      "We refine every layer with your feedback, run QA checks, and optimize for future scalability.",
+      "With systems live, we use AEC-focused digital marketing and advanced SEO to grow your brand reach, connect with key decision-makers, and win more projects.",
   },
   {
     id: 5,
-    title: "We’re partners, not vendors.",
+    title: "Measure, Optimize & Evolve",
     description:
-      "Post-launch or post-handover, we offer optional support packages, retainer plans, or strategy refreshers so your systems stay sharp as you grow.",
+      "Finally, we continuously monitor performance using live analytics and BIM-driven insights, refining your strategy for lasting efficiency, profitability, and brand growth as your business evolves.",
   },
 ];
 
@@ -147,11 +147,10 @@ const OurProcess = () => {
         {/* Heading */}
         <div className="px-4 sm:px-8 lg:px-[22%]">
           <h1 className="font-bold text-[22px] sm:text-[26px] lg:text-[29px] text-[#4B336D]">
-            Our <span className="gradient-text">Process</span>
+            Inside Our <span className="gradient-text">Process</span>
           </h1>
           <p className="text-[#000000] text-[14px] sm:text-[16px] lg:text-[19px]">
-            We don&apos;t just deliver projects — we engineer clarity,
-            collaboration, and measurable results at every phase.
+          From first diagnosis to digital growth, our step-by-step approach ensures your AEC projects run smarter, scale faster, and deliver lasting impact.
           </p>
         </div>
 
@@ -188,7 +187,7 @@ const OurProcess = () => {
                     {step.id}
                   </h1>
                 </div>
-                <div className="text-[12px] sm:text-[14px] lg:text-[15.75px] text-[#000000] px-4 sm:px-6 lg:px-10 py-3 sm:py-4 lg:pt-2">
+                <div className="text-[12px] sm:text-[14px] lg:text-[15px] text-[#000000] px-4 sm:px-6 lg:px-10 py-3 sm:py-4 lg:pt-1.5">
                   <h1 className="font-semibold">{step.title}</h1>
                   <p className="">{step.description}</p>
                 </div>

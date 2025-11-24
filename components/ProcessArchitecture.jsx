@@ -7,17 +7,16 @@ const ProcessArchitecture = () => {
   return (
     <>
       <div className="block lg:hidden">
-        <div className="flex justify-center items-center pt-20 md:pb-10 ">
+        <div className="flex justify-center items-center pt-20 px-7 md:px-0">
           <div>
             <h2 className="gradient-text font-bold text-[22px] lg:text-[29px]">
-              Process From Drafts To Deals
+              Partner for success
             </h2>
             <h1 className="text-[#4B336D] font-semibold text-[22px] lg:text-[29px]">
-              We&apos;ve always got you covered
+              We guide your project from early concept to final closeout.
             </h1>
           </div>
         </div>
-
         <div className="relative z-0 ">
           <div className="absolute -top-40 right-0 z-[1] ">
             <Image
@@ -62,7 +61,7 @@ const ProcessArchitecture = () => {
                 type: "spring",
                 stiffness: 100,
               }}
-              className="absolute top-[-38.5%] left-[48%] -translate-x-1/2 flex flex-col items-center"
+              className="absolute top-[-42.5%] left-[48%] -translate-x-1/2 flex flex-col items-center"
             >
               {/* Text above g1 */}
               <div className="flex justify-center items-center gap-1 pb-3">
@@ -80,19 +79,14 @@ const ProcessArchitecture = () => {
                 </div>
               </div>
               <div className="flex justify-center items-center text-[8px] w-[160px]">
-                <div className="text-center">
-                  <span className="gradient-text">
-                    BIM & Drafting Services → For precise
-                  </span>
-                  <br />
-                  <span className="gradient-text">
-                    design documentation, 3D modeling,
-                  </span>
-                  <br />
-                  <span className="gradient-text">
-                    and construction-ready plans.
-                  </span>
-                </div>
+                {/* <div className="text-center"> */}
+                <span className="gradient-text text-center">
+                  BIM & Drafting Services → Precise design documentation, 3D BIM
+                  modeling, and construction-ready plans ensure your vision
+                  becomes a buildable reality.
+                </span>
+
+                {/* </div> */}
               </div>
               {/* g1 SVG */}
               <Image
@@ -100,7 +94,7 @@ const ProcessArchitecture = () => {
                 width={1000}
                 height={1000}
                 alt="group"
-                className=" w-[90px] h-[90px] max-w-[90px] object-contain mt-[25.5%]"
+                className=" w-[90px] h-[90px] max-w-[90px] object-contain mt-[18%]  lg:mt-[25.5%]"
               />
             </motion.div>
 
@@ -131,7 +125,7 @@ const ProcessArchitecture = () => {
               <div className="absolute right-[-32%] top-[93%]">
                 <div className="mt-[17%] flex justify-center items-center gap-1  pt-3 ">
                   <div
-                    className="w-[120px] py-1 bg-[#FFFFFF] rounded-[19px] text-center font-bold text-[12px]"
+                    className="w-[120px] lg:w-[175px] py-1 bg-[#FFFFFF] rounded-[19px] text-center font-bold text-[12px]"
                     style={{ boxShadow: "0px 2.29px 2.29px 0px #00000040" }}
                   >
                     <h1 className="gradient-text">E: Engineering</h1>
@@ -146,11 +140,10 @@ const ProcessArchitecture = () => {
                 <div className="flex justify-center items-center text-[8px] pt-2">
                   <div className="text-center">
                     <span className="gradient-text">
-                      Technical Business Development → To
-                    </span>
-                    <br />
-                    <span className="gradient-text">
-                      secure projects, create proposals.
+                      Technical Business Development → Secure new projects and
+                      streamline proposals with industry-focused business
+                      intelligence, proposal management, and workflow automation
+                      for engineering teams.
                     </span>
                   </div>
                 </div>
@@ -169,7 +162,7 @@ const ProcessArchitecture = () => {
                 type: "spring",
                 stiffness: 100,
               }}
-              className="absolute bottom-[-32.5%] right-[-21.5%]  "
+              className="absolute bottom-[-41%] md:bottom-[-38%] right-[-42%]   "
             >
               {/* g3 SVG */}
               <Image
@@ -180,7 +173,7 @@ const ProcessArchitecture = () => {
                 className=" w-[90px] h-[90px] max-w-[90px] object-contain "
               />
               {/* Text below g3 */}
-              <div className="mt-[12%] flex justify-center items-center gap-1 pt-3 ">
+              <div className="mt-[8%] flex justify-center items-center gap-1 pt-3 mr-[10%] sm:mr-0">
                 <div
                   className="w-7 h-7 bg-[#FFFFFF] rounded-full text-center font-bold text-[12px] pt-1"
                   style={{ boxShadow: "0px 2.29px 2.29px 0px #00000040" }}
@@ -188,23 +181,29 @@ const ProcessArchitecture = () => {
                   <h1 className="gradient-text">3</h1>
                 </div>
                 <div
-                  className="py-1 px-3 bg-[#FFFFFF] rounded-[19px] text-center font-bold text-[12px] "
+                  className="py-1 px-3 bg-[#FFFFFF] rounded-[19px] text-center font-bold text-[12px] mr-[10%] sm:mr-0"
                   style={{ boxShadow: "0px 2.29px 2.29px 0px #00000040" }}
                 >
                   <h1 className="gradient-text ">C: Construction</h1>
                 </div>
               </div>
-              <div className="flex justify-center items-center text-[8px] pt-2">
+              <div className="flex justify-center items-center text-[8px] pt-2 mr-[10%] sm:mr-0">
                 <div className="text-center">
                   <span className="gradient-text">
-                    Needs: Branding & Digital Marketing →
+                    Branding & Digital Marketing → Attract
                   </span>
                   <br />
                   <span className="gradient-text">
-                    To attract clients, showcase completed
+                    clients, showcase completed projects,
                   </span>
                   <br />
-                  <span className="gradient-text">projects.</span>
+                  <span className="gradient-text">
+                    and strengthen your reputation with specialized{" "}
+                  </span>
+                  <br />
+                  <span className="gradient-text">
+                    AEC marketing strategies that drive business growth.
+                  </span>
                 </div>
               </div>
             </motion.div>
@@ -213,13 +212,13 @@ const ProcessArchitecture = () => {
       </div>
 
       <div className="hidden lg:block">
-        <div className="flex justify-center items-center pt-20 pb-10 ">
-          <div>
+        <div className="flex justify-center items-center py-12">
+          <div className="text-center">
             <h2 className="gradient-text font-bold text-[29px]">
-              Process From Drafts To Deals
+              Partner for success
             </h2>
             <h1 className="text-[#4B336D] font-semibold text-[29px]">
-              We&apos;ve always got you covered
+              We guide your project from early concept to final closeout.
             </h1>
           </div>
         </div>
@@ -285,18 +284,19 @@ const ProcessArchitecture = () => {
                   <h1 className="gradient-text">1</h1>
                 </div>
               </div>
-              <div className="flex justify-center items-center text-[11px] pb-6">
+              <div className="flex justify-center items-center text-[11px] pb-2 ">
                 <div className="text-center">
                   <span className="gradient-text">
-                    BIM & Drafting Services → For precise
+                    BIM & Drafting Services → Precise
                   </span>
                   <br />
                   <span className="gradient-text">
-                    design documentation, 3D modeling,
+                    design documentation, 3D BIM modeling,
                   </span>
                   <br />
                   <span className="gradient-text">
-                    and construction-ready plans.
+                    and construction-ready plans ensure your vision becomes a
+                    buildable reality.
                   </span>
                 </div>
               </div>
@@ -334,8 +334,8 @@ const ProcessArchitecture = () => {
               />
               {/* Text below g2 */}
 
-              <div className="absolute right-[-32%] top-[93%]">
-                <div className="mt-[17%] flex justify-center items-center gap-3  pt-3 ">
+              <div className="absolute right-[-10%] top-[98%]">
+                <div className="mt-[17%] lg:mt-[6%] flex justify-center items-center gap-3  pt-3 ">
                   <div
                     className="w-[175px] h-[38px] bg-[#FFFFFF] rounded-[19px] text-center font-bold text-[20px] pt-1"
                     style={{ boxShadow: "0px 2.29px 2.29px 0px #00000040" }}
@@ -352,11 +352,10 @@ const ProcessArchitecture = () => {
                 <div className="flex justify-center items-center text-[11px] pt-2">
                   <div className="text-center">
                     <span className="gradient-text">
-                      Technical Business Development → To
-                    </span>
-                    <br />
-                    <span className="gradient-text">
-                      secure projects, create proposals.
+                      Technical Business Development → Secure new projects and
+                      streamline proposals with industry-focused business
+                      intelligence, proposal management, and workflow automation
+                      for engineering teams.
                     </span>
                   </div>
                 </div>
@@ -375,7 +374,7 @@ const ProcessArchitecture = () => {
                 type: "spring",
                 stiffness: 100,
               }}
-              className="absolute bottom-[-26%] right-[-21.2%]  "
+              className="absolute bottom-[-28%] right-[-34%]  "
             >
               {/* g3 SVG */}
               <Image
@@ -386,7 +385,7 @@ const ProcessArchitecture = () => {
                 className="w-[123px] h-[123px] max-w-[123px] object-contain mt-[12%]"
               />
               {/* Text below g3 */}
-              <div className="mt-[12%] flex justify-center items-center gap-3 pt-3 ">
+              <div className=" flex justify-center items-center gap-3 mt-[12%] ">
                 <div
                   className="w-[40px] h-[40px] bg-[#FFFFFF] rounded-full text-center font-bold text-[20px] pt-1"
                   style={{ boxShadow: "0px 2.29px 2.29px 0px #00000040" }}
@@ -407,10 +406,16 @@ const ProcessArchitecture = () => {
                   </span>
                   <br />
                   <span className="gradient-text">
-                    To attract clients, showcase completed
+                    Attract clients, showcase completed projects,
                   </span>
                   <br />
-                  <span className="gradient-text">projects.</span>
+                  <span className="gradient-text">
+                    and strengthen your reputation with specialized{" "}
+                  </span>
+                  <br />
+                  <span className="gradient-text">
+                    AEC marketing strategies that drive business growth.
+                  </span>
                 </div>
               </div>
             </motion.div>

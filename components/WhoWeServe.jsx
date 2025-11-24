@@ -139,11 +139,11 @@ const WhoWeServe = () => {
             className="font-bold text-[24px] md:text-[26px] lg:text-[29px] text-[#4B336D]"
             style={{ opacity: 1, transform: "none" }}
           >
-            Who We <span> </span>
-            <span className="gradient-text">Serve</span>
+            AEC Partners <span> </span> <br  className="md:hidden block"/>
+            <span className="gradient-text">We Help Empower</span>
           </h2>
           <p className="mt-2 sm:mt-3 text-[#000000] text-[14px] sm:text-[16px] md:text-[18px] lg:text-[19px]">
-            From startups to skyscrapers—our clients shape the built world.
+          Here&apos;s who we specifically target to help scale <strong>AEC efficiency</strong>, growth, and innovation.
           </p>
         </motion.div>
 
@@ -244,7 +244,7 @@ const WhoWeServe = () => {
             </div>
           </motion.div>
           <motion.div
-            className="absolute -translate-x-[101px] sm:-translate-x-2.5 lg:-translate-x-3 md:-translate-x-9  sm:left-[8rem] md:left-[9rem] lg:left-[9.7rem] -top-[2rem] sm:-top-[1.2rem] md:-top-[1.4rem] lg:-top-[1.6rem] flex flex-col-reverse items-center gap-1 sm:gap-1.5 md:gap-1.5 lg:gap-2 scale-100 sm:scale-110 md:scale-130 lg:scale-150"
+            className="absolute -translate-x-[101px] sm:-translate-x-2.5 lg:-translate-x-5 md:-translate-x-13  sm:left-[8rem] md:left-[9rem] lg:left-[9.7rem] -top-[2rem] sm:-top-[1.2rem] md:-top-[1.4rem] lg:-top-[1.6rem] flex flex-col-reverse items-center gap-1 sm:gap-1.5 md:gap-1.5 lg:gap-2 scale-100 sm:scale-110 md:scale-130 lg:scale-150"
             style={{ opacity: 1, transform: "none" }}
             variants={fadeLeft}
             initial="hidden"
@@ -371,12 +371,12 @@ const WhoWeServe = () => {
                 </div>
               </div>
             </div>
-            <span className="mt-1.5 sm:mt-2 md:mt-2.5 lg:mt-3 rounded-[20px] sm:rounded-[24px] lg:rounded-[27.5px] bg-white/40 px-1.5 sm:px-2 py-1.5 sm:py-2 text-[10px] sm:text-[11px] md:text-[12px] lg:text-sm text-[#4B336D] border border-white shadow-[0px_3px_3px_rgba(0,0,0,0.2)] sm:shadow-[0px_4px_4px_rgba(0,0,0,0.25)]">
-              Architects & Engineers
+            <span className="mt-2 sm:mt-2 md:mt-2.5 lg:mt-3.5 rounded-[20px] sm:rounded-[24px] lg:rounded-[27.5px] bg-white/40 px-1.5 sm:px-2 py-1.5 sm:py-2 text-[9px] font-semibold text-[#4B336D] border border-white shadow-[0px_3px_3px_rgba(0,0,0,0.2)] sm:shadow-[0px_4px_4px_rgba(0,0,0,0.25)]">
+            Architecture & AEC Design Firms
             </span>
           </motion.div>
           <motion.div
-            className="absolute translate-x-[105px] sm:translate-x-2.5 lg:translate-x-3 md:translate-x-10  sm:right-[8.5rem] md:right-[9.5rem] lg:right-[10.3rem] -top-[2rem] sm:-top-[1.2rem] md:-top-[1.4rem] lg:-top-[1.6rem] flex flex-col-reverse items-center gap-1 sm:gap-1.5 md:gap-1.5 lg:gap-2 scale-100 sm:scale-110 md:scale-130 lg:scale-150"
+            className="absolute translate-x-[105px] sm:translate-x-2.5 lg:translate-x-4 md:translate-x-12  sm:right-[8.5rem] md:right-[9.5rem] lg:right-[10.3rem] -top-[2rem] sm:-top-[1.2rem] md:-top-[1.4rem] lg:-top-[1.6rem] flex flex-col-reverse items-center gap-1 sm:gap-1.5 md:gap-1.5 lg:gap-2 scale-100 sm:scale-110 md:scale-130 lg:scale-150"
             style={{ opacity: 1, transform: "none" }}
             variants={fadeRight}
             initial="hidden"
@@ -458,12 +458,12 @@ const WhoWeServe = () => {
                 </div>
               </div>
             </div>
-            <span className="mt-1.5 sm:mt-2 md:mt-2.5 lg:mt-3 rounded-[20px] sm:rounded-[24px] lg:rounded-[27.5px] bg-white/40 px-1.5 sm:px-2 py-1.5 sm:py-2 text-[10px] sm:text-[11px] md:text-[12px] lg:text-sm text-[#4B336D] border border-white shadow-[0px_3px_3px_rgba(0,0,0,0.2)] sm:shadow-[0px_4px_4px_rgba(0,0,0,0.25)]">
-              Construction Firms
+            <span className="mt-1.5 sm:mt-2 md:mt-2.5 lg:mt-3.5 rounded-[20px] sm:rounded-[24px] lg:rounded-[27.5px] bg-white/40 px-1.5 sm:px-2 py-1.5 sm:py-2 text-[9px] font-semibold text-[#4B336D] border border-white shadow-[0px_3px_3px_rgba(0,0,0,0.2)] sm:shadow-[0px_4px_4px_rgba(0,0,0,0.25)]">
+            Engineering Consultancies
             </span>
           </motion.div>
           <motion.div
-            className="absolute -translate-x-[101px] sm:-translate-x-2.5 lg:-translate-x-3 md:-translate-x-9  sm:left-[6.2rem] md:left-[7rem] lg:left-[7.7rem] -bottom-[1.75rem] sm:-bottom-[1.2rem] md:-bottom-[1.4rem] lg:-bottom-[1.6rem] flex flex-col items-center gap-1 sm:gap-1.5 md:gap-1.5 lg:gap-2 scale-100 sm:scale-110 md:scale-130 lg:scale-150"
+            className="absolute -translate-x-[101px] sm:-translate-x-2.5 lg:-translate-x-1 md:-translate-x-9  sm:left-[6.2rem] md:left-[7rem] lg:left-[7.7rem] -bottom-[1.75rem] sm:-bottom-[1.2rem] md:-bottom-[1.4rem] lg:-bottom-[1.6rem] flex flex-col items-center gap-1 sm:gap-1.5 md:gap-1.5 lg:gap-2 scale-100 sm:scale-110 md:scale-130 lg:scale-150"
             style={{ opacity: 1, transform: "none" }}
             variants={fadeLeft}
             initial="hidden"
@@ -606,12 +606,12 @@ const WhoWeServe = () => {
                 </div>
               </div>
             </div>
-            <span className="mt-1.5 sm:mt-2 md:mt-2.5 lg:mt-3 rounded-[20px] sm:rounded-[24px] lg:rounded-[27.5px] bg-white/40 px-1.5 sm:px-2 py-1.5 sm:py-2 text-[10px] sm:text-[11px] md:text-[12px] lg:text-sm text-[#4B336D] border border-white shadow-[0px_3px_3px_rgba(0,0,0,0.2)] sm:shadow-[0px_4px_4px_rgba(0,0,0,0.25)]">
-              BIM Startups & SaaS AEC Tech
+            <span className="mt-1.5 sm:mt-2 md:mt-2.5 lg:mt-4 rounded-[20px] sm:rounded-[24px] lg:rounded-[27.5px] bg-white/40 px-1.5 sm:px-2 py-1.5 sm:py-2 text-[9px] font-semibold text-[#4B336D] border border-white shadow-[0px_3px_3px_rgba(0,0,0,0.2)] sm:shadow-[0px_4px_4px_rgba(0,0,0,0.25)]">
+            Construction & Contracting Companies
             </span>
           </motion.div>
           <motion.div
-            className="absolute translate-x-[105px] sm:translate-x-2.5 md:translate-x-10 lg:translate-x-3  sm:right-[6.8rem] md:right-[7.5rem] lg:right-[8.3rem] -bottom-[1.75rem] sm:-bottom-[1.2rem] md:-bottom-[1.4rem] lg:-bottom-[1.6rem] flex flex-col items-center gap-1 sm:gap-1.5 md:gap-1.5 lg:gap-2 scale-100 sm:scale-110 md:scale-130 lg:scale-150"
+            className="absolute translate-x-[105px] sm:translate-x-2.5 md:translate-x-10 lg:translate-x-2  sm:right-[6.8rem] md:right-[7.5rem] lg:right-[8.3rem] -bottom-[1.75rem] sm:-bottom-[1.2rem] md:-bottom-[1.4rem] lg:-bottom-[1.3rem] flex flex-col items-center gap-1 sm:gap-1.5 md:gap-1.5 lg:gap-2 scale-100 sm:scale-110 md:scale-130 lg:scale-150"
             style={{ opacity: 1, transform: "none" }}
             variants={fadeRight}
             initial="hidden"
@@ -741,8 +741,8 @@ const WhoWeServe = () => {
                 </div>
               </div>
             </div>
-            <span className="mt-1.5 sm:mt-2 md:mt-2.5 lg:mt-3 rounded-[20px] sm:rounded-[24px] lg:rounded-[27.5px] bg-white/40 px-1.5 sm:px-2 py-1.5 sm:py-2 text-[10px] sm:text-[11px] md:text-[12px] lg:text-sm text-[#4B336D] border border-white shadow-[0px_3px_3px_rgba(0,0,0,0.2)] sm:shadow-[0px_4px_4px_rgba(0,0,0,0.25)]">
-              Urban planning & Smart Infra
+            <span className="mt-1.5 sm:mt-2 md:mt-2.5 lg:mt-3 rounded-[20px] sm:rounded-[24px] lg:rounded-[27.5px] bg-white/40 px-1.5 sm:px-2 py-1.5 sm:py-2 text-[9px] font-semibold text-[#4B336D] border border-white shadow-[0px_3px_3px_rgba(0,0,0,0.2)] sm:shadow-[0px_4px_4px_rgba(0,0,0,0.25)]">
+            AEC Tech & Allied Services Agencies
             </span>
           </motion.div>
         </div>

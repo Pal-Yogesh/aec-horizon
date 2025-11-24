@@ -3,24 +3,27 @@
 import React from "react";
 
 const HeroContentMobile = () => {
- 
-
   return (
     <>
       <div className="relative w-full">
         <div className="flex flex-col items-center justify-center text-center px-4">
           <h1 className="typing-heading gradient-text-about mt-1 text-[20px] sm:text-[24px] md:text-[26px] lg:text-[29px] font-semibold z-40">
-            Where Every Piece Fits.
+            Integrated Solutions for AEC Success
           </h1>
           <div
-            className="text-[14px] sm:text-[16px] md:text-[18px] lg:text-[19px] mt-3 mb-8 md:mb-20 w-full max-w-[90%] sm:max-w-[420px] md:max-w-[480px] lg:w-[530px] leading-tight text-[#4B336D] bg-[#FFFFFF99] rounded-[35px] sm:rounded-[45px] lg:rounded-[55px] px-8 sm:px-10 md:px-12 lg:px-14 py-2.5 sm:py-3 border-[2px] border-[#FFFFFF]"
+            className="text-[14px] sm:text-[16px] md:text-[18px] lg:text-[19px] mt-3 mb-8 md:mb-20 w-full max-w-[95%] sm:max-w-[420px] md:max-w-[480px] lg:w-[530px] leading-tight text-[#4B336D] bg-[#FFFFFF99] rounded-[35px] sm:rounded-[45px] lg:rounded-[55px] px-8 sm:px-10 md:px-12 lg:px-14 py-2.5 sm:py-3 border-[2px] border-[#FFFFFF]"
             style={{
               boxShadow: "0px 4px 4px 0px #00000040",
               backdropFilter: "blur(11.300000190734863px)",
             }}
           >
-            <p>Three specialized services, perfectly</p>
-            <p className="font-semibold">interlocked to build your success.</p>
+            <p className="font-semibold">
+              BIM & Drafting Services, Technical Business Development, and
+              Digital Marketing{" "}
+            </p>
+            <p>
+              & Branding are perfectly interlocked to build your AEC success.
+            </p>
           </div>
         </div>
 
