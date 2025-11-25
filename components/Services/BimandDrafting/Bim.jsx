@@ -87,35 +87,37 @@ const Bim = () => {
         <div className="my-8 sm:my-12 lg:my-14 pb-12 sm:pb-18 lg:pb-24 mx-[5%] sm:mx-[10%] lg:mx-[22%]">
           <div className="space-y-5 sm:space-y-7 lg:space-y-9">
             <h2 className="text-[22px] sm:text-[28px] lg:text-[35px] text-center gradient-text-about leading-tight">
-              Value Engineering Consulting Company Ensuring{" "}
-              <br className="hidden sm:block" /> Optimum Project Outcomes
+              Value Engineering Consulting for
+              <br className="hidden sm:block" /> Exceptional Global Results
             </h2>
 
             <p className="font-normal text-[14px] sm:text-[16px] lg:text-[18px]">
-              At <strong>AEC Horizon</strong>, we have a competent team of
-              experts who are well-equipped to analyze construction designs to
-              make them more process-efficient and practicable through
-              proficient value engineering services.
+              At <strong>AEC Horizon</strong>, our experienced{" "}
+              <strong>value engineering consultants</strong> support
+              construction projects in major markets Netherlands, Sweden,
+              Germany, Czech Republic, Denmark, Norway, United Kingdom, Saudi
+              Arabia, UAE, Qatar, Oman, Lebanon, Virginia, California, and
+              Texas. We help clients maximize project efficiency and achieve the
+              best outcomes using advanced <strong>BIM solutions</strong> and
+              expert cost analysis.
             </p>
 
             <p className="font-normal text-[14px] sm:text-[16px] lg:text-[18px]">
-              Although the word is frequently used,{" "}
-              <strong>VE or Value Engineering for Construction</strong> is not
-              always clearly understood or properly executed. It isn&apos;t a
-              design review process, nor does it involve lowering the cost at
-              the expense of the quality and integrity of the project. When
-              applied ideally, value engineering is exercised collaboratively by
-              every stakeholder to deliver a project at the lowest possible cost
-              without compromising on design quality.
+              Value engineering for construction means delivering performance
+              and quality at optimized costs. Our team collaborates across every
+              project phase to ensure energy-efficient design, material
+              selection, and workflow improvements tailored to meet local
+              standards and regional project needs.
             </p>
 
             <p className="font-normal text-[14px] sm:text-[16px] lg:text-[18px]">
-              Our expert team of construction planners and engineers brainstorm
-              to design the building layout enabling functional efficiency while
-              reducing the cost of operation and maintenance to minimal levels.
-              Our BIM-based value engineering services focus on model designs
-              that implement energy-efficient building workflows and material
-              selection to optimize the performance and cost of the asset.
+              Leading companies in Amsterdam, Berlin, Stockholm, London, Dubai,
+              Riyadh, Los Angeles, and more trust our BIM-based value
+              engineering services to reduce costs, boost sustainability, and
+              enable smarter building management.
+              <br />
+              Partner with AEC Horizon for expert value engineering consulting
+              customized for your city, your region, and your goals.
             </p>
           </div>
         </div>
@@ -176,21 +178,27 @@ const Bim = () => {
         <div className="pt-20 sm:pt-32 lg:pt-40 pb-20 sm:pb-32 lg:pb-40 mx-[5%] sm:mx-[10%] lg:mx-[22%]">
           <div className="space-y-5 sm:space-y-7 lg:space-y-9">
             <h2 className="text-[22px] sm:text-[28px] lg:text-[35px] text-center gradient-text-about leading-tight">
-              Value Engineering Benefits for Construction Project
+              BIM-Based Value Engineering Benefits for Modern Projects
             </h2>
 
             <p className="font-normal text-[14px] sm:text-[16px] lg:text-[18px]">
-              Most construction projects go over their budgets for different
-              reasons.{" "}
-              <strong>
-                The most common out of these are the ones related to the MEP
-                system.
-              </strong>{" "}
-              Getting the wrong size or over-engineering designs can result in
-              adding to the project costs. Our value engineers use BIM to
-              eliminate all kinds of redundancies in the design without
-              compromising quality, enhancing the output of the project in
-              several ways, as cited below:
+              Every construction project aims for efficiency, but cost overruns
+              often occur <strong>due to over-designed MEP systems</strong>,
+              poor material selection, or inefficient planning. At{" "}
+              <strong>AEC Horizon</strong>, our{" "}
+              <strong>BIM-based value engineering services</strong> help
+              identify and eliminate these issues early in the design stage,
+              ensuring every element contributes to performance, not waste.
+            </p>
+            <p className="font-normal text-[14px] sm:text-[16px] lg:text-[18px]">
+              Using advanced{" "}
+              <strong>Building Information Modeling (BIM) </strong> tools, our
+              experts perform in-depth <strong>design and cost analysis</strong>{" "}
+              to enhance quality while minimizing expenses. Whether for
+              large-scale developments in <strong>Europe</strong>, innovative
+              projects in the <strong>Middle East</strong>, or modern builds in
+              the <strong>USA</strong>, we help clients achieve smarter, more
+              sustainable outcomes.
             </p>
           </div>
         </div>
@@ -229,19 +237,30 @@ const Bim = () => {
             }}
           >
             <div className="p-7 absolute left-[45%]">
-              <ul className="list-disc list-inside text-[#304695] text-[18px]">
+              <ul className="list-disc space-y-1 text-[#304695] text-[18px]">
                 <li className="font-normal">
-                  Improved system effectiveness and constructability
+                  Optimized <strong>MEP system design</strong> for better
+                  efficiency and coordination
                 </li>
                 <li className="font-normal">
-                  Reduction in material and labor costs
+                  Significant{" "}
+                  <strong>reduction in material and labor costs</strong>
                 </li>
-                <li className="font-normal">Short installation times</li>
-                <li className="font-normal">Enhanced asset value and safety</li>
                 <li className="font-normal">
-                  Ease in access during construction and post-construction
+                  Faster{" "}
+                  <strong>installation and construction timelines</strong>
                 </li>
-                <li className="font-normal">Projects can attain higher ROI</li>
+                <li className="font-normal">
+                  Enhanced <strong>safety and long-term asset value</strong>
+                </li>
+                <li className="font-normal">
+                  Simplified <strong>maintenance and accessibility</strong>{" "}
+                  post-construction{" "}
+                </li>
+                <li className="font-normal">
+                  Improved <strong>ROI</strong> through performance-focused cost
+                  optimization
+                </li>
               </ul>
             </div>
           </div>

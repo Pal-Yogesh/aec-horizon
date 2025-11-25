@@ -5,36 +5,91 @@ const BimCoordination = () => {
   const serviceData = {
     category: "BIM & Drafting",
     title: "BIM Coordination and Clash Detection Services",
-    heading: "Seamless integration for error-free Project Delivery",
-    desc1:
-      "At AEC Horizon, we provide BIM coordination and clash detection services that eliminate conflicts, enhance collaboration and ensure smooth project execution across all disciplines. By leveraging advanced BIM tools like Navisworks, Revit and BIM 360, we identify design inconsistencies early helping AEC teams save time, reduce rework and deliver constructible models with precision.",
-    desc2:
-      "Our expert BIM coordinators ensure that architectural, structural and MEP models work in perfect harmony paving the way for efficient construction and data driven decision making.",
+    heading: "Seamless BIM Coordination for Conflict-Free Project Delivery",
+    desc1: (
+      <span>
+        At <strong>AEC Horizon</strong>, we offer advanced{" "}
+        <strong>BIM coordination and clash detection services</strong> that help
+        AEC firms eliminate design conflicts, enhance collaboration, and ensure{" "}
+        <strong>error-free project delivery</strong>.
+      </span>
+    ),
+    desc2: (
+      <>
+        <span>
+          Using tools like <strong>Autodesk Navisworks, Revit</strong>, and{" "}
+          <strong>BIM 360</strong>, we identify potential clashes early in the
+          design phase, helping clients across
+          <strong>Europe</strong>, the <strong>Middle East</strong>, and the{" "}
+          <strong>USA</strong> minimize rework, reduce costs, and improve
+          construction efficiency.
+        </span>
+        <br /> <br />
+        <span>
+          Our <strong>BIM experts </strong>bring together architectural,
+          structural, and MEP models into a single coordinated environment,
+          ensuring every project milestone is met with precision and
+          consistency.
+        </span>
+      </>
+    ),
     whatWeOffer: [
       {
         id: 1,
         title: "Multi-discipline BIM Coordination",
-        desc: "Integration of architectural, structural, and MEP models into a unified environment for comprehensive coordination and clash review.",
+        desc: (
+          <span>
+            Integration of{" "}
+            <strong>architectural, structural, and MEP BIM models</strong> into
+            a unified digital environment for seamless coordination and review.
+          </span>
+        ),
       },
       {
         id: 2,
         title: "Clash Detection & Resolution",
-        desc: "Identification and categorization of hard, soft, and workflow clashes using Navisworks Manage or Revit Interference Check, followed by actionable coordination reports.",
+        desc: (
+          <span>
+            Early identification and categorization of{" "}
+            <strong>hard, soft, and workflow clashes</strong> using{" "}
+            <strong>Navisworks Manage or Revit Interference Check</strong>,
+            followed by actionable clash reports.
+          </span>
+        ),
       },
       {
         id: 3,
         title: "Model Review & Validation",
-        desc: "Ensuring models meet LOD, naming, and parameter standards while maintaining geometric accuracy and cross-disciplinary consistency.",
+        desc: (
+          <span>
+            Ensuring models meet{" "}
+            <strong>LOD, naming, and parameter standards</strong> to maintain
+            cross-disciplinary accuracy and compliance with project
+            specifications.
+          </span>
+        ),
       },
       {
         id: 4,
         title: "Coordination Meetings & Issue Tracking",
-        desc: "Facilitation of BIM coordination sessions, clash-to-issue mapping, and progress tracking via BIM 360, Revizto, or Navisworks Clash Detective.",
+        desc: (
+          <span>
+            Conducting <strong>BIM coordination sessions</strong>, issue
+            tracking, and progress monitoring through{" "}
+            <strong>BIM 360, Revizto, and Navisworks Clash Detective</strong>.
+          </span>
+        ),
       },
       {
         id: 5,
         title: "Pre-construction Simulation",
-        desc: "4D and 5D simulations to visualize sequencing and detect time or cost-related conflicts before construction begins.",
+        desc: (
+          <span>
+            Delivering <strong>4D and 5D BIM simulations</strong> for
+            construction sequencing, cost forecasting, and project timeline
+            optimization.
+          </span>
+        ),
       },
     ],
 
@@ -69,53 +124,121 @@ const BimCoordination = () => {
       {
         id: 1,
         title: "Proactive Clash Management",
-        desc: "Early identification and resolution of conflicts to prevent costly on-site issues.",
+        desc: (
+          <span>
+            Our <strong>BIM coordination experts</strong> use advanced tools
+            like <strong>Navisworks</strong> and
+            <strong>Revit</strong> to identify and resolve design conflicts
+            early, helping AEC firms across <strong>Europe</strong>, the{" "}
+            <strong>Middle East</strong>, and the <strong>USA</strong> minimize
+            costly on-site issues and delays
+          </span>
+        ),
       },
       {
         id: 2,
         title: "Accurate, Data-Driven Coordination",
-        desc: "Our teams use structured BIM workflows for precise model alignment and documentation consistency.",
+        desc: (
+          <span>
+            We implement structured <strong>BIM workflows</strong> and{" "}
+            <strong>clash detection processes</strong>
+            to ensure model alignment, documentation accuracy, and consistency
+            across{" "}
+            <strong>architectural, structural, and MEP BIM models</strong>.
+          </span>
+        ),
       },
       {
         id: 3,
         title: "Collaborative BIM Environment",
-        desc: "Centralized coordination through CDEs like BIM 360 ensures real-time model updates and transparent communication.",
+        desc: (
+          <span>
+            Through <strong>cloud-based platforms</strong> such as{" "}
+            <strong>BIM 360</strong> and <strong>Revizto</strong>, we deliver
+            centralized coordination environments that enable real-time updates,
+            transparent communication, and seamless collaboration between global
+            project teams.
+          </span>
+        ),
       },
       {
         id: 4,
-        title: "Industry Standards Compliance",
-        desc: "Coordination performed in accordance with ISO 19650, AIA BIM Execution Plan, and LOD 100-500 standards.",
+        title: "Compliance with Global BIM Standards",
+        desc: (
+          <span>
+            All coordination is carried out in accordance with{" "}
+            <strong>ISO 19650, AIA BIM Execution Plan</strong>, and LOD 100-500
+            standards, ensuring that every
+            <strong> BIM coordination model</strong> meets international
+            compliance and quality benchmarks.
+          </span>
+        ),
       },
       {
         id: 5,
-        title: "Optimised for Construction Readiness",
-        desc: "Delivering fully coordinated, constructible BIM models that enhance efficiency on-site.",
+        title: "Optimized for Construction Readiness",
+        desc: (
+          <span>
+            We provide{" "}
+            <strong>fully coordinated and clash-free BIM models</strong> ready
+            for construction, empowering teams to improve on-site efficiency,
+            reduce rework, and achieve faster project delivery.
+          </span>
+        ),
       },
     ],
 
     ourExpertiseCover2: [
       {
         id: 1,
-        desc: "Reduced rework and coordination delays",
+        desc: (
+          <span>
+            <strong>Reduced rework and coordination delays</strong> through
+            proactive <strong>BIM clash detection</strong> and resolution.
+          </span>
+        ),
       },
       {
         id: 2,
-        desc: "Early detection of design and system conflicts",
+        desc: (
+          <span>
+            <strong>Early identification of design conflicts</strong> using{" "}
+            <strong>Navisworks</strong> and{" "}
+            <strong>Revit coordination tools</strong>
+            for seamless project delivery
+          </span>
+        ),
       },
       {
         id: 3,
-        desc: "Enhanced team collaboration and communication",
+        desc: (
+          <span>
+            <strong>Enhanced collaboration and communication</strong> among{" "}
+            <strong>architectural, structural, and MEP BIM teams</strong> across
+            global projects.
+          </span>
+        ),
       },
       {
         id: 4,
-        desc: "Improved construction sequencing and planning",
+        desc: (
+          <span>
+            <strong>Improved construction sequencing and planning</strong> with
+            data-driven <strong>4D and 5D BIM simulations.</strong>
+          </span>
+        ),
       },
       {
         id: 5,
-        desc: "Cost and time savings through accurate preconstruction modeling",
+        desc: (
+          <span>
+            <strong>Significant cost and time savings</strong> through accurate{" "}
+            <strong>pre-construction BIM modeling</strong> and streamlined
+            workflows.
+          </span>
+        ),
       },
     ],
-    
 
     imagePath: "/s11.svg",
     bgColor: "from-[#A8C8FF] to-[#6B9FFF]",

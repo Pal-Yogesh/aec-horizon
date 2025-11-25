@@ -5,36 +5,102 @@ const Structural3D = () => {
   const serviceData = {
     category: "BIM & Drafting",
     title: "Structural 3D modeling services",
-    heading: "Bridging 2D drawings and intelligent 3D BIM workflows",
-    desc1:
-      "At AEC Horizon, we deliver structural 3D modeling services that transform raw engineering concepts into highly detailed, constructible digital models. Our focus goes beyond simple representation; we model how structures behave, connect and perform in the real world.",
-    desc2:
-      "By combining advanced BIM technology with engineering insight, we help structural teams visualise complexity, detect design conflicts early, and coordinate effortlessly with architects and MEP consultants. The result? Structures that are strong on paper, and even stronger in reality.",
+    heading:
+      "Structural BIM Modeling Services for Accurate, Constructible Designs",
+    desc1: (
+      <>
+        <span>
+          At <strong>AEC Horizon</strong>, we provide{" "}
+          <strong>structural 3D BIM modeling services</strong> that transform
+          raw engineering concepts into highly detailed,{" "}
+          <strong>constructible digital models</strong>.
+        </span>
+        <br />
+        <span>
+          Our models go beyond visual representation, they simulate how
+          structures connect, behave, and perform in the real world, helping AEC
+          professionals across <strong>Europe</strong>, the{" "}
+          <strong>Middle East</strong>, and the <strong>USA</strong> achieve
+          <strong>precision-driven project delivery</strong>.
+        </span>
+      </>
+    ),
+    desc2: (
+      <>
+        <span>
+          Using advanced tools like{" "}
+          <strong>Autodesk Revit, Tekla Structures</strong>, and
+          <strong>Navisworks</strong>, our{" "}
+          <strong>structural BIM specialists</strong> create intelligent models
+          that enable seamless coordination with architectural and MEP teams,
+          minimizing design conflicts and ensuring project constructability.
+        </span>
+        <br />
+        <span>
+          By combining engineering insight with <strong>BIM technology</strong>,
+          we help clients visualize complex structural systems, detect design
+          errors early, and improve communication throughout the
+          design-to-construction lifecycle.
+        </span>
+      </>
+    ),
     whatWeOffer: [
       {
         id: 1,
         title: "Comprehensive Structural BIM Modeling",
-        desc: "Creation of precise 3D models for steel, concrete, and composite structures, developed directly from design drawings or engineering intent.",
+        desc: (
+          <span>
+            Creation of detailed 3D BIM models for{" "}
+            <strong>steel, concrete, and composite structures</strong>,
+            developed from design drawings or engineering intent.
+          </span>
+        ),
       },
       {
         id: 2,
         title: "Reinforcement and Detailing Modeling",
-        desc: "Modeling of rebar layouts, connections, and embeds to fabrication-level accuracy, ensuring clarity between design and site execution.",
+        desc: (
+          <span>
+            Precision <strong>rebar modeling</strong>, connection detailing, and
+            embeds created to <strong>fabrication-level accuracy</strong> for
+            reliable construction documentation.
+          </span>
+        ),
       },
       {
         id: 3,
         title: "LOD-Specific Model Development",
-        desc: "Deliverables customized to LOD 200-500, supporting every stage from schematic design and coordination to fabrication and construction documentation.",
+        desc: (
+          <span>
+            Models customized to <strong>LOD 200-500</strong>, covering
+            schematic design, coordination, fabrication, and{" "}
+            <strong>as-built documentation</strong>.
+          </span>
+        ),
       },
       {
         id: 4,
         title: "Structural Analysis Integration",
-        desc: "Models prepared for seamless export to structural analysis tools such as ETABS, STAAD.Pro, or Robot, ensuring design alignment between BIM and analysis.",
+        desc: (
+          <span>
+            Models optimized for compatibility with tools like{" "}
+            <strong>ETABS, STAAD.Pro, and Robot Structural Analysis</strong>,
+            ensuring alignment between design intent and structural performance.
+          </span>
+        ),
       },
       {
         id: 5,
         title: "Coordination & Clash Management",
-        desc: "Interdisciplinary integration with architectural and MEP models to identify and resolve clashes before they reach the construction site.",
+        desc: (
+          <span>
+            Interdisciplinary integration of{" "}
+            <strong>
+              structural BIM models with architectural and MEP models
+            </strong>
+            , detecting and resolving clashes before site execution.
+          </span>
+        ),
       },
     ],
 
@@ -68,46 +134,93 @@ const Structural3D = () => {
     whyChooseAec: [
       {
         id: 1,
-        title: "Engineering Precision Meets BIM Intelligence",
-        desc: "Our models are not just visual; they’re technically robust, designed with engineering accuracy and BIM interoperability in mind.",
+        title: "Engineering Precision",
+        desc: (
+          <span>
+            Accurate <strong>structural BIM models</strong> designed for
+            real-world constructibility.
+          </span>
+        ),
       },
       {
         id: 2,
         title: "Seamless Collaboration",
-        desc: "We ensure that structural models integrate perfectly with other trades, minimizing field conflicts and rework.",
+        desc: (
+          <span>
+            Smooth coordination between{" "}
+            <strong>structural, architectural, and MEP teams.</strong>
+          </span>
+        ),
       },
       {
         id: 3,
         title: "Fabrication Ready Outputs",
-        desc: "From rebar layouts to steel connections, every detail is modeled for real-world constructability.",
+        desc: (
+          <span>
+            Detail-rich <strong>3D outputs</strong> for rebar, steel, and
+            concrete structures.
+          </span>
+        ),
       },
       {
         id: 4,
-        title: "Adaptive Standards",
-        desc: "Deliverables are aligned with AIA, BS, ACI, or client-specific structural standards, ensuring compliance and clarity.",
+        title: "Global Standards",
+        desc: (
+          <span>
+            Compliant with <strong>AIA, BS, ACI, and ISO 19650</strong> for
+            international BIM projects.
+          </span>
+        ),
       },
     ],
 
     ourExpertiseCover2: [
       {
         id: 1,
-        desc: "Clear, data-rich models that enhance design interpretation",
+        desc: (
+          <span>
+            <strong>Accurate, data-rich structural BIM models</strong> for
+            better design visualization and interpretation.
+          </span>
+        ),
       },
       {
         id: 2,
-        desc: "Faster coordination and clash-free construction planning",
+        desc: (
+          <span>
+            <strong>
+              Faster coordination and clash-free construction planning
+            </strong>{" "}
+            across disciplines.
+          </span>
+        ),
       },
       {
         id: 3,
-        desc: "Reduced structural design revisions and material waste",
+        desc: (
+          <span>
+            <strong>Reduced structural rework and material waste</strong>{" "}
+            through precision-driven BIM workflows.
+          </span>
+        ),
       },
       {
         id: 4,
-        desc: "Enhanced communication between engineers, fabricators and site teams",
+        desc: (
+          <span>
+            <strong>Improved collaboration</strong> between{" "}
+            <strong>engineers, fabricators, and construction teams.</strong>
+          </span>
+        ),
       },
       {
         id: 5,
-        desc: "Accurate and easily updatable documentation for project lifecycle management",
+        desc: (
+          <sapn>
+            <strong>Easily updatable BIM documentation</strong> for complete{" "}
+            <strong>project lifecycle management.</strong>
+          </sapn>
+        ),
       },
     ],
 

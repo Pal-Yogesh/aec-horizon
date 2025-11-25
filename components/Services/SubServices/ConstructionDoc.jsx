@@ -6,37 +6,95 @@ const ConstructionDoc = () => {
     category: "BIM & Drafting",
     title: "Construction documentation set/ as-built drawings",
     heading:
-      "Precision documentation for smarter construction and project handover",
-    desc1:
-      "At AEC Horizon, we deliver construction documentation and as built drawing services that ensure every project milestone is captured with accuracy, clarity and compliance. Our BIM based documentation workflows help architects, engineers and contractors translate design intent into detailed, build ready drawings; minimising on-site confusion and ensuring seamless project execution.",
-    desc2:
-      "From construction document sets to post construction as-built deliverables, we bring clarity, coordination and consistency to every drawing pakcage, empowering teams to build with confidence.",
-
+      "Accurate BIM Documentation for Efficient Construction and Handover",
+    desc1: (
+      <span>
+        At <strong>AEC Horizon</strong>, we deliver{" "}
+        <strong>construction documentation</strong> and{" "}
+        <strong>as-built drawing services</strong> that ensure every project
+        milestone is recorded with
+        <strong>accuracy, clarity, and BIM compliance</strong>.
+      </span>
+    ),
+    desc2: (
+      <>
+        <span>
+          Our <strong>BIM documentation workflows</strong> help architects,
+          engineers, and contractors across <strong>Europe</strong>, the{" "}
+          <strong>Middle East</strong>, and the <strong>USA</strong> convert
+          design intent into <strong>detailed, build-ready drawings</strong>,
+          minimizing on-site confusion and ensuring smooth project execution.
+        </span>
+        <br />
+        <span>
+          From initial construction documentation to final{" "}
+          <strong>as-built deliverables</strong>, we bring consistency,
+          coordination, and precision to every drawing package, empowering teams
+          to <strong>build with confidence</strong> and
+          <strong>handover efficiently</strong>.
+        </span>
+      </>
+    ),
     whatWeOffer: [
       {
         id: 1,
         title: "Construction Documentation Set (CD Set)",
-        desc: "Preparation of detailed construction drawings directly from coordinated BIM models, including plans, sections, elevations, schedules, and details tailored to your project phase and LOD requirements.",
+        desc: (
+          <span>
+            Preparation of{" "}
+            <strong>coordinated BIM-based construction drawings</strong>,
+            including plans, sections, elevations, schedules, and details
+            aligned with project LOD and design phase requirements.
+          </span>
+        ),
       },
       {
         id: 2,
         title: "As-Built Drawing Creation",
-        desc: "Accurate representation of the final built condition, developed using redline markups, site scans, or point cloud data; ensuring that your documentation matches on-site reality.",
+        desc: (
+          <span>
+            Accurate digital representation of the{" "}
+            <strong>final built condition</strong>, developed using{" "}
+            <strong>redline markups, site scans</strong>, and{" "}
+            <strong>point cloud to BIM workflows</strong> for true on-site
+            accuracy.
+          </span>
+        ),
       },
       {
         id: 3,
         title: "BIM Integrated Documentation",
-        desc: "Generation of fully coordinated drawings and schedules from BIM models for architecture, structure, and MEPF disciplines ensuring precision across all trades.",
+        desc: (
+          <span>
+            Generation of <strong>multi-disciplinary documentation</strong>{" "}
+            across{" "}
+            <strong>architectural, structural, and MEPF BIM systems</strong>,
+            ensuring precise coordination between trades.
+          </span>
+        ),
       },
       {
         id: 4,
         title: "Shop & Fabrication Drawings",
-        desc: "Detailed fabrication-level documentation for HVAC, plumbing, electrical, and structural systems, aligned with contractor specifications.",
+        desc: (
+          <span>
+            Production of <strong>fabrication-level documentation</strong> for
+            HVAC, plumbing, electrical, and structural systems, ensuring
+            compliance with contractor and fabrication standards.
+          </span>
+        ),
       },
       {
         id: 5,
         title: "Drawing Standardisation & Template Setup",
-        desc: "Customisation of drawing standards, title blocks, and annotation styles to align with your firm’s visual identity and documentation standards.",
+        desc: (
+          <span>
+            Customization of <strong>drawing templates, title blocks</strong>,
+            and <strong>annotation styles</strong> as per{" "}
+            <strong>ISO 19650</strong> and{" "}
+            <strong>AIA documentation standards</strong> for global consistency.
+          </span>
+        ),
       },
     ],
 
@@ -70,46 +128,93 @@ const ConstructionDoc = () => {
     whyChooseAec: [
       {
         id: 1,
-        title: "Accuracy You Can Build On",
-        desc: "Every drawing is derived from verified, clash-free BIM models, ensuring dimensional precision and constructibility.",
+        title: "High Accuracy Drawings",
+        desc: (
+          <span>
+            Verified <strong>BIM-based documentation</strong> ensures precision,
+            constructability, and alignment with site conditions.
+          </span>
+        ),
       },
       {
         id: 2,
-        title: "Time Efficient Delivery",
-        desc: "Automated BIM workflows streamline documentation, reducing manual drafting time and errors.",
+        title: "Faster Delivery",
+        desc: (
+          <span>
+            <strong>Automated Revit workflows</strong> reduce manual drafting
+            time and speed up documentation.
+          </span>
+        ),
       },
       {
         id: 3,
-        title: "Compliance & Standards",
-        desc: "All deliverables conform to AIA, NBIMS, and ISO 19650 standards, ensuring professional and regulatory compliance.",
+        title: "Global Standards Compliance",
+        desc: (
+          <span>
+            All deliverables meet{" "}
+            <strong>AIA, NBIMS, and ISO 19650 BIM standards</strong> for
+            international projects.
+          </span>
+        ),
       },
       {
         id: 4,
-        title: "End-to-End Support",
-        desc: "From design to drawings to as-built records, our team manages the full documentation lifecycle.",
+        title: "Complete Support",
+        desc: (
+          <span>
+            From <strong>design documentation to as-built BIM models</strong>,
+            we manage every stage for seamless project handover.
+          </span>
+        ),
       },
     ],
 
     ourExpertiseCover2: [
       {
         id: 1,
-        desc: "Highly accurate and consistent drawing deliverables",
+        desc: (
+          <span>
+            <strong>Highly accurate and coordinated BIM drawings</strong> that
+            align perfectly with on-site conditions.
+          </span>
+        ),
       },
       {
         id: 2,
-        desc: "Shortened documentation timelines with fewer revisions",
+        desc: (
+          <span>
+            <strong>Faster documentation timelines</strong> through automated{" "}
+            <strong>Revit and BIM workflows</strong>.
+          </span>
+        ),
       },
       {
         id: 3,
-        desc: "Enhanced collaboration across project stakeholders",
+        desc: (
+          <span>
+            <strong>Improved collaboration</strong> among{" "}
+            <strong>architects, engineers, and contractors</strong>
+            across global projects.
+          </span>
+        ),
       },
       {
         id: 4,
-        desc: "Clear construction intent for site teams",
+        desc: (
+          <span>
+            <strong>Clear construction intent</strong> for field teams, reducing
+            rework and confusion.
+          </span>
+        ),
       },
       {
         id: 5,
-        desc: "Reliable as-built archives for facility management and future retrofits",
+        desc: (
+          <span>
+            <strong>Reliable as-built archives</strong> supporting{" "}
+            <strong>facility management</strong> and future renovations.
+          </span>
+        ),
       },
     ],
 

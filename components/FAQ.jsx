@@ -6,22 +6,22 @@ const faqData = [
   {
     question: "What services does your company offer?",
     answer:
-      "We provide end-to-end AEC solutions including BIM modeling & drafting, technical business development consulting, and digital marketing strategies tailored for architecture, engineering, and construction firms.",
-  },
-  {
-    question: "How can I contact support?",
-    answer:
-      "You can reach us anytime via email or the contact form on our website. Our team usually replies within 24 hours.",
+      "We provide end-to-end AEC solutions including BIM modeling and drafting, technical business development consulting, and digital marketing strategies, tailored for architecture, engineering, and construction firms worldwide.",
   },
   {
     question: "Do you work with international clients?",
     answer:
-      "Yes! We collaborate with clients worldwide, providing digital and consulting services remotely.",
+      "Absolutely! We collaborate with clients across the globe, offering seamless digital consulting and support for remote and international AEC projects.",
   },
   {
     question: "What is your project delivery process?",
     answer:
-      "Our process includes requirement gathering, planning, execution, client feedback, and final delivery. We ensure transparency at every step.",
+      "Our delivery process covers requirement analysis, detailed planning, execution, feedback rounds, and final handover. We ensure every project is managed transparently, with clear milestones at every step.",
+  },
+  {
+    question: "How can I contact support?",
+    answer:
+      "You can reach us anytime via email or through our website contact form. Our support team responds within 24 hours to assist with your questions, feedback, or technical needs.",
   },
 ];
 
@@ -57,9 +57,7 @@ const FAQ = () => {
               <div className="text-[#4B336D] font-medium">
                 <p className="text-[22px] sm:text-[25px] lg:text-[29px]">Still have Questions?</p>
                 <p className="text-[13px] sm:text-[14px] lg:text-[16px] pt-2">
-                  Can&apos;t find the questions that you were looking
-                  for? Email us now and we&apos;ll get right back to
-                  you!
+                Didn&apos;t find the answer you needed? Email us and our team will get back to you promptly with expert support.
                 </p>
               </div>
 

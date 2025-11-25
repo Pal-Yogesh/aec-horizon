@@ -10,17 +10,17 @@ const AboutUs = () => {
     {
       title: "Our Vision",
       content:
-        "At AEC Horizon, our vision is simple yet powerful: 'Supporting the Industry Behind the Scenes.' We believe every project deserves the best support.",
+        "To reshape the future of the AEC industry through the seamless fusion of technical intelligence, creative innovation, and digital transformation. We envision architects, engineers, and construction leaders working with unmatched precision, efficiency, and collaboration, powered by BIM-led design, data-driven strategy, and technology that enhances human expertise.",
     },
     {
       title: "Our Story",
       content:
-        "Over the years, we've grown into a trusted partner, empowering AEC professionals with solutions that blend precision and innovation.",
+        "AEC Horizon was created to meet the real needs of the architecture, engineering, and construction sectors: not just fragmented solutions, but a holistic partner fluent in both design and business growth. Today, we help AEC firms worldwide turn complexity into clarity, transforming how they build, communicate, and scale.",
     },
     {
       title: "Our Mission",
       content:
-        "We are committed to delivering excellence through innovative solutions, cutting-edge technology, and unwavering dedication to our clients' success.",
+        "We aim to empower every AEC professional, from independent architects to global engineering firms, with tools, systems, and strategies to elevate their craft and accelerate results. Through BIM integration, technical expertise, and digital intelligence, we build a connected ecosystem where efficiency, creativity, and sustainability thrive",
     },
   ];
 
@@ -123,15 +123,15 @@ const AboutUs = () => {
                             {item.title}
                           </p>
                         </div>
-                        <div className="py-10">
-                          <p className="text-[#3B1D66] text-[15px] sm:text-[17px] lg:text-[19px] px-12">
+                        <div className="py-5">
+                          <p className="text-[#3B1D66] text-[15px] sm:text-[17px] lg:text-[18px] px-5">
                             {item.content}
                           </p>
                         </div>
 
                         {/* Navigation Buttons - Only on center card */}
                         {position === "center" && (
-                          <div className="flex justify-between items-center px-12 mt-16">
+                          <div className="flex justify-between items-center px-12 mt-[8%]">
                             <button
                               onClick={handlePrevious}
                               className="cursor-pointer border-[1px] rounded-full border-[#DCDCDC] bg-[#FFFFFF] w-[42px] h-[42px] flex items-center justify-center transition-all duration-200 hover:scale-105"

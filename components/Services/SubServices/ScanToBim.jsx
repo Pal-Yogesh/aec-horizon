@@ -5,37 +5,94 @@ const ScanToBim = () => {
   const serviceData = {
     category: "BIM & Drafting",
     title: "Scan to BIM Services",
-    heading: "Transforming real world structures into intelligent BIM models",
-    desc1:
-      "At AEC Horizon, we offer precise and reliable scan to BIM services that convert point cloud sata into intelligent, data rich BIM models. Our process bridges the gap between existing conditions and digital construction, enabling architects, engineers and contractors to make informed design and renovation decisions with confidence.",
-    desc2:
-      "Using advanced tools like Autodesk ReCap, Revit and Navisworks, our BIM expers create accurate 3D as-built models that capture every detail from architectural and structural elements to complex MEPF systems; ensuring a true digital replica of your built environment.",
-
+    heading: "Converting Real-World Structures into Intelligent BIM Models",
+    desc1: (
+      <span>
+        At <strong>AEC Horizon</strong>, we deliver{" "}
+        <strong>precise and reliable Scan to BIM services</strong>
+        that convert <strong>point cloud data</strong> into intelligent,
+        data-rich <strong>3D BIM models</strong>. Our expertise helps AEC firms
+        across <strong>Europe</strong>, the <strong>Middle East</strong>, and
+        the <strong>USA</strong> bridge the gap between existing structures and
+        digital construction, enabling informed renovation, retrofitting, and
+        design decisions with confidence.
+      </span>
+    ),
+    desc2: (
+      <span>
+        Using advanced tools like <strong>Autodesk ReCap, Revit</strong>, and{" "}
+        <strong>Navisworks</strong>, our <strong>BIM experts</strong> develop
+        highly detailed
+        <strong>as-built BIM models</strong> that capture every architectural,
+        structural, and MEPF element, creating an accurate digital replica of
+        your built environment. These models support seamless coordination,
+        efficient project planning, and long-term facility management.
+      </span>
+    ),
     whatWeOffer: [
       {
         id: 1,
-        title: "Comprehensive MEPF Model Coordination",
-        desc: "Integration of mechanical, electrical, plumbing, and fire protection systems into a unified BIM model to ensure proper alignment and space utilization.",
+        title: "Comprehensive Scan to BIM Modeling",
+        desc: (
+          <span>
+            Conversion of <strong>laser-scanned point cloud data</strong> into
+            accurate <strong>BIM models</strong>, maintaining spatial precision
+            and real-world geometry.
+          </span>
+        ),
       },
       {
         id: 2,
-        title: "Clash Detection & Resolution",
-        desc: "Identification and categorization of system clashes and spatial conflicts through tools like Navisworks Clash Detective, followed by detailed clash reports and resolution strategies.",
+        title: "As-Built BIM Services",
+        desc: (
+          <span>
+            Creation of detailed <strong>as-built 3D models</strong> for
+            renovation, refurbishment, and facility documentation.
+          </span>
+        ),
       },
       {
         id: 3,
-        title: "System Optimisation & Routing",
-        desc: "Intelligent rerouting of MEPF services to maximize ceiling space, improve accessibility, and ensure compliance with project and design standards.",
+        title: "Clash Detection & Validation",
+        desc: (
+          <span>
+            Identifying design inconsistencies through{" "}
+            <strong>Navisworks clash detection</strong> to ensure conflict-free,
+            constructible models.
+          </span>
+        ),
       },
       {
         id: 4,
-        title: "Constructability & Installation Review",
-        desc: "Validation of coordinated MEPF layouts for constructability, clearance, and maintenance accessibility prior to site execution to minimize installation challenges.",
+        title: "Architectural, Structural & MEPF Modeling",
+        desc: (
+          <span>
+            Delivering coordinated <strong>Revit BIM models</strong> for
+            architectural, structural, and <strong>MEP BIM systems</strong>{" "}
+            within a single environment.
+          </span>
+        ),
       },
       {
         id: 5,
-        title: "BIM Driven Collaboration",
-        desc: "Facilitation of regular coordination meetings and issue tracking using BIM 360, promoting seamless communication among contractors, consultants, and engineers.",
+        title: "Point Cloud Optimization & Data Cleaning",
+        desc: (
+          <span>
+            Filtering and aligning scanned data to enhance modeling accuracy and
+            reduce file complexity.
+          </span>
+        ),
+      },
+      {
+        id: 6,
+        title: "Renovation & Facility Management Support",
+        desc: (
+          <span>
+            Providing intelligent <strong>BIM models</strong> that support{" "}
+            <strong>facility maintenance</strong>, space management, and{" "}
+            <strong>as-built documentation</strong>.
+          </span>
+        ),
       },
     ],
 
@@ -65,60 +122,124 @@ const ScanToBim = () => {
         desc: "Point cloud to Revit conversion (RCP/RCS formats)",
       },
     ],
-    
 
     whyChooseAec: [
       {
         id: 1,
         title: "High Accuracy Deliverables",
-        desc: "Our models achieve millimeter-level precision, ensuring complete alignment with on-site conditions.",
+        desc: (
+          <span>
+            Our <strong>Scan to BIM models</strong> achieve{" "}
+            <strong>millimeter-level precision</strong>, ensuring complete
+            alignment between digital as-built data and on-site conditions for
+            accurate renovation and documentation.
+          </span>
+        ),
       },
       {
         id: 2,
         title: "Multi Discipline Capability",
-        desc: "Coordinated BIM outputs covering architecture, structure, and MEPF systems in a single unified model.",
+        desc: (
+          <span>
+            We deliver coordinated <strong>architectural, structural</strong>,
+            and <strong>MEPF BIM models</strong>, enabling AEC firms across{" "}
+            <strong>Europe</strong>, the <strong>Middle East</strong>, and the{" "}
+            <strong>USA</strong> to manage complex projects through a single,
+            unified BIM USA to manage complex projects through a single, unified
+            BIM environment.
+          </span>
+        ),
       },
       {
         id: 3,
         title: "Optimised for Revit Workflows",
-        desc: "Models are developed for seamless integration into design, coordination, and facility management workflows.",
+        desc: (
+          <span>
+            Our <strong>as-built BIM models</strong> are developed using{" "}
+            <strong>Autodesk Revit</strong> for seamless integration into
+            design, coordination, and{" "}
+            <strong>facility management workflows</strong>.
+          </span>
+        ),
       },
       {
         id: 4,
         title: "Standards Based Modeling",
-        desc: "Deliverables fully comply with AIA LOD 100–500, ISO 19650, and client-specific BIM Execution Plans (BEP).",
+        desc: (
+          <span>
+            All deliverables comply with{" "}
+            <strong>AIA LOD 100-500, ISO 19650</strong>, and client-specific{" "}
+            <strong>BIM Execution Plans (BEP)</strong>, ensuring consistency,
+            compliance, and <strong>global BIM standards</strong>.
+          </span>
+        ),
       },
       {
         id: 5,
         title: "End-to-End Support",
-        desc: "From scanning to modeling to documentation, we manage every stage of the Scan to BIM lifecycle efficiently.",
+        desc: (
+          <span>
+            From <strong>3D laser scanning</strong> to{" "}
+            <strong>BIM modeling</strong> and final documentation, we manage the
+            entire <strong>Scan to BIM process</strong>, delivering accuracy,
+            speed, and quality across every project stage.
+          </span>
+        ),
       },
     ],
-    
 
     ourExpertiseCover2: [
       {
         id: 1,
-        desc: "Accurate visualisation of existing building conditions",
+        desc: (
+          <span>
+            <strong>
+              Accurate visualization of existing building conditions
+            </strong>{" "}
+            through high-precision <strong>point cloud to BIM modeling</strong>.
+          </span>
+        ),
       },
       {
         id: 2,
-        desc: "Reduced design risks and rework during renovation",
+        desc: (
+          <span>
+            <strong>Reduced design risks and rework</strong> during{" "}
+            <strong>renovation and retrofit projects</strong> using detailed{" "}
+            <strong>as-built BIM models</strong>.
+          </span>
+        ),
       },
       {
         id: 3,
-        desc: "Enhanced coordination for retrofits and facility management",
+        desc: (
+          <span>
+            <strong>Enhanced coordination and efficiency</strong> for{" "}
+            <strong>facility management and MEPF BIM workflows</strong>.
+          </span>
+        ),
       },
       {
         id: 4,
-        desc: "Faster project turn around from scan to model",
+        desc: (
+          <span>
+            <strong>Faster project turnaround</strong> from{" "}
+            <strong>3D laser scanning to Revit modeling</strong>
+            with streamlined digital workflows.
+          </span>
+        ),
       },
       {
         id: 5,
-        desc: "Improved data-driven decision making and project planning",
+        desc: (
+          <span>
+            <strong>Improved data-driven decision-making</strong> and{" "}
+            <strong>project planning</strong> through intelligent{" "}
+            <strong>Scan to BIM services</strong>.
+          </span>
+        ),
       },
     ],
-    
 
     imagePath: "/s11.svg",
     bgColor: "from-[#A8C8FF] to-[#6B9FFF]",

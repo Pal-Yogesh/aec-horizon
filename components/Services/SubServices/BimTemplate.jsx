@@ -5,116 +5,211 @@ const BimTemplate = () => {
   const serviceData = {
     category: "BIM & Drafting",
     title: "BIM Template & Content Creation Services",
-    heading: "Smart Standards for consistent, efficient BIM projects",
-    desc1:
-      "At AEC Horizon, we deliver BIM Template and content creation services designed to bring structure, consistency and scalability to your building information modeling workflows. Our BIM templates and content libraries are designed to match your firm’s project standards, workflows and discipline specific requirements, ensuring that every model starts on a strong efficient foundation.",
-    desc2:
-      "Whether you are an architectural, structural or MEP firm, our BIM templates and content systems empower your team to model faster, collaborate better and maintain data integrity across every project stage.",
-   
-      whatWeOffer: [
-        {
-          id: 1,
-          title: "Custom BIM Template Development",
-          desc: "Creation of project-specific and discipline-based templates complete with preloaded families, view templates, schedules, and title blocks for faster project setup.",
-        },
-        {
-          id: 2,
-          title: "BIM Standards Implementation",
-          desc: "Establishing standard naming conventions, shared parameters, worksets, and view configurations aligned with AIA, ISO 19650, and LOD standards.",
-        },
-        {
-          id: 3,
-          title: "BIM Content Library Creation",
-          desc: "Development of standardised, reusable BIM components and families for architectural, structural, and MEP disciplines to ensure uniformity and speed in modeling.",
-        },
-        {
-          id: 4,
-          title: "Project Environment Setup",
-          desc: "Comprehensive setup of worksharing environments, linked model templates, and coordinate systems for efficient collaboration.",
-        },
-        {
-          id: 5,
-          title: "Template Optimisation & Version Upgrades",
-          desc: "Upgrading outdated Revit or BIM templates to new standards, optimising performance, file size, and usability across projects.",
-        },
-      ],
-      
+    heading: "BIM Templates and Standards for Streamlined Project Delivery",
+    desc1: (
+      <>
+        <span>
+          At <strong>AEC Horizon</strong>, we provide{" "}
+          <strong>BIM Template and Content Creation services</strong>
+          designed to bring accuracy, consistency, and scalability to your
+          <strong> Building Information Modeling (BIM) workflows</strong>. Our
+          team develops
+          <strong>custom BIM templates and libraries</strong> that align with
+          your firm&apos;s project standards, ensuring smooth collaboration and
+          optimized model performance from design to construction.
+        </span>
+      </>
+    ),
+    desc2: (
+      <span>
+        Whether your focus is <strong>architecture, structure, or MEP</strong>,
+        our BIM templates enable your teams to model faster, maintain data
+        integrity, and achieve efficient coordination across every project
+        phase.
+        <br />
+        Serving clients across <strong>Europe</strong>, the{" "}
+        <strong>Middle East</strong>, and the <strong>USA</strong>, AEC Horizon
+        delivers <strong>professional BIM services</strong> that strengthen
+        workflows and enhance productivity for design firms, contractors, and
+        consultants worldwide.
+      </span>
+    ),
+    whatWeOffer: [
+      {
+        id: 1,
+        title: "Custom BIM Template Development",
+        desc: (
+          <span>
+            Creation of project-specific and discipline-based templates with
+            preloaded <strong>Revit families</strong>, view templates, and title
+            blocks for faster and standardized project setup.
+          </span>
+        ),
+      },
+      {
+        id: 2,
+        title: "BIM Standards Implementation",
+        desc: (
+          <span>
+            Establishment of <strong>naming conventions</strong>, shared
+            parameters, and view configurations in line with{" "}
+            <strong> AIA, ISO 19650</strong>, and <strong>LOD standards</strong>{" "}
+            for global consistency.
+          </span>
+        ),
+      },
+      {
+        id: 3,
+        title: "BIM Content Library Creation",
+        desc: (
+          <span>
+            Development of standardized and reusable{" "}
+            <strong>BIM components </strong>for architectural, structural, and{" "}
+            <strong>MEP BIM services</strong>, promoting model uniformity and
+            speed.
+          </span>
+        ),
+      },
+      {
+        id: 4,
+        title: "Project Environment Setup",
+        desc: (
+          <span>
+            Comprehensive configuration of{" "}
+            <strong>worksharing environments</strong>, linked model templates,
+            and coordinate systems for enhanced{" "}
+            <strong>BIM coordination</strong>.
+          </span>
+        ),
+      },
+      {
+        id: 5,
+        title: "Template Optimisation & Version Upgrades",
+        desc: (
+          <span>
+            Upgrading outdated <strong>Revit templates</strong> to meet new
+            standards, improving performance, usability, and file management
+          </span>
+        ),
+      },
+    ],
 
-      ourExpertiseCover: [
-        {
-          id: 1,
-          desc: "Architectural Templates: Predefined views, schedules, and sheets.",
-        },
-        {
-          id: 2,
-          desc: "Structural Templates: Reinforcement schedules, steel connections, and section configurations.",
-        },
-        {
-          id: 3,
-          desc: "MEP Templates: System-based views, connectors, and family category settings for MEP designs.",
-        },
-        {
-          id: 4,
-          desc: "Multi-discipline BIM Content Libraries: Unified libraries ensuring coordinated and compliant modeling across all trades.",
-        },
-      ],
-      
-    
+    ourExpertiseCover: [
+      {
+        id: 1,
+        desc: "Architectural Templates: Predefined views, schedules, and sheets.",
+      },
+      {
+        id: 2,
+        desc: "Structural Templates: Reinforcement schedules, steel connections, and section configurations.",
+      },
+      {
+        id: 3,
+        desc: "MEP Templates: System-based views, connectors, and family category settings for MEP designs.",
+      },
+      {
+        id: 4,
+        desc: "Multi-discipline BIM Content Libraries: Unified libraries ensuring coordinated and compliant modeling across all trades.",
+      },
+    ],
 
     whyChooseAec: [
       {
         id: 1,
         title: "BIM Workflow Efficiency",
-        desc: "Templates structured to reduce setup time and ensure consistent modeling practices across teams.",
+        desc: (
+          <span>
+            Our <strong>BIM templates</strong> are structured to minimize setup
+            time, improve team productivity, and ensure consistent{" "}
+            <strong>Revit modeling practices</strong> across projects in{" "}
+            <strong>Europe, the Middle East, and the USA</strong>.
+          </span>
+        ),
       },
       {
         id: 2,
-        title: "Standardised Project Delivery",
-        desc: "Uniform documentation, naming, and parameter conventions that enhance project quality and coordination.",
+        title: "Standardized Project Delivery",
+        desc: (
+          <span>
+            We implement uniform{" "}
+            <strong>BIM documentation, naming conventions</strong>, and
+            parameter standards that enhance coordination and maintain quality
+            throughout every design and construction phase.
+          </span>
+        ),
       },
       {
         id: 3,
         title: "Cross Platform Compatibility",
-        desc: "Content and templates developed for seamless integration with Autodesk Revit, Navisworks, and other BIM tools.",
+        desc: (
+          <span>
+            All content and templates are developed for seamless integration
+            with <strong>Autodesk Revit, Navisworks</strong>, and other major{" "}
+            <strong>BIM coordination tools</strong>, ensuring interoperability
+            across disciplines
+          </span>
+        ),
       },
       {
         id: 4,
-        title: "Scalable to Your Needs",
-        desc: "Whether you need a single discipline template or a complete enterprise-wide BIM standardisation solution, we scale with your requirements.",
+        title: "Scalable BIM Solutions",
+        desc: (
+          <span>
+            Whether your firm needs a single-discipline{" "}
+            <strong>Revit template</strong> or a complete enterprise-level{" "}
+            <strong>BIM standardization solution</strong>, our services scale to
+            meet the needs of architectural, structural, and{" "}
+            <strong>MEP BIM projects</strong>.
+          </span>
+        ),
       },
       {
         id: 5,
-        title: "Industry Compliant Standards",
-        desc: "Developed to comply with AIA E203, LOD 100-500, and ISO 19650 frameworks for global BIM compliance.",
+        title: "Globally Compliant Standards",
+        desc: (
+          <span>
+            Our BIM templates are developed in compliance with{" "}
+            <strong>AIA E203, LOD 100-500</strong>, and{" "}
+            <strong>ISO 19650</strong> frameworks, ensuring your projects meet
+            global <strong>BIM standards</strong> for quality and performance.
+          </span>
+        ),
       },
     ],
-    
-    
 
     ourExpertiseCover2: [
       {
         id: 1,
-        desc: "Faster project startup and reduced setup errors",
+        desc: <p>
+          <strong>Faster BIM project setup</strong> with structured templates that minimize startup time and reduce setup errors.
+        </p>,
       },
       {
         id: 2,
-        desc: "Consistent BIM documentation and model standards",
+        desc: <p>
+        <strong>Consistent BIM documentation</strong> and <strong>standardized Revit models</strong> ensuring accuracy across all disciplines
+        </p>,
       },
       {
         id: 3,
-        desc: "Improved multidisciplinary coordination",
+        desc: <p>
+          <strong>Improved multidisciplinary coordination</strong> through unified <strong>BIM workflows</strong> and shared project standards.
+        </p>,
       },
       {
         id: 4,
-        desc: "Reduced rework and modeling inconsistencies",
+        desc:<p>
+          <strong>Reduced rework and modeling inconsistencies</strong> with globally compliant <strong>BIM templates</strong> and libraries.
+        </p> ,
       },
       {
         id: 5,
-        desc: "Enhanced collaboration and productivity across teams",
+        desc: <p>
+          <strong>Enhanced collaboration and productivity</strong> across architectural, structural, and <strong>MEP BIM teams</strong>.
+        </p>,
       },
     ],
-    
-    
+
     imagePath: "/s11.svg",
     bgColor: "from-[#A8C8FF] to-[#6B9FFF]",
     features: [
@@ -145,4 +240,3 @@ const BimTemplate = () => {
 };
 
 export default BimTemplate;
-

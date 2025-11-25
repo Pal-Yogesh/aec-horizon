@@ -5,36 +5,94 @@ const BimAutomation = () => {
   const serviceData = {
     category: "BIM & Drafting",
     title: "BIM automation Services",
-    heading: "Accelerating BIM Workflows with smart automation solutions",
-    desc1:
-      "At AEC Horizon, we empower AEC firms with BIM automation services that simplify repetitive tasks, enhance data accuracy and unlock higher productivity across projects. By integrating custom scripts, Dynamo workflows and Revit API based tools, we help teams move from manual modeling to intelligent automation; saving time, reducing errors and improving overall project outcomes.",
-    desc2:
-      "Our automation solutions are create for architectural, structural and MEP disciplines, ensuring that your BIM processes are not just faster, but smarter and more consistent across every project phase",
+    heading: "BIM Automation Services for Smarter and Faster Project Delivery",
+    desc1: (
+      <span>
+        At <strong>AEC Horizon</strong>, we help AEC firms enhance efficiency
+        with intelligent
+        <strong>BIM automation services</strong>. Our automation tools
+        streamline repetitive design and modeling tasks, improve data accuracy,
+        and accelerate documentation processes, allowing teams to focus on
+        creativity and precision.
+      </span>
+    ),
+    desc2: (
+      <>
+        <span>
+          By integrating <strong>custom Dynamo scripts</strong>,{" "}
+          <strong>Revit API-based tools</strong>, and
+          <strong>Python automation</strong>, we empower firms across{" "}
+          <strong>Europe, the Middle East</strong>, and the <strong>USA</strong>{" "}
+          to transition from manual workflows to automated{" "}
+          <strong>BIM processes</strong>, reducing time, errors, and costs
+          across the entire project lifecycle.
+        </span>
+        <br /> <br />
+        <span>
+          Our solutions are designed for{" "}
+          <strong>architectural, structural,</strong> and{" "}
+          <strong>MEP BIM</strong>
+          disciplines, ensuring every model is coordinated, compliant, and
+          optimized for performance.
+        </span>
+      </>
+    ),
     whatWeOffer: [
       {
         id: 1,
         title: "Custom BIM Automation Tools",
-        desc: "Development of Revit plug-ins and scripts using Dynamo, Python or Revit API to automate design tasks, data management and documentation workflows.",
+        desc: (
+          <span>
+            Development of <strong>Revit plug-ins</strong> and automation
+            scripts using <strong>Dynamo, Python, </strong> or{" "}
+            <strong>Revit API</strong> to simplify design workflows,
+            documentation, and data management.
+          </span>
+        ),
       },
       {
         id: 2,
         title: "Parametric Workflow Automation",
-        desc: "Automating repetitive modeling tasks such as sheet creation, view setup, dimensioning and quantity extraction with precision and flexibility.",
+        desc: (
+          <span>
+            Automating repetitive modeling tasks like sheet setup, view
+            creation, and <strong>quantity take-offs</strong>, ensuring
+            flexibility and accuracy across complex BIM projects.
+          </span>
+        ),
       },
       {
         id: 3,
         title: "BIM Data Management Automation",
-        desc: "Streamlining parameter updates, schedules and shared data environments to maintain accuracy across large scale projects.",
+        desc: (
+          <span>
+            Streamlining <strong>parameter updates, schedules,</strong> and{" "}
+            <strong>shared data environments</strong> to maintain consistency
+            across multi-disciplinary teams.
+          </span>
+        ),
       },
       {
         id: 4,
         title: "Design to Documentation Automation",
-        desc: "End-to-end workflows that link design inputs directly to construction documentation, reducing time spent on manual updates.",
+        desc: (
+          <span>
+            Creating <strong>end-to-end workflows</strong> that connect design
+            inputs to construction documentation, reducing manual work and
+            improving <strong>BIM coordination.</strong>
+          </span>
+        ),
       },
       {
         id: 5,
         title: "Quality Control and Model Validation",
-        desc: "Automated model audits to check naming conventions, family usage and LOD compliance ensuring BIM standards are met consistently.",
+        desc: (
+          <span>
+            Automated model audits to check{" "}
+            <strong>LOD compliance, BIM standards</strong>, and
+            <strong>Revit family accuracy</strong> for improved reliability.
+          </span>
+        ),
       },
     ],
 
@@ -68,51 +126,119 @@ const BimAutomation = () => {
     whyChooseAec: [
       {
         id: 1,
-        title: "Enhanced Efficiency",
-        desc: "Automation reduces manual tasks and frees up your team for high-value design and coordination work.",
+        title: "Enhanced BIM Efficiency",
+        desc: (
+          <span>
+            Our <strong>BIM automation services</strong> streamline repetitive
+            design and modeling tasks, helping AEC firms in{" "}
+            <strong>Europe</strong>, the <strong>Middle East</strong>, and the{" "}
+            <strong>USA</strong> save time and focus on high-value coordination
+            and design work.
+          </span>
+        ),
       },
       {
         id: 2,
         title: "Consistency and Accuracy",
-        desc: "Eliminates human error through rule-based automation for modeling, documentation, and data control.",
+        desc: (
+          <span>
+            Through <strong>rule-based automation</strong> and{" "}
+            <strong>Revit API workflows</strong>, we eliminate manual errors in
+            documentation, data control, and{" "}
+            <strong>BIM model validation</strong>, ensuring consistent project
+            output.
+          </span>
+        ),
       },
       {
         id: 3,
-        title: "Custom Built Solutions",
-        desc: "Tools and scripts designed around your firm’s workflows — not one-size-fits-all templates.",
+        title: "Custom Built BIM Solutions",
+        desc: (
+          <span>
+            We develop <strong>tailored Revit automation tools</strong> and{" "}
+            <strong>Dynamo scripts</strong>
+            customized to your firm&apos;s workflows no generic templates, only
+            scalable <strong>BIM automation solutions</strong> built for real
+            project needs.
+          </span>
+        ),
       },
       {
         id: 4,
         title: "Seamless Integration",
-        desc: "Works within existing Revit and BIM 360 environments for smooth deployment and scalability.",
+        desc: (
+          <span>
+            Our automation tools integrate smoothly with{" "}
+            <strong>Autodesk Revit, BIM 360</strong>, and other platforms,
+            enabling teams to maintain <strong>BIM coordination</strong> and
+            workflow continuity across multi-discipline projects.
+          </span>
+        ),
       },
       {
         id: 5,
-        title: "Future Ready BIM",
-        desc: "Our automation solutions evolve with your firm’s digital transformation goals, paving the way for AI-integrated BIM.",
+        title: "Future Ready BIM Systems",
+        desc: (
+          <span>
+            We help firms advance toward{" "}
+            <strong>AI-integrated BIM automation</strong> by developing smart,
+            data-driven processes that support digital transformation and
+            long-term efficiency.
+          </span>
+        ),
       },
     ],
 
     ourExpertiseCover2: [
       {
         id: 1,
-        desc: "Up to 60% reduction in manual modeling effort",
+        desc: (
+          <span>
+            <strong>Up to 60% reduction in manual modeling effort</strong>{" "}
+            through advanced <strong>BIM automation tools</strong> and{" "}
+            <strong>Revit API workflows</strong>.
+          </span>
+        ),
       },
       {
         id: 2,
-        desc: "Improved project accuracy and consistency",
+        desc: (
+          <span>
+            <strong>Improved project accuracy and consistency</strong> using
+            data-driven <strong>BIM coordination</strong> and quality
+            validation.
+          </span>
+        ),
       },
       {
         id: 3,
-        desc: "Faster design to documentation cycles",
+        desc: (
+          <span>
+            <strong>Faster design-to-documentation cycles</strong> with
+            automated <strong>Revit modeling</strong>
+            and intelligent task execution
+          </span>
+        ),
       },
       {
         id: 4,
-        desc: "Minimised rework and coordination errors",
+        desc: (
+          <span>
+            <strong>Minimized rework and coordination errors</strong> by
+            integrating <strong>rule-based BIM workflows</strong> across
+            disciplines.
+          </span>
+        ),
       },
       {
         id: 5,
-        desc: "Scalable automation across multiple projects and teams",
+        desc: (
+          <span>
+            <strong>Scalable automation solutions</strong> adaptable for{" "}
+            <strong>architecture, structure, and MEP BIM teams</strong> across
+            global projects.
+          </span>
+        ),
       },
     ],
 

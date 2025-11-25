@@ -71,24 +71,34 @@ const SubServiceTemplate = ({ data }) => {
                   {data.heading}
                 </h2>
 
-                <p className="font-normal text-[14px] sm:text-[16px] lg:text-[18px]">{data.desc1}</p>
+                <p className="font-normal text-[14px] sm:text-[16px] lg:text-[18px]">
+                  {data.desc1}
+                </p>
 
-                <p className="font-normal text-[14px] sm:text-[16px] lg:text-[18px]">{data.desc2}</p>
+                <p className="font-normal text-[14px] sm:text-[16px] lg:text-[18px]">
+                  {data.desc2}
+                </p>
               </div>
               <div className="text-[16px] sm:text-[18px] lg:text-[20px] py-8 sm:py-10 lg:py-12">
                 <h2 className="font-semibold">What we offer</h2>
 
                 <div>
                   <div>
-                    <ul className="pt-5 space-y-2">
+                    <ul className="pt-5 space-y-2 pl-3">
                       {data.whatWeOffer.map((p) => (
-                        <li key={p.id} className="flex items-start gap-3">
-                          <span className="mt-[10px] md:mt-[14px] w-[15px] h-[3px] rounded-full md:w-[4px] md:h-[4px] bg-[#364483] inline-block"></span>
+                        // <li key={p.id} className="flex items-start gap-3 list-disc list-inside">
+                        //   {/* <span className="mt-[10px] md:mt-[14px] w-[15px] h-[3px] rounded-full md:w-[4px] md:h-[4px] bg-[#364483] inline-block"></span> */}
 
-                          <p className="leading-relaxed text-[14px] sm:text-[16px] lg:text-[18px]">
+                        //   <p className="leading-relaxed text-[14px] sm:text-[16px] lg:text-[18px]">
+                        //     <span className="font-semibold">{p.title}:</span>{" "}
+                        //     <span className="font-normal">{p.desc}</span>
+                        //   </p>
+                        // </li>
+                        <li key={p.id} className="list-disc ">
+                          <span className="leading-relaxed text-[14px] sm:text-[16px] lg:text-[18px]">
                             <span className="font-semibold">{p.title}:</span>{" "}
                             <span className="font-normal">{p.desc}</span>
-                          </p>
+                          </span>
                         </li>
                       ))}
                     </ul>
@@ -105,7 +115,7 @@ const SubServiceTemplate = ({ data }) => {
                   boxShadow: "0px 4px 15.5px 0px #00000040",
                 }}
               >
-                <ul className="list-disc list-inside text-[#364483] text-[14px] sm:text-[16px] space-y-2">
+                <ul className="list-disc  text-[#364483] text-[14px] sm:text-[16px] space-y-2">
                   <p className="mb-3 font-semibold text-[16px] sm:text-[18px]">
                     Our Expertise Covers:
                   </p>
@@ -156,15 +166,24 @@ const SubServiceTemplate = ({ data }) => {
 
                 <div>
                   <div>
-                    <ul className="pt-5 space-y-2">
+                    <ul className="pt-5 space-y-2 pl-3">
                       {data.whyChooseAec.map((p) => (
-                        <li key={p.id} className="flex items-start gap-3">
-                          <span className="mt-[10px] md:mt-[14px] md:w-[4px] md:h-[4px] w-[11px] h-[4px] rounded-full bg-[#364483] inline-block"></span>
+                        // <li key={p.id} className="flex items-start gap-3">
+                        //   <span className="mt-[10px] md:mt-[14px] md:w-[4px] md:h-[4px] w-[11px] h-[4px] rounded-full bg-[#364483] inline-block"></span>
 
-                          <p className="leading-relaxed text-[14px] sm:text-[16px] lg:text-[18px]">
-                            <span className="font-semibold">{p.title}:</span>{" "}
-                            <span className="font-normal">{p.desc}</span>
-                          </p>
+                        //   <p className="leading-relaxed text-[14px] sm:text-[16px] lg:text-[18px]">
+                        //     <span className="font-semibold">{p.title}:</span>{" "}
+                        //     <span className="font-normal">{p.desc}</span>
+                        //   </p>
+                        // </li>
+                        <li key={p.id} className="list-disc">
+                          <div className="flex items-start gap-3">
+
+                            <span className="leading-relaxed text-[14px] sm:text-[16px] lg:text-[18px]">
+                              <span className="font-semibold">{p.title}:</span>{" "}
+                              <span className="font-normal">{p.desc}</span>
+                            </span>
+                          </div>
                         </li>
                       ))}
                     </ul>
@@ -184,7 +203,7 @@ const SubServiceTemplate = ({ data }) => {
                   boxShadow: "0px 4px 15.5px 0px #00000040",
                 }}
               >
-                <ul className="list-disc list-inside text-[#364483] text-[14px] sm:text-[16px] space-y-2">
+                <ul className="list-disc  text-[#364483] text-[14px] sm:text-[16px] space-y-2">
                   {data.ourExpertiseCover2.map((p) => (
                     <li key={p.id} className="font-normal">
                       {p.desc}
@@ -197,13 +216,13 @@ const SubServiceTemplate = ({ data }) => {
             {/* Desktop: Complex Overlapping Layout */}
             <div className="hidden lg:flex relative w-full justify-center items-center z-20">
               <div
-                className="absolute -left-[18%] bg-gradient-to-r from-[#DADFF1] to-[#EEF1FD] w-[80%] h-[250px] border border-white rounded-[43px]"
+                className="absolute -left-[18%]  bg-gradient-to-r from-[#DADFF1] to-[#EEF1FD] w-[80%] h-[290px] border border-white rounded-[43px]"
                 style={{
                   boxShadow: "0px 4px 15.5px 0px #00000040",
                 }}
               >
-                <div className="absolute left-[39%] py-5">
-                  <ul className="list-disc list-inside text-[18px]">
+                <div className="absolute left-[40%] py-3 pr-3">
+                  <ul className="list-disc  text-[17px]">
                     {data.ourExpertiseCover2.map((p) => (
                       <li key={p.id} className="font-normal">
                         {p.desc}
@@ -213,13 +232,13 @@ const SubServiceTemplate = ({ data }) => {
                 </div>
               </div>
 
-              <div className="absolute -z-10 mt-2 left-[45%]">
+              <div className="absolute -z-10 mt-3 left-[45%]">
                 <Image
                   src="/bims1.svg"
                   alt="bim5"
                   width={1000}
                   height={1000}
-                  className="w-[540px] h-[660px]"
+                  className="w-[630px] h-[660px]"
                 />
               </div>
             </div>

@@ -5,32 +5,33 @@ const BimModelling = () => {
   const serviceData = {
     category: "BIM & Drafting",
     title: "BIM Modelling & Drafting",
-    heading: "Precision, collaboration and efficiency all in one model",
+    heading:
+      "Delivering precision and performance through intelligent BIM models",
     desc1:
-      "At AEC Horizon, we deliver comprehensive BIM Modelling and Drafting services across all Levels of development (LOD 100-500) to support architects, engineers, contractors and facility managers throughout the entire Building life-cycle.",
+      "At AEC Horizon, we deliver comprehensive BIM modeling and drafting services across all Levels of Development (LOD 100-500). Our team supports architects, engineers, contractors, and facility managers with accurate 3D models and documentation that streamline the design-to-construction process.",
     desc2:
-      "Our experienced BIM professionals develop accurate 3D models, construction-ready documentation and as-built models that help clients make informed decisions, reduce rework and improve project efficiency ",
+      "Our BIM specialists develop construction-ready and as-built models that enhance coordination, minimize rework, and improve decision-making throughout the building life cycle.",
 
     whatWeOffer: [
       {
         id: 1,
         title: "LOD 100-200 – Conceptual & Design Models",
-        desc: "Early-stage BIM models with accurate massing, space allocation, and schematic layouts to aid design coordination.",
+        desc: "Early-stage BIM models built with precise massing, space allocation, and schematic layouts, ideal for concept design and coordination between architecture and engineering teams.",
       },
       {
         id: 2,
         title: "LOD 300 – Detailed Design & Coordination",
-        desc: "Models with precise geometry and spatial relationships for MEP, architectural, and structural systems, ensuring seamless interdisciplinary collaboration.",
+        desc: "Highly detailed 3D BIM models with accurate geometry and spatial relationships for MEP, structural, and architectural systems. Ensures seamless interdisciplinary coordination across all disciplines.",
       },
       {
         id: 3,
         title: "LOD 400 – Fabrication & Construction Models",
-        desc: "Highly detailed construction models with fabrication-level data for shop drawings, quantity take-offs, and on-site coordination.",
+        desc: "Advanced BIM construction models that include fabrication-level details for shop drawings, on-site coordination, and quantity take-offs, supporting efficient execution and clash-free delivery.",
       },
       {
         id: 4,
         title: "LOD 500 – As-built & Facility Management Models",
-        desc: "Fully verified models representing the final built condition, enabling efficient facility maintenance and operations.",
+        desc: "Fully verified as-built BIM models representing the final construction condition. Ideal for facility management, maintenance planning, and future renovation projects.",
       },
     ],
 
@@ -69,45 +70,80 @@ const BimModelling = () => {
       {
         id: 1,
         title: "Revit & Navisworks Experts",
-        desc: "Our team leverages the latest Autodesk technologies to deliver models of unmatched accuracy.",
+        desc: "Our BIM specialists use the latest Autodesk Revit and Navisworks tools to deliver precise, coordinated, and constructible models for global AEC clients.",
       },
       {
         id: 2,
-        title: "Quality Driven Approach",
-        desc: "Every model goes through stringent QA/QC processes ensuring coordination, constructability, and compliance.",
+        title: "Quality Driven BIM Approach",
+        desc: "Each model undergoes a strict QA/QC process, ensuring compliance, consistency, and alignment with project standards.",
       },
       {
         id: 3,
-        title: "End-to-End Support",
-        desc: "From design intent to final handover, our BIM models serve as a single source of truth for all project stakeholders.",
+        title: "End-to-End BIM Support",
+        desc: "From concept design to facility management, our BIM outsourcing services offer a single source of truth for all stakeholders.",
       },
       {
         id: 4,
         title: "Cost & Time Optimisation",
-        desc: "Through precise detailing, clash-free coordination, and automated quantity take-offs, we help clients save both time and resources.",
+        desc: "With clash-free coordination, MEP BIM modeling, and automated quantity take-offs, we help clients reduce rework, delays, and overall costs.",
       },
     ],
 
     ourExpertiseCover2: [
       {
         id: 1,
-        desc: "Reduced rework and RFIs",
+        desc: (
+          <>
+            <span>
+              Minimized rework and RFIs through accurate{" "}
+              <strong>BIM coordination</strong>
+            </span>
+          </>
+        ),
       },
       {
         id: 2,
-        desc: "Faster project delivery timelines",
+        desc: (
+          <>
+            <span>
+              Faster project delivery with efficient
+              <strong>BIM modeling </strong>workflows
+            </span>
+          </>
+        ),
       },
       {
         id: 3,
-        desc: "Improved stakeholder collaboration",
+        desc: (
+          <>
+              <span>
+              Seamless collaboration between{" "}
+              <strong>architects, engineers, and contractors</strong>
+            </span>
+          </>
+        ),
       },
       {
         id: 4,
-        desc: "Accurate quantity estimation",
+        desc: (
+          <>
+            <span>
+              Precise quantity estimation using <strong>5D BIM</strong> and{" "}
+              <strong>Revit</strong> data
+            </span>
+          </>
+        ),
       },
       {
         id: 5,
-        desc: "Enhanced facility management post-construction",
+        desc: (
+          <>
+            <span>
+              Improved facility management with detailed{" "}
+              <strong>as-built BIM models</strong>
+            </span>
+          </>
+        ),
       },
     ],
     imagePath: "/s11.svg",

@@ -5,37 +5,98 @@ const MepfCoordination = () => {
   const serviceData = {
     category: "BIM & Drafting",
     title: "MEPF Coordination",
-    heading: "Integrated MEPF Solutions for smarter, clash-free construction",
-    desc1:
-      "At AEC Horizon, we specialise in MEPF coordination services that ensure seamless integration of mechanical, electrical, plumbing and fire protection systems within complex BIM environments. Our goal is to help design and construction teams achieve spatial accuracy, system efficiency and constructability; eliminating costly site conflicts before they occur",
-    desc2:
-      "Using tools like Autodesk Revit, Navisworks Manage, and BIM 360 our BIM specialists deliver coordinated MEPF models that enhance collaboration across architecture, structure and building systems ensuring your projects are installation-ready and performance driven.",
-
+    heading: "MEPF Coordination Services for Smarter, Clash-Free Construction",
+    desc1: (
+      <span>
+        At <strong>AEC Horizon</strong>, we deliver{" "}
+        <strong>MEPF coordination services</strong> that ensure seamless
+        integration of{" "}
+        <strong>
+          mechanical, electrical, plumbing, and fire protection systems
+        </strong>{" "}
+        within complex <strong>BIM environments</strong>.
+      </span>
+    ),
+    desc2: (
+      <>
+        <span>
+          Our goal is to help design and construction teams across{" "}
+          <strong>Europe</strong>, the
+          <strong>Middle East</strong>, and the <strong>USA</strong> achieve
+          spatial accuracy, system efficiency, and constructability, minimizing
+          costly site conflicts and delays.
+        </span>
+        <br />
+        <span>
+          Using industry-leading tools like{" "}
+          <strong>Autodesk Revit, Navisworks Manage</strong>, and{" "}
+          <strong>BIM 360</strong>, our <strong>BIM specialists</strong> create
+          coordinated <strong>MEP BIM models</strong>
+          that improve collaboration among architects, engineers, and
+          contractors. The result, precise, installation-ready, and
+          performance-driven designs optimized for construction.
+        </span>
+      </>
+    ),
     whatWeOffer: [
       {
         id: 1,
         title: "Comprehensive MEPF Model Coordination",
-        desc: "Integration of mechanical, electrical, plumbing, and fire protection systems into a unified BIM model to ensure proper alignment and space utilization.",
+        desc: (
+          <span>
+            Integration of{" "}
+            <strong>
+              mechanical, electrical, plumbing, and fire protection BIM models
+            </strong>{" "}
+            into a unified platform ensuring alignment, space optimization, and
+            system performance.
+          </span>
+        ),
       },
       {
         id: 2,
         title: "Clash Detection & Resolution",
-        desc: "Identification of system clashes and spatial conflicts through automated tools like Navisworks Clash Detective, along with detailed clash reports and resolution strategies.",
+        desc: (
+          <span>
+            Early detection and categorization of{" "}
+            <strong>MEP system clashes</strong> using
+            <strong>Navisworks Clash Detective</strong> and{" "}
+            <strong>Revit coordination workflows</strong>, followed by
+            actionable resolution strategies.
+          </span>
+        ),
       },
       {
         id: 3,
         title: "System Optimisation & Routing",
-        desc: "Intelligent rerouting of services to maximize ceiling space, improve service access, and maintain compliance with design standards.",
+        desc: (
+          <span>
+            Intelligent <strong>BIM-based rerouting</strong> to maximize ceiling
+            space, improve service access, and ensure compliance with project
+            design standards.
+          </span>
+        ),
       },
       {
         id: 4,
         title: "Constructability & Installation Review",
-        desc: "Validation of MEPF layouts for constructability, clearance, and maintenance accessibility before site execution.",
+        desc: (
+          <span>
+            Validation of <strong>MEPF layouts</strong> for constructability,
+            accessibility, and safety before on-site execution.
+          </span>
+        ),
       },
       {
         id: 5,
         title: "BIM Driven Collaboration",
-        desc: "Regular model coordination meetings and issue tracking using BIM 360, ensuring smooth communication among contractors, consultants, and engineers.",
+        desc: (
+          <span>
+            Conducting <strong>BIM coordination meetings</strong>, issue
+            tracking, and design reviews via <strong>BIM 360</strong>, ensuring
+            clear communication across multidisciplinary project teams.
+          </span>
+        ),
       },
     ],
 
@@ -70,50 +131,119 @@ const MepfCoordination = () => {
       {
         id: 1,
         title: "Cross Discipline Integration",
-        desc: "Coordinating MEPF systems seamlessly with architectural and structural elements to avoid conflicts.",
+        desc: (
+          <span>
+            We ensure seamless coordination between{" "}
+            <strong>MEP, architectural, and structural BIM systems</strong>,
+            preventing design conflicts and achieving efficient{" "}
+            <strong>BIM coordination</strong> across all project stages.
+          </span>
+        ),
       },
       {
         id: 2,
         title: "Precision & Efficiency",
-        desc: "Delivering accurate, well-structured models optimized for space and functionality.",
+        desc: (
+          <span>
+            Our team delivers{" "}
+            <strong>accurate, data-rich MEPF BIM models</strong> that are
+            optimized for space, functionality, and constructability, helping
+            AEC firms across <strong>Europe</strong>, the{" "}
+            <strong>Middle East</strong>, and the <strong>USA</strong> improve
+            design accuracy and on-site performance.
+          </span>
+        ),
       },
       {
         id: 3,
-        title: "Reduced Reworks",
-        desc: "Detecting and resolving clashes during the virtual model phase to prevent costly site-level issues.",
+        title: "Reduced Reworks and Delays",
+        desc: (
+          <span>
+            Through proactive <strong>clash detection</strong> using{" "}
+            <strong>Navisworks</strong> and <strong>Revit MEP</strong>
+            tools, we identify and resolve issues during the virtual modeling
+            stage, reducing costly site-level changes.
+          </span>
+        ),
       },
       {
         id: 4,
         title: "Field Ready Deliverables",
-        desc: "Providing fabrication-level models and coordinated drawings that streamline installation.",
+        desc: (
+          <span>
+            We provide <strong>fabrication-level MEP BIM models</strong> and
+            detailed coordination drawings that support streamlined
+            installation, improved planning, and field execution.
+          </span>
+        ),
       },
       {
         id: 5,
-        title: "Compliance & Standards",
-        desc: "MEPF coordination developed in line with ISO 19650, AIA LOD, and ASHRAE guidelines for global best practices.",
+        title: "Global Standards Compliances",
+        desc: (
+          <span>
+            Our <strong>MEPF coordination services</strong> align with{" "}
+            <strong>ISO 19650, AIA LOD</strong>, and
+            <strong>ASHRAE standards</strong>, ensuring all deliverables meet
+            international <strong>BIM compliance</strong>
+            and best practices.
+          </span>
+        ),
       },
     ],
 
     ourExpertiseCover2: [
       {
         id: 1,
-        desc: "Early detection of design and routing conflicts",
+        desc: (
+          <span>
+            <strong>Early detection of design and routing conflicts</strong>{" "}
+            through advanced <strong>BIM clash detection</strong> using{" "}
+            <strong>Navisworks</strong> and <strong>Revit MEP tools</strong>.
+          </span>
+        ),
       },
       {
         id: 2,
-        desc: "Optimised space utilisation across all MEPF systems",
+        desc: (
+          <span>
+            <strong>Optimized space utilization</strong> across all{" "}
+            <strong>
+              mechanical, electrical, plumbing, and fire protection (MEPF)
+            </strong>{" "}
+            systems.
+          </span>
+        ),
       },
       {
         id: 3,
-        desc: "Reduced construction delays and material wastage",
+        desc: (
+          <span>
+            <strong>Reduced construction delays and material wastage</strong>{" "}
+            with accurate, coordination-driven <strong>MEP BIM models</strong>.
+          </span>
+        ),
       },
       {
         id: 4,
-        desc: "Enhanced collaboration between trades",
+        desc: (
+          <span>
+            <strong>Enhanced collaboration and communication</strong> between{" "}
+            <strong>architectural, structural, and MEP BIM teams</strong>.
+          </span>
+        ),
       },
       {
         id: 5,
-        desc: "Improved project quality, safety and cost efficiency",
+        desc: (
+          <span>
+            <strong>
+              Improved project quality, safety, and cost efficiency
+            </strong>{" "}
+            through globally compliant{" "}
+            <strong>MEPF coordination workflows</strong>.
+          </span>
+        ),
       },
     ],
 
