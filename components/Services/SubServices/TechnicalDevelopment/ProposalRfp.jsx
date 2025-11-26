@@ -5,37 +5,36 @@ const ProposalRfp = () => {
   const serviceData = {
     category: "Technical Business Development",
     title: "Proposal & RFP Support",
-    heading:
-      "Winning proposals built on clarity, compliance and commercial impact.",
+    heading: "Proposal and RFP Support Services for AEC and BIM Firms",
     desc1:
-      "At AEC Horizon, we help AEC and BIM firms design technically sound, visually refined and evaluation ready proposals.",
+      "At AEC Horizon, we specialize in helping architecture, engineering, and construction (AEC) firms create technically strong, visually polished, and evaluation-ready proposals that increase win rates. Our Proposal and RFP Support Services blend BIM expertise, strategic storytelling, and regulatory compliance to help firms stand out in competitive bids across international markets.",
     desc2:
-      "Our proposal and RFP support services are built to elevate your win rate by blending compliance, precision and narrative excellence; ensuring your submissions stand out both technically and strategically.",
+      "We ensure that every proposal reflects your firm strengths, from technical precision to design clarity, giving decision-makers confidence in your capability and delivery approach.",
     ourValuesInclude: [
       {
         id: 1,
-        title: "Tender strategy & compliance review",
-        desc: "Decoding RFPs for clear scoring alignment.",
+        title: "Tender Strategy & Compliance Review",
+        desc: "Clear interpretation of RFPs with focus on evaluation scoring alignment and BIM compliance.",
       },
       {
         id: 2,
-        title: "Technical content structuring",
-        desc: "Translating BIM workflows, methodologies and LOD frameworks into clear deliverables.",
+        title: "Technical Content Structuring",
+        desc: "Converting BIM workflows, LOD frameworks, and project methodologies into compelling deliverables.",
       },
       {
         id: 3,
-        title: "Design and formatting support",
-        desc: "Building visually cohesive, on-brand and standards-compliant submissions.",
+        title: "Design & Formatting Support",
+        desc: "Developing on-brand, standards-compliant proposals with strong visual hierarchy and readability.",
       },
       {
         id: 4,
-        title: "Bid storyline development",
-        desc: "Aligning your capabilities with the client’s procurement vision.",
+        title: "Bid Storyline Development",
+        desc: "Crafting persuasive narratives that align your strengths with client procurement goals.",
       },
       {
         id: 5,
-        title: "Post submission analysis",
-        desc: "Tracking feedback to refine future proposals.",
+        title: "Post-Submission Feedback Analysis",
+        desc: "Reviewing feedback and refining future proposals for improved RFP success rates.",
       },
     ],
 
@@ -65,51 +64,51 @@ const ProposalRfp = () => {
     whyChooseAec: [
       {
         id: 1,
-        title: "AEC exclusive systems",
-        desc: "Built specifically for project-driven, BIM-based business models.",
+        title: "AEC-Focused Expertise",
+        desc: "Purpose-built solutions designed for BIM-based, project-driven AEC business models.",
       },
       {
         id: 2,
-        title: "Automation driven efficiency",
-        desc: "Reduce manual work and enhance response times.",
+        title: "Automation-Enabled Efficiency",
+        desc: "Streamlined proposal workflows that minimize manual effort and improve submission speed.",
       },
       {
         id: 3,
-        title: "Strategic growth focus",
-        desc: "Designed for measurable conversion improvement.",
+        title: "Strategic Growth Orientation",
+        desc: "Tailored proposal strategies built to increase conversion and win rates across Europe, the Middle East, and the USA.",
       },
       {
         id: 4,
-        title: "End to end enablement",
-        desc: "From setup to configuration to training and support.",
+        title: "End-to-End Enablement",
+        desc: "Complete support from proposal planning to submission and training, ensuring smooth delivery.",
       },
       {
         id: 5,
-        title: "Data integrity first",
-        desc: "Structured, transparent and compliant information management.",
+        title: "Data Integrity & Compliance",
+        desc: "Structured, transparent, and compliant proposal documentation for global AEC standards.",
       },
     ],
 
     ourExpertiseCover2: [
       {
         id: 1,
-        desc: "Consistent stream of qualified BIM/AEC leads",
+        desc: "Consistent flow of qualified BIM and AEC leads from targeted international markets like Europe, the Middle East, and the USA.",
       },
       {
         id: 2,
-        desc: "Centralised and automated client communication",
+        desc: "Centralized and automated proposal workflows for faster client communication and submission management.",
       },
       {
         id: 3,
-        desc: "Shorter sales cycles with higher conversion ratios",
+        desc: "Reduced sales cycles with improved RFP conversion rates through data-backed proposal strategies.",
       },
       {
         id: 4,
-        desc: "Actionable insights for continuous improvement",
+        desc: "Actionable insights and analytics to refine AEC business development performance continuously.",
       },
       {
         id: 5,
-        desc: "Scalable framework for business development growth",
+        desc: "Scalable framework for sustainable growth, helping AEC and BIM firms expand globally with measurable results.",
       },
     ],
 

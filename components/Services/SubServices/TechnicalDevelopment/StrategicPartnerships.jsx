@@ -5,31 +5,84 @@ const StrategicPartnerships = () => {
   const serviceData = {
     category: "Technical Business Development",
     title: "Strategic partnerships & Alliances",
-    heading: "Building systems that expand capability & credibility",
-    desc1:
-      "At AEC Horizon, we specialise in forming strategic collaborations that amplify technical expertise, extend market access and strengthen project credentials. Our partnership frameworks connect architecture, engineering, construction and technical firms through structured alliance models designed for mutual growth and cross disciplinary innovation.",
-    desc2:
-      "Whether the goal is regional expansion, consortium-based bidding or integrated delivery alignement, we establish relationships that unlock scale, trust and continuity across the built environment value chain.",
+    heading: "Strategic Partnerships for AEC and BIM Industry Growth",
+    desc1: (
+      <span>
+        At AEC Horizon, we help{" "}
+        architecture, engineering, and construction (AEC) firms
+        build strong, future-ready partnerships that enhance
+        technical expertise, market reach, and{" "}
+        brand credibility. Our{" "}
+        BIM-driven collaboration models connect AEC
+        professionals, contractors, and technology partners to drive innovation
+        and achieve shared project success.
+      </span>
+    ),
+    desc2: (
+      <span>
+        We design structured partnership frameworks that foster
+        trust, scalability, and long-term cooperation across multidisciplinary
+        teams. Whether your goal is international expansion,{" "}
+        consortium-based bidding, or{" "}
+        integrated delivery alliances, AEC Horizon enables you
+        to form partnerships that strengthen your position in the{" "}
+        global BIM ecosystem, across{" "}
+        Europe, the Middle East, and the USA.
+      </span>
+    ),
     ourValuesInclude: [
       {
         id: 1,
-        title: "Partner identification & Vetting",
-        desc: "Evaluating potential collaborators based on domain expertise, digital maturity and project relevance.",
+        title: "Partner Identification & Evaluation",
+        desc: (
+          <span>
+            Assessing potential collaborators based on{" "}
+            domain expertise, digital maturity, and{" "}
+            project relevance.
+          </span>
+        ),
       },
       {
         id: 2,
-        title: "Consortium structuring",
-        desc: "Developing compliant joint venture and design build alliance models for multi disciplinary pursuits.",
+        title: "Consortium Structuring",
+        desc: (
+          <span>
+            Developing compliant joint venture and{" "}
+            design-build alliance models
+            tailored for AEC and BIM projects.
+          </span>
+        ),
       },
       {
         id: 3,
-        title: "Collaboration governance frameworks",
-        desc: "Defining shared accountability structures, data protocols and decision hierarchies.",
+        title: "Collaboration Frameworks",
+        desc: (
+          <span>
+            Establishing shared governance, data exchange standards, and
+            transparent accountability structures.
+          </span>
+        ),
       },
       {
         id: 4,
         title: "Technology & Knowledge Alliances",
-        desc: "Connecting firms with BIM solution providers, digital twin experts and smart construction innovators.",
+        desc: (
+          <span>
+            Connecting AEC firms with{" "}
+            BIM technology partners, digital twin experts, and{" "}
+            smart construction innovators.
+          </span>
+        ),
+      },
+      {
+        id: 5,
+        title: "Global Collaboration Enablement",
+        desc: (
+          <span>
+            Supporting partnerships for cross-border BIM projects, ensuring
+            compliance with regional standards and market dynamics.
+          </span>
+        ),
       },
     ],
 
@@ -55,42 +108,93 @@ const StrategicPartnerships = () => {
     whyChooseAec: [
       {
         id: 1,
-        title: "AEC domain specialisation",
-        desc: "Partnerships structured around real project life cycles, not generic business templates.",
+        title: "AEC Industry Expertise",
+        desc: (
+          <span>
+            We build strategic partnerships tailored to the
+            unique life cycles of{" "}
+            architecture, engineering, and construction (AEC){" "}
+            projects, not generic business templates.
+          </span>
+        ),
       },
       {
         id: 2,
-        title: "Risk responsive design",
-        desc: "Alliances engineered with compliance, liability and contractual balance in mind.",
+        title: "Risk-Responsive Partnership Design",
+        desc: (
+          <span>
+            Our alliances are structured with{" "}
+            compliance, liability, and
+            contractual balance, ensuring security and trust in
+            every collaboration.
+          </span>
+        ),
       },
       {
         id: 3,
-        title: "Network leverage",
-        desc: "Access to a global ecosystem of AEC, BIM and technology collaborators.",
+        title: "Global Network Leverage",
+        desc: (
+          <span>
+            Access a robust ecosystem of{" "}
+            AEC firms, BIM consultants, and
+            technology partners across{" "}
+            Europe, the Middle East, and the USA.
+          </span>
+        ),
       },
       {
         id: 4,
-        title: "Operational clarity",
-        desc: "Defined governance models that minimise friction across disciplines and geographies.",
+        title: "Operational Clarity",
+        desc: (
+          <span>
+            We establish governance frameworks that reduce
+            friction across teams, disciplines, and international markets,
+            enabling seamless project delivery.
+          </span>
+        ),
       },
     ],
 
     ourExpertiseCover2: [
       {
         id: 1,
-        desc: "Accelerated entry into international markets and procurement networks.",
+        desc: (
+          <span>
+            Faster global market access through strategic{" "}
+            AEC and BIM partnerships across{" "}
+            Europe, the Middle East, and the USA.
+          </span>
+        ),
       },
       {
         id: 2,
-        desc: "Strengthened technical delivery through complementary capabilities.",
+        desc: (
+          <span>
+            Enhanced technical delivery with{" "}
+            complementary expertise from cross-disciplinary
+            collaborators.
+          </span>
+        ),
       },
       {
         id: 3,
-        desc: "Enhanced pre-qualification success with combined portfolios.",
+        desc: (
+          <span>
+            Higher pre-qualification and bidding success by
+            combining portfolio strengths and{" "}
+            global credentials. strengths and global
+            credentials.
+          </span>
+        ),
       },
       {
         id: 4,
-        desc: "Long term collaborative frameworks fostering continuous innovation.",
+        desc: (
+          <span>
+            Sustainable collaboration frameworks that promote{" "}
+            innovation and long-term project scalability.
+          </span>
+        ),
       },
     ],
 

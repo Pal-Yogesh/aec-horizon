@@ -5,31 +5,31 @@ const ProposalDevelopment = () => {
   const serviceData = {
     category: "Technical Business Development",
     title: "Proposal Development & Estimation",
-    heading: "Transforming bid documents into wins",
+    heading: "Transforming Bid Proposals into Winning Submissions",
     desc1:
-      "At AEC Horizon, we specialise in making technically robust, commercially persuasive proposals that elevate your competitive standing in the global AEC marketplace. Our approach fused BIM-centric intelligence, cost forecasting expertise and strategic storytelling, ensuring every submission not only meets compliance but commands attention.",
+      "At AEC Horizon, we deliver comprehensive proposal development and estimation services that help architecture, engineering, and construction (AEC) firms craft persuasive, technically sound, and visually compelling bids.",
     desc2:
-      "From multidisciplinary design tenders to infrastructure mega-project bids, our team ensures your proposal is as refined, quantified and credible as your technical capability.",
+      " Our BIM-integrated estimation workflows combine technical precision with commercial storytelling, ensuring every submission aligns with client expectations and stands out in competitive tender evaluations. We bring together cost forecasting expertise, quantity analysis, and structured documentation to help firms reduce risk, maintain compliance, and secure more projects with confidence.",
     ourValuesInclude: [
       {
         id: 1,
-        title: "Technical documentation support",
-        desc: "Authoring and formatting design narratives, BIM execution plans and methodology reports.",
+        title: "BIM-Based Technical Documentation",
+        desc: "Preparing detailed design narratives, BIM execution plans, and methodology reports that meet client and compliance standards.",
       },
       {
         id: 2,
-        title: "Estimation & cost planning",
-        desc: "Accurate take-offs, quantity analysis and cost benchmarking aligned with global pricing indices.",
+        title: "Accurate Estimation & Cost Planning",
+        desc: "Delivering precise quantity take-offs, benchmarked cost analysis, and global pricing alignment for design and construction projects.",
       },
       {
         id: 3,
-        title: "Bid coordination & compliance management",
-        desc: "Structuring submissions that satisfy all pre-qualification, QA/QC and legal requirements.",
+        title: "Bid Coordination & Compliance Management",
+        desc: "Structuring proposals that fulfil RFP, QA/QC, and legal requirements while ensuring clarity and credibility.",
       },
       {
         id: 4,
-        title: "Visual and content enhancement",
-        desc: "Professionally designed layouts, infographics and digital-ready presentation assets.",
+        title: "Content & Visual Enhancement",
+        desc: "Developing professionally designed layouts, infographics, and digital proposal assets that highlight your technical excellence.",
       },
     ],
 
@@ -55,46 +55,76 @@ const ProposalDevelopment = () => {
     whyChooseAec: [
       {
         id: 1,
-        title: "BIM driven accuracy",
-        desc: "We align your proposal narrative with data-rich modeling and precise LOD definitions.",
+        title: "BIM-Driven Accuracy",
+        desc: "Our proposal and estimation experts integrate data-rich BIM models and precise Level of Detail (LOD) definitions to ensure complete technical clarity and consistency across all bid documents.",
       },
       {
         id: 2,
-        title: "Strategic commercial framing",
-        desc: "Every section articulates not just compliance but tangible project value and delivery capability.",
+        title: "Strategic Commercial Framing",
+        desc: "We craft AEC proposals that go beyond compliance, highlighting measurable project value, delivery excellence, and ROI-driven outcomes for clients.",
       },
       {
         id: 3,
-        title: "Global tender expertise",
-        desc: "Deep experience across FIDIC, NEC and regional procurement frameworks.",
+        title: "Global Tender Expertise",
+        desc: "With deep understanding of FIDIC, NEC, and regional procurement frameworks, we help AEC firms prepare bids that align with international standards and local compliance.",
       },
       {
         id: 4,
-        title: "High impact presentation",
-        desc: "Visual consistency and professional formatting that strengthen perception and clarity.",
+        title: "High-Impact Presentation",
+        desc: "Every proposal is structured for visual clarity and persuasive storytelling, ensuring your submission leaves a lasting impression with clients and evaluators.",
       },
     ],
 
     ourExpertiseCover2: [
       {
         id: 1,
-        desc: "Elevated win ratios through precise, persuasive proposal content.",
+        desc: (
+          <span>
+            <strong>Higher Bid Success Rates:</strong> Improve your win ratios
+            with technically precise, data-backed, and persuasive proposal
+            documentation.
+          </span>
+        ),
       },
       {
         id: 2,
-        desc: "Transparent cost modeling for client confidence.",
+        desc: (
+          <span>
+            <strong>Accurate Cost Transparency:</strong> Deliver clear and
+            reliable cost modeling that strengthens client trust and financial
+            clarity.
+          </span>
+        ),
       },
       {
         id: 3,
-        desc: "Enhanced brand authority across public and private tenders.",
+        desc: (
+          <span>
+            <strong>Stronger Brand Positioning:</strong> Build AEC brand
+            authority across global public and private tender markets with
+            quality-driven submissions.
+          </span>
+        ),
       },
       {
         id: 4,
-        desc: "Reduced internal turnaround time for high-stakes bids.",
+        desc: (
+          <span>
+            <strong>Faster Proposal Delivery:</strong> Achieve reduced
+            turnaround times for complex bids through automated estimation and
+            documentation workflows.
+          </span>
+        ),
       },
       {
         id: 5,
-        desc: "Consistent submission quality across global sectors.",
+        desc: (
+          <span>
+            <strong>Consistent Global Standards:</strong> Maintain uniform
+            proposal quality across international AEC sectors and regulatory
+            frameworks.
+          </span>
+        ),
       },
     ],
 

@@ -76,24 +76,29 @@ const TDTemplate = ({ data }) => {
                   {data.heading}
                 </h2>
 
-                <p className="font-normal text-[14px] sm:text-[16px] lg:text-[18px]">{data.desc1}</p>
+                <p className="font-normal text-[14px] sm:text-[16px] lg:text-[18px]">
+                  {data.desc1}
+                </p>
 
-                <p className="font-normal text-[14px] sm:text-[16px] lg:text-[18px]">{data.desc2}</p>
+                <p className="font-normal text-[14px] sm:text-[16px] lg:text-[18px]">
+                  {data.desc2}
+                </p>
               </div>
               <div className="text-[16px] sm:text-[18px] lg:text-[20px] py-8 sm:py-10 lg:py-12">
-                <h2 className="font-semibold text-[#6436A4]">Our values include:</h2>
+                <h2 className="font-semibold text-[#6436A4]">
+                  Our values include:
+                </h2>
 
                 <div>
                   <div>
-                    <ul className="pt-5 space-y-2">
+                    <ul className="pt-5 space-y-2 list-disc">
                       {data.ourValuesInclude.map((p) => (
-                        <li key={p.id} className="flex items-start gap-3">
-                          <span className="mt-[10px] md:mt-[14px] md:w-[4px] md:h-[4px] w-[11px] rounded-full h-[4px] bg-[#364483] inline-block"></span>
-
-                          <p className="leading-relaxed text-[14px] sm:text-[16px] lg:text-[18px]">
-                            <span className="font-semibold">{p.title}:</span>{" "}
-                            <span className="font-normal">{p.desc}</span>
-                          </p>
+                        <li
+                          key={p.id}
+                          className="leading-relaxed text-[14px] sm:text-[16px] lg:text-[18px]"
+                        >
+                          <span className="font-semibold">{p.title}:</span>{" "}
+                          <span className="font-normal">{p.desc}</span>
                         </li>
                       ))}
                     </ul>
@@ -110,7 +115,7 @@ const TDTemplate = ({ data }) => {
                   boxShadow: "0px 4px 15.5px 0px #00000040",
                 }}
               >
-                <ul className="list-disc list-inside text-[#6436A4] text-[14px] sm:text-[16px] space-y-2">
+                <ul className="list-disc  text-[#6436A4] text-[14px] sm:text-[16px] space-y-2">
                   <p className="mb-3 font-semibold text-[16px] sm:text-[18px]">
                     Our Expertise Covers:
                   </p>
@@ -134,7 +139,7 @@ const TDTemplate = ({ data }) => {
                 }}
               >
                 <div className="ml-[39%] pt-5">
-                  <ul className="list-disc list-inside text-[18px]">
+                  <ul className="list-disc  text-[18px]">
                     <p className="mb-3">Our Expertise Covers:</p>
                     {data.ourExpertiseCover.map((p) => (
                       <li key={p.id} className="font-normal">
@@ -163,15 +168,14 @@ const TDTemplate = ({ data }) => {
 
                 <div>
                   <div>
-                    <ul className="pt-5 space-y-2">
+                    <ul className="pt-5 space-y-2 list-disc ">
                       {data.whyChooseAec.map((p) => (
-                        <li key={p.id} className="flex items-start gap-3">
-                          <span className="mt-[10px] md:mt-[14px] md:w-[4px] md:h-[4px] w-[10px] rounded-full h-[4px] bg-[#364483] inline-block"></span>
-
-                          <p className="leading-relaxed text-[14px] sm:text-[16px] lg:text-[18px]">
-                            <span className="font-semibold">{p.title}:</span>{" "}
-                            <span className="font-normal">{p.desc}</span>
-                          </p>
+                        <li
+                          key={p.id}
+                          className="leading-relaxed text-[14px] sm:text-[16px] lg:text-[18px]"
+                        >
+                          <span className="font-semibold">{p.title}:</span>{" "}
+                          <span className="font-normal">{p.desc}</span>
                         </li>
                       ))}
                     </ul>
@@ -191,7 +195,7 @@ const TDTemplate = ({ data }) => {
                   boxShadow: "0px 4px 15.5px 0px #00000040",
                 }}
               >
-                <ul className="list-disc list-inside text-[#6436A4] text-[14px] sm:text-[16px] space-y-2">
+                <ul className="list-disc  text-[#6436A4] text-[14px] sm:text-[16px] space-y-2">
                   {data.ourExpertiseCover2.map((p) => (
                     <li key={p.id} className="font-normal">
                       {p.desc}
@@ -211,8 +215,8 @@ const TDTemplate = ({ data }) => {
                     "linear-gradient(90deg, rgba(218, 223, 241, 0) 0%, #BBA0FF 81.25%)",
                 }}
               >
-                <div className="absolute left-[39%] py-5">
-                  <ul className="list-disc list-inside text-[18px]">
+                <div className="absolute left-[39%] py-3">
+                  <ul className="list-disc  text-[17px]">
                     {data.ourExpertiseCover2.map((p) => (
                       <li key={p.id} className="font-normal">
                         {p.desc}
@@ -222,7 +226,7 @@ const TDTemplate = ({ data }) => {
                 </div>
               </div>
 
-              <div className="absolute -z-10 left-[35%]">
+              <div className="absolute -z-10 left-[31%]">
                 <Image
                   src="/dm.svg"
                   alt="dm"
@@ -236,8 +240,8 @@ const TDTemplate = ({ data }) => {
         </div>
       </div>
 
-      <TBDProjects />
-      <TBDServiceLocation />
+      {/* <TBDProjects />
+      <TBDServiceLocation /> */}
     </div>
   );
 };

@@ -6,38 +6,39 @@ const DigitalTransformation = () => {
     category: "Technical Business Development",
     title: "Digital transformation consulting",
     heading:
-      "Redefining AEC companies' design, delivery, and competitive strategies for the digital age.",
+      "Driving AEC Digital Transformation for Smarter, Connected Workflows",
     desc1:
-      "rom data integration to process automation and intelligent collaboration, we at AEC Horizon help businesses navigate the full range of digital evolution. Technology, people, and performance are all connected in our consulting practice, which guarantees that every transformation project improves operational effectiveness, boosts profitability, and speeds up decision-making.",
+      "At AEC Horizon, we empower architecture, engineering, and construction (AEC) firms to transform traditional processes through digital transformation consulting that integrates people, technology, and performance. Our expertise spans from BIM-driven automation to intelligent data management, ensuring your business adapts seamlessly to today’s digital-first environment.",
     desc2:
-      " In order to build a linked digital environment that is suited to your company's strategic direction, we integrate cloud-based processes, analytics-driven governance, and BIM maturity insights.",
+      "Through tailored AEC digital transformation strategies, we help firms boost profitability, improve project coordination, and accelerate decision-making using AI, cloud-based collaboration tools, and analytics-backed insights. Every transformation plan we develop is designed to optimize workflows, strengthen operational efficiency, and ensure your teams stay aligned with long-term business goals.",
     ourValuesInclude: [
       {
         id: 1,
-        title: "Formulating a Digital Strategy",
-        desc: "Outlining transformation plans that align with delivery methods, market expansion strategies, and corporate objectives.",
+        title: "Digital Strategy Formulation",
+        desc: "Crafting custom transformation roadmaps that align with your firm's delivery models, market growth plans, and business objectives.",
       },
       {
         id: 2,
         title: "Process Automation & Optimization",
-        desc: "Using AI, BIM integration, and system-level synchronization to streamline repetitive procedures.",
+        desc: "Leveraging AI, BIM integration, and connected systems to eliminate manual work and speed up project delivery.",
       },
       {
         id: 3,
-        title: "Creating Interoperable Environments",
-        desc: "Linking project management software, CRMs, and design tools to build an efficient data ecosystem.",
+        title: "Interoperable Ecosystem Design",
+        desc: "Connecting CRMs, project management software, and design tools to create a unified, data-driven environment.",
       },
       {
         id: 4,
         title: "Technology Selection & Implementation",
-        desc: "Assessing, setting up, and implementing software solutions most appropriate for your project's development stage.",
+        desc: "Evaluating and deploying construction technology solutions that fit your specific project stage and team needs.",
       },
       {
         id: 5,
-        title: "Change Enablement Programs",
-        desc: "Providing teams with structured onboarding and governance support to help them adapt to digital procedures.",
+        title: "Change Enablement & Governance",
+        desc: "Guiding teams with structured onboarding, training, and digital adoption programs to achieve long-term sustainability.",
       },
     ],
+
     ourExpertiseCover: [
       {
         id: 1,
@@ -59,57 +60,84 @@ const DigitalTransformation = () => {
     whyChooseAec: [
       {
         id: 1,
-        title: "AEC-centric knowledge",
-        desc:
-          "Decades of combined experience in design, engineering, and technology contexts make up AEC-Centric Knowledge.",
+        title: "AEC-Centric Digital Expertise",
+        desc: "With decades of experience across architecture, engineering, and construction (AEC), we specialize in crafting digital transformation strategies that enhance efficiency and profitability through BIM and cloud-based innovation.",
       },
       {
         id: 2,
-        title: "Outcome-Driven Strategy",
-        desc:
-          "All digital projects are based on quantifiable ROI and efficiency indicators.",
+        title: "ROI-Focused Digital Strategy",
+        desc: "Every AEC digital transformation project we undertake is backed by measurable return on investment (ROI) and operational performance benchmarks.",
       },
       {
         id: 3,
-        title: "Smooth Implementation",
-        desc:
-          "Equilibrium attention to operational preparedness, cultural adoption, and technical setup.",
+        title: "Seamless Implementation",
+        desc: "We ensure smooth adoption of construction technology and automation systems, balancing technical deployment with team readiness and organizational alignment.",
       },
       {
         id: 4,
-        title: "Cross-Platform Mastery",
-        desc:
-          "Proficiency with Navisworks, Bentley iTwin, Autodesk Construction Cloud, and associated ecosystems.",
+        title: "Cross-Platform Integration",
+        desc: "Our expertise spans Autodesk Construction Cloud, Navisworks, Bentley iTwin, and other digital ecosystems, enabling unified, data-driven workflows.",
       },
       {
         id: 5,
         title: "Sustainable Digital Growth",
-        desc:
-          "Transformation models designed to change with emerging technology and market conditions are known as sustainable digital growth models.",
+        desc: "We design adaptive transformation frameworks that evolve with emerging technologies, ensuring your business remains competitive in the global AEC marketplace.",
       },
     ],
+
     ourExpertiseCover2: [
       {
         id: 1,
-        desc: "All projects and company tasks are connected by an integrated digital ecosystem.",
+        desc: (
+          <>
+            <strong>Connected Digital Ecosystem:</strong> Seamlessly integrate
+            every AEC project and operational workflow through a unified digital
+            ecosystem powered by BIM and cloud technology.
+          </>
+        ),
       },
       {
         id: 2,
-        desc: "Decreased manual dependency and duplication across processes.",
+        desc: (
+          <>
+            <strong>Reduced Manual Workload:</strong> Automate repetitive tasks
+            to minimize human dependency, eliminate duplication, and increase
+            team productivity.
+          </>
+        ),
       },
       {
         id: 3,
-        desc: "Real-time insight into the consumption of resources, data accuracy, and project health.",
+        desc: (
+          <>
+            <strong>Real-Time Data Intelligence:</strong> Access accurate,
+            real-time insights into project, resource utilization,
+            and cost efficiency for data-backed decision-making.
+          </>
+        ),
       },
       {
         id: 4,
-        desc: "Shortened delivery times and a boost in teamwork.",
+        desc: (
+          <>
+            <strong>Accelerated Project Delivery:</strong> Shorten delivery
+            timelines while enhancing collaboration across design, engineering,
+            and construction teams.
+          </>
+        ),
       },
       {
         id: 5,
-        desc: "Scalable infrastructure set up for advanced analytics, automation, and artificial intelligence.",
+        desc: (
+          <>
+            <strong>Future-Ready Infrastructure:</strong> Build a scalable,
+            AI-driven foundation that supports advanced analytics, automation,
+            and digital transformation initiatives.
+          </>
+        ),
       },
     ],
+
     imagePath: "/s11.svg",
     bgColor: "from-[#D5CBF0] to-[#E3DDFF]",
     features: [

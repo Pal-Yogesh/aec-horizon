@@ -5,33 +5,35 @@ const BrandingPositioning = () => {
   const serviceData = {
     category: "Technical Business Development",
     title: "Branding & positioning strategies",
-    heading: "Defining perception through clarity and technical distinction",
+    heading:
+      "Shaping AEC Brands with Clarity, Credibility, and Technical Authority",
     desc1:
-      "At AEC Horizon, we help AEC organisations articulate who they are and why they matte. Our brand positioning frameworks are built on deep industry understanding, aligning your firm’s technical competence, project experience and innovation capacity with how the market evaluates expertise.",
+      "At AEC Horizon, we help architecture, engineering, and construction (AEC) organizations define who they are and communicate their expertise with precision. Our brand positioning and identity frameworks are built on deep industry knowledge, aligning your firm’s technical competence, project experience, and innovation with how global markets perceive value.",
     desc2:
-      "We go beyond design and language; we engineer positioning systems that communicate value, authority and trust across every interaction, from proposal documents to client presentations.",
+      "We go beyond visuals and messaging; we create strategic brand systems that strengthen trust, consistency, and recognition across every client interaction, from proposal decks to digital platforms.",
     ourValuesInclude: [
       {
         id: 1,
-        title: "Positioning architecture",
-        desc: "Structuring your brand’s narrative around discipline strengths, delivery models, and technical differentiation.",
+        title: "Brand Positioning Architecture",
+        desc: "Structuring your brand narrative around technical strengths, delivery expertise, and market differentiation.",
       },
       {
         id: 2,
-        title: "Visual & verbal identity systems",
-        desc: "Establishing consistent representation across proposals, websites, and digital touchpoints.",
+        title: "Visual & Verbal Identity Systems",
+        desc: "Building a consistent AEC brand identity across websites, proposals, and marketing materials.",
       },
       {
         id: 3,
-        title: "Competitive messaging frameworks",
-        desc: "Defining how your firm’s expertise contrasts with peer benchmarks and global standards.",
+        title: "Competitive Messaging Frameworks",
+        desc: "Positioning your firm's expertise to stand out against global industry benchmarks and competitors.",
       },
       {
         id: 4,
-        title: "BIM aligned communication strategy",
-        desc: "Translating digital capability, workflows, and innovation into client-relevant storytelling.",
+        title: "BIM-Aligned Communication Strategy",
+        desc: "Translating BIM workflows and digital innovation into meaningful, client-focused storytelling.",
       },
     ],
+
     ourExpertiseCover: [
       {
         id: 1,
@@ -54,47 +56,79 @@ const BrandingPositioning = () => {
     whyChooseAec: [
       {
         id: 1,
-        title: "Industry fluency",
-        desc: "We understand the nuances of AEC communication — from prequalification forms to digital portfolios.",
+        title: "AEC Industry Expertise",
+        desc: "With deep understanding of architecture, engineering, and construction (AEC) communication, we design branding systems that work seamlessly across proposals, tenders, and digital touchpoints.",
       },
       {
         id: 2,
-        title: "Strategic Coherence",
-        desc: "Every element, from narrative tone to graphic systems, serves a unified brand objective.",
+        title: "Strategic Brand Alignment",
+        desc: "Every visual, verbal, and technical element is built around a unified brand goal, enhancing recognition and credibility across all client interactions.",
       },
       {
         id: 3,
-        title: "Data backed insight",
-        desc: "Positioning decisions informed by competitor research and market sentiment mapping.",
+        title: "Data-Driven Brand Insights",
+        desc: "Our positioning strategies are powered by market analysis, competitor benchmarking, and audience research to deliver measurable impact.",
       },
       {
         id: 4,
-        title: "Global consistency",
-        desc: "Cohesive representation across international tenders, conferences, and digital platforms.",
+        title: "Global Brand Consistency",
+        desc: "We ensure your brand maintains a strong, cohesive presence across international AEC markets, tenders, conferences, and digital platforms.",
       },
     ],
+
     ourExpertiseCover2: [
       {
         id: 1,
-        desc: "Elevated market perception and brand authority.",
+        desc: (
+          <>
+            <strong>Enhanced Market Positioning:</strong> Strengthen your firm's
+            visibility and credibility with expert AEC branding and positioning
+            strategies tailored for global markets.
+          </>
+        ),
       },
       {
         id: 2,
-        desc: "Clear differentiation in RFP evaluations and partner discussions.",
+        desc: (
+          <>
+            <strong>Distinct Competitive Edge:</strong> Achieve clear
+            differentiation in RFP submissions, partner evaluations, and
+            business proposals.
+          </>
+        ),
       },
       {
         id: 3,
-        desc: "Cohesive identity across all client-facing material.",
+        desc: (
+          <>
+            <strong>Consistent Brand Experience:</strong> Maintain a cohesive
+            brand identity across proposals, presentations, and digital
+            marketing assets.
+          </>
+        ),
       },
       {
         id: 4,
-        desc: "Improved visibility in prequalification and digital procurement systems.",
+        desc: (
+          <>
+            <strong>Improved Prequalification Visibility:</strong> Boost
+            recognition in AEC tenders and procurement systems through
+            technically aligned communication.
+          </>
+        ),
       },
       {
         id: 5,
-        desc: "Strengthened internal alignment between leadership, marketing, and technical teams.",
+        desc: (
+          <>
+            <strong>Aligned Internal Branding:</strong> Bridge leadership,
+            marketing, and technical teams to build a unified brand direction
+            that supports AEC business growth.
+          </>
+        ),
       },
     ],
+
     imagePath: "/s11.svg",
     bgColor: "from-[#D5CBF0] to-[#E3DDFF]",
     features: [

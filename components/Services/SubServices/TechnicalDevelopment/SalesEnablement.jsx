@@ -6,75 +6,82 @@ const SalesEnablement = () => {
     category: "Technical Business Development",
     title: "Sales enablement tools",
     heading:
-      "Entrusting AEC teams with data driven systems for precision selling & pursuit intelligence",
+      "Empowering AEC Firms with Data-Driven Sales Systems for Smarter Pursuit Management",
     desc1:
-      "At AEC Horizon, we design and implement intelligent sales enablement ecosystems that streamline how architecture, engineering and construction firms manage pursuits, evaluate opportunities and communicate value. Our tools integrate seamlessly with your existing CRM, ERP and BIM data environments, enabling business development and technical teams to work with real-time insights instead of fragmented spreadsheets.",
+      "At AEC Horizon, we design and implement data-driven sales enablement systems that empower architecture, engineering, and construction (AEC) firms to streamline lead management, track pursuits, and enhance proposal performance. Our tools integrate seamlessly with CRM, ERP, and BIM data environments, creating a unified workflow that improves decision-making and cross-department collaboration.",
     desc2:
-      "From bid readiness dashboards to pursuit lifecycle tracking, every framework we build enhances accountability, transparency and performance visibility across the sales pipeline.",
+      "We help AEC and BIM service providers automate their pursuit lifecycle, reduce manual processes, and gain real-time visibility across sales pipelines, ensuring precision selling and measurable growth in competitive global markets like Europe, the Middle East, and the USA.",
     ourValuesInclude: [
       {
         id: 1,
-        title: "Sales intelligence platforms",
-        desc: "Configuring connected systems to monitor project pipelines, prequalification status and client engagement data.",
+        title: "Sales Intelligence Platforms",
+        desc: "Configure connected systems to track pipelines, prequalification progress, and client engagement data.",
       },
       {
         id: 2,
-        title: "Proposal lifecycle automation",
-        desc: "Digitizing opportunity tracking, document versioning and submission workflows.",
+        title: "Proposal Lifecycle Automation",
+        desc: "Digitize opportunity tracking, document versioning, and submission workflows for AEC business development.",
       },
       {
         id: 3,
-        title: "Integration with BIM & ERP systems",
-        desc: "Linking design, costing and commercial data sets for unified decision making.",
+        title: "Integration with BIM & ERP Systems",
+        desc: "Connect design, costing, and commercial data for unified project pursuit management.",
       },
       {
         id: 4,
-        title: "Interactive dashboards & KPIs",
-        desc: "Developing visual analytics to assess pursuit velocity, conversion ratios and revenue projections.",
+        title: "Analytics & Dashboards",
+        desc: "Create visual dashboards and KPIs to monitor conversion rates, revenue projections, and pursuit performance.",
+      },
+      {
+        id: 5,
+        title: "Real-Time Insights",
+        desc: "Deliver transparent sales intelligence to align technical, marketing, and leadership teams for improved outcomes.",
       },
     ],
 
     ourExpertiseCover: [
       {
         id: 1,
-        desc: "Intelligent pursuit-tracking architecture and data pipeline automation.",
+        desc: "Gain unified insight into all pursuits, leads, and active tenders through integrated AEC sales enablement tools.",
       },
       {
         id: 2,
-        desc: "Integration between CRM, BIM and project delivery platforms.",
+        desc: "Automate workflows to streamline bid management and improve turnaround time for BIM and AEC tenders.",
       },
       {
         id: 3,
-        desc: "Configurable dashboards for bid analytics and prequalification monitoring.",
+        desc: "Strengthen coordination between technical, sales, and commercial teams for improved pursuit success rates.",
       },
       {
         id: 4,
-        desc: "Predictive modeling to assess opportunity win likelihood and resource allocation.",
+        desc: "Maintain consistent quality and data-backed insights that drive measurable improvements in AEC business development performance.",
       },
     ],
+    
 
     whyChooseAec: [
       {
         id: 1,
-        title: "AEC driven design logic",
-        desc: "Systems engineered around the pursuit patterns of design and construction firms.",
+        title: "AEC-Focused Sales Systems",
+        desc: "Purpose-built solutions tailored to the pursuit workflows of architecture, engineering, and construction firms, ensuring sales processes align with real project lifecycles.",
       },
       {
         id: 2,
-        title: "Performance insight",
-        desc: "Every module built to reveal measurable, actionable intelligence; not static reports.",
+        title: "Actionable Performance Insights",
+        desc: "Gain measurable and data-driven intelligence that improves BIM pursuit strategies and overall business growth.",
       },
       {
         id: 3,
-        title: "Seamless interoperability",
-        desc: "Solutions that sync with tools like HubSpot, Salesforce, Procore and Autodesk Construction Cloud.",
+        title: "Seamless CRM Integration",
+        desc: "Connect effortlessly with platforms like HubSpot, Salesforce, Procore, and Autodesk Construction Cloud, creating a unified AEC sales ecosystem.",
       },
       {
         id: 4,
-        title: "Adaptive architecture",
-        desc: "Platforms scalable for multi-office operations and expanding business portfolios.",
+        title: "Scalable Business Architecture",
+        desc: "Flexible, multi-office compatible platforms that support AEC firms expanding into global markets such as the UK, UAE, and USA.",
       },
     ],
+
     ourExpertiseCover2: [
       {
         id: 1,

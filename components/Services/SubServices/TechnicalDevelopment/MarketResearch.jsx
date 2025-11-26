@@ -5,31 +5,31 @@ const MarketResearch = () => {
   const serviceData = {
     category: "Technical Business Development",
     title: "Market research & Analysis",
-    heading: "Converting AEC trends into actionable foresight",
+    heading: "Turning AEC Market Insights into Actionable Growth Strategies",
     desc1:
-      "At AEC Horizon, we provide data driven market intelligence that empowers architecture, engineering and construction firms to navigate shifting procurement landscapes with confidence. Our research integrates quantitative analytics, BIM adoption metrics and project trend mapping to uncover opportunities, risks and emerging demand corridors across regions and sectors.",
+      "At AEC Horizon, we deliver data-driven market research and analysis that helps architecture, engineering, and construction (AEC) firms make informed strategic decisions. Our analytics-driven approach empowers your teams to understand market trends, procurement dynamics, and emerging opportunities with clarity and confidence.",
     desc2:
-      "From infrastructure pipelines and developer insights, our analysis ensures your firm’s strategy aligns with where the market is heading; not where it’s been.",
+      "By combining BIM adoption metrics, quantitative analytics, and project trend forecasting, we uncover insights that support smarter investments, competitive positioning, and sustainable business growth across global markets. From infrastructure pipelines to regional project intelligence, our AEC market research services ensure your strategy aligns with where the industry is heading, not where it's been.",
     ourValuesInclude: [
       {
         id: 1,
-        title: "Sector wide market analysis",
-        desc: "Insight into regional project volumes, tender activities and investment patterns.",
+        title: "Sector-Wide Market Analysis",
+        desc: "Comprehensive insight into regional project pipelines, tender activities, and investment trends within the AEC sector.",
       },
       {
         id: 2,
-        title: "Competitor benchmarking",
-        desc: "Evaluation of positioning, service scope and pricing trends within the AEC ecosystem.",
+        title: "Competitor Benchmarking",
+        desc: "Detailed evaluation of industry positioning, service portfolios, and pricing trends for stronger market differentiation.",
       },
       {
         id: 3,
-        title: "Procurement intelligence reports",
-        desc: "Tracking of live and upcoming tenders, framework agreements and pre-qualification lists.",
+        title: "Procurement Intelligence Reports",
+        desc: "Real-time tracking of live tenders, framework agreements, and pre-qualification lists to identify new project opportunities.",
       },
       {
         id: 4,
-        title: "Client behaviour insights",
-        desc: "Studying decision drivers, pain points and procurement criteria across design and construction stakeholders.",
+        title: "Client Behavior Insights",
+        desc: "Data-backed understanding of decision drivers, pain points, and procurement patterns across construction and engineering stakeholders.",
       },
     ],
 
@@ -55,47 +55,77 @@ const MarketResearch = () => {
     whyChooseAec: [
       {
         id: 1,
-        title: "Predictive Accuracy",
-        desc: "Proprietary data frameworks that identify emerging project clusters before they enter the bid stage.",
+        title: "Predictive Market Intelligence",
+        desc: "Our proprietary AEC data frameworks identify emerging construction and engineering project clusters before they reach the tender stage, giving your firm a competitive head start.",
       },
       {
         id: 2,
-        title: "Strategic depth",
-        desc: "Insights that connect market data with commercial strategy and business development priorities.",
+        title: "Strategic Market Insights",
+        desc: "We connect real-time market data with your business development and commercial strategy, helping you make informed growth decisions across global AEC sectors.",
       },
       {
         id: 3,
-        title: "Decision-ready outputs",
-        desc: "Reports structured for board level presentation and quick execution.",
+        title: "Decision-Ready Analysis",
+        desc: "Our AEC market reports are structured for quick review and presentation, ideal for leadership teams seeking actionable intelligence and immediate execution.",
       },
       {
         id: 4,
-        title: "Global perspective",
-        desc: "Experience across North America, Europe and the Middle East with localised market understanding.",
+        title: "Global Industry Expertise",
+        desc: "With experience across North America, Europe, and the Middle East, we deliver localized market analysis that aligns with regional procurement patterns and investment opportunities.",
       },
     ],
 
     ourExpertiseCover2: [
       {
         id: 1,
-        desc: "Early identification of profitable project and tender opportunities",
+        desc: (
+          <>
+            <strong>Early Detection of Lucrative AEC Opportunities:</strong>{" "}
+            Identify profitable construction and engineering projects before
+            they enter the bidding stage through precise market data insights.
+          </>
+        ),
       },
       {
         id: 2,
-        desc: "Data backed strategy formulation for business expansion",
+        desc: (
+          <>
+            <strong>Data-Driven Growth Strategies:</strong> Formulate business
+            expansion plans supported by reliable market analytics and real-time
+            AEC performance indicators.
+          </>
+        ),
       },
       {
         id: 3,
-        desc: "Enhanced visibility into competitor movements and client expectations",
+        desc: (
+          <>
+            <strong>Enhanced Competitor and Client Intelligence:</strong> Gain
+            deeper visibility into industry movements, client expectations, and
+            regional demand patterns to stay ahead of the curve.
+          </>
+        ),
       },
       {
         id: 4,
-        desc: "Improved bid targeting and qualification accuracy",
+        desc: (
+          <>
+            <strong>Smarter Bid Targeting and Qualification:</strong> Improve
+            tender success rates with accurate project qualification and
+            opportunity prioritization.
+          </>
+        ),
       },
-      {
-        id: 5,
-        desc: "Informed investment and resource allocation across geographies",
-      },
+      // {
+      //   id: 5,
+      //   desc: (
+      //     <>
+      //       <strong>Optimized Resource Allocation:</strong> Make informed
+      //       investment and regional planning decisions with clear insights into
+      //       market potential across global AEC geographies.
+      //     </>
+      //   ),
+      // },
     ],
 
     imagePath: "/s11.svg",

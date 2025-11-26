@@ -5,36 +5,82 @@ const GoToMarket = () => {
   const serviceData = {
     category: "Technical Business Development",
     title: "Go-to-market Strategy for AEC Services",
-    heading: "Positioning AEC firms for global growth",
-    desc1:
-      "At AEC Horizon, we help architecture, engineering and construction companies design go-to-market strategies that unlock international visibility and attract high value clients. Our approach merges industry intelligence, competitive benchmarking, and BIM driven insights to ensure your firm stands out in an increasingly digital built environment.",
-    desc2:
-      "From market entry roadmaps to partner alignment and brand positioning, we guide you through every phase; ensuring your capabilities are presented strategically to the right audiences, across the right regions.",
+    heading: "Strategic Go-to-Market Solutions for AEC & BIM Firms Worldwide",
+    desc1: (
+      <span>
+        At AEC Horizon, we specialize in helping{" "}
+        architecture, engineering, and construction (AEC) firms
+        establish a strong global presence through
+        data-driven go-to-market (GTM) strategies. Our approach
+        combines{" "}
+        BIM industry insights, competitive benchmarking, and{" "}
+        regional market intelligence to position your brand
+        effectively in international markets, including{" "}
+        Europe, the Middle East, and the USA.
+      </span>
+    ),
+    desc2: (
+      <span>
+        We help AEC consultancies and BIM service providers{" "}
+        define their market positioning, craft compelling value propositions,
+        and align their business goals with profitable market opportunities.
+        From brand visibility to{" "}
+        partner network development, our GTM strategies are
+        designed to accelerate growth and attract high-value clients in a
+        digitally driven construction ecosystem.
+      </span>
+    ),
     ourValuesInclude: [
       {
         id: 1,
         title: "Market Opportunity Assessment",
-        desc: "In-depth research on global AEC and BIM demand, identifying lucrative verticals and geographic clusters.",
+        desc: (
+          <span>
+            In-depth research on global BIM and AEC markets,
+            identifying growth clusters and region-specific opportunities.
+          </span>
+        ),
       },
       {
         id: 2,
         title: "Value Proposition Development",
-        desc: "Translating your technical expertise into a compelling narrative that resonates with decision makers and project owners.",
+        desc: (
+          <span>
+            Crafting narratives that communicate technical expertise and
+            ROI-driven project outcomes.
+          </span>
+        ),
       },
       {
         id: 3,
-        title: "Competitive Differentiation Strategy",
-        desc: "Defining unique market positioning to set your firm apart in a crowded consultancy landscape.",
+        title: "Competitive Positioning Strategy",
+        desc: (
+          <span>
+            Building differentiation strategies to make your firm stand out in
+            the AEC consulting landscape.
+          </span>
+        ),
       },
       {
         id: 4,
         title: "Brand & Channel Strategy",
-        desc: "Creating high-impact go-to-market frameworks spanning digital platforms, industry partnerships, and BIM marketplaces.",
+        desc: (
+          <span>
+            Designing go-to-market frameworks across{" "}
+            digital platforms, partnerships, and{" "}
+            BIM marketplaces.
+          </span>
+        ),
       },
       {
         id: 5,
-        title: "Growth Roadmapping",
-        desc: "Aligning business objectives with execution timelines for sustainable expansion.",
+        title: "Global Expansion Roadmapping",
+        desc: (
+          <span>
+            Aligning business objectives with market execution
+            plans for sustainable international growth.
+          </span>
+        ),
       },
     ],
 
@@ -68,46 +114,100 @@ const GoToMarket = () => {
     whyChooseAec: [
       {
         id: 1,
-        title: "AEC Specific Insight",
-        desc: "Deep familiarity with architecture, engineering, and construction procurement ecosystems.",
+        title: "AEC Industry Expertise",
+        desc: (
+          <span>
+            In-depth understanding of{" "}
+            architecture, engineering, and construction markets
+            , ensuring tailored go-to-market strategies for
+            your firm.
+          </span>
+        ),
       },
       {
         id: 2,
-        title: "Data Backed Strategy",
-        desc: "Every recommendation is grounded in industry metrics and market dynamics.",
+        title: "Data-Driven Approach",
+        desc: (
+          <span>
+            Every AEC business development plan is guided by{" "}
+            market analytics, BIM demand trends, and measurable
+            growth insights.
+          </span>
+        ),
       },
       {
         id: 3,
-        title: "Collaborative Process",
-        desc: "Seamless integration with your internal leadership and marketing teams.",
+        title: "Collaborative Execution",
+        desc: (
+          <span>
+            We work closely with your leadership and marketing teams to align
+            brand strategy with business goals
+            .
+          </span>
+        ),
       },
       {
         id: 4,
-        title: "Proven Global Experience",
-        desc: "Trusted by AEC firms across the US, UK, GCC, and Europe.",
+        title: "Global Reach",
+        desc: (
+          <span>
+            Trusted by{" "}
+            AEC firms across Europe, the Middle East, and the USA
+            {" "}
+            for delivering sustainable growth and international visibility.
+          </span>
+        ),
       },
     ],
 
     ourExpertiseCover2: [
       {
         id: 1,
-        desc: "Increased international visibility and brand recognition.",
+        desc: (
+          <span>
+            Enhanced global visibility and brand positioning{" "}
+            for AEC and BIM service firms in Europe, the Middle
+            East, and the USA.
+          </span>
+        ),
       },
       {
         id: 2,
-        desc: "Stronger alignment with high-value client segments.",
+        desc: (
+          <span>
+            Stronger alignment with high-value clients through
+            targeted AEC business development strategies.
+          </span>
+        ),
       },
       {
         id: 3,
-        desc: "Streamlined project acquisition process.",
+        desc: (
+          <span>
+            Streamlined project acquisition and partner engagement
+            {" "}
+            via data-backed go-to-market planning.
+          </span>
+        ),
       },
       {
         id: 4,
-        desc: "Competitive differentiation in BIM-led markets.",
+        desc: (
+          <span>
+            Competitive differentiation in BIM-led markets,
+            helping your firm stand out among international competitors.
+          </span>
+        ),
       },
       {
         id: 5,
-        desc: "Predictable, sustainable growth trajectory.",
+        desc: (
+          <span>
+            Sustainable business growth trajectory supported by
+            strategic AEC firm growth frameworks and market
+            insights.
+          </span>
+        ),
       },
     ],
 

@@ -6,31 +6,31 @@ const ClientEngagement = () => {
     category: "Technical Business Development",
     title: "Client engagement strategies",
     heading:
-      "Converting connections into quantifiable, long-term company growth.",
+      "Building Strong Client Relationships with Strategic Engagement Frameworks",
     desc1:
-      "At AEC Horizon, we create spaces for client interaction that combine digital intelligence and human connections.",
+      "At AEC Horizon, we help AEC firms design client engagement strategies that combine digital intelligence and human connection to build long-lasting, trust-based relationships. Our tailored frameworks empower architecture, engineering, and construction companies to enhance visibility, strengthen client confidence, and anticipate project needs well before the procurement stage.",
     desc2:
-      " Our tactics assist engineering, construction, and design firms in building confidence, being visible, and anticipating client demands far in advance of the procurement process. With the help of behavioral analytics, process alignment, and structured feedback systems, we help your teams turn short-term partnerships into long-term alliances based on understanding, openness, and reliable performance.",
+      "By leveraging behavioral analytics, structured feedback systems, and process alignment, we help teams convert short-term interactions into sustainable partnerships that drive repeat business and measurable growth.",
     ourValuesInclude: [
       {
         id: 1,
         title: "Engagement Strategy Design",
-        desc: "Creating relationship roadmaps that align with the phases of the client lifecycle—from pre-bid awareness to post-project retention.",
+        desc: "Developing relationship roadmaps that align with every stage of the client lifecycle, from pre-bid awareness to long-term retention.",
       },
       {
         id: 2,
         title: "Client Feedback and Sentiment Analysis",
-        desc: "Gathering and analyzing client experience data to drive continuous improvement in delivery and service quality.",
+        desc: "Capturing and analyzing client experience data to drive continuous service improvement and satisfaction.",
       },
       {
         id: 3,
         title: "Key Account Management Frameworks",
-        desc: "Systematizing interactions for high-value clients through tailored service models and structured engagement processes.",
+        desc: "Structuring client management systems that enhance visibility, efficiency, and responsiveness for high-value accounts.",
       },
       {
         id: 4,
         title: "Digital Interaction Systems",
-        desc: "Integrating dashboards, email automation, and CRMs to enable seamless client communication and visibility across touchpoints.",
+        desc: "Integrating CRMs, email automation, and performance dashboards to improve communication and engagement across every touchpoint.",
       },
     ],
 
@@ -56,53 +56,84 @@ const ClientEngagement = () => {
     whyChooseAec: [
       {
         id: 1,
-        title: "Relationship Engineering",
-        desc: "We view interaction as a methodical process rather than haphazard outreach, ensuring every engagement is structured and purposeful.",
+        title: "Strategic Relationship Engineering",
+        desc: "We approach every AEC client engagement with a data-driven and structured strategy, ensuring purposeful and measurable communication across every stage of the relationship.",
       },
       {
         id: 2,
-        title: "Practical Advice",
-        desc: "All suggestions are grounded in data interpretation and evidence, not conjecture or assumptions.",
+        title: "Evidence-Based Insights",
+        desc: "Our recommendations are built on analytics and client behavior trends, helping design, engineering, and construction firms make informed engagement decisions.",
       },
       {
         id: 3,
-        title: "Integrated Delivery",
-        desc: "Our client experience is tightly connected to project execution and quality control procedures for seamless outcomes.",
+        title: "Integrated Delivery Approach",
+        desc: "We align client experience management with project execution and quality workflows to ensure seamless coordination and consistent outcomes.",
       },
       {
         id: 4,
-        title: "Proactive Retention",
-        desc: "We implement techniques designed to identify and address potential issues before clients disengage.",
+        title: "Proactive Retention Strategies",
+        desc: "Our AEC engagement experts identify early warning signs and apply predictive methods to maintain long-term partnerships and reduce client attrition.",
       },
       {
         id: 5,
-        title: "Constant Value Creation",
-        desc: "Our engagement strategies evolve continuously with your market focus, portfolio, and business growth.",
+        title: "Continuous Value Optimization",
+        desc: "We evolve your client engagement model with shifting market trends, enabling consistent business growth and improved project pipeline visibility.",
       },
     ],
 
     ourExpertiseCover2: [
       {
         id: 1,
-        desc: "Enhanced possibility for referrals and client loyalty.",
+        desc: (
+          <>
+            <strong>Higher Client Retention and Referrals:</strong> Strengthen
+            AEC client loyalty through structured engagement strategies that
+            encourage repeat business and long-term partnerships.
+          </>
+        ),
       },
       {
         id: 2,
-        desc: "Enhanced responsiveness and flow of communication.",
+        desc: (
+          <>
+            <strong>Improved Communication Efficiency:</strong> Enable faster,
+            more transparent communication between design, construction, and
+            client teams, ensuring clarity throughout the project lifecycle.
+          </>
+        ),
       },
       {
         id: 3,
-        desc: "Measurable performance results with predictable engagement cycles.",
+        desc: (
+          <>
+            <strong>Predictable and Measurable Outcomes:</strong> Achieve
+            data-backed engagement performance with clear metrics for
+            satisfaction, responsiveness, and project alignment.
+          </>
+        ),
       },
       {
         id: 4,
-        desc: "Increased rates of repeat business and client satisfaction.",
+        desc: (
+          <>
+            <strong>Boosted Client Satisfaction Levels:</strong> Enhance trust
+            across every project stage, leading to increased repeat business and
+            stronger client relationships.
+          </>
+        ),
       },
-      {
-        id: 5,
-        desc: "Streamlined communication between the delivery and business development teams.",
-      },
+      // {
+      //   id: 5,
+      //   desc: (
+      //     <>
+      //       <strong>Aligned Internal Collaboration:</strong> Streamline
+      //       communication between business development and delivery teams for a
+      //       unified, client-focused workflow.
+      //     </>
+      //   ),
+      // },
     ],
+
     imagePath: "/s11.svg",
     bgColor: "from-[#D5CBF0] to-[#E3DDFF]",
     features: [
