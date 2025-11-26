@@ -120,7 +120,7 @@ const DMTemplate = ({ data }) => {
                   boxShadow: "0px 4px 15.5px 0px #00000040",
                 }}
               >
-                <ul className="list-disc list-inside text-[#6C3612] text-[14px] sm:text-[16px] space-y-2">
+                <ul className="list-disc  text-[#6C3612] text-[14px] sm:text-[16px] space-y-2">
                   <p className="mb-3 font-semibold text-[16px] sm:text-[18px]">
                     Our Expertise Covers:
                   </p>
@@ -144,7 +144,7 @@ const DMTemplate = ({ data }) => {
                 }}
               >
                 <div className="ml-[39%] pt-5">
-                  <ul className="list-disc list-inside text-[18px]">
+                  <ul className="list-disc  text-[18px]">
                     <p className="mb-3">Our Expertise Covers:</p>
                     {data.ourExpertiseCover.map((p) => (
                       <li key={p.id} className="font-normal">
@@ -201,7 +201,7 @@ const DMTemplate = ({ data }) => {
                   boxShadow: "0px 4px 15.5px 0px #00000040",
                 }}
               >
-                <ul className="list-disc list-inside text-[#6C3612] text-[14px] sm:text-[16px] space-y-2">
+                <ul className="list-disc  text-[#6C3612] text-[14px] sm:text-[16px] space-y-2">
                   {data.ourExpertiseCover2.map((p) => (
                     <li key={p.id} className="font-normal">
                       {p.desc}
@@ -222,7 +222,7 @@ const DMTemplate = ({ data }) => {
                 }}
               >
                 <div className="absolute left-[39%] py-5 pr-20">
-                  <ul className="list-disc list-inside text-[18px]">
+                  <ul className="list-disc  text-[18px]">
                     {data.ourExpertiseCover2.map((p) => (
                       <li key={p.id} className="font-normal">
                         {p.desc}
@@ -246,8 +246,8 @@ const DMTemplate = ({ data }) => {
         </div>
       </div>
 
-      <DMProjects />
-      <DMServiceLocation />
+      {/* <DMProjects />
+      <DMServiceLocation /> */}
     </div>
   );
 };

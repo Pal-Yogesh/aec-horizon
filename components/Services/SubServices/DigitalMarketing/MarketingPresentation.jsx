@@ -6,39 +6,39 @@ const MarketingPresentation = () => {
     category: "Digital Marketing",
     title: "Marketing presentations",
     heading:
-      "Turning Technical Expertise into Visual Narratives That Win Projects",
+      "Transforming Technical Depth into Presentations That Support Project Success",
     desc1:
-      "At AEC Horizon we create engaging marketing presentations that transform complicated design, engineering, and BIM skills into visually appealing business stories.Our team combines strategic communication, data visualization, and brand precision to help AEC organizations communicate their value with clarity and conviction.",
+      "At AEC Horizon, we craft high-impact marketing presentations that turn complex architectural, engineering, and BIM concepts into clear, compelling visual stories. Our presentation design services help AEC brands communicate value with precision, boosting visibility, trust, and win rates across competitive markets.",
     desc2:
-      "Each deck is designed to correspond with the client's objectives, bidding requirements, and investor expectations, combining technical depth with narrative flow to capture both technical and non-tech audiences.",
+      "We develop presentations that align with your goals, bid requirements, and brand positioning. Every deck is designed to simplify technical content, improve audience engagement, and support stronger decision-making for proposals, pitches, and stakeholder communication.",
     desc3:
-      "Whether for bid proposals, client pitches, or portfolio showcases, our presentations use design intelligence and communication strategy to improve perception, recall, and response.",
+      "Whether you need bid-winning decks, investor presentations, or capability showcases, our team blends visual design with AEC-specific messaging to deliver presentations that improve recall, clarity, and response.",
 
     whatWeOffer: [
       {
         id: 1,
-        title: "Corporate and capability decks",
-        desc: "that are professionally prepared presentations that highlight the organization's strengths, core services, and differentiators.",
+        title: "Corporate & Capability Decks:",
+        desc: "Professionally designed presentations that highlight your firm's strengths, service expertise, and differentiation in the AEC/BIM marketplace.",
       },
       {
         id: 2,
-        title: "Bid and Tender Presentations:",
-        desc: "Visually accompanied narratives tailored to RFPs, prequalifications, and procurement submissions.",
+        title: "Bid & Tender Presentations:",
+        desc: "Visual, persuasive decks tailored for RFPs, prequalifications, and procurement submissions.",
       },
       {
         id: 3,
-        title: "BIM and technical visualizations:",
-        desc: "Using 3D models, data-driven graphics, and process diagrams to create dynamic narrative.",
+        title: "BIM & Technical Visualizations:",
+        desc: "3D models, process diagrams, and data-driven graphics that bring your technical workflows to life.",
       },
       {
         id: 4,
-        title: "Investor and stakeholder decks",
-        desc: "include presentations that align your project vision with financial and operational data.",
+        title: "Investor & Stakeholder Decks:",
+        desc: "Presentations aligned with financial data, market insights, and operational performance.",
       },
       {
         id: 5,
-        title: "Marketing collateral design",
-        desc: "comprises of branded templates, icons, and infographics that remain consistent across digital and print mediums.",
+        title: "Marketing Collateral Design:",
+        desc: "Branded templates, icons, infographics, and digital assets for consistent communication across all platforms.",
       },
     ],
 
@@ -72,54 +72,47 @@ const MarketingPresentation = () => {
     whyChooseAec: [
       {
         id: 1,
-        title: "Industry-Aware Storytelling:",
-        desc: "Presentations created by experts who understand AEC workflows and BIM processes.",
+        title: "AEC-Focused Storytelling:",
+        desc: "Presentation decks crafted by specialists who understand construction workflows, BIM processes, and technical project communication.",
       },
       {
         id: 2,
         title: "Visual Precision:",
-        desc: "Each presentation is carefully curated to strike a balance between aesthetics, accuracy, and data integrity.",
+        desc: "Designs built with accuracy, clarity, and brand alignment, ensuring every slide presents technical information in a simple, high-impact format.",
       },
       {
         id: 3,
-        title: "Strategic Positioning",
-        desc: "that implies messaging that emphasizes value propositions and project credentials.",
+        title: "Strategic Positioning:",
+        desc: "Messaging shaped to highlight your firm's value proposition, project strengths, and differentiators in competitive evaluations.",
       },
       {
         id: 4,
         title: "Consistent Branding:",
-        desc: "that entails unified design approaches that ensure visual coherence throughout presentations.",
+        desc: "Unified visuals and layout systems that maintain brand consistency across capability decks, bid presentations, and marketing materials.",
       },
     ],
 
     ourExpertiseCover2: [
       {
         id: 1,
-        desc: <>Improved client and stakeholder engagement </>,
+        desc: "Stronger client and stakeholder engagement through clear, compelling visuals.",
       },
       {
         id: 2,
-        desc: (
-          <>
-            Simpler expression of technical competence and project expertise.{" "}
-          </>
-        ),
+        desc: "Easier communication of technical capability and project experience.",
       },
       {
         id: 3,
-        desc: <>Increased proposal and RFP success rates. </>,
+        desc: "Improved proposal and RFP success rates with presentation-ready decks.",
       },
       {
         id: 4,
-        desc: (
-          <>Brand consistency across marketing and sales touchpoints. teams.</>
-        ),
+        desc: "Consistent brand presence across marketing, sales, and digital touchpoints.",
       },
       {
         id: 5,
-        desc: <>Better recall and visual impact in competitive offers.</>,
+        desc: "Higher recall value and better visual impact in competitive submissions.",
       },
-      
     ],
     imagePath: "/s11.svg",
     bgColor: "from-[#D5CBF0] to-[#E3DDFF]",

@@ -5,39 +5,39 @@ const SeoConstruction = () => {
   const serviceData = {
     category: "Digital Marketing",
     title: "SEO for construction and BIM",
-    heading: "Creating Digital Influence for AEC Brands that Design the Future",
+    heading: "SEO for Construction & BIM Firms that Lead the Built Environment",
     desc1:
-      "AEC Horizon develops social media strategies that translate architectural vision and engineering precision into shareable impact.",
+      "At AEC Horizon, we provide specialized SEO services designed exclusively for construction companies, BIM consultants, engineering firms, and architecture practices. Our strategies turn your technical expertise into high-ranking, discoverable digital content that attracts qualified project inquiries in regions like the US, UK, UAE, and India.",
     desc2:
-      "Our ads combine technical storytelling with digital visibility, resulting in over 300% average engagement gain on LinkedIn and Instagram for AEC clients and a 40% increase in qualifying B2B inquiries.",
+      "Our SEO approach blends BIM-focused keyword intelligence, construction industry search trends, and technical content structuring to ensure your firm appears when project owners, contractors, and AEC leaders search for solutions.",
     desc3:
-      "We don't just publish; we position your company as a thought leader by creating storylines that highlight expertise, showcase innovation, and foster trust in the global built-environment community.",
+      "We don't just optimize pages, we position your company as a trusted authority in the digital AEC landscape through compelling technical storytelling and visibility-focused campaigns.",
 
     whatWeOffer: [
       {
         id: 1,
         title: "Technical SEO Audit:",
-        desc: "A thorough evaluation of the information structure, website architecture, and BIM keyword relevancy.",
+        desc: "Comprehensive analysis of website structure, BIM keyword relevance, site architecture, and industry-specific ranking gaps.",
       },
       {
         id: 2,
-        title: "Finding high-intent terms",
-        desc: "associated with AEC workflows, Revit modeling, and BIM outsourcing is known as industry keyword mapping.",
+        title: "High-Intent Keyword Research for Construction & BIM:",
+        desc: "Identifying profitable search terms related to BIM services, Revit modeling, construction documentation, CAD outsourcing, project management, and engineering workflows.",
       },
       {
         id: 3,
         title: "On-Page & Structural Optimization:",
-        desc: "Improving user flow, load speed, and content readability to satisfy international SERP guidelines.",
+        desc: "Enhancing page speed, UX flow, metadata, and technical content quality aligned with global search engine standards.",
       },
       {
         id: 4,
-        title: "Off-Page SEO & Authority Building:",
-        desc: "Using digital magazines, engineering blogs, and BIM-focused websites to strategically build backlinks.",
+        title: "Off-Page SEO & AEC Authority Building:",
+        desc: "Strategic backlink development through engineering publications, construction portals, BIM blogs, and industry directories.",
       },
       {
         id: 5,
-        title: "Analytics & Reporting",
-        desc: "Data-driven insights that monitor lead generation, engagement, and visibility across regions.",
+        title: "Analytics, Tracking & Reporting:",
+        desc: "Real-time reporting dashboards to track rankings, lead quality, regional visibility, and SEO-driven project inquiries.",
       },
     ],
 
@@ -101,53 +101,54 @@ const SeoConstruction = () => {
     whyChooseAec: [
       {
         id: 1,
-        title: "AEC-Driven Search Strategy:",
-        desc: "A thorough understanding of how contractors, consultants, and purchasers in the construction industry search for solutions, ensuring high-intent visibility.",
+        title: "AEC-Focused SEO Expertise:",
+        desc: "Our strategies are tailored to how architects, engineers, contractors, and BIM consultants search and evaluate digital partners across the US, UK, UAE, and India, ensuring you rank for high-intent industry terms.",
       },
       {
         id: 2,
-        title: "Technical Precision:",
-        desc: "Focused on CAD environments, LOD, Revit, and BIM coordination keywords rather than general marketing terms, driving technical relevance and authority.",
+        title: "Technical Keyword Precision:",
+        desc: "We optimize for construction, CAD, Revit, BIM coordination, LOD, and project management search queries, helping your firm appear for the exact services decision-makers look for.",
       },
       {
         id: 3,
-        title: "Holistic Integration:",
-        desc: "SEO strategies that work seamlessly with lead nurturing funnels, PPC advertising, and CRM data for unified growth performance.",
+        title: "Integrated Growth Framework:",
+        desc: "SEO efforts are aligned with PPC, CRM insights, and lead nurturing workflows to support consistent, measurable growth for AEC and BIM businesses.",
       },
       {
         id: 4,
-        title: "Performance Intelligence:",
-        desc: "Clear dashboards that directly link measurable business results with search visibility and digital reach.",
+        title: "Performance-Driven Insights:",
+        desc: "Clear dashboards map search visibility, keyword movement, and lead quality to support strategic decisions and targeted regional marketing.",
       },
       {
         id: 5,
-        title: "Global Reach:",
-        desc: "Scalable SEO strategies tailored for international markets while maintaining contextual depth and regional authenticity.",
+        title: "Global AEC Reach:",
+        desc: "Scalable SEO strategies built to suit firms expanding into North America, Europe, the Middle East, and Asia while maintaining local relevance and technical accuracy.",
       },
     ],
 
     ourExpertiseCover2: [
       {
         id: 1,
-        desc: "Increased digital visibility for decision-makers in AEC and BIM.",
+        desc: "Higher visibility among construction managers, architects, engineers, and BIM decision-makers.",
       },
       {
         id: 2,
-        desc: "Regular lead flow from technical audiences with the necessary qualifications.",
+        desc: "A steady pipeline of project-ready leads from qualified technical audiences.",
       },
       {
         id: 3,
-        desc: "Higher rankings for construction management software, Revit services, and BIM modeling.",
+        desc: "Improved rankings for BIM modeling, Revit services, CAD drafting, and construction technology keywords.",
       },
       {
         id: 4,
-        desc: "Increased brand trust as a result of natural presence and authority.",
+        desc: "Stronger digital credibility and trust across international AEC markets.",
       },
       {
         id: 5,
-        desc: "Scalable SEO frameworks that can be modified to accommodate new regions and service growth.",
+        desc: "SEO frameworks that scale easily with new regions, new service lines, and business expansion.",
       },
     ],
+
     imagePath: "/s11.svg",
     bgColor: "from-[#D5CBF0] to-[#E3DDFF]",
     features: [

@@ -6,37 +6,38 @@ const BimContent = () => {
     category: "Digital Marketing",
     title: "BIM Content creation",
     heading:
-      "High-Performing Digital Assets for Smarter Coordination and Design",
+      "High-Performing BIM Content for Smarter Coordination and Stronger AEC Branding",
     desc1:
-      "At AEC Horizon, we provide intelligent BIM content that promotes design communication across disciplines, precision, and interoperability. Every component, from manufacturer-specific parts to parametric Revit families, has been optimized for performance, functionality, and data integrity, enabling contractors, engineers, and architects to work together effectively in dynamic digital ecosystems.",
-    desc2: "",
+      "At AEC Horizon, we create high-quality BIM content and Revit families that enhance design coordination and strengthen your digital presence across global AEC markets. Our geometry-rich, data-driven components help architects, engineers, and contractors in Europe, the Middle East, and the USA work with better accuracy, consistency, and interoperability.",
+    desc2:
+      "Every BIM object, from parametric Revit families to manufacturer-specific components, is optimized for performance, functionality, and compliance, ensuring smooth integration into project workflows and online BIM platforms.",
     desc3: "",
 
     whatWeOffer: [
       {
         id: 1,
-        title: "Creating geometry-rich, data-driven components",
-        desc: "that adhere to project criteria and LOD standards is known as custom BIM object development.",
+        title: "Geometry-Rich, Data-Driven BIM Components:",
+        desc: "We develop precise, LOD-aligned Revit families and BIM objects that meet project standards and improve coordination on architectural, structural, and MEP models.",
       },
       {
         id: 2,
         title: "Library Standardization:",
-        desc: "Using uniform characteristics and metadata to organize and classify BIM content for smooth integration.",
+        desc: "Uniform naming conventions, metadata, and classifications for BIM content libraries, making digital assets easy to manage and integrate across multiple platforms.",
       },
       {
         id: 3,
         title: "Manufacturer-Specific Models:",
-        desc: "Converting physical goods into digital format for online BIM object platforms and design libraries.",
+        desc: "Conversion of physical products into digital BIM-ready components for online product catalogs, BIM object libraries, and AEC marketplaces, ideal for brands targeting global audiences.",
       },
       {
         id: 4,
-        title: "File optimization:",
-        desc: "Minimizing file size without sacrificing accuracy and streamlining material for performance.",
+        title: "File Optimization for High Performance:",
+        desc: "Lightweight yet accurate BIM objects optimized for fast loading, smooth performance, and cross-platform usage without compromising detail.",
       },
       {
         id: 5,
         title: "Quality Assurance & Compliance:",
-        desc: "Making sure that COBie, AIA, and ISO 19650 data exchange standards are followed.",
+        desc: "Every BIM component is tested for accuracy and compliant with COBie, AIA, ISO 19650, and regional BIM standards across Europe, Middle East, and the USA.",
       },
     ],
 
@@ -99,79 +100,53 @@ const BimContent = () => {
     whyChooseAec: [
       {
         id: 1,
-        title: "BIM-Centric Approach:",
-        desc: "A thorough understanding of design data, object behavior, and coordination logic.",
+        title: "BIM-Focused Expertise:",
+        desc: " Specialized in BIM content creation and Revit family development for global AEC standards.",
       },
       {
         id: 2,
-        title: "Interoperable Solutions:",
-        desc: "Content that works effortlessly across Revit, ArchiCAD, and Bentley systems.",
+        title: "Interoperable BIM Assets:",
+        desc: " Content compatible with Revit, ArchiCAD, and Bentley, ensuring smooth integration across Europe, Middle East, and USA markets.",
       },
       {
         id: 3,
-        title: "Detail with Efficiency: ",
-        desc: "Achieving best usefulness by balancing visual correctness with model performance.",
+        title: "Detail + Performance: ",
+        desc: " High-quality BIM objects optimized for accuracy, lightweight performance, and efficient coordination.",
       },
       {
         id: 4,
-        title: "Future-Ready Assets:",
-        desc: "Libraries designed for automation, AI processes, and scalable BIM ecosystems.",
+        title: "Future-Ready Libraries:",
+        desc: "Digital assets designed for automation, AI workflows, and scalable BIM ecosystems, supporting strong AEC branding.",
       },
     ],
 
     ourExpertiseCover2: [
       {
         id: 1,
-        desc: (
-          <>
-            Streamlined <strong>BIM coordination and documentation.</strong>
-          </>
-        ),
+        desc: "Streamlined BIM coordination and standardized documentation across all teams.",
       },
       {
         id: 2,
-        desc: (
-          <>
-            Consistent and <strong>standardized data</strong> across all models
-          </>
-        ),
+        desc: "Consistent, data-rich BIM content aligned with global project standards.",
       },
       {
         id: 3,
-        desc: (
-          <>
-            <strong>Shorter modeling and design</strong> visualization cycles
-          </>
-        ),
+        desc: "Faster modeling, visualization, and design cycles with optimized Revit families.",
       },
       {
         id: 4,
-        desc: (
-          <>
-            <strong>Improved collaboration</strong> across multidisciplinary
-            teams.
-          </>
-        ),
+        desc: "Improved multidisciplinary collaboration for architects, engineers, and contractors.",
       },
       {
         id: 5,
-        desc: (
-          <>
-            improved project efficiency and{" "}
-            <strong>digital asset reusability.</strong>
-          </>
-        ),
+        desc: "Higher project efficiency through reusable digital assets and structured libraries.",
       },
       {
         id: 6,
-        desc: (
-          <>
-            <strong>Dashboards for analytics</strong> and structured reporting
-            that are tailored for executive review.
-          </>
-        ),
+        desc: "Insightful BIM dashboards and analytics for better decision-making and reporting.",
       },
     ],
+
     imagePath: "/s11.svg",
     bgColor: "from-[#D5CBF0] to-[#E3DDFF]",
     features: [

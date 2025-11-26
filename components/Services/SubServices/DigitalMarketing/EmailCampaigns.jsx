@@ -5,37 +5,37 @@ const EmailCampaigns = () => {
   const serviceData = {
     category: "Digital Marketing",
     title: "Email Campaigns & Pitch Decks",
-    heading: "Targeted communication that converts expertise into opportunity",
+    heading: "Targeted Communication That Drives AEC Business Growth",
     desc1:
-      "At AEC Horizon, we create data-driven email campaigns and appealing pitch decks to assist AEC firms increase exposure, trust, and conversion in highly specialized markets.Our strategy combines strategic messaging with technical articulation to ensure that every communication, from a cold outreach to a tender presentation, reflects your company's precision, dependability, and creativity.",
+      "At AEC Horizon, we craft data-driven email campaigns, outreach sequences, and high-impact pitch decks designed specifically for AEC and BIM firms. Our messaging blends technical clarity with persuasive communication, helping you build trust, improve visibility, and convert high-value opportunities across global markets.",
     desc2:
-      " With proven campaign engagement rates that exceed 35% average open rates and high bid-stage conversion, our technologies enable business development teams to communicate clearly and impactfully with decision-makers.",
+      "With strong engagement performance and industry-specific positioning, we help business development teams present their expertise confidently to architects, engineers, contractors, developers, and investors.",
     desc3: "",
     whatWeOffer: [
       {
         id: 1,
         title: "B2B Email Campaigns:",
-        desc: "Use targeted outreach campaigns to interact with architects, developers, contractors, and consultants.",
+        desc: "Targeted outreach to connect with architects, developers, contractors, consultants, and AEC decision-makers across Europe, the Middle East, and the USA.",
       },
       {
         id: 2,
         title: "Automated Lead Nurturing:",
-        desc: "CRM-integrated drip sequences designed to maintain engagement across protracted project cycles.",
+        desc: "CRM-powered drip sequences that keep long project cycles engaged and move prospects closer to conversion.",
       },
       {
         id: 3,
         title: "Personalized Pitch Deck Design:",
-        desc: "Professionally organized presentations that highlight technical knowledge and project distinction.",
+        desc: "Professionally structured pitch decks that highlight your technical strengths, BIM capabilities, and project expertise for bids and presentations.",
       },
       {
         id: 4,
         title: "Client Re-engagement Campaigns:",
-        desc: "Revitalize dormant prospects with tailored and insight-driven marketing.",
+        desc: "Revive dormant leads with tailored, insight-driven communication designed for AEC buying behavior.",
       },
       {
         id: 5,
-        title: " Performance tracking:",
-        desc: "That provides real-time metrics for open rates, click-throughs, and response analytics.",
+        title: "Performance Tracking & Analytics:",
+        desc: "Real-time email metrics, engagement dashboards, and reporting to refine messaging and improve conversion rates.",
       },
     ],
 
@@ -69,69 +69,54 @@ const EmailCampaigns = () => {
     whyChooseAec: [
       {
         id: 1,
-        title: "AEC-Centric Messaging::",
-        desc: "All communications are based on BIM correctness, LOD clarity, and project value articulation.",
+        title: "AEC-Centric Messaging:",
+        desc: "All communications are crafted with industry accuracy, BIM terminology, LOD clarity, and project value positioning tailored for AEC and BIM firms.",
       },
       {
         id: 2,
-        title: " Integrated Strategy:",
-        desc: "Campaigns are coordinated with social media, SEO, and CRM pipelines.",
+        title: "Integrated Digital Strategy:",
+        desc: "Email campaigns are aligned with SEO, social media, and CRM workflows, ensuring consistent communication across all marketing channels.",
       },
       {
         id: 3,
-        title: "Business-Oriented Design: ",
-        desc: "Decks designed to persuade, organized for procurement panels, stakeholders, and investors.",
+        title: "Business-Oriented Pitch Decks: ",
+        desc: "Presentations designed to persuade procurement teams, stakeholders, and investors with clear technical articulation and project impact.",
       },
       {
         id: 4,
-        title: "Data-Driven Insights:",
-        desc: "Continuous optimization through marketing analytics and audience behavior tracking.",
+        title: "Data-Driven Optimization:",
+        desc: "Real-time analytics and engagement insights help refine messaging for stronger outreach and higher conversion rates across global regions.",
       },
       {
         id: 5,
-        title: "Professional Consistency:",
-        desc: "Consistent branding throughout emails, presentations, and company communications.",
+        title: "Consistent Professional Branding:",
+        desc: "Uniform tone, structure, and design across emails, decks, and company communications to reinforce trust and credibility in international markets.",
       },
     ],
 
     ourExpertiseCover2: [
       {
         id: 1,
-        desc: <>Streamlined lead generation with sophisticated targeting.</>,
+        desc: "Streamlined lead generation through precise targeting for architects, engineers, contractors, and developers.",
       },
       {
         id: 2,
-        desc: (
-          <>Higher open and response rates among qualified AEC audiences.</>
-        ),
+        desc: "Higher open and response rates from qualified AEC and BIM audiences in international markets.",
       },
       {
         id: 3,
-        desc: (
-          <>
-            Increased brand authority in professional emails and presentations.
-          </>
-        ),
+        desc: "Stronger brand authority with professional, well-structured emails and pitch decks.",
       },
       {
         id: 4,
-        desc: (
-          <>
-            Increased deal conversion through continuous, effective
-            communication.
-          </>
-        ),
+        desc: "Improved deal conversion through consistent, value-driven communication.",
       },
       {
         id: 5,
-        desc: (
-          <>
-            Better connection between marketing outreach and business
-            development objectives.{" "}
-          </>
-        ),
+        desc: "Better alignment between marketing outreach and AEC business development goals.",
       },
     ],
+    
     imagePath: "/s11.svg",
     bgColor: "from-[#D5CBF0] to-[#E3DDFF]",
     features: [
