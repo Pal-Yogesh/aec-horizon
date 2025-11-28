@@ -137,7 +137,7 @@ export default function GlobalAEC() {
                     >
                       <div className="relative min-h-[260px] sm:min-h-[280px] lg:h-[295px] pt-4 sm:pt-5">
                         {/* Title */}
-                        <h3 className="text-[14px] sm:text-[15px] lg:text-[16px] font-semibold gradient-text text-center flex items-center justify-center bg-[#D9E2FF] border-[1px] border-white py-2 px-2">
+                        <h3 className="text-[14px] sm:text-[15px] lg:text-[16px] font-semibold gradient-text text-center flex items-center justify-center bg-[#D9E2FF] border-[1px] border-white py-2 px-8">
                           {service.title}
                         </h3>
 

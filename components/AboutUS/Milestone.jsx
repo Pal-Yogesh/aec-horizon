@@ -186,158 +186,154 @@ const Timeline = () => {
   // 3 items above, 3 items below the middle line
   const timelineData = [
     { icon: Eye, label: "The Vision", position: "top" },
-    { icon: Handshake, label: "The Breakthrough", position: "bottom" },
-    { icon: Handshake, label: "The Launch", position: "top" },
-    { icon: Rocket, label: "The Breakthrough", position: "bottom" },
-    { icon: Handshake, label: "The Launch", position: "top" },
-    { icon: Rocket, label: "The Launch", position: "bottom" },
+    { icon: Handshake, label: "First BIM Project", position: "bottom" },
+    { icon: Handshake, label: "Expanded our AEC services", position: "top" },
+    { icon: Rocket, label: "Global client onboarding", position: "bottom" },
+    { icon: Handshake, label: "Digital division Launched", position: "top" },
+    { icon: Rocket, label: "100+ projects delivered", position: "bottom" },
   ];
 
   return (
-
-
     <div className="relative w-full h-full ">
-    <div className="absolute top-0 left-0 w-full h-full">
-
-<SectionBg2 />
-    </div>
-    <div className=" py-[5%] px-[14%] ">
-      <div ref={containerRef} className="max-w-7xl mx-auto">
-        {/* Header Section */}
-        <motion.div
-          className="text-center mb-16"
-          initial={{ opacity: 0, y: -30 }}
-          animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: -30 }}
-          transition={{ duration: 0.8 }}
-        >
-          <div
-            className="inline-block border-[2px] rounded-[44px] px-12 py-3 font-semibold text-[25px] border-[#FFFFFF4D]"
-            style={{
-              background:
-                "linear-gradient(261.45deg, rgba(255, 255, 255, 0.63) 37.39%, rgba(219, 213, 255, 0.63) 106.65%)",
-              boxShadow: "0px 2.96px 5.03px 0px #00000040",
-            }}
-          >
-            <p className="gradient-text-about text-[30px]">
-              View Our Milestones
-            </p>
-          </div>
-        </motion.div>
-
-        <div className="relative py-32">
-          {/* Main horizontal dashed timeline - positioned in the middle */}
+      <div className="absolute top-0 left-0 w-full h-full">
+        <SectionBg2 />
+      </div>
+      <div className=" py-[5%] px-[14%] ">
+        <div ref={containerRef} className="max-w-7xl mx-auto">
+          {/* Header Section */}
           <motion.div
-            ref={lineRef}
-            className="absolute bg-[#ACBAFF] left-0 right-0 top-1/2 transform -translate-y-1/2 z-10"
-            style={{
-              height: "3.5px",
-              boxShadow: "0px 1.82px 1.82px 0px #00000040 inset",
-            }}
+            className="text-center mb-16"
+            initial={{ opacity: 0, y: -30 }}
+            animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: -30 }}
+            transition={{ duration: 0.8 }}
           >
-            <svg width="100%" height="4" className="absolute top-0 left-0">
-              <motion.line
-                x1="0"
-                y1="2"
-                x2="100%"
-                y2="2"
-                stroke="url(#timelineGradient)"
-                strokeWidth="4"
-                strokeDasharray="12 8"
-                strokeLinecap="round"
-                initial={{ pathLength: 0 }}
-                animate={isInView ? { pathLength: 1 } : { pathLength: 0 }}
-                transition={{ duration: 2.5, ease: "easeInOut", delay: 0.5 }}
-              />
-              <defs>
-                <linearGradient
-                  id="timelineGradient"
-                  x1="0%"
-                  y1="0%"
-                  x2="100%"
-                  y2="0%"
-                >
-                  <stop offset="0%" stopColor="#93c5fd" />
-                  <stop offset="25%" stopColor="#60a5fa" />
-                  <stop offset="50%" stopColor="#3b82f6" />
-                  <stop offset="75%" stopColor="#60a5fa" />
-                  <stop offset="100%" stopColor="#93c5fd" />
-                </linearGradient>
-              </defs>
-            </svg>
+            <div
+              className="inline-block border-[2px] rounded-[44px] px-12 py-3 font-semibold text-[25px] border-[#FFFFFF4D]"
+              style={{
+                background:
+                  "linear-gradient(261.45deg, rgba(255, 255, 255, 0.63) 37.39%, rgba(219, 213, 255, 0.63) 106.65%)",
+                boxShadow: "0px 2.96px 5.03px 0px #00000040",
+              }}
+            >
+              <p className="gradient-text-about text-[30px]">
+                View Our Milestones
+              </p>
+            </div>
           </motion.div>
 
-          {/* Timeline nodes positioned along the middle line */}
-          <div className="flex justify-between items-center relative gap-4">
-            {/* Starting circle - 2023 */}
+          <div className="relative py-32">
+            {/* Main horizontal dashed timeline - positioned in the middle */}
             <motion.div
-              className="relative flex-shrink-0 z-20"
-              initial={{ opacity: 0, x: -30, scale: 0.8 }}
-              animate={
-                isInView
-                  ? { opacity: 1, x: 0, scale: 1 }
-                  : { opacity: 0, x: -30, scale: 0.8 }
-              }
-              transition={{ duration: 0.8, type: "spring" }}
-              whileHover={{ scale: 1.08, rotate: 5 }}
+              ref={lineRef}
+              className="absolute bg-[#ACBAFF] left-0 right-0 top-1/2 transform -translate-y-1/2 z-10"
+              style={{
+                height: "3.5px",
+                boxShadow: "0px 1.82px 1.82px 0px #00000040 inset",
+              }}
             >
-              <div className="w-[98px] h-[98px] rounded-full bg-gradient-to-b from-[#ACBAFF] to-[#8A9DFF] border-[1.68px] border-white shadow-2xl flex flex-col items-center justify-center relative z-20">
-                <span className="text-[12px] font-semibold text-[#1D2966] bg-[#FFFFFF] border-[0.42px] border-white rounded-[7px]  px-2 ">
-                  2023
-                </span>
-                <span className="text-[12px] text-[#1D2966] font-semibold">
-                  we started
-                </span>
-                <span className="text-[12px] text-[#1D2966] font-semibold">
-                  here
-                </span>
-              </div>
-              <motion.div
-                className="absolute inset-0 rounded-full bg-blue-300 blur-3xl"
-                animate={{
-                  scale: [1, 1.2, 1],
-                  opacity: [0.3, 0.5, 0.3],
-                }}
-                transition={{ duration: 3, repeat: Infinity }}
-              />
+              <svg width="100%" height="4" className="absolute top-0 left-0">
+                <motion.line
+                  x1="0"
+                  y1="2"
+                  x2="100%"
+                  y2="2"
+                  stroke="url(#timelineGradient)"
+                  strokeWidth="4"
+                  strokeDasharray="12 8"
+                  strokeLinecap="round"
+                  initial={{ pathLength: 0 }}
+                  animate={isInView ? { pathLength: 1 } : { pathLength: 0 }}
+                  transition={{ duration: 2.5, ease: "easeInOut", delay: 0.5 }}
+                />
+                <defs>
+                  <linearGradient
+                    id="timelineGradient"
+                    x1="0%"
+                    y1="0%"
+                    x2="100%"
+                    y2="0%"
+                  >
+                    <stop offset="0%" stopColor="#93c5fd" />
+                    <stop offset="25%" stopColor="#60a5fa" />
+                    <stop offset="50%" stopColor="#3b82f6" />
+                    <stop offset="75%" stopColor="#60a5fa" />
+                    <stop offset="100%" stopColor="#93c5fd" />
+                  </linearGradient>
+                </defs>
+              </svg>
             </motion.div>
 
-            {/* Timeline milestone nodes */}
-            {timelineData.map((item, index) => (
-              <TimelineNode
-                key={index}
-                icon={item.icon}
-                label={item.label}
-                position={item.position}
-                delay={1 + index * 0.2}
-                index={index}
-              />
-            ))}
-
-            {/* End circle on the middle line */}
-            <motion.div
-              className="w-4 h-4 rounded-full bg-[#ACBAFF]  shadow-xl relative z-20 flex-shrink-0"
-              initial={{ scale: 0, opacity: 0 }}
-              animate={
-                isInView ? { scale: 1, opacity: 1 } : { scale: 0, opacity: 0 }
-              }
-              transition={{ duration: 0.6, delay: 2.5, type: "spring" }}
-              whileHover={{ scale: 1.25, rotate: 180 }}
-            >
+            {/* Timeline nodes positioned along the middle line */}
+            <div className="flex justify-between items-center relative gap-4">
+              {/* Starting circle - 2023 */}
               <motion.div
-                className="absolute inset-0 rounded-full bg-blue-400 blur-xl"
-                animate={{
-                  scale: [1, 1.6, 1],
-                  opacity: [0.5, 0, 0.5],
-                }}
-                transition={{ duration: 2, repeat: Infinity }}
-              />
-            </motion.div>
+                className="relative flex-shrink-0 z-20"
+                initial={{ opacity: 0, x: -30, scale: 0.8 }}
+                animate={
+                  isInView
+                    ? { opacity: 1, x: 0, scale: 1 }
+                    : { opacity: 0, x: -30, scale: 0.8 }
+                }
+                transition={{ duration: 0.8, type: "spring" }}
+                whileHover={{ scale: 1.08, rotate: 5 }}
+              >
+                <div className="w-[98px] h-[98px] rounded-full bg-gradient-to-b from-[#ACBAFF] to-[#8A9DFF] border-[1.68px] border-white shadow-2xl flex flex-col items-center justify-center relative z-20">
+                  <span className="text-[12px] font-semibold text-[#1D2966] bg-[#FFFFFF] border-[0.42px] border-white rounded-[7px]  px-2 ">
+                    2023
+                  </span>
+                  <span className="text-[12px] text-[#1D2966] font-semibold">
+                    we started
+                  </span>
+                  <span className="text-[12px] text-[#1D2966] font-semibold">
+                    here
+                  </span>
+                </div>
+                <motion.div
+                  className="absolute inset-0 rounded-full bg-blue-300 blur-3xl"
+                  animate={{
+                    scale: [1, 1.2, 1],
+                    opacity: [0.3, 0.5, 0.3],
+                  }}
+                  transition={{ duration: 3, repeat: Infinity }}
+                />
+              </motion.div>
+
+              {/* Timeline milestone nodes */}
+              {timelineData.map((item, index) => (
+                <TimelineNode
+                  key={index}
+                  icon={item.icon}
+                  label={item.label}
+                  position={item.position}
+                  delay={1 + index * 0.2}
+                  index={index}
+                />
+              ))}
+
+              {/* End circle on the middle line */}
+              <motion.div
+                className="w-4 h-4 rounded-full bg-[#ACBAFF]  shadow-xl relative z-20 flex-shrink-0"
+                initial={{ scale: 0, opacity: 0 }}
+                animate={
+                  isInView ? { scale: 1, opacity: 1 } : { scale: 0, opacity: 0 }
+                }
+                transition={{ duration: 0.6, delay: 2.5, type: "spring" }}
+                whileHover={{ scale: 1.25, rotate: 180 }}
+              >
+                <motion.div
+                  className="absolute inset-0 rounded-full bg-blue-400 blur-xl"
+                  animate={{
+                    scale: [1, 1.6, 1],
+                    opacity: [0.5, 0, 0.5],
+                  }}
+                  transition={{ duration: 2, repeat: Infinity }}
+                />
+              </motion.div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    </div>
-    
   );
 };
 

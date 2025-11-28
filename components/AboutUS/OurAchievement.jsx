@@ -32,10 +32,10 @@ const OurAchievement = () => {
   }, []);
 
   const achievements = [
-    { number: 6, label: "Years of Technical Expertise" },
-    { number: 20, label: "Projects Delivered" },
+    { number: 30, label: "Years of Technical Expertise" },
+    { number: 100, label: "Projects Delivered" },
     { number: 10, label: "Brand Colabs" },
-    { number: 5, label: "Major Countries Globally Targeted" },
+    { number: 20, label: "Major Countries Globally Targeted" },
   ];
 
   return (
@@ -83,7 +83,7 @@ const OurAchievement = () => {
                   className="bg-[#FBFAFF] border-[1px] border-white rounded-[15px] sm:rounded-[18px] flex justify-center items-center w-[90px] h-[70px] sm:w-[110px] sm:h-[80px] lg:w-[117px] lg:h-[88px]"
                   style={{ boxShadow: "0px 4px 4px 0px #00000040" }}
                 >
-                  <p className="text-[40px] sm:text-[50px] lg:text-[68px] gradient-text-about font-medium w-24 sm:w-28 lg:w-32 text-center">
+                  <p className="text-[40px] sm:text-[50px] lg:text-[63px] gradient-text-about font-medium w-24 sm:w-28 lg:w-32 text-center">
                     {inView ? (
                       <CountUp end={achievements[0].number} duration={2} />
                     ) : (
@@ -167,7 +167,7 @@ const OurAchievement = () => {
             </p>
             <div className="mt-6 sm:mt-8 ml-3 sm:ml-0">
               <Image
-                src="/bank.svg"
+                src="/fa_globe.svg"
                 width={1000}
                 height={1000}
                 alt="blur"

@@ -11,58 +11,58 @@ const Testimonial = () => {
   const testimonials = [
     {
       id: 1,
-      name: "Danny Lopez",
+      name: "Michael Tan",
       position: "Special Operator, LEO solutions",
-      image: "/avatar.svg",
+      image: "/test1.svg",
       testimonial:
-        "The entire ecosystem at AEC Horizon is extremely optimised perfectly made for each of the services that are intertwining.",
+"The entire ecosystem at AEC Horizon is extremely optimised perfectly made for each of the services that are intertwining.",
       bgColor: "bg-[#E9E9FF]",
     },
     {
       id: 2,
-      name: "Danny Lopez",
+      name: "Rahul Verma",
       position: "Special Operator, LEO solutions",
-      image: "/avatar.svg",
+      image: "/test2.svg",
       testimonial:
-        "The entire ecosystem at AEC Horizon is extremely optimised perfectly made for each of the services that are intertwining.",
+"The entire ecosystem at AEC Horizon is extremely optimised perfectly made for each of the services that are intertwining.",
       bgColor: "bg-[#BBBBFF]",
     },
     {
       id: 3,
-      name: "Danny Lopez",
+      name: "Ananya Mehra",
       position: "Special Operator, LEO solutions",
-      image: "/avatar.svg",
+      image: "/test3.svg",
       testimonial:
-        "The entire ecosystem at AEC Horizon is extremely optimised perfectly made for each of the services that are intertwining.",
+"The entire ecosystem at AEC Horizon is extremely optimised perfectly made for each of the services that are intertwining.",
       bgColor: "bg-[#E9E9FF]",
     },
-    {
-      id: 4,
-      name: "Danny Lopez",
-      position: "Special Operator, LEO solutions",
-      image: "/avatar.svg",
-      testimonial:
-        "The entire ecosystem at AEC Horizon is extremely optimised perfectly made for each of the services that are intertwining.",
-      bgColor: "bg-[#BBBBFF]",
-    },
-    {
-      id: 5,
-      name: "Danny Lopez",
-      position: "Special Operator, LEO solutions",
-      image: "/avatar.svg",
-      testimonial:
-        "The entire ecosystem at AEC Horizon is extremely optimised perfectly made for each of the services that are intertwining.",
-      bgColor: "bg-[#E9E9FF]",
-    },
-    {
-      id: 6,
-      name: "Danny Lopez",
-      position: "Special Operator, LEO solutions",
-      image: "/avatar.svg",
-      testimonial:
-        "The entire ecosystem at AEC Horizon is extremely optimised perfectly made for each of the services that are intertwining.",
-      bgColor: "bg-[#BBBBFF]",
-    },
+    // {
+    //   id: 4,
+    //   name: "Danny Lopez",
+    //   position: "Special Operator, LEO solutions",
+    //   image: "/avatar.svg",
+    //   testimonial:
+    //     "The entire ecosystem at AEC Horizon is extremely optimised perfectly made for each of the services that are intertwining.",
+    //   bgColor: "bg-[#BBBBFF]",
+    // },
+    // {
+    //   id: 5,
+    //   name: "Danny Lopez",
+    //   position: "Special Operator, LEO solutions",
+    //   image: "/avatar.svg",
+    //   testimonial:
+    //     "The entire ecosystem at AEC Horizon is extremely optimised perfectly made for each of the services that are intertwining.",
+    //   bgColor: "bg-[#E9E9FF]",
+    // },
+    // {
+    //   id: 6,
+    //   name: "Danny Lopez",
+    //   position: "Special Operator, LEO solutions",
+    //   image: "/avatar.svg",
+    //   testimonial:
+    //     "The entire ecosystem at AEC Horizon is extremely optimised perfectly made for each of the services that are intertwining.",
+    //   bgColor: "bg-[#BBBBFF]",
+    // },
   ];
 
   return (
@@ -123,9 +123,9 @@ const Testimonial = () => {
                 <div className="relative flex-shrink-0">
                   <div
                     className="w-20 h-20 sm:w-24 sm:h-24 rounded-full "
-                    style={{
-                      boxShadow: "0px 4px 12.4px 0px #00000040",
-                    }}
+                    // style={{
+                    //   boxShadow: "0px 4px 12.4px 0px #00000040",
+                    // }}
                   >
                     <img
                       src={testimonial.image}

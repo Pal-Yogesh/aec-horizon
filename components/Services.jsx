@@ -124,7 +124,7 @@ const Services = () => {
                         "BIM Modeling (LOD 100–500)",
                         "Revit Family & Template Creation",
                         "Clash Detection, Coordination",
-                        "Scan-to-BIM & As-Built",
+                        "Scan-to-BIM & As-Built Modelling",
                         "Automation & MEPF modeling",
                       ].map((item, index) => (
                         <li
@@ -157,7 +157,7 @@ const Services = () => {
                         "BIM Modeling (LOD 100–500)",
                         "Revit Family & Template Creation",
                         "Clash Detection, Coordination",
-                        "Scan-to-BIM & As-Built",
+                        "Scan-to-BIM & As-Built Modelling",
                         "Automation & MEPF modeling",
                       ].map((item, index) => (
                         <li

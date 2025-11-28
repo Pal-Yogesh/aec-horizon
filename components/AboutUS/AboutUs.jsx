@@ -9,18 +9,41 @@ const AboutUs = () => {
   const carouselData = [
     {
       title: "Our Vision",
-      content:
-        "To reshape the future of the AEC industry through the seamless fusion of technical intelligence, creative innovation, and digital transformation. We envision architects, engineers, and construction leaders working with unmatched precision, efficiency, and collaboration, powered by BIM-led design, data-driven strategy, and technology that enhances human expertise.",
+      content: (
+        <>
+          Create a more intelligent and interconnected AEC sector. <br /> <br />
+          With the appropriate technology, teams can operate more efficiently
+          and quickly. <br /> <br />
+          Encourage them to perform at their highest level each and every day.
+        </>
+      ),
     },
     {
       title: "Our Story",
-      content:
-        "AEC Horizon was created to meet the real needs of the architecture, engineering, and construction sectors: not just fragmented solutions, but a holistic partner fluent in both design and business growth. Today, we help AEC firms worldwide turn complexity into clarity, transforming how they build, communicate, and scale.",
+      content: (
+        <>
+          We began addressing actual problems that AEC teams encounter. <br />
+          <br />
+          Rather than dispersed solutions, we offer clarity. <br />
+          <br />
+          We assist businesses in improving their construction, communication,
+          and self-assurance.
+        </>
+      ),
     },
     {
       title: "Our Mission",
-      content:
-        "We aim to empower every AEC professional, from independent architects to global engineering firms, with tools, systems, and strategies to elevate their craft and accelerate results. Through BIM integration, technical expertise, and digital intelligence, we build a connected ecosystem where efficiency, creativity, and sustainability thrive",
+      content: (
+        <>
+          Give AEC professionals useful resources and assistance. <br />
+          <br />
+          Develop your digital and BIM abilities for more intelligent workflows.{" "}
+          <br />
+          <br />
+          Create an environment that fosters innovation, productivity, and
+          sustainability.
+        </>
+      ),
     },
   ];
 
@@ -49,9 +72,8 @@ const AboutUs = () => {
       <div className="absolute top-0 left-0 w-full h-full">
         <SectionBg />
         <div className="block md:hidden">
-
-        <SectionBg />
-        <SectionBg />
+          <SectionBg />
+          <SectionBg />
         </div>
       </div>
       <div className="relative  w-full flex flex-col items-center ">
@@ -124,7 +146,7 @@ const AboutUs = () => {
                           </p>
                         </div>
                         <div className="py-5">
-                          <p className="text-[#3B1D66] text-[15px] sm:text-[17px] lg:text-[18px] px-5">
+                          <p className="text-[#3B1D66] text-[15px] sm:text-[17px] lg:text-[18px] px-4">
                             {item.content}
                           </p>
                         </div>

@@ -19,11 +19,11 @@ const HeroContent = () => {
     <>
       <div className="relative w-full">
         <div className="flex flex-col items-center justify-center text-center px-4">
-          <h1 className="typing-heading gradient-text-about mt-1 text-[29px] font-semibold z-40">
+          <h1 className="typing-heading gradient-text-about text-[29px] font-semibold z-40">
           Integrated Solutions for AEC Success
           </h1>
           <div
-            className="text-[19px] mt-3 mb-20 w-[830px] leading-tight text-[#4B336D] bg-[#FFFFFF99] rounded-[55px] px-14 py-3 border-[2px] border-[#FFFFFF]"
+            className="text-[19px] mt-2 mb-[5%] w-[930px] leading-tight text-[#4B336D] bg-[#FFFFFF99] rounded-[55px] px-14 py-3 border-[2px] border-[#FFFFFF]"
             style={{
               boxShadow: "0px 4px 4px 0px #00000040",
               backdropFilter: "blur(11.300000190734863px)",
@@ -31,8 +31,8 @@ const HeroContent = () => {
           >
              
 
-            <p className="font-semibold">BIM & Drafting Services, Technical Business Development, and Digital Marketing</p>
-            <p >& Branding are perfectly interlocked to build your AEC success.</p>
+            <p className="font-semibold">BIM & Drafting Services, Technical Business Development, and Digital Marketing & Branding</p>
+            <p>are perfectly interlocked to build your AEC success.</p>
           </div>
         </div>
 

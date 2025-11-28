@@ -4,7 +4,7 @@ import React from "react";
 const MeetCrew = () => {
   return (
     <div>
-      <div className="flex justify-center items-center mt-20 md:mt-40">
+      <div className="flex justify-center items-center mt-20 ">
         <div
           className="bg-[#FFFFFF64] border-[1px] border-[#FFFFFF] text-center px-5 md:px-16 rounded-[70.5px] py-3"
           style={{
@@ -17,22 +17,17 @@ const MeetCrew = () => {
         </div>
       </div>
 
-      <div className="flex justify-center items-center md:pt-28">
+      <div className="flex justify-center items-center pt-12">
         <Image
-          src="/cardgrp.svg"
+          src="/crew.svg"
           alt="crew"
           width={1000}
           height={1000}
-          className="w-[894px] h-[381px]"
+          className="w-[100%] h-[70vh]"
         />
       </div>
 
-      <div className="flex justify-center items-center md:mt-10  text-[20px] md:text-[25px] lg:text-[30px] text-[#4B336D] ">
-        <p className="text-center md:w-[50%]">
-          A mix of creatives, strategists, and caffeine-fueled problem-solvers,
-          all obsessed with building what&apos;s next.
-        </p>
-      </div>
+     
     </div>
   );
 };
