@@ -11,18 +11,18 @@ const Structural3D = () => {
     desc1: (
       <>
         <span>
-          At <strong>AEC Horizon</strong>, we provide{" "}
-          <strong>structural 3D BIM modeling services</strong> that transform
+          At AEC Horizon, we provide{" "}
+          structural 3D BIM modeling services that transform
           raw engineering concepts into highly detailed,{" "}
-          <strong>constructible digital models</strong>.
+          constructible digital models.
         </span>
         <br />
         <span>
           Our models go beyond visual representation, they simulate how
           structures connect, behave, and perform in the real world, helping AEC
-          professionals across <strong>Europe</strong>, the{" "}
-          <strong>Middle East</strong>, and the <strong>USA</strong> achieve
-          <strong>precision-driven project delivery</strong>.
+          professionals across Europe, the{" "}
+          Middle East, and the USA achieve
+          precision-driven project delivery.
         </span>
       </>
     ),
@@ -30,15 +30,15 @@ const Structural3D = () => {
       <>
         <span>
           Using advanced tools like{" "}
-          <strong>Autodesk Revit, Tekla Structures</strong>, and
-          <strong>Navisworks</strong>, our{" "}
-          <strong>structural BIM specialists</strong> create intelligent models
+          Autodesk Revit, Tekla Structures, and
+          Navisworks, our{" "}
+          structural BIM specialists create intelligent models
           that enable seamless coordination with architectural and MEP teams,
           minimizing design conflicts and ensuring project constructability.
         </span>
         <br />
         <span>
-          By combining engineering insight with <strong>BIM technology</strong>,
+          By combining engineering insight with BIM technology,
           we help clients visualize complex structural systems, detect design
           errors early, and improve communication throughout the
           design-to-construction lifecycle.
@@ -52,7 +52,7 @@ const Structural3D = () => {
         desc: (
           <span>
             Creation of detailed 3D BIM models for{" "}
-            <strong>steel, concrete, and composite structures</strong>,
+            steel, concrete, and composite structures,
             developed from design drawings or engineering intent.
           </span>
         ),
@@ -62,8 +62,8 @@ const Structural3D = () => {
         title: "Reinforcement and Detailing Modeling",
         desc: (
           <span>
-            Precision <strong>rebar modeling</strong>, connection detailing, and
-            embeds created to <strong>fabrication-level accuracy</strong> for
+            Precision rebar modeling, connection detailing, and
+            embeds created to fabrication-level accuracy for
             reliable construction documentation.
           </span>
         ),
@@ -73,9 +73,9 @@ const Structural3D = () => {
         title: "LOD-Specific Model Development",
         desc: (
           <span>
-            Models customized to <strong>LOD 200-500</strong>, covering
+            Models customized to LOD 200-500, covering
             schematic design, coordination, fabrication, and{" "}
-            <strong>as-built documentation</strong>.
+            as-built documentation.
           </span>
         ),
       },
@@ -85,7 +85,7 @@ const Structural3D = () => {
         desc: (
           <span>
             Models optimized for compatibility with tools like{" "}
-            <strong>ETABS, STAAD.Pro, and Robot Structural Analysis</strong>,
+            ETABS, STAAD.Pro, and Robot Structural Analysis,
             ensuring alignment between design intent and structural performance.
           </span>
         ),
@@ -96,10 +96,7 @@ const Structural3D = () => {
         desc: (
           <span>
             Interdisciplinary integration of{" "}
-            <strong>
-              structural BIM models with architectural and MEP models
-            </strong>
-            , detecting and resolving clashes before site execution.
+            structural BIM models with architectural and MEP models, detecting and resolving clashes before site execution.
           </span>
         ),
       },
@@ -138,7 +135,7 @@ const Structural3D = () => {
         title: "Engineering Precision",
         desc: (
           <span>
-            Accurate <strong>structural BIM models</strong> designed for
+            Accurate structural BIM models designed for
             real-world constructibility.
           </span>
         ),
@@ -149,7 +146,7 @@ const Structural3D = () => {
         desc: (
           <span>
             Smooth coordination between{" "}
-            <strong>structural, architectural, and MEP teams.</strong>
+            structural, architectural, and MEP teams.
           </span>
         ),
       },
@@ -158,7 +155,7 @@ const Structural3D = () => {
         title: "Fabrication Ready Outputs",
         desc: (
           <span>
-            Detail-rich <strong>3D outputs</strong> for rebar, steel, and
+            Detail-rich 3D outputs for rebar, steel, and
             concrete structures.
           </span>
         ),
@@ -168,7 +165,7 @@ const Structural3D = () => {
         title: "Global Standards",
         desc: (
           <span>
-            Compliant with <strong>AIA, BS, ACI, and ISO 19650</strong> for
+            Compliant with AIA, BS, ACI, and ISO 19650 for
             international BIM projects.
           </span>
         ),
@@ -180,7 +177,7 @@ const Structural3D = () => {
         id: 1,
         desc: (
           <span>
-            <strong>Accurate, data-rich structural BIM models</strong> for
+            Accurate, data-rich structural BIM models for
             better design visualization and interpretation.
           </span>
         ),
@@ -189,9 +186,7 @@ const Structural3D = () => {
         id: 2,
         desc: (
           <span>
-            <strong>
-              Faster coordination and clash-free construction planning
-            </strong>{" "}
+            Faster coordination and clash-free construction planning{" "}
             across disciplines.
           </span>
         ),
@@ -200,7 +195,7 @@ const Structural3D = () => {
         id: 3,
         desc: (
           <span>
-            <strong>Reduced structural rework and material waste</strong>{" "}
+            Reduced structural rework and material waste{" "}
             through precision-driven BIM workflows.
           </span>
         ),
@@ -209,18 +204,18 @@ const Structural3D = () => {
         id: 4,
         desc: (
           <span>
-            <strong>Improved collaboration</strong> between{" "}
-            <strong>engineers, fabricators, and construction teams.</strong>
+            Improved collaboration between{" "}
+            engineers, fabricators, and construction teams.
           </span>
         ),
       },
       {
         id: 5,
         desc: (
-          <sapn>
-            <strong>Easily updatable BIM documentation</strong> for complete{" "}
-            <strong>project lifecycle management.</strong>
-          </sapn>
+          <span>
+            Easily updatable BIM documentation for complete{" "}
+            project lifecycle management.
+          </span>
         ),
       },
     ],

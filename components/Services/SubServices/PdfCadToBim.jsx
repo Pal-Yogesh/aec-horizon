@@ -10,17 +10,17 @@ const PdfCadToBim = () => {
     desc1: (
       <>
         <span>
-          At <strong>AEC Horizon</strong>, we specialize in{" "}
-          <strong>PDF to BIM</strong> and <strong>CAD to BIM</strong> conversion
+          At AEC Horizon, we specialize in{" "}
+          PDF to BIM and CAD to BIM conversion
           services that transform 2D drawings, legacy CAD files, and scanned
-          PDFs into intelligent, data-rich <strong>3D BIM models</strong>.
+          PDFs into intelligent, data-rich 3D BIM models.
         </span>
         <br />
         <span>
-          Our goal is to help AEC firms across <strong>Europe</strong>, the{" "}
-          <strong>Middle East</strong>, and the <strong>USA</strong> move beyond
+          Our goal is to help AEC firms across Europe, the{" "}
+          Middle East, and the USA move beyond
           static documentation and adopt{" "}
-          <strong>smart, parametric BIM workflows</strong> that improve
+          smart, parametric BIM workflows that improve
           coordination, accuracy, and project visualization.
         </span>
       </>
@@ -28,18 +28,18 @@ const PdfCadToBim = () => {
     desc2: (
       <>
         <span>
-          Using tools like <strong>Autodesk Revit, Navisworks</strong>, and{" "}
-          <strong>AutoCAD</strong>, our experts convert traditional drawings
-          into <strong>information-rich BIM models</strong> that accurately
+          Using tools like Autodesk Revit, Navisworks, and{" "}
+          AutoCAD, our experts convert traditional drawings
+          into information-rich BIM models that accurately
           represent design intent, supporting better decision-making, faster
           collaboration, and reduced rework.
         </span>
         <br />
         <span>
           We don&apos;t just convert drawings, we{" "}
-          <strong>reconstruct design intelligence</strong>, embedding geometry,
+          reconstruct design intelligence, embedding geometry,
           parameters, and discipline-specific data to deliver truly{" "}
-          <strong>constructible BIM models</strong>.
+          constructible BIM models.
         </span>
       </>
     ),
@@ -49,9 +49,9 @@ const PdfCadToBim = () => {
         title: "2D to 3D BIM Conversion",
         desc: (
           <span>
-            Transforming <strong>AutoCAD DWGs, PDFs</strong>, and hand-drafted
+            Transforming AutoCAD DWGs, PDFs, and hand-drafted
             drawings into
-            <strong>Revit BIM models</strong> with precise geometry and
+            Revit BIM models with precise geometry and
             discipline-specific details.
           </span>
         ),
@@ -61,7 +61,7 @@ const PdfCadToBim = () => {
         title: "Architecture, Structure, and MEPF Model Development",
         desc: (
           <span>
-            Delivering <strong>coordinated BIM models</strong> across all
+            Delivering coordinated BIM models across all
             disciplines to ensure design accuracy and integration.
           </span>
         ),
@@ -71,9 +71,9 @@ const PdfCadToBim = () => {
         title: "LOD-Based Modeling",
         desc: (
           <span>
-            Creating BIM models tailored to <strong>LOD 100-500</strong>, ideal
+            Creating BIM models tailored to LOD 100-500, ideal
             for conceptual design, coordination, and{" "}
-            <strong>as-built documentation</strong>.
+            as-built documentation.
           </span>
         ),
       },
@@ -82,9 +82,9 @@ const PdfCadToBim = () => {
         title: "Legacy Drawing Digitization",
         desc: (
           <span>
-            Upgrading outdated <strong>CAD archives</strong> into reusable,
+            Upgrading outdated CAD archives into reusable,
             standards-compliant
-            <strong>BIM assets</strong> for modern workflows.
+            BIM assets for modern workflows.
           </span>
         ),
       },
@@ -93,9 +93,9 @@ const PdfCadToBim = () => {
         title: "Model Validation & Quality Assurance",
         desc: (
           <span>
-            Every converted model undergoes <strong>accuracy checks</strong> and{" "}
-            <strong>QA/QC validation</strong>
-            to align with <strong>ISO 19650</strong> and project standards.
+            Every converted model undergoes accuracy checks and{" "}
+            QA/QC validation
+            to align with ISO 19650 and project standards.
           </span>
         ),
       },
@@ -134,11 +134,11 @@ const PdfCadToBim = () => {
         title: "True to Design Reproduction",
         desc: (
           <span>
-            We ensure every detail, from <strong>walls to conduits</strong>, is
+            We ensure every detail, from walls to conduits, is
             precisely replicated in our{" "}
-            <strong>CAD to BIM and PDF to BIM models</strong>, maintaining
+            CAD to BIM and PDF to BIM models, maintaining
             original design intent and proportions with{" "}
-            <strong>millimeter-level accuracy</strong>.
+            millimeter-level accuracy.
           </span>
         ),
       },
@@ -147,13 +147,10 @@ const PdfCadToBim = () => {
         title: "Enhanced BIM Data Intelligence",
         desc: (
           <span>
-            Each converted <strong>Revit BIM model</strong> is enriched with{" "}
-            <strong>metadata and parameters</strong>, supporting better
+            Each converted Revit BIM model is enriched with{" "}
+            metadata and parameters, supporting better
             usability across{" "}
-            <strong>
-              design, documentation, and facility management workflows
-            </strong>
-            .
+            design, documentation, and facility management workflows.
           </span>
         ),
       },
@@ -162,8 +159,8 @@ const PdfCadToBim = () => {
         title: "Seamless Multi-Discipline Coordination",
         desc: (
           <span>
-            Our team delivers <strong>coordinated BIM models</strong> across{" "}
-            <strong>architectural, structural, and MEPF systems</strong>,
+            Our team delivers coordinated BIM models across{" "}
+            architectural, structural, and MEPF systems,
             ensuring conflict-free integration and improved project
             collaboration.
           </span>
@@ -175,10 +172,10 @@ const PdfCadToBim = () => {
         desc: (
           <span>
             With automated tools and standardized{" "}
-            <strong>Revit workflows</strong>, we handle
-            <strong>large-scale CAD and PDF to BIM conversions</strong>{" "}
+            Revit workflows, we handle
+            large-scale CAD and PDF to BIM conversions{" "}
             efficiently for clients across{" "}
-            <strong>Europe, the Middle East, and the USA</strong>.
+            Europe, the Middle East, and the USA.
           </span>
         ),
       },
@@ -187,12 +184,9 @@ const PdfCadToBim = () => {
         title: "Future-Ready BIM Integration",
         desc: (
           <span>
-            We deliver <strong>BIM-ready models</strong> that integrate smoothly
+            We deliver BIM-ready models that integrate smoothly
             into your firm&apos;s digital ecosystem, optimized for{" "}
-            <strong>
-              clash detection, coordination, and BIM data analysis
-            </strong>
-            .
+            clash detection, coordination, and BIM data analysis.
           </span>
         ),
       },
@@ -203,8 +197,8 @@ const PdfCadToBim = () => {
         id: 1,
         desc: (
           <span>
-            <strong>Fast digital conversion of 2D CAD and PDF drawings</strong> into intelligent
-            <strong>3D BIM models</strong>.
+            Fast digital conversion of 2D CAD and PDF drawings into intelligent
+            3D BIM models.
           </span>
         ),
       },
@@ -212,8 +206,8 @@ const PdfCadToBim = () => {
         id: 2,
         desc: (
           <span>
-            <strong>Improved project accuracy and design clarity</strong> through <strong>data-rich Revit
-            BIM modeling</strong>.
+            Improved project accuracy and design clarity through data-rich Revit
+            BIM modeling.
           </span>
         ),
       },
@@ -221,7 +215,7 @@ const PdfCadToBim = () => {
         id: 3,
         desc: (
           <span>
-            <strong>Enhanced collaboration</strong> with <strong>unified 3D BIM environments</strong> for
+            Enhanced collaboration with unified 3D BIM environments for
             multidisciplinary teams.
           </span>
         ),
@@ -230,7 +224,7 @@ const PdfCadToBim = () => {
         id: 4,
         desc: (
           <span>
-            <strong>Reduced manual drafting time</strong> through automated <strong>CAD to BIM workflows</strong>.
+            Reduced manual drafting time through automated CAD to BIM workflows.
           </span>
         ),
       },
@@ -238,7 +232,7 @@ const PdfCadToBim = () => {
         id: 5,
         desc: (
           <span>
-            <strong>Better decision-making</strong> supported by intelligent, <strong>data-driven BIM models</strong>
+            Better decision-making supported by intelligent, data-driven BIM models
              for project planning and analysis.
           </span>
         ),

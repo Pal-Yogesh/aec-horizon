@@ -10,29 +10,29 @@ const ConstructionDoc = () => {
       "Accurate BIM Documentation for Efficient Construction and Handover",
     desc1: (
       <span>
-        At <strong>AEC Horizon</strong>, we deliver{" "}
-        <strong>construction documentation</strong> and{" "}
-        <strong>as-built drawing services</strong> that ensure every project
+        At AEC Horizon, we deliver{" "}
+        construction documentation and{" "}
+        as-built drawing services that ensure every project
         milestone is recorded with
-        <strong>accuracy, clarity, and BIM compliance</strong>.
+        accuracy, clarity, and BIM compliance.
       </span>
     ),
     desc2: (
       <>
         <span>
-          Our <strong>BIM documentation workflows</strong> help architects,
-          engineers, and contractors across <strong>Europe</strong>, the{" "}
-          <strong>Middle East</strong>, and the <strong>USA</strong> convert
-          design intent into <strong>detailed, build-ready drawings</strong>,
+          Our BIM documentation workflows help architects,
+          engineers, and contractors across Europe, the{" "}
+          Middle East, and the USA convert
+          design intent into detailed, build-ready drawings,
           minimizing on-site confusion and ensuring smooth project execution.
         </span>
         <br />
         <span>
           From initial construction documentation to final{" "}
-          <strong>as-built deliverables</strong>, we bring consistency,
+          as-built deliverables, we bring consistency,
           coordination, and precision to every drawing package, empowering teams
-          to <strong>build with confidence</strong> and
-          <strong>handover efficiently</strong>.
+          to build with confidence and
+          handover efficiently.
         </span>
       </>
     ),
@@ -43,7 +43,7 @@ const ConstructionDoc = () => {
         desc: (
           <span>
             Preparation of{" "}
-            <strong>coordinated BIM-based construction drawings</strong>,
+            coordinated BIM-based construction drawings,
             including plans, sections, elevations, schedules, and details
             aligned with project LOD and design phase requirements.
           </span>
@@ -55,9 +55,9 @@ const ConstructionDoc = () => {
         desc: (
           <span>
             Accurate digital representation of the{" "}
-            <strong>final built condition</strong>, developed using{" "}
-            <strong>redline markups, site scans</strong>, and{" "}
-            <strong>point cloud to BIM workflows</strong> for true on-site
+            final built condition, developed using{" "}
+            redline markups, site scans, and{" "}
+            point cloud to BIM workflows for true on-site
             accuracy.
           </span>
         ),
@@ -67,9 +67,9 @@ const ConstructionDoc = () => {
         title: "BIM Integrated Documentation",
         desc: (
           <span>
-            Generation of <strong>multi-disciplinary documentation</strong>{" "}
+            Generation of multi-disciplinary documentation{" "}
             across{" "}
-            <strong>architectural, structural, and MEPF BIM systems</strong>,
+            architectural, structural, and MEPF BIM systems,
             ensuring precise coordination between trades.
           </span>
         ),
@@ -79,7 +79,7 @@ const ConstructionDoc = () => {
         title: "Shop & Fabrication Drawings",
         desc: (
           <span>
-            Production of <strong>fabrication-level documentation</strong> for
+            Production of fabrication-level documentation for
             HVAC, plumbing, electrical, and structural systems, ensuring
             compliance with contractor and fabrication standards.
           </span>
@@ -90,10 +90,10 @@ const ConstructionDoc = () => {
         title: "Drawing Standardisation & Template Setup",
         desc: (
           <span>
-            Customization of <strong>drawing templates, title blocks</strong>,
-            and <strong>annotation styles</strong> as per{" "}
-            <strong>ISO 19650</strong> and{" "}
-            <strong>AIA documentation standards</strong> for global consistency.
+            Customization of drawing templates, title blocks,
+            and annotation styles as per{" "}
+            ISO 19650 and{" "}
+            AIA documentation standards for global consistency.
           </span>
         ),
       },
@@ -132,7 +132,7 @@ const ConstructionDoc = () => {
         title: "High Accuracy Drawings",
         desc: (
           <span>
-            Verified <strong>BIM-based documentation</strong> ensures precision,
+            Verified BIM-based documentation ensures precision,
             constructability, and alignment with site conditions.
           </span>
         ),
@@ -142,7 +142,7 @@ const ConstructionDoc = () => {
         title: "Faster Delivery",
         desc: (
           <span>
-            <strong>Automated Revit workflows</strong> reduce manual drafting
+            Automated Revit workflows reduce manual drafting
             time and speed up documentation.
           </span>
         ),
@@ -153,7 +153,7 @@ const ConstructionDoc = () => {
         desc: (
           <span>
             All deliverables meet{" "}
-            <strong>AIA, NBIMS, and ISO 19650 BIM standards</strong> for
+            AIA, NBIMS, and ISO 19650 BIM standards for
             international projects.
           </span>
         ),
@@ -163,7 +163,7 @@ const ConstructionDoc = () => {
         title: "Complete Support",
         desc: (
           <span>
-            From <strong>design documentation to as-built BIM models</strong>,
+            From design documentation to as-built BIM models,
             we manage every stage for seamless project handover.
           </span>
         ),
@@ -175,7 +175,7 @@ const ConstructionDoc = () => {
         id: 1,
         desc: (
           <span>
-            <strong>Highly accurate and coordinated BIM drawings</strong> that
+            Highly accurate and coordinated BIM drawings that
             align perfectly with on-site conditions.
           </span>
         ),
@@ -184,8 +184,8 @@ const ConstructionDoc = () => {
         id: 2,
         desc: (
           <span>
-            <strong>Faster documentation timelines</strong> through automated{" "}
-            <strong>Revit and BIM workflows</strong>.
+            Faster documentation timelines through automated{" "}
+            Revit and BIM workflows.
           </span>
         ),
       },
@@ -193,8 +193,8 @@ const ConstructionDoc = () => {
         id: 3,
         desc: (
           <span>
-            <strong>Improved collaboration</strong> among{" "}
-            <strong>architects, engineers, and contractors</strong>
+            Improved collaboration among{" "}
+            architects, engineers, and contractors
             across global projects.
           </span>
         ),
@@ -203,7 +203,7 @@ const ConstructionDoc = () => {
         id: 4,
         desc: (
           <span>
-            <strong>Clear construction intent</strong> for field teams, reducing
+            Clear construction intent for field teams, reducing
             rework and confusion.
           </span>
         ),
@@ -212,8 +212,8 @@ const ConstructionDoc = () => {
         id: 5,
         desc: (
           <span>
-            <strong>Reliable as-built archives</strong> supporting{" "}
-            <strong>facility management</strong> and future renovations.
+            Reliable as-built archives supporting{" "}
+            facility management and future renovations.
           </span>
         ),
       },

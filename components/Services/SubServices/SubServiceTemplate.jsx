@@ -247,9 +247,9 @@ const SubServiceTemplate = ({ data, faqData }) => {
         </div>
       </div>
 
-      <BimProjects />
+      {/* <BimProjects />
       <BimServiceLocation />
-      
+       */}
       {/* FAQ Section */}
       {faqData && (
         <ReusableFAQ 

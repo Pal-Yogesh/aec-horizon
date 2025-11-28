@@ -9,30 +9,28 @@ const MepfCoordination = () => {
     heading: "MEPF Coordination Services for Smarter, Clash-Free Construction",
     desc1: (
       <span>
-        At <strong>AEC Horizon</strong>, we deliver{" "}
-        <strong>MEPF coordination services</strong> that ensure seamless
+        At AEC Horizon, we deliver{" "}
+        MEPF coordination services that ensure seamless
         integration of{" "}
-        <strong>
-          mechanical, electrical, plumbing, and fire protection systems
-        </strong>{" "}
-        within complex <strong>BIM environments</strong>.
+        mechanical, electrical, plumbing, and fire protection systems{" "}
+        within complex BIM environments.
       </span>
     ),
     desc2: (
       <>
         <span>
           Our goal is to help design and construction teams across{" "}
-          <strong>Europe</strong>, the
-          <strong>Middle East</strong>, and the <strong>USA</strong> achieve
+          Europe, the
+          Middle East, and the USA achieve
           spatial accuracy, system efficiency, and constructability, minimizing
           costly site conflicts and delays.
         </span>
         <br />
         <span>
           Using industry-leading tools like{" "}
-          <strong>Autodesk Revit, Navisworks Manage</strong>, and{" "}
-          <strong>BIM 360</strong>, our <strong>BIM specialists</strong> create
-          coordinated <strong>MEP BIM models</strong>
+          Autodesk Revit, Navisworks Manage, and{" "}
+          BIM 360, our BIM specialists create
+          coordinated MEP BIM models
           that improve collaboration among architects, engineers, and
           contractors. The result, precise, installation-ready, and
           performance-driven designs optimized for construction.
@@ -46,9 +44,7 @@ const MepfCoordination = () => {
         desc: (
           <span>
             Integration of{" "}
-            <strong>
-              mechanical, electrical, plumbing, and fire protection BIM models
-            </strong>{" "}
+            mechanical, electrical, plumbing, and fire protection BIM models{" "}
             into a unified platform ensuring alignment, space optimization, and
             system performance.
           </span>
@@ -60,9 +56,9 @@ const MepfCoordination = () => {
         desc: (
           <span>
             Early detection and categorization of{" "}
-            <strong>MEP system clashes</strong> using
-            <strong>Navisworks Clash Detective</strong> and{" "}
-            <strong>Revit coordination workflows</strong>, followed by
+            MEP system clashes using
+            Navisworks Clash Detective and{" "}
+            Revit coordination workflows, followed by
             actionable resolution strategies.
           </span>
         ),
@@ -72,7 +68,7 @@ const MepfCoordination = () => {
         title: "System Optimisation & Routing",
         desc: (
           <span>
-            Intelligent <strong>BIM-based rerouting</strong> to maximize ceiling
+            Intelligent BIM-based rerouting to maximize ceiling
             space, improve service access, and ensure compliance with project
             design standards.
           </span>
@@ -83,7 +79,7 @@ const MepfCoordination = () => {
         title: "Constructability & Installation Review",
         desc: (
           <span>
-            Validation of <strong>MEPF layouts</strong> for constructability,
+            Validation of MEPF layouts for constructability,
             accessibility, and safety before on-site execution.
           </span>
         ),
@@ -93,8 +89,8 @@ const MepfCoordination = () => {
         title: "BIM Driven Collaboration",
         desc: (
           <span>
-            Conducting <strong>BIM coordination meetings</strong>, issue
-            tracking, and design reviews via <strong>BIM 360</strong>, ensuring
+            Conducting BIM coordination meetings, issue
+            tracking, and design reviews via BIM 360, ensuring
             clear communication across multidisciplinary project teams.
           </span>
         ),
@@ -135,9 +131,9 @@ const MepfCoordination = () => {
         desc: (
           <span>
             We ensure seamless coordination between{" "}
-            <strong>MEP, architectural, and structural BIM systems</strong>,
+            MEP, architectural, and structural BIM systems,
             preventing design conflicts and achieving efficient{" "}
-            <strong>BIM coordination</strong> across all project stages.
+            BIM coordination across all project stages.
           </span>
         ),
       },
@@ -147,10 +143,10 @@ const MepfCoordination = () => {
         desc: (
           <span>
             Our team delivers{" "}
-            <strong>accurate, data-rich MEPF BIM models</strong> that are
+            accurate, data-rich MEPF BIM models that are
             optimized for space, functionality, and constructability, helping
-            AEC firms across <strong>Europe</strong>, the{" "}
-            <strong>Middle East</strong>, and the <strong>USA</strong> improve
+            AEC firms across Europe, the{" "}
+            Middle East, and the USA improve
             design accuracy and on-site performance.
           </span>
         ),
@@ -160,8 +156,8 @@ const MepfCoordination = () => {
         title: "Reduced Reworks and Delays",
         desc: (
           <span>
-            Through proactive <strong>clash detection</strong> using{" "}
-            <strong>Navisworks</strong> and <strong>Revit MEP</strong>
+            Through proactive clash detection using{" "}
+            Navisworks and Revit MEP
             tools, we identify and resolve issues during the virtual modeling
             stage, reducing costly site-level changes.
           </span>
@@ -172,7 +168,7 @@ const MepfCoordination = () => {
         title: "Field Ready Deliverables",
         desc: (
           <span>
-            We provide <strong>fabrication-level MEP BIM models</strong> and
+            We provide fabrication-level MEP BIM models and
             detailed coordination drawings that support streamlined
             installation, improved planning, and field execution.
           </span>
@@ -183,10 +179,10 @@ const MepfCoordination = () => {
         title: "Global Standards Compliances",
         desc: (
           <span>
-            Our <strong>MEPF coordination services</strong> align with{" "}
-            <strong>ISO 19650, AIA LOD</strong>, and
-            <strong>ASHRAE standards</strong>, ensuring all deliverables meet
-            international <strong>BIM compliance</strong>
+            Our MEPF coordination services align with{" "}
+            ISO 19650, AIA LOD, and
+            ASHRAE standards, ensuring all deliverables meet
+            international BIM compliance
             and best practices.
           </span>
         ),
@@ -198,9 +194,9 @@ const MepfCoordination = () => {
         id: 1,
         desc: (
           <span>
-            <strong>Early detection of design and routing conflicts</strong>{" "}
-            through advanced <strong>BIM clash detection</strong> using{" "}
-            <strong>Navisworks</strong> and <strong>Revit MEP tools</strong>.
+            Early detection of design and routing conflicts{" "}
+            through advanced BIM clash detection using{" "}
+            Navisworks and Revit MEP tools.
           </span>
         ),
       },
@@ -208,10 +204,8 @@ const MepfCoordination = () => {
         id: 2,
         desc: (
           <span>
-            <strong>Optimized space utilization</strong> across all{" "}
-            <strong>
-              mechanical, electrical, plumbing, and fire protection (MEPF)
-            </strong>{" "}
+            Optimized space utilization across all{" "}
+            mechanical, electrical, plumbing, and fire protection (MEPF){" "}
             systems.
           </span>
         ),
@@ -220,8 +214,8 @@ const MepfCoordination = () => {
         id: 3,
         desc: (
           <span>
-            <strong>Reduced construction delays and material wastage</strong>{" "}
-            with accurate, coordination-driven <strong>MEP BIM models</strong>.
+            Reduced construction delays and material wastage{" "}
+            with accurate, coordination-driven MEP BIM models.
           </span>
         ),
       },
@@ -229,8 +223,8 @@ const MepfCoordination = () => {
         id: 4,
         desc: (
           <span>
-            <strong>Enhanced collaboration and communication</strong> between{" "}
-            <strong>architectural, structural, and MEP BIM teams</strong>.
+            Enhanced collaboration and communication between{" "}
+            architectural, structural, and MEP BIM teams.
           </span>
         ),
       },
@@ -238,11 +232,9 @@ const MepfCoordination = () => {
         id: 5,
         desc: (
           <span>
-            <strong>
-              Improved project quality, safety, and cost efficiency
-            </strong>{" "}
+            Improved project quality, safety, and cost efficiency{" "}
             through globally compliant{" "}
-            <strong>MEPF coordination workflows</strong>.
+            MEPF coordination workflows.
           </span>
         ),
       },

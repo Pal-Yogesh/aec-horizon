@@ -10,12 +10,12 @@ const BimTemplate = () => {
     desc1: (
       <>
         <span>
-          At <strong>AEC Horizon</strong>, we provide{" "}
-          <strong>BIM Template and Content Creation services</strong>
+          At AEC Horizon, we provide{" "}
+          BIM Template and Content Creation services
           designed to bring accuracy, consistency, and scalability to your
-          <strong> Building Information Modeling (BIM) workflows</strong>. Our
+          Building Information Modeling (BIM) workflows. Our
           team develops
-          <strong>custom BIM templates and libraries</strong> that align with
+          custom BIM templates and libraries that align with
           your firm&apos;s project standards, ensuring smooth collaboration and
           optimized model performance from design to construction.
         </span>
@@ -23,14 +23,14 @@ const BimTemplate = () => {
     ),
     desc2: (
       <span>
-        Whether your focus is <strong>architecture, structure, or MEP</strong>,
+        Whether your focus is architecture, structure, or MEP,
         our BIM templates enable your teams to model faster, maintain data
         integrity, and achieve efficient coordination across every project
         phase.
         <br />
-        Serving clients across <strong>Europe</strong>, the{" "}
-        <strong>Middle East</strong>, and the <strong>USA</strong>, AEC Horizon
-        delivers <strong>professional BIM services</strong> that strengthen
+        Serving clients across Europe, the{" "}
+        Middle East, and the USA, AEC Horizon
+        delivers professional BIM services that strengthen
         workflows and enhance productivity for design firms, contractors, and
         consultants worldwide.
       </span>
@@ -42,7 +42,7 @@ const BimTemplate = () => {
         desc: (
           <span>
             Creation of project-specific and discipline-based templates with
-            preloaded <strong>Revit families</strong>, view templates, and title
+            preloaded Revit families, view templates, and title
             blocks for faster and standardized project setup.
           </span>
         ),
@@ -52,9 +52,9 @@ const BimTemplate = () => {
         title: "BIM Standards Implementation",
         desc: (
           <span>
-            Establishment of <strong>naming conventions</strong>, shared
+            Establishment of naming conventions, shared
             parameters, and view configurations in line with{" "}
-            <strong> AIA, ISO 19650</strong>, and <strong>LOD standards</strong>{" "}
+            AIA, ISO 19650, and LOD standards{" "}
             for global consistency.
           </span>
         ),
@@ -65,8 +65,8 @@ const BimTemplate = () => {
         desc: (
           <span>
             Development of standardized and reusable{" "}
-            <strong>BIM components </strong>for architectural, structural, and{" "}
-            <strong>MEP BIM services</strong>, promoting model uniformity and
+            BIM components for architectural, structural, and{" "}
+            MEP BIM services, promoting model uniformity and
             speed.
           </span>
         ),
@@ -77,9 +77,9 @@ const BimTemplate = () => {
         desc: (
           <span>
             Comprehensive configuration of{" "}
-            <strong>worksharing environments</strong>, linked model templates,
+            worksharing environments, linked model templates,
             and coordinate systems for enhanced{" "}
-            <strong>BIM coordination</strong>.
+            BIM coordination.
           </span>
         ),
       },
@@ -88,7 +88,7 @@ const BimTemplate = () => {
         title: "Template Optimisation & Version Upgrades",
         desc: (
           <span>
-            Upgrading outdated <strong>Revit templates</strong> to meet new
+            Upgrading outdated Revit templates to meet new
             standards, improving performance, usability, and file management
           </span>
         ),
@@ -120,10 +120,10 @@ const BimTemplate = () => {
         title: "BIM Workflow Efficiency",
         desc: (
           <span>
-            Our <strong>BIM templates</strong> are structured to minimize setup
+            Our BIM templates are structured to minimize setup
             time, improve team productivity, and ensure consistent{" "}
-            <strong>Revit modeling practices</strong> across projects in{" "}
-            <strong>Europe, the Middle East, and the USA</strong>.
+            Revit modeling practices across projects in{" "}
+            Europe, the Middle East, and the USA.
           </span>
         ),
       },
@@ -133,7 +133,7 @@ const BimTemplate = () => {
         desc: (
           <span>
             We implement uniform{" "}
-            <strong>BIM documentation, naming conventions</strong>, and
+            BIM documentation, naming conventions, and
             parameter standards that enhance coordination and maintain quality
             throughout every design and construction phase.
           </span>
@@ -145,8 +145,8 @@ const BimTemplate = () => {
         desc: (
           <span>
             All content and templates are developed for seamless integration
-            with <strong>Autodesk Revit, Navisworks</strong>, and other major{" "}
-            <strong>BIM coordination tools</strong>, ensuring interoperability
+            with Autodesk Revit, Navisworks, and other major{" "}
+            BIM coordination tools, ensuring interoperability
             across disciplines
           </span>
         ),
@@ -157,10 +157,10 @@ const BimTemplate = () => {
         desc: (
           <span>
             Whether your firm needs a single-discipline{" "}
-            <strong>Revit template</strong> or a complete enterprise-level{" "}
-            <strong>BIM standardization solution</strong>, our services scale to
+            Revit template or a complete enterprise-level{" "}
+            BIM standardization solution, our services scale to
             meet the needs of architectural, structural, and{" "}
-            <strong>MEP BIM projects</strong>.
+            MEP BIM projects.
           </span>
         ),
       },
@@ -170,9 +170,9 @@ const BimTemplate = () => {
         desc: (
           <span>
             Our BIM templates are developed in compliance with{" "}
-            <strong>AIA E203, LOD 100-500</strong>, and{" "}
-            <strong>ISO 19650</strong> frameworks, ensuring your projects meet
-            global <strong>BIM standards</strong> for quality and performance.
+            AIA E203, LOD 100-500, and{" "}
+            ISO 19650 frameworks, ensuring your projects meet
+            global BIM standards for quality and performance.
           </span>
         ),
       },
@@ -182,31 +182,31 @@ const BimTemplate = () => {
       {
         id: 1,
         desc: <p>
-          <strong>Faster BIM project setup</strong> with structured templates that minimize startup time and reduce setup errors.
+          Faster BIM project setup with structured templates that minimize startup time and reduce setup errors.
         </p>,
       },
       {
         id: 2,
         desc: <p>
-        <strong>Consistent BIM documentation</strong> and <strong>standardized Revit models</strong> ensuring accuracy across all disciplines
+        Consistent BIM documentation and standardized Revit models ensuring accuracy across all disciplines
         </p>,
       },
       {
         id: 3,
         desc: <p>
-          <strong>Improved multidisciplinary coordination</strong> through unified <strong>BIM workflows</strong> and shared project standards.
+          Improved multidisciplinary coordination through unified BIM workflows and shared project standards.
         </p>,
       },
       {
         id: 4,
         desc:<p>
-          <strong>Reduced rework and modeling inconsistencies</strong> with globally compliant <strong>BIM templates</strong> and libraries.
+          Reduced rework and modeling inconsistencies with globally compliant BIM templates and libraries.
         </p> ,
       },
       {
         id: 5,
         desc: <p>
-          <strong>Enhanced collaboration and productivity</strong> across architectural, structural, and <strong>MEP BIM teams</strong>.
+          Enhanced collaboration and productivity across architectural, structural, and MEP BIM teams.
         </p>,
       },
     ],

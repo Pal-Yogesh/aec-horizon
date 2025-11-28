@@ -9,25 +9,25 @@ const BimCoordination = () => {
     heading: "Seamless BIM Coordination for Conflict-Free Project Delivery",
     desc1: (
       <span>
-        At <strong>AEC Horizon</strong>, we offer advanced{" "}
-        <strong>BIM coordination and clash detection services</strong> that help
+        At AEC Horizon, we offer advanced{" "}
+        BIM coordination and clash detection services that help
         AEC firms eliminate design conflicts, enhance collaboration, and ensure{" "}
-        <strong>error-free project delivery</strong>.
+        error-free project delivery.
       </span>
     ),
     desc2: (
       <>
         <span>
-          Using tools like <strong>Autodesk Navisworks, Revit</strong>, and{" "}
-          <strong>BIM 360</strong>, we identify potential clashes early in the
+          Using tools like Autodesk Navisworks, Revit, and{" "}
+          BIM 360, we identify potential clashes early in the
           design phase, helping clients across
-          <strong>Europe</strong>, the <strong>Middle East</strong>, and the{" "}
-          <strong>USA</strong> minimize rework, reduce costs, and improve
+          Europe, the Middle East, and the{" "}
+          USA minimize rework, reduce costs, and improve
           construction efficiency.
         </span>
         <br /> <br />
         <span>
-          Our <strong>BIM experts </strong>bring together architectural,
+          Our BIM experts bring together architectural,
           structural, and MEP models into a single coordinated environment,
           ensuring every project milestone is met with precision and
           consistency.
@@ -41,7 +41,7 @@ const BimCoordination = () => {
         desc: (
           <span>
             Integration of{" "}
-            <strong>architectural, structural, and MEP BIM models</strong> into
+            architectural, structural, and MEP BIM models into
             a unified digital environment for seamless coordination and review.
           </span>
         ),
@@ -52,8 +52,8 @@ const BimCoordination = () => {
         desc: (
           <span>
             Early identification and categorization of{" "}
-            <strong>hard, soft, and workflow clashes</strong> using{" "}
-            <strong>Navisworks Manage or Revit Interference Check</strong>,
+            hard, soft, and workflow clashes using{" "}
+            Navisworks Manage or Revit Interference Check,
             followed by actionable clash reports.
           </span>
         ),
@@ -64,7 +64,7 @@ const BimCoordination = () => {
         desc: (
           <span>
             Ensuring models meet{" "}
-            <strong>LOD, naming, and parameter standards</strong> to maintain
+            LOD, naming, and parameter standards to maintain
             cross-disciplinary accuracy and compliance with project
             specifications.
           </span>
@@ -75,9 +75,9 @@ const BimCoordination = () => {
         title: "Coordination Meetings & Issue Tracking",
         desc: (
           <span>
-            Conducting <strong>BIM coordination sessions</strong>, issue
+            Conducting BIM coordination sessions, issue
             tracking, and progress monitoring through{" "}
-            <strong>BIM 360, Revizto, and Navisworks Clash Detective</strong>.
+            BIM 360, Revizto, and Navisworks Clash Detective.
           </span>
         ),
       },
@@ -86,7 +86,7 @@ const BimCoordination = () => {
         title: "Pre-construction Simulation",
         desc: (
           <span>
-            Delivering <strong>4D and 5D BIM simulations</strong> for
+            Delivering 4D and 5D BIM simulations for
             construction sequencing, cost forecasting, and project timeline
             optimization.
           </span>
@@ -127,11 +127,11 @@ const BimCoordination = () => {
         title: "Proactive Clash Management",
         desc: (
           <span>
-            Our <strong>BIM coordination experts</strong> use advanced tools
-            like <strong>Navisworks</strong> and
-            <strong>Revit</strong> to identify and resolve design conflicts
-            early, helping AEC firms across <strong>Europe</strong>, the{" "}
-            <strong>Middle East</strong>, and the <strong>USA</strong> minimize
+            Our BIM coordination experts use advanced tools
+            like Navisworks and
+            Revit to identify and resolve design conflicts
+            early, helping AEC firms across Europe, the{" "}
+            Middle East, and the USA minimize
             costly on-site issues and delays
           </span>
         ),
@@ -141,11 +141,11 @@ const BimCoordination = () => {
         title: "Accurate, Data-Driven Coordination",
         desc: (
           <span>
-            We implement structured <strong>BIM workflows</strong> and{" "}
-            <strong>clash detection processes</strong>
+            We implement structured BIM workflows and{" "}
+            clash detection processes
             to ensure model alignment, documentation accuracy, and consistency
             across{" "}
-            <strong>architectural, structural, and MEP BIM models</strong>.
+            architectural, structural, and MEP BIM models.
           </span>
         ),
       },
@@ -154,8 +154,8 @@ const BimCoordination = () => {
         title: "Collaborative BIM Environment",
         desc: (
           <span>
-            Through <strong>cloud-based platforms</strong> such as{" "}
-            <strong>BIM 360</strong> and <strong>Revizto</strong>, we deliver
+            Through cloud-based platforms such as{" "}
+            BIM 360 and Revizto, we deliver
             centralized coordination environments that enable real-time updates,
             transparent communication, and seamless collaboration between global
             project teams.
@@ -168,9 +168,9 @@ const BimCoordination = () => {
         desc: (
           <span>
             All coordination is carried out in accordance with{" "}
-            <strong>ISO 19650, AIA BIM Execution Plan</strong>, and LOD 100-500
+            ISO 19650, AIA BIM Execution Plan, and LOD 100-500
             standards, ensuring that every
-            <strong> BIM coordination model</strong> meets international
+            BIM coordination model meets international
             compliance and quality benchmarks.
           </span>
         ),
@@ -181,7 +181,7 @@ const BimCoordination = () => {
         desc: (
           <span>
             We provide{" "}
-            <strong>fully coordinated and clash-free BIM models</strong> ready
+            fully coordinated and clash-free BIM models ready
             for construction, empowering teams to improve on-site efficiency,
             reduce rework, and achieve faster project delivery.
           </span>
@@ -194,8 +194,8 @@ const BimCoordination = () => {
         id: 1,
         desc: (
           <span>
-            <strong>Reduced rework and coordination delays</strong> through
-            proactive <strong>BIM clash detection</strong> and resolution.
+            Reduced rework and coordination delays through
+            proactive BIM clash detection and resolution.
           </span>
         ),
       },
@@ -203,9 +203,9 @@ const BimCoordination = () => {
         id: 2,
         desc: (
           <span>
-            <strong>Early identification of design conflicts</strong> using{" "}
-            <strong>Navisworks</strong> and{" "}
-            <strong>Revit coordination tools</strong>
+            Early identification of design conflicts using{" "}
+            Navisworks and{" "}
+            Revit coordination tools
             for seamless project delivery
           </span>
         ),
@@ -214,8 +214,8 @@ const BimCoordination = () => {
         id: 3,
         desc: (
           <span>
-            <strong>Enhanced collaboration and communication</strong> among{" "}
-            <strong>architectural, structural, and MEP BIM teams</strong> across
+            Enhanced collaboration and communication among{" "}
+            architectural, structural, and MEP BIM teams across
             global projects.
           </span>
         ),
@@ -224,8 +224,8 @@ const BimCoordination = () => {
         id: 4,
         desc: (
           <span>
-            <strong>Improved construction sequencing and planning</strong> with
-            data-driven <strong>4D and 5D BIM simulations.</strong>
+            Improved construction sequencing and planning with
+            data-driven 4D and 5D BIM simulations.
           </span>
         ),
       },
@@ -233,8 +233,8 @@ const BimCoordination = () => {
         id: 5,
         desc: (
           <span>
-            <strong>Significant cost and time savings</strong> through accurate{" "}
-            <strong>pre-construction BIM modeling</strong> and streamlined
+            Significant cost and time savings through accurate{" "}
+            pre-construction BIM modeling and streamlined
             workflows.
           </span>
         ),

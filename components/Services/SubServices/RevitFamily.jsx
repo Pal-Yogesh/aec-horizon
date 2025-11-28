@@ -8,28 +8,25 @@ const RevitFamily = () => {
     title: "Revit Family Creation Services",
     heading: "Custom Revit Family Creation for Smarter BIM Workflows",
     desc1: (
-      // <>
       <span>
-        At <strong>AEC Horizon</strong>, we deliver{" "}
-        <strong>custom Revit family creation services</strong> that form the
-        foundation of efficient and intelligent <strong>BIM workflows</strong>.
+        At AEC Horizon, we deliver{" "}
+        custom Revit family creation services that form the
+        foundation of efficient and intelligent BIM workflows.
       </span>
-      // </>
     ),
     desc2: (
       <>
         <span>
-          Our <strong>Revit experts</strong> create high-quality, parametric,
+          Our Revit experts create high-quality, parametric,
           and manufacturer-specific Revit families tailored to your firm design
           standards, ensuring seamless integration across{" "}
-          <strong>architectural, structural, and MEP BIM models.</strong>
+          architectural, structural, and MEP BIM models.
         </span>
         <br />
         <span>
-          Whether your projects are based in <strong>Europe</strong>, the{" "}
-          <strong>Middle East</strong>, or the <strong>USA</strong>, our precise{" "}
-          <strong>Revit BIM services</strong> enhance productivity, improve USA,
-          our precise Revit BIM services enhance productivity, improve
+          Whether your projects are based in Europe, the{" "}
+          Middle East, or the USA, our precise{" "}
+          Revit BIM services enhance productivity, improve
           collaboration, and maintain consistency across all phases of design
           and construction.
         </span>
@@ -49,7 +46,7 @@ const RevitFamily = () => {
             <p>
               Intelligent, adaptable Revit families that automatically adjust to
               design variations, maintaining accuracy throughout your{" "}
-              <strong>BIM models</strong>.
+              BIM models.
             </p>
           </>
         ),
@@ -61,7 +58,7 @@ const RevitFamily = () => {
           <>
             <p>
               Establishing naming conventions, category structures, and shared
-              parameters for consistent <strong>BIM coordination</strong> across
+              parameters for consistent BIM coordination across
               large-scale projects.
             </p>
           </>
@@ -74,7 +71,7 @@ const RevitFamily = () => {
           <>
             <p>
               Comprehensive Revit family libraries designed for{" "}
-              <strong>architects, engineers, and product manufacturers</strong>,
+              architects, engineers, and product manufacturers,
               promoting design efficiency and reuse.
             </p>
           </>
@@ -86,9 +83,9 @@ const RevitFamily = () => {
         desc: (
           <>
             <p>
-              Upgrading <strong>legacy CAD blocks</strong> and outdated content
+              Upgrading legacy CAD blocks and outdated content
               into fully functional, Revit-compatible{" "}
-              <strong> BIM components</strong>.
+              BIM components.
             </p>
           </>
         ),
@@ -125,7 +122,7 @@ const RevitFamily = () => {
         desc: (
           <>
             <span>
-              Each <strong>Revit family</strong> is designed with intelligent
+              Each Revit family is designed with intelligent
               parameters for geometry, materials, and visibility, ensuring
               models adapt seamlessly to project-specific requirements.
             </span>
@@ -139,7 +136,7 @@ const RevitFamily = () => {
           <span>
             Our models are optimized for efficiency and scalability, minimizing
             file sizes while maintaining precise geometry, data integrity, and{" "}
-            <strong>BIM model performance</strong> across all platforms.
+            BIM model performance across all platforms.
           </span>
         ),
       },
@@ -147,12 +144,12 @@ const RevitFamily = () => {
         id: 3,
         title: "BIM Standards Compliance",
         desc: (
-          <sapn>
-            We follow global BIM protocol,s including{" "}
-            <strong>LOD, AIA, and ISO 19650</strong> standards, ensuring
+          <span>
+            We follow global BIM protocols including{" "}
+            LOD, AIA, and ISO 19650 standards, ensuring
             consistency, interoperability, and compliance for{" "}
-            <strong>architectural, structural, and MEP BIM projects</strong>.
-          </sapn>
+            architectural, structural, and MEP BIM projects.
+          </span>
         ),
       },
       {
@@ -161,9 +158,9 @@ const RevitFamily = () => {
         desc: (
           <span>
             From individual components to large{" "}
-            <strong>Revit family libraries</strong>, we support AEC firms in{" "}
-            <strong>Europe, the Middle East, and the USA</strong> with scalable{" "}
-            <strong>BIM outsourcing services</strong> that grow with your
+            Revit family libraries, we support AEC firms in{" "}
+            Europe, the Middle East, and the USA with scalable{" "}
+            BIM outsourcing services that grow with your
             project demands.
           </span>
         ),
@@ -173,10 +170,10 @@ const RevitFamily = () => {
         title: "Cross-Discipline Coordination",
         desc: (
           <span>
-            Our <strong>BIM experts</strong> ensure smooth integration of{" "}
-            <strong>Revit families</strong> across disciplines, bridging
+            Our BIM experts ensure smooth integration of{" "}
+            Revit families across disciplines, bridging
             architectural, structural, and MEP systems for efficient{" "}
-            <strong>BIM coordination</strong> and project delivery.
+            BIM coordination and project delivery.
           </span>
         ),
       },
@@ -187,7 +184,7 @@ const RevitFamily = () => {
         id: 1,
         desc: (
           <p>
-            <strong>Streamlined BIM modeling</strong> for faster and more
+            Streamlined BIM modeling for faster and more
             efficient project delivery.
           </p>
         ),
@@ -196,7 +193,7 @@ const RevitFamily = () => {
         id: 2,
         desc: (
           <p>
-            <strong>Consistent BIM documentation</strong> ensuring accuracy
+            Consistent BIM documentation ensuring accuracy
             across all project stages.
           </p>
         ),
@@ -205,8 +202,8 @@ const RevitFamily = () => {
         id: 3,
         desc: (
           <p>
-            <strong>Reduced modeling errors</strong> through intelligent{" "}
-            <strong>BIM coordination</strong> and QA checks.
+            Reduced modeling errors through intelligent{" "}
+            BIM coordination and QA checks.
           </p>
         ),
       },
@@ -214,8 +211,8 @@ const RevitFamily = () => {
         id: 4,
         desc: (
           <p>
-            <strong>Improved collaboration</strong> between architectural,
-            structural, and <strong>MEP BIM teams</strong>.
+            Improved collaboration between architectural,
+            structural, and MEP BIM teams.
           </p>
         ),
       },
@@ -223,8 +220,8 @@ const RevitFamily = () => {
         id: 5,
         desc: (
           <p>
-            <strong>Faster design iterations</strong> enabled by{" "}
-            <strong>parametric Revit family creation</strong> and adaptability.
+            Faster design iterations enabled by{" "}
+            parametric Revit family creation and adaptability.
           </p>
         ),
       },

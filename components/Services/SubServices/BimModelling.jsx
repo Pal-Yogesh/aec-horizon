@@ -97,7 +97,7 @@ const BimModelling = () => {
           <>
             <span>
               Minimized rework and RFIs through accurate{" "}
-              <strong>BIM coordination</strong>
+              BIM coordination
             </span>
           </>
         ),
@@ -108,7 +108,7 @@ const BimModelling = () => {
           <>
             <span>
               Faster project delivery with efficient
-              <strong>BIM modeling </strong>workflows
+              BIM modeling workflows
             </span>
           </>
         ),
@@ -119,7 +119,7 @@ const BimModelling = () => {
           <>
               <span>
               Seamless collaboration between{" "}
-              <strong>architects, engineers, and contractors</strong>
+              architects, engineers, and contractors
             </span>
           </>
         ),
@@ -129,8 +129,8 @@ const BimModelling = () => {
         desc: (
           <>
             <span>
-              Precise quantity estimation using <strong>5D BIM</strong> and{" "}
-              <strong>Revit</strong> data
+              Precise quantity estimation using 5D BIM and{" "}
+              Revit data
             </span>
           </>
         ),
@@ -141,7 +141,7 @@ const BimModelling = () => {
           <>
             <span>
               Improved facility management with detailed{" "}
-              <strong>as-built BIM models</strong>
+              as-built BIM models
             </span>
           </>
         ),
