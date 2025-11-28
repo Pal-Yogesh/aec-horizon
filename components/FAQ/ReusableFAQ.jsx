@@ -1,11 +1,8 @@
 "use client";
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { faqData as allFaqData } from "./FAQ/FaqData";
 
-const faqData = allFaqData.homepage;
-
-const FAQ = () => {
+const ReusableFAQ = ({ faqData, title = "Frequently Asked Questions", showContactCard = true }) => {
   const [openIndex, setOpenIndex] = useState(null);
 
   const toggleFAQ = (index) => {
@@ -25,35 +22,37 @@ const FAQ = () => {
           {/* Left Section */}
           <div className="flex flex-col items-center lg:items-start">
             <div className="text-[28px] sm:text-[35px] lg:text-[45px] font-semibold gradient-text-about text-center lg:text-left">
-              <span className="gradient-text-about">Frequently Asked</span>
-              <br /> <span>Questions</span>
+              <span className="gradient-text-about">{title.split(' ').slice(0, -1).join(' ')}</span>
+              <br /> <span>{title.split(' ').slice(-1).join(' ')}</span>
             </div>
 
             {/* Still Have Questions */}
-            <div
-              className="bg-[#FFFFFFA1] border-[3px] sm:border-[4px] border-[#FFFFFF] w-full max-w-[300px] sm:max-w-[320px] lg:w-[339px] h-auto min-h-[280px] sm:min-h-[300px] lg:h-[330px] px-6 sm:px-7 lg:px-8 py-8 sm:py-9 lg:py-10 rounded-[35px] sm:rounded-[40px] lg:rounded-[44px] mt-6 sm:mt-8 lg:mt-10"
-              style={{ boxShadow: "0px 4px 4px 0px #00000040" }}
-            >
-              <div className="text-[#4B336D] font-medium">
-                <p className="text-[22px] sm:text-[25px] lg:text-[29px]">Still have Questions?</p>
-                <p className="text-[13px] sm:text-[14px] lg:text-[16px] pt-2">
-                Didn&apos;t find the answer you needed? Email us and our team will get back to you promptly with expert support.
-                </p>
-              </div>
-
+            {showContactCard && (
               <div
-                className="border-[1px] mt-6 sm:mt-7 lg:mt-8 text-center flex items-center justify-center w-[115px] h-[42px] sm:w-[125px] sm:h-[46px] lg:w-[132px] lg:h-[49px] border-[#FFFFFF] rounded-[13px] sm:rounded-[14px] lg:rounded-[15.5px] cursor-pointer hover:scale-105 transition-transform duration-300"
-                style={{
-                  background:
-                    "linear-gradient(-106.4deg, #47099F 0.28%, #F8AD1D 158.99%)",
-                  boxShadow: "0px 4px 4px 0px #00000040",
-                }}
+                className="bg-[#FFFFFFA1] border-[3px] sm:border-[4px] border-[#FFFFFF] w-full max-w-[300px] sm:max-w-[320px] lg:w-[339px] h-auto min-h-[280px] sm:min-h-[300px] lg:h-[330px] px-6 sm:px-7 lg:px-8 py-8 sm:py-9 lg:py-10 rounded-[35px] sm:rounded-[40px] lg:rounded-[44px] mt-6 sm:mt-8 lg:mt-10"
+                style={{ boxShadow: "0px 4px 4px 0px #00000040" }}
               >
-                <button className="text-white text-[17px] sm:text-[19px] lg:text-[21px] font-medium">
-                  Email Us
-                </button>
+                <div className="text-[#4B336D] font-medium">
+                  <p className="text-[22px] sm:text-[25px] lg:text-[29px]">Still have Questions?</p>
+                  <p className="text-[13px] sm:text-[14px] lg:text-[16px] pt-2">
+                    Didn&apos;t find the answer you needed? Email us and our team will get back to you promptly with expert support.
+                  </p>
+                </div>
+
+                <div
+                  className="border-[1px] mt-6 sm:mt-7 lg:mt-8 text-center flex items-center justify-center w-[115px] h-[42px] sm:w-[125px] sm:h-[46px] lg:w-[132px] lg:h-[49px] border-[#FFFFFF] rounded-[13px] sm:rounded-[14px] lg:rounded-[15.5px] cursor-pointer hover:scale-105 transition-transform duration-300"
+                  style={{
+                    background:
+                      "linear-gradient(-106.4deg, #47099F 0.28%, #F8AD1D 158.99%)",
+                    boxShadow: "0px 4px 4px 0px #00000040",
+                  }}
+                >
+                  <button className="text-white text-[17px] sm:text-[19px] lg:text-[21px] font-medium">
+                    Email Us
+                  </button>
+                </div>
               </div>
-            </div>
+            )}
           </div>
 
           {/* Right Section */}
@@ -142,4 +141,5 @@ const FAQ = () => {
   );
 };
 
-export default FAQ;
+export default ReusableFAQ;
+

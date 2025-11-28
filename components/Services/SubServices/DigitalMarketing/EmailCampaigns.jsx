@@ -1,5 +1,6 @@
 import React from "react";
 import DMTemplate from "./DMTemplate";
+import { faqData } from "@/components/FAQ/FaqData";
 
 const EmailCampaigns = () => {
   const serviceData = {
@@ -143,7 +144,7 @@ const EmailCampaigns = () => {
     ],
   };
 
-  return <DMTemplate data={serviceData} />;
+  return <DMTemplate data={serviceData} faqData={faqData.digitalMarketing.emailCampaigns} />;
 };
 
 export default EmailCampaigns;

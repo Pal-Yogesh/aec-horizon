@@ -1,5 +1,6 @@
 import React from "react";
 import DMTemplate from "./DMTemplate";
+import { faqData } from "@/components/FAQ/FaqData";
 
 const MarketingPresentation = () => {
   const serviceData = {
@@ -140,7 +141,7 @@ const MarketingPresentation = () => {
     ],
   };
 
-  return <DMTemplate data={serviceData} />;
+  return <DMTemplate data={serviceData} faqData={faqData.digitalMarketing.marketingPresentation} />;
 };
 
 export default MarketingPresentation;

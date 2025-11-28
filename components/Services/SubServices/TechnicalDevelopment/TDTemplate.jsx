@@ -2,8 +2,9 @@ import Image from "next/image";
 import React from "react";
 import TBDProjects from "../../TBD/TBDProjects";
 import TBDServiceLocation from "../../TBD/TBDServiceLocation";
+import ReusableFAQ from "@/components/FAQ/ReusableFAQ";
 
-const TDTemplate = ({ data }) => {
+const TDTemplate = ({ data, faqData }) => {
   return (
     <div className="bg-gradient-to-b from-[#D5CBF0] to-[#E3DDFF] w-full pb-20 sm:pb-32 lg:pb-32 px-4 sm:px-6 lg:px-0">
       <div className="w-full pb-20 sm:pb-32 lg:pb-40 text-[#6436A4] text-[16px] sm:text-[18px] lg:text-[20px] font-semibold">
@@ -242,6 +243,15 @@ const TDTemplate = ({ data }) => {
 
       {/* <TBDProjects />
       <TBDServiceLocation /> */}
+      
+      {/* FAQ Section */}
+      {faqData && (
+        <ReusableFAQ 
+          faqData={faqData} 
+          title="Frequently Asked Questions"
+          showContactCard={true}
+        />
+      )}
     </div>
   );
 };

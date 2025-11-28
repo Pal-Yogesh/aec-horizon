@@ -9,6 +9,8 @@ import Services from "@/components/Services";
 import WhoWeServe from "@/components/WhoWeServe";
 import WhyChoose from "@/components/WhyChoose";
 import Image from "next/image";
+import ReusableFAQ from "@/components/FAQ/ReusableFAQ";
+import { faqData } from "@/components/FAQ/FaqData";
 
 export default function Home() {
   return (
@@ -40,7 +42,7 @@ export default function Home() {
         </div>
         <HeroSectionBg />
         <div className="block md:hidden">
-        <HeroSectionBg />
+          <HeroSectionBg />
         </div>
 
         <div className="absolute top-36  w-[100%]  hidden lg:block">
@@ -81,6 +83,11 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <ReusableFAQ 
+        faqData={faqData.homepage} 
+        title="Frequently Asked Questions"
+        showContactCard={true}
+      />
     </div>
   );
 }

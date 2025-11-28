@@ -1,5 +1,6 @@
 import React from "react";
 import DMTemplate from "./DMTemplate";
+import { faqData } from "@/components/FAQ/FaqData";
 
 const SeoConstruction = () => {
   const serviceData = {
@@ -175,7 +176,7 @@ const SeoConstruction = () => {
     ],
   };
 
-  return <DMTemplate data={serviceData} />;
+  return <DMTemplate data={serviceData} faqData={faqData.digitalMarketing.seo} />;
 };
 
 export default SeoConstruction;

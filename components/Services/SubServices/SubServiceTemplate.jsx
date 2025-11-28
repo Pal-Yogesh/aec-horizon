@@ -2,8 +2,9 @@ import Image from "next/image";
 import React from "react";
 import BimProjects from "../BimandDrafting/BimProjects";
 import BimServiceLocation from "../BimandDrafting/BimServiceLocation";
+import ReusableFAQ from "@/components/FAQ/ReusableFAQ";
 
-const SubServiceTemplate = ({ data }) => {
+const SubServiceTemplate = ({ data, faqData }) => {
   return (
     <div className="bg-gradient-to-b from-[#BCC8F2] to-[#E1E8FF] w-full pb-20 sm:pb-32 px-4 sm:px-6 lg:px-0">
       <div className="w-full pb-20 sm:pb-32 lg:pb-40 text-[#364483] text-[16px] sm:text-[18px] lg:text-[20px] font-semibold">
@@ -248,6 +249,15 @@ const SubServiceTemplate = ({ data }) => {
 
       <BimProjects />
       <BimServiceLocation />
+      
+      {/* FAQ Section */}
+      {faqData && (
+        <ReusableFAQ 
+          faqData={faqData} 
+          title="Frequently Asked Questions"
+          showContactCard={true}
+        />
+      )}
     </div>
   );
 };

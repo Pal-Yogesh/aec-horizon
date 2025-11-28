@@ -1,5 +1,6 @@
 import React from "react";
 import TDTemplate from "./TDTemplate";
+import { faqData } from "@/components/FAQ/FaqData";
 
 const StrategicPartnerships = () => {
   const serviceData = {
@@ -224,7 +225,7 @@ const StrategicPartnerships = () => {
     ],
   };
 
-  return <TDTemplate data={serviceData} />;
+  return <TDTemplate data={serviceData} faqData={faqData.technicalBusinessDev.partnerships} />;
 };
 
 export default StrategicPartnerships;

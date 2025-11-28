@@ -1,5 +1,6 @@
 import React from "react";
 import TDTemplate from "./TDTemplate";
+import { faqData } from "@/components/FAQ/FaqData";
 
 const ClientEngagement = () => {
   const serviceData = {
@@ -160,7 +161,7 @@ const ClientEngagement = () => {
     ],
   };
 
-  return <TDTemplate data={serviceData} />;
+  return <TDTemplate data={serviceData} faqData={faqData.technicalBusinessDev.clientEngagement} />;
 };
 
 export default ClientEngagement;

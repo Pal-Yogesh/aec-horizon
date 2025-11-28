@@ -1,5 +1,6 @@
 import React from "react";
 import TDTemplate from "./TDTemplate";
+import { faqData } from "@/components/FAQ/FaqData";
 
 const LeadGeneration = () => {
   const serviceData = {
@@ -163,7 +164,7 @@ const LeadGeneration = () => {
     ],
   };
 
-  return <TDTemplate data={serviceData} />;
+  return <TDTemplate data={serviceData} faqData={faqData.technicalBusinessDev.leadGeneration} />;
 };
 
 export default LeadGeneration;

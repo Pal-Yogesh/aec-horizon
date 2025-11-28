@@ -1,5 +1,6 @@
 import React from "react";
 import SubServiceTemplate from "./SubServiceTemplate";
+import { faqData } from "@/components/FAQ/FaqData";
 
 const PdfCadToBim = () => {
   const serviceData = {
@@ -270,7 +271,7 @@ const PdfCadToBim = () => {
     ],
   };
 
-  return <SubServiceTemplate data={serviceData} />;
+  return <SubServiceTemplate data={serviceData} faqData={faqData.bimServices.conversion} />;
 };
 
 export default PdfCadToBim;

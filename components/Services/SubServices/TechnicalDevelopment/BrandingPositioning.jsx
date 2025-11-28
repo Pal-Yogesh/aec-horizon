@@ -1,5 +1,6 @@
 import React from "react";
 import TDTemplate from "./TDTemplate";
+import { faqData } from "@/components/FAQ/FaqData";
 
 const BrandingPositioning = () => {
   const serviceData = {
@@ -155,7 +156,7 @@ const BrandingPositioning = () => {
     ],
   };
 
-  return <TDTemplate data={serviceData} />;
+  return <TDTemplate data={serviceData} faqData={faqData.technicalBusinessDev.branding} />;
 };
 
 export default BrandingPositioning;

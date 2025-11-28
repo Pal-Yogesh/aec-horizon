@@ -3,6 +3,8 @@ import SectionBg from "@/components/Background/SectionBg";
 import TechStack from "@/components/TechStack";
 import TechStack2 from "@/components/TechStack2";
 import TechStack3 from "@/components/TechStack3";
+import ReusableFAQ from "@/components/FAQ/ReusableFAQ";
+import { faqData } from "@/components/FAQ/FaqData";
 import Image from "next/image";
 import React from "react";
 
@@ -80,6 +82,11 @@ const page = () => {
         </div>
         <TechStack3 />
       </div>
+      <ReusableFAQ 
+        faqData={faqData.techStack} 
+        title="Technology Stack FAQs"
+        showContactCard={true}
+      />
     </>
   );
 };

@@ -1,5 +1,6 @@
 import React from "react";
 import DMTemplate from "./DMTemplate";
+import { faqData } from "@/components/FAQ/FaqData";
 
 const BimContent = () => {
   const serviceData = {
@@ -173,7 +174,7 @@ const BimContent = () => {
     ],
   };
 
-  return <DMTemplate data={serviceData} />;
+  return <DMTemplate data={serviceData} faqData={faqData.digitalMarketing.bimContent} />;
 };
 
 export default BimContent;

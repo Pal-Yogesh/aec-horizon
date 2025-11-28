@@ -1,5 +1,6 @@
 import React from "react";
 import TDTemplate from "./TDTemplate";
+import { faqData } from "@/components/FAQ/FaqData";
 
 const SalesEnablement = () => {
   const serviceData = {
@@ -127,7 +128,7 @@ const SalesEnablement = () => {
     ],
   };
 
-  return <TDTemplate data={serviceData} />;
+  return <TDTemplate data={serviceData} faqData={faqData.technicalBusinessDev.salesEnablement} />;
 };
 
 export default SalesEnablement;

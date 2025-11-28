@@ -1,5 +1,6 @@
 import React from "react";
 import SubServiceTemplate from "./SubServiceTemplate";
+import { faqData } from "@/components/FAQ/FaqData";
 
 const ConstructionDoc = () => {
   const serviceData = {
@@ -244,7 +245,7 @@ const ConstructionDoc = () => {
     ],
   };
 
-  return <SubServiceTemplate data={serviceData} />;
+  return <SubServiceTemplate data={serviceData} faqData={faqData.bimServices.constructionDoc} />;
 };
 
 export default ConstructionDoc;

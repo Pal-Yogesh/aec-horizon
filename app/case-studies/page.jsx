@@ -3,7 +3,8 @@ import CSOperations from "@/components/CaseStudies/CSOperations";
 import CSResults from "@/components/CaseStudies/CSResults";
 import OtherCaseStudy from "@/components/CaseStudies/OtherCaseStudy";
 import CSSectionBg from "@/components/CSSectionBg";
-
+import ReusableFAQ from "@/components/FAQ/ReusableFAQ";
+import { faqData } from "@/components/FAQ/FaqData";
 import HeroSectionBg from "@/components/HeroSectionBg";
 
 export default function Home() {
@@ -32,6 +33,11 @@ export default function Home() {
       <CSResults />
       <CSOperations />
       <OtherCaseStudy />
+      <ReusableFAQ 
+        faqData={faqData.caseStudies} 
+        title="Case Studies FAQs"
+        showContactCard={true}
+      />
     </div>
   );
 }

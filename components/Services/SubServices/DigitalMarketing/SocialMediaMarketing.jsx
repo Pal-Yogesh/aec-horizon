@@ -1,5 +1,6 @@
 import React from "react";
 import DMTemplate from "./DMTemplate";
+import { faqData } from "@/components/FAQ/FaqData";
 
 const SocialMediaMarketing = () => {
   const serviceData = {
@@ -146,7 +147,7 @@ const SocialMediaMarketing = () => {
     ],
   };
 
-  return <DMTemplate data={serviceData} />;
+  return <DMTemplate data={serviceData} faqData={faqData.digitalMarketing.socialMedia} />;
 };
 
 export default SocialMediaMarketing;

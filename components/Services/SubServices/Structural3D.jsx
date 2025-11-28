@@ -1,5 +1,6 @@
 import React from "react";
 import SubServiceTemplate from "./SubServiceTemplate";
+import { faqData } from "@/components/FAQ/FaqData";
 
 const Structural3D = () => {
   const serviceData = {
@@ -250,7 +251,7 @@ const Structural3D = () => {
     ],
   };
 
-  return <SubServiceTemplate data={serviceData} />;
+  return <SubServiceTemplate data={serviceData} faqData={faqData.bimServices.structural} />;
 };
 
 export default Structural3D;

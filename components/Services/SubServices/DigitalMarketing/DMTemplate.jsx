@@ -2,8 +2,9 @@ import Image from "next/image";
 import React from "react";
 import DMProjects from "../../DigitalM/DMProjects";
 import DMServiceLocation from "../../DigitalM/DMServiceLocation";
+import ReusableFAQ from "@/components/FAQ/ReusableFAQ";
 
-const DMTemplate = ({ data }) => {
+const DMTemplate = ({ data, faqData }) => {
   return (
     <div
       className="text-[#905D20] w-full pb-20 sm:pb-32 lg:pb-32 px-4 sm:px-6 lg:px-0"
@@ -248,6 +249,15 @@ const DMTemplate = ({ data }) => {
 
       {/* <DMProjects />
       <DMServiceLocation /> */}
+
+      {/* FAQ Section */}
+      {faqData && (
+        <ReusableFAQ 
+          faqData={faqData} 
+          title="Frequently Asked Questions"
+          showContactCard={true}
+        />
+      )}
     </div>
   );
 };

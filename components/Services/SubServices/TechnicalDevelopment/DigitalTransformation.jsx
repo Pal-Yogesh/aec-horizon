@@ -1,5 +1,6 @@
 import React from "react";
 import TDTemplate from "./TDTemplate";
+import { faqData } from "@/components/FAQ/FaqData";
 
 const DigitalTransformation = () => {
   const serviceData = {
@@ -164,7 +165,7 @@ const DigitalTransformation = () => {
     ],
   };
 
-  return <TDTemplate data={serviceData} />;
+  return <TDTemplate data={serviceData} faqData={faqData.technicalBusinessDev.digitalTransformation} />;
 };
 
 export default DigitalTransformation;

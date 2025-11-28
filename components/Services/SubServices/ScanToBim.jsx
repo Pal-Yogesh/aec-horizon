@@ -1,5 +1,6 @@
 import React from "react";
 import SubServiceTemplate from "./SubServiceTemplate";
+import { faqData } from "@/components/FAQ/FaqData";
 
 const ScanToBim = () => {
   const serviceData = {
@@ -266,7 +267,7 @@ const ScanToBim = () => {
       },
     ],
   };
-  return <SubServiceTemplate data={serviceData} />;
+  return <SubServiceTemplate data={serviceData} faqData={faqData.bimServices.scanToBim} />;
 };
 
 export default ScanToBim;

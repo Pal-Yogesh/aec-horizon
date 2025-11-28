@@ -1,5 +1,7 @@
 import AboutSectionBg from "@/components/AboutUS/AboutSectionBg";
 import Projects from "@/components/Projects";
+import ReusableFAQ from "@/components/FAQ/ReusableFAQ";
+import { faqData } from "@/components/FAQ/FaqData";
 import Image from "next/image";
 import React from "react";
 
@@ -32,6 +34,11 @@ const page = () => {
         </div> */}
       </div>
       <Projects />
+      <ReusableFAQ 
+        faqData={faqData.projects} 
+        title="Projects FAQs"
+        showContactCard={true}
+      />
     </div>
   );
 };

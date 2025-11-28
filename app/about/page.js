@@ -2,7 +2,8 @@ import AboutUs from "../../components/AboutUS/AboutUs";
 import React from "react";
 import OurAchievement from "@/components/AboutUS/OurAchievement";
 import Testmonial from "@/components/Testmonial";
-import FAQ from "@/components/FAQ";
+import ReusableFAQ from "@/components/FAQ/ReusableFAQ";
+import { faqData } from "@/components/FAQ/FaqData";
 import MeetCrew from "@/components/MeetCrew";
 import Image from "next/image";
 import Milestone from "@/components/AboutUS/Milestone";
@@ -38,7 +39,11 @@ const page = () => {
           <div className="block lg:hidden">
             <MilestoneMobile />
           </div>
-          <FAQ />
+          <ReusableFAQ 
+            faqData={faqData.about} 
+            title="About Us FAQs"
+            showContactCard={true}
+          />
         </div>
       </div>
     </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import TDTemplate from "./TDTemplate";
+import { faqData } from "@/components/FAQ/FaqData";
 
 const GoToMarket = () => {
   const serviceData = {
@@ -237,7 +238,7 @@ const GoToMarket = () => {
     ],
   };
 
-  return <TDTemplate data={serviceData} />;
+  return <TDTemplate data={serviceData} faqData={faqData.technicalBusinessDev.marketingStrategy} />;
 };
 
 export default GoToMarket;

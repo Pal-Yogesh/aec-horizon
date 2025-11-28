@@ -1,5 +1,6 @@
 import React from "react";
 import TDTemplate from "./TDTemplate";
+import { faqData } from "@/components/FAQ/FaqData";
 
 const ProposalRfp = () => {
   const serviceData = {
@@ -138,7 +139,7 @@ const ProposalRfp = () => {
     ],
   };
 
-  return <TDTemplate data={serviceData} />;
+  return <TDTemplate data={serviceData} faqData={faqData.technicalBusinessDev.proposalRfp} />;
 };
 
 export default ProposalRfp;

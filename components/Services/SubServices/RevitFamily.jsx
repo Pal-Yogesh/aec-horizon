@@ -1,5 +1,6 @@
 import React from "react";
 import SubServiceTemplate from "./SubServiceTemplate";
+import { faqData } from "../../FAQ/FaqData";
 
 const RevitFamily = () => {
   const serviceData = {
@@ -254,7 +255,7 @@ const RevitFamily = () => {
       },
     ],
   };
-  return <SubServiceTemplate data={serviceData} />;
+  return <SubServiceTemplate data={serviceData} faqData={faqData.bimServices.revitFamily} />;
 };
 
 export default RevitFamily;
