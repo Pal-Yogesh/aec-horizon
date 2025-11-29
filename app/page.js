@@ -11,6 +11,7 @@ import WhyChoose from "@/components/WhyChoose";
 import Image from "next/image";
 import ReusableFAQ from "@/components/FAQ/ReusableFAQ";
 import { faqData } from "@/components/FAQ/FaqData";
+import Locations from "@/components/Locations";
 
 export default function Home() {
   return (
@@ -69,22 +70,16 @@ export default function Home() {
             className="w-[900px] h-[100%]"
           />
         </div>
-        <div className="mb-[7%]">
+        <div className="">
           <OurProcess />
         </div>
-        <div className="relative w-full h-[90vh] md:h-[110vh] overflow-hidden  ">
-          <AboutSectionBg />
-          <div className="block md:hidden">
-            <AboutSectionBg />
-          </div>
-
-          <div className="absolute -top-10  w-[100%] ">
+        <div className=" overflow-hidden z-30  ">
+            <Locations />
             <ProcessArchitecture />
-          </div>
         </div>
       </div>
-      <ReusableFAQ 
-        faqData={faqData.homepage} 
+      <ReusableFAQ
+        faqData={faqData.homepage}
         title="Frequently Asked Questions"
         showContactCard={true}
       />

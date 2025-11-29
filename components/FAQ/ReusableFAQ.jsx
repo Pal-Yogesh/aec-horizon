@@ -29,7 +29,7 @@ const ReusableFAQ = ({ faqData, title = "Frequently Asked Questions", showContac
             {/* Still Have Questions */}
             {showContactCard && (
               <div
-                className="bg-[#FFFFFFA1] border-[3px] sm:border-[4px] border-[#FFFFFF] w-full max-w-[300px] sm:max-w-[320px] lg:w-[339px] h-auto min-h-[280px] sm:min-h-[300px] lg:h-[330px] px-6 sm:px-7 lg:px-8 py-8 sm:py-9 lg:py-10 rounded-[35px] sm:rounded-[40px] lg:rounded-[44px] mt-6 sm:mt-8 lg:mt-10"
+                className="bg-[#FFFFFFA1] border-[3px] sm:border-[4px] border-[#FFFFFF] w-full  sm:max-w-[320px] lg:w-[339px] h-auto min-h-[220px] sm:min-h-[300px] lg:h-[360px] px-6 sm:px-7 lg:px-8 py-8 sm:py-9 lg:py-10 rounded-[35px] sm:rounded-[40px] lg:rounded-[44px] mt-6 sm:mt-8 lg:mt-10"
                 style={{ boxShadow: "0px 4px 4px 0px #00000040" }}
               >
                 <div className="text-[#4B336D] font-medium">
@@ -60,7 +60,7 @@ const ReusableFAQ = ({ faqData, title = "Frequently Asked Questions", showContac
             {faqData.map((faq, index) => (
               <motion.div
                 key={index}
-                className="relative w-full max-w-[350px] sm:max-w-[480px] lg:w-[532px] mx-auto lg:mx-0 bg-[#FFFFFF64] rounded-[35px] sm:rounded-[40px] lg:rounded-[44px] px-6 sm:px-7 lg:px-8 py-6 sm:py-7 lg:py-8 border-[1px] border-white font-semibold overflow-hidden"
+                className="relative w-full max-w-[350px] sm:max-w-[480px] lg:w-[532px] mx-auto lg:mx-0 bg-[#FFFFFF64] rounded-[35px] sm:rounded-[40px] lg:rounded-[44px] px-4 sm:px-7 lg:px-8 py-5 sm:py-7 lg:py-8 border-[1px] border-white font-semibold overflow-hidden"
                 style={{ boxShadow: "0px 9px 10.4px 0px #A09DCA" }}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -76,7 +76,7 @@ const ReusableFAQ = ({ faqData, title = "Frequently Asked Questions", showContac
                   className="flex justify-between items-start cursor-pointer"
                   onClick={() => toggleFAQ(index)}
                 >
-                  <p className="text-[15px] sm:text-[17px] lg:text-[20px] text-[#4B336D] pr-8 flex-1">
+                  <p className="text-[14px] sm:text-[17px] lg:text-[20px] text-[#4B336D] pr-1 flex-1">
                     {faq.question}
                   </p>
 
@@ -126,7 +126,7 @@ const ReusableFAQ = ({ faqData, title = "Frequently Asked Questions", showContac
                       }}
                       className="overflow-hidden"
                     >
-                      <p className="text-[13px] sm:text-[14px] lg:text-[15px] text-[#6D6D6D] pr-6">
+                      <p className="text-[13px] sm:text-[14px] lg:text-[15px] text-[#6D6D6D] pr-1">
                         {faq.answer}
                       </p>
                     </motion.div>

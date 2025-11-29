@@ -430,10 +430,18 @@
 
 import Image from "next/image";
 import React from "react";
+import AboutSectionBg from "./AboutUS/AboutSectionBg";
 
 const ProcessArchitecture = () => {
   return (
-    <div>
+    <div className="relative w-full h-full pt-14 md:pt-10 z-20 ">
+      <div className="absolute inset-0 -z-10 ">
+        <AboutSectionBg />
+        <div className="block lg:hidden">
+          <AboutSectionBg />
+          <AboutSectionBg />
+        </div>
+      </div>
       <div className="flex justify-center items-center pt-8 lg:pt-7 px-7 md:px-0">
         <div>
           <h2 className="gradient-text font-bold text-[18px] lg:text-[29px]">
