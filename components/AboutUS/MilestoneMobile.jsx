@@ -2,7 +2,7 @@
 
 import React, { useRef, useState } from "react";
 import { motion, useInView } from "framer-motion";
-import { Eye, Handshake, Rocket } from "lucide-react";
+import { Box, Eye, Globe, Handshake, Package, Rocket } from "lucide-react";
 import SectionBg2 from "../Background/SectionBG2";
 
 const VerticalTimelineNode = ({
@@ -136,19 +136,13 @@ const VerticalTimelineNode = ({
               strokeWidth={2.5}
             />
           </div>
-
-          {/* <motion.span
-            className="text-[#4B336D] font-bold text-[11px] sm:text-[12px] text-left whitespace-nowrap ml-3"
-            whileHover={{ scale: 1.05, color: "#6B46A0" }}
-          >
-            {label}
-          </motion.span> */}
         </motion.div>
       )}
 
       {position === "left" && (
         <motion.div
-          className="text-[#4B336D] absolute top-0 -right-24  font-bold text-[11px] sm:text-[12px] text-right whitespace-nowrap mr-3"
+          className="text-[#4B336D] absolute top-0 -right-28 font-bold text-[11px] sm:text-[12px] text-right mr-3 leading-tight"
+          style={{ width: "90px", whiteSpace: "normal" }} // 👈 Fixed width + wrapping
           whileHover={{ scale: 1.05, color: "#6B46A0" }}
         >
           {label}
@@ -157,7 +151,8 @@ const VerticalTimelineNode = ({
 
       {position === "right" && (
         <motion.div
-          className="text-[#4B336D] absolute top-0 -left-32  font-bold text-[11px] sm:text-[12px] text-left whitespace-nowrap ml-3"
+          className="text-[#4B336D] absolute top-0 -left-32 font-bold text-[11px] sm:text-[12px] text-left ml-3 leading-tight"
+          style={{ width: "110px", whiteSpace: "normal" }} // 👈 Fixed width + wrapping
           whileHover={{ scale: 1.05, color: "#6B46A0" }}
         >
           {label}
@@ -169,15 +164,15 @@ const VerticalTimelineNode = ({
 
 const MilestoneMobile = () => {
   const containerRef = useRef(null);
-  const isInView = useInView(containerRef, { once: true});
+  const isInView = useInView(containerRef, { once: true });
 
   const verticalTimelineData = [
     { icon: Eye, label: "The Vision", position: "left" },
-    { icon: Handshake, label: "The Breakthrough", position: "right" },
-    { icon: Handshake, label: "The Launch", position: "left" },
-    { icon: Rocket, label: "The Breakthrough", position: "right" },
-    { icon: Handshake, label: "The Launch", position: "left" },
-    { icon: Rocket, label: "The Launch", position: "right" },
+    { icon: Box, label: "First BIM Project", position: "right" },
+    { icon: Globe, label: "Expanded our AEC services", position: "left" },
+    { icon: Handshake, label: "Global client onboarding", position: "right" },
+    { icon: Rocket, label: "Digital division Launched", position: "left" },
+    { icon: Package, label: "100+ projects delivered", position: "right" },
   ];
 
   return (
@@ -185,7 +180,7 @@ const MilestoneMobile = () => {
       <div className="absolute top-0 left-0 w-full h-full">
         <SectionBg2 />
         <div className="block md:hidden mt-40">
-        <SectionBg2 />
+          <SectionBg2 />
         </div>
       </div>
       <div className=" sm:px-8">

@@ -2,7 +2,7 @@
 
 import React, { useRef, useState } from "react";
 import { motion, useInView } from "framer-motion";
-import { Eye, Handshake, Rocket } from "lucide-react";
+import { Box, Eye, Globe, Handshake, Package, Rocket } from "lucide-react";
 import SectionBg2 from "../Background/SectionBG2";
 
 const TimelineNode = ({
@@ -186,11 +186,11 @@ const Timeline = () => {
   // 3 items above, 3 items below the middle line
   const timelineData = [
     { icon: Eye, label: "The Vision", position: "top" },
-    { icon: Handshake, label: "First BIM Project", position: "bottom" },
-    { icon: Handshake, label: "Expanded our AEC services", position: "top" },
-    { icon: Rocket, label: "Global client onboarding", position: "bottom" },
-    { icon: Handshake, label: "Digital division Launched", position: "top" },
-    { icon: Rocket, label: "100+ projects delivered", position: "bottom" },
+    { icon: Box, label: "First BIM Project", position: "bottom" },
+    { icon: Globe, label: "Expanded our AEC services", position: "top" },
+    { icon: Handshake, label: "Global client onboarding", position: "bottom" },
+    { icon: Rocket, label: "Digital division Launched", position: "top" },
+    { icon: Package, label: "100+ projects delivered", position: "bottom" },
   ];
 
   return (
