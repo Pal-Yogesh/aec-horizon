@@ -5,17 +5,17 @@ const ContactMap = () => {
   return (
     <>
       <div className="py-14">
-        <div>
-          <div className="flex justify-center items-center">
-            <h1 className="lg:w-[40%]  px-6 lg:px-0  font-semibold text-[20px] sm:text-[29px] gradient-text text-center">
-              Our presence is <strong className="font-bold">Global. </strong>
+        <div className="">
+          <div className="lg:flex lg:justify-center lg:items-center">
+            <h1 className="lg:w-[40%]  px-6 lg:px-0  font-semibold text-[20px] sm:text-[29px] gradient-text text-left md:text-center">
+              Our presence is <strong className="font-bold">Global. </strong> <br />
               We&apos;re here for you
             </h1>
           </div>
 
           <div className="md:flex md:justify-center  md:gap-14 pt-5 md:pt-10 ">
             {/* text */}
-            <div className="md:w-[258px] px-2 lg:pt-9 text-center md:text-left">
+            <div className="md:w-[258px] px-6 md:px-2 lg:pt-9 text-left ">
               <p className="font-semibold text-[20px] sm:text-[29px] gradient-text ">
                 HEADQUARTERS
               </p>
@@ -29,7 +29,7 @@ const ContactMap = () => {
                 <p className="py-4">Mr Satyanand Roy</p>
 
                 <p className="">+91 333336666 </p>
-                <p>staya@gmail.com</p>
+                <a href="mailto:info@aechorizon.com">info@aechorizon.com</a>
               </div>
             </div>
             {/* map */}
