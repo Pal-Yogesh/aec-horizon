@@ -118,7 +118,7 @@ const EmailCampaigns = () => {
       },
     ],
     
-    imagePath: "/s11.svg",
+    imagePath: "/dmemail.svg",
     bgColor: "from-[#D5CBF0] to-[#E3DDFF]",
     features: [
       {

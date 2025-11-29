@@ -31,25 +31,27 @@ const TDTemplate = ({ data, faqData }) => {
               boxShadow: "0px 4px 12.3px 0px #00000040",
             }}
           >
+
             <div
-              className="bg-[#E8D4FF] gradient-text sm:text-[40px] lg:text-[58px] font-semibold h-[200px] sm:h-[280px] lg:h-[350px] flex flex-col sm:flex-row items-center justify-center border-[1px] border-[#FFFFFF] rounded-[30px] sm:rounded-[40px] lg:rounded-[43px] my-4 sm:my-6 lg:my-8 px-4 sm:px-6"
+              className=" gradient-text sm:text-[40px] lg:mx-10 lg:text-[58px] font-semibold h-[200px] sm:h-[280px] lg:h-[350px] flex flex-col sm:flex-row items-center justify-center border-[1px] border-[#FFFFFF] rounded-[30px] sm:rounded-[40px] lg:rounded-[43px] my-4 sm:my-6 lg:my-8 px-4 sm:px-6"
               style={{
                 boxShadow: "0px 4px 15.5px 0px #00000040",
+                background: "#E8D4FF",
               }}
             >
               {/* Desktop Title - Shows on desktop */}
               <div className="sm:px-8 lg:px-10 text-center sm:text-left md:block hidden w-full sm:w-[60%]">
                 <p className="gradient-text">{data.title}</p>
               </div>
-              <div className="w-full sm:w-[50%]">
+              <div className="w-full sm:w-[50%] flex items-center justify-center">
                 <Image
                   src={data.imagePath}
                   alt={data.title}
                   width={1000}
                   height={1000}
-                  className="w-[250px] h-[155px] sm:w-[350px] sm:h-[218px] lg:w-[500px] lg:h-[311px] object-cover"
+                  className="w-[250px] h-[155px] sm:w-[350px] sm:h-[218px] lg:w-[330px] lg:h-[330px] object-contain"
                 />
-              </div>
+            </div>
             </div>
           </div>
 

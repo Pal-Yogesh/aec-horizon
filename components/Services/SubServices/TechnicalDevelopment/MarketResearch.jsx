@@ -129,7 +129,7 @@ const MarketResearch = () => {
       // },
     ],
 
-    imagePath: "/s11.svg",
+    imagePath: "/tdmarket.svg",
     bgColor: "from-[#D5CBF0] to-[#E3DDFF]",
     features: [
       {

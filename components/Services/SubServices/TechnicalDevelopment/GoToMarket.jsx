@@ -212,7 +212,7 @@ const GoToMarket = () => {
       },
     ],
 
-    imagePath: "/s11.svg",
+    imagePath: "/tdgoto.svg",
     bgColor: "from-[#D5CBF0] to-[#E3DDFF]",
     features: [
       {

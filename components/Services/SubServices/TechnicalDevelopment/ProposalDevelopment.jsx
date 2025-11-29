@@ -129,7 +129,7 @@ const ProposalDevelopment = () => {
       },
     ],
 
-    imagePath: "/s11.svg",
+    imagePath: "/tdproposal.svg",
     bgColor: "from-[#D5CBF0] to-[#E3DDFF]",
     features: [
       {

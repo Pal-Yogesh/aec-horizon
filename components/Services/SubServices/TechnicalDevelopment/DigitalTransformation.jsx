@@ -139,7 +139,7 @@ const DigitalTransformation = () => {
       },
     ],
 
-    imagePath: "/s11.svg",
+    imagePath: "/tddigital.svg",
     bgColor: "from-[#D5CBF0] to-[#E3DDFF]",
     features: [
       {

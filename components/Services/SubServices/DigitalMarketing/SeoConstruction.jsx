@@ -150,7 +150,7 @@ const SeoConstruction = () => {
       },
     ],
 
-    imagePath: "/s11.svg",
+    imagePath: "/dmseo.svg",
     bgColor: "from-[#D5CBF0] to-[#E3DDFF]",
     features: [
       {

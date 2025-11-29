@@ -148,7 +148,7 @@ const BimContent = () => {
       },
     ],
 
-    imagePath: "/s11.svg",
+    imagePath: "/dmbim.svg",
     bgColor: "from-[#D5CBF0] to-[#E3DDFF]",
     features: [
       {

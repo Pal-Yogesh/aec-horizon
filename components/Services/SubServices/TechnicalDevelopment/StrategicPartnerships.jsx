@@ -199,7 +199,7 @@ const StrategicPartnerships = () => {
       },
     ],
 
-    imagePath: "/s11.svg",
+    imagePath: "/tdstrategic.svg",
     bgColor: "from-[#D5CBF0] to-[#E3DDFF]",
     features: [
       {

@@ -135,7 +135,7 @@ const ClientEngagement = () => {
       // },
     ],
 
-    imagePath: "/s11.svg",
+    imagePath: "/tdclient.svg",
     bgColor: "from-[#D5CBF0] to-[#E3DDFF]",
     features: [
       {

@@ -115,7 +115,7 @@ const MarketingPresentation = () => {
         desc: "Higher recall value and better visual impact in competitive submissions.",
       },
     ],
-    imagePath: "/s11.svg",
+    imagePath: "/dmmarketing.svg",
     bgColor: "from-[#D5CBF0] to-[#E3DDFF]",
     features: [
       {
