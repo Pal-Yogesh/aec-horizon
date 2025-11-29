@@ -7,26 +7,26 @@ const softwareDataTop = [
   {
     id: 1,
     img: "/image 1817.svg",
-    title: "AutoCad",
-    desc: "Precise, technical, 2D/3D design software.",
+    title: "AutoCAD",
+    desc: "Precision drafting and design foundation for architecture, engineering and construction documentation.",
   },
   {
     id: 2,
     img: "/image 1787.svg",
     title: "Autodesk Revit",
-    desc: "Multidisciplinary BIM industry standard.",
+    desc: "Parametric BIM modeling for seamless coordination between design, structure and MEP systems.",
   },
   {
     id: 3,
     img: "/NMAN.svg",
-    title: "Autodesk Navisworks Manage ",
-    desc: "For large-scale infrastructure projects.",
+    title: "Navisworks Manage",
+    desc: "Advanced clash detection and 4D simulation for collaborative construction management.",
   },
   {
     id: 4,
     img: "/image 1803.svg",
-    title: "Autodesk Construction Cloud (ACC)",
-    desc: "Multidisciplinary BIM industry standard.",
+    title: "Autodesk Construction Cloud",
+    desc: "Integrated data and workflow platform connecting design, field and operations in real time.",
   },
 ];
 
@@ -35,51 +35,52 @@ const softwareDataCenter = [
     id: 5,
     img: "/image 1799.svg",
     title: "BIM 360",
-    desc: "Multidisciplinary BIM industry standard.",
+    desc: "Cloud-based project collaboration for design reviews, version control and issue tracking.",
   },
   {
     id: 6,
     img: "/SOLIBRI.svg",
     title: "Solibri Office",
-    desc: "Detailed structural steel modeling.",
+    desc: "Smart model checking and QA/QC for BIM validation, compliance and performance analysis.",
   },
   {
     id: 7,
     img: "/image 1801.svg",
     title: "Synchro 4D",
-    desc: "For large-scale infrastructure projects.",
+    desc: "Dynamic 4D scheduling and visualization for efficient project planning and execution.",
   },
   {
     id: 8,
     img: "/image 1788.svg",
-    title: "Graphisoft ArchiCAD",
-    desc: "Architectural-focused BIM design.",
+    title: "Graphisoft Archicad",
+    desc: "Design-led BIM software blending creativity with accurate model-based documentation.",
   },
 ];
+
 const softwareDataBottom = [
   {
     id: 9,
     img: "/image 1804.svg",
     title: "ETABS",
-    desc: "Architectural-focused BIM design.",
+    desc: "Industry-standard structural analysis and design software for buildings and high-rise structures.",
   },
   {
     id: 10,
     img: "/image 1800.svg",
     title: "Tekla Structural Designer",
-    desc: "Architectural-focused BIM design.",
+    desc: "Comprehensive analysis-to-detailing workflow for steel and concrete structures.",
   },
   {
     id: 11,
     img: "/image 1802.svg",
     title: "Enscape",
-    desc: "Detailed structural steel modeling.",
+    desc: "Real-time rendering and visualization tool to bring BIM models to life instantly.",
   },
   {
     id: 12,
     img: "/image 1805.svg",
     title: "Twinmotion",
-    desc: "For large-scale infrastructure projects.",
+    desc: "Immersive 3D visualization software for photorealistic renderings and client-ready presentations.",
   },
 ];
 
@@ -127,7 +128,7 @@ const TechStack = () => {
               {softwareDataTop.map((software) => (
                 <div
                   key={software.id}
-                  className="group w-[160px] h-[170px] md:w-[188px] md:h-[198px] rounded-[22px] md:rounded-[29px] text-center pt-2 md:pt-3 px-2 transition-all duration-300 hover:scale-105 cursor-pointer"
+                  className="group w-[160px] h-[170px] md:w-[200px] md:h-[220px] rounded-[22px] md:rounded-[29px] text-center pt-2 md:pt-3 px-2 transition-all duration-300 hover:scale-105 cursor-pointer"
                   style={{
                     background:
                       "radial-gradient(64.61% 64.61% at 59.41% 35.39%, #DAE3FF 0%, #FFFFFF 100%)",
@@ -186,7 +187,7 @@ const TechStack = () => {
               {softwareDataCenter.map((software) => (
                 <div
                   key={software.id}
-                  className="group w-[160px] h-[170px] md:w-[188px] md:h-[198px] rounded-[22px] md:rounded-[29px] text-center pt-2 md:pt-3 px-2 transition-all duration-300 hover:scale-105 cursor-pointer"
+                  className="group w-[160px] h-[170px] md:w-[199px] md:h-[205px] rounded-[22px] md:rounded-[29px] text-center pt-2 md:pt-3 px-2 transition-all duration-300 hover:scale-105 cursor-pointer"
                   style={{
                     background:
                       "radial-gradient(64.61% 64.61% at 59.41% 35.39%, #DAE3FF 0%, #FFFFFF 100%)",
@@ -245,7 +246,7 @@ const TechStack = () => {
               {softwareDataBottom.map((software) => (
                 <div
                   key={software.id}
-                  className="group w-[160px] h-[170px] md:w-[188px] md:h-[198px] rounded-[22px] md:rounded-[29px] text-center pt-2 md:pt-3 px-2 transition-all duration-300 hover:scale-105 cursor-pointer"
+                  className="group w-[160px] h-[170px] md:w-[199px] md:h-[200px] rounded-[22px] md:rounded-[29px] text-center pt-2 md:pt-3 px-2 transition-all duration-300 hover:scale-105 cursor-pointer"
                   style={{
                     background:
                       "radial-gradient(64.61% 64.61% at 59.41% 35.39%, #DAE3FF 0%, #FFFFFF 100%)",

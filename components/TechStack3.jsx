@@ -129,25 +129,25 @@ const softwareDataTop = [
     id: 1,
     img: "/image 1806.svg",
     title: "SEMrush",
-    desc: "SEO optimization and competitor analysis.",
+    desc: "Data-driven SEO and keyword analytics for AEC brand visibility.",
   },
   {
     id: 2,
     img: "/image 1808.svg",
     title: "Canva",
-    desc: "Quick design and branding assets.",
+    desc: "Creative design made simple for impactful AEC marketing visuals.",
   },
   {
     id: 3,
     img: "/image 1794.svg",
     title: "Hootsuite",
-    desc: "Social media scheduling and analytics.",
+    desc: "Smart social media scheduling and analytics for consistent brand presence.",
   },
   {
     id: 4,
     img: "/image 1809.svg",
     title: "Google Analytics",
-    desc: "Website traffic and performance tracking.",
+    desc: "Insightful performance tracking to optimize AEC marketing campaigns.",
   },
 ];
 
@@ -156,28 +156,27 @@ const softwareDataCenter = [
     id: 5,
     img: "/image 1807.svg",
     title: "Vidyard",
-    desc: "Video creation and engagement tracking.",
+    desc: "Personalized video communication to engage clients and showcase AEC projects.",
   },
   {
     id: 6,
     img: "/image 1793.svg",
     title: "Mailchimp",
-    desc: "Email marketing and automation campaigns.",
+    desc: "Automated email marketing for lead nurturing and client retention.",
   },
   {
     id: 7,
     img: "/image 1811.svg",
     title: "Adobe Creative Cloud",
-    desc: "Professional design and content creation.",
+    desc: "Industry-standard suite for high-quality design, video, and brand storytelling.",
   },
   {
     id: 8,
     img: "/image 1812.svg",
     title: "HubSpot Marketing",
-    desc: "Campaign automation and lead nurturing.",
+    desc: "Comprehensive inbound marketing automation for AEC lead generation and growth.",
   },
 ];
-
 
 const TechStack3 = () => {
   return (
@@ -215,7 +214,7 @@ const TechStack3 = () => {
                 {softwareDataTop.map((software) => (
                   <div
                     key={software.id}
-                    className="group w-[160px] h-[170px] md:w-[188px] md:h-[198px] rounded-[22px] md:rounded-[29px] text-center pt-2 md:pt-3 px-2 transition-all duration-300 hover:scale-105 cursor-pointer"
+                    className="group w-[160px] h-[170px] md:w-[199px] md:h-[205px] rounded-[22px] md:rounded-[29px] text-center pt-2 md:pt-3 px-2 transition-all duration-300 hover:scale-105 cursor-pointer"
                     style={{
                       background:
                         "radial-gradient(64.61% 64.61% at 59.41% 35.39%, #DAE3FF 0%, #FFFFFF 100%)",
@@ -274,7 +273,7 @@ const TechStack3 = () => {
                 {softwareDataCenter.map((software) => (
                   <div
                     key={software.id}
-                    className="group w-[160px] h-[170px] md:w-[188px] md:h-[198px] rounded-[22px] md:rounded-[29px] text-center pt-2 md:pt-3 px-2 transition-all duration-300 hover:scale-105 cursor-pointer"
+                    className="group w-[160px] h-[170px] md:w-[199px] md:h-[205px] rounded-[22px] md:rounded-[29px] text-center pt-2 md:pt-3 px-2 transition-all duration-300 hover:scale-105 cursor-pointer"
                     style={{
                       background:
                         "radial-gradient(64.61% 64.61% at 59.41% 35.39%, #DAE3FF 0%, #FFFFFF 100%)",

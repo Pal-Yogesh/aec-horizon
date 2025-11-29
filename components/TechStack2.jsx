@@ -128,25 +128,25 @@ const softwareDataTop = [
     id: 1,
     img: "/image 1791.svg",
     title: "HubSpot CRM",
-    desc: "Lead management and deal tracking.",
+    desc: "Centralised client relationship management and automation for AEC business development.",
   },
   {
     id: 2,
     img: "/image 1792.svg",
     title: "LinkedIn Sales Navigator",
-    desc: "Targeted B2B prospecting tool.",
+    desc: "Targeted lead generation and networking tool for architecture and engineering markets.",
   },
   {
     id: 3,
     img: "/apollo.svg",
     title: "Apollo.io",
-    desc: "Lead enrichment and outreach automation.",
+    desc: "All-in-one prospecting and outreach automation for AEC sales and partnerships.",
   },
   {
     id: 4,
     img: "/sense6.svg",
     title: "6sense",
-    desc: "Buyer intent and account insights.",
+    desc: "AI-driven account intelligence platform for predictive sales and marketing strategy.",
   },
 ];
 
@@ -155,25 +155,25 @@ const softwareDataCenter = [
     id: 5,
     img: "/image 1795.svg",
     title: "PandaDoc",
-    desc: "Proposal and contract automation.",
+    desc: "Streamlined proposal and contract automation for fast, professional client documentation.",
   },
   {
     id: 6,
     img: "/image 1796.svg",
     title: "Notion",
-    desc: "Team collaboration and workflow management.",
+    desc: "Flexible knowledge and project management system for internal AEC team collaboration.",
   },
   {
     id: 7,
     img: "/image 1797.svg",
     title: "ZoomInfo",
-    desc: "Company intelligence and contact discovery.",
+    desc: "Comprehensive market intelligence platform to identify and connect with AEC decision makers.",
   },
   {
     id: 8,
     img: "/image 1798.svg",
     title: "Jira",
-    desc: "Technical task tracking and coordination.",
+    desc: "Agile project tracking and issue management for technical workflows.",
   },
 ];
 
@@ -198,7 +198,7 @@ const TechStack2 = () => {
                 {softwareDataTop.map((software) => (
                   <div
                     key={software.id}
-                    className="group w-[160px] h-[170px] md:w-[188px] md:h-[198px] rounded-[22px] md:rounded-[29px] text-center pt-2 md:pt-3 px-2 transition-all duration-300 hover:scale-105 cursor-pointer"
+                    className="group w-[160px] h-[170px] md:w-[198px] md:h-[205px] rounded-[22px] md:rounded-[29px] text-center pt-2 md:pt-3 px-2 transition-all duration-300 hover:scale-105 cursor-pointer"
                     style={{
                       background:
                         "radial-gradient(64.61% 64.61% at 59.41% 35.39%, #DAE3FF 0%, #FFFFFF 100%)",
@@ -257,7 +257,7 @@ const TechStack2 = () => {
                 {softwareDataCenter.map((software) => (
                   <div
                     key={software.id}
-                    className="group w-[160px] h-[170px] md:w-[188px] md:h-[198px] rounded-[22px] md:rounded-[29px] text-center pt-2 md:pt-3 px-2 transition-all duration-300 hover:scale-105 cursor-pointer"
+                    className="group w-[160px] h-[170px] md:w-[199px] md:h-[205px] rounded-[22px] md:rounded-[29px] text-center pt-2 md:pt-3 px-2 transition-all duration-300 hover:scale-105 cursor-pointer"
                     style={{
                       background:
                         "radial-gradient(64.61% 64.61% at 59.41% 35.39%, #DAE3FF 0%, #FFFFFF 100%)",
