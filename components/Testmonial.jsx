@@ -138,7 +138,7 @@ const Testimonial = () => {
                 {/* Name and Position */}
                 <div className="flex-1 pt-2">
                   <h3 className="text-lg sm:text-xl font-semibold text-[#4B336D] mb-1">
-                    <span className="gradient-text">Danny Lopez</span>
+                    <span className="gradient-text">{testimonial.name}</span>
                   </h3>
                   <p className="text-xs sm:text-sm text-[#4B336D] font-semibold leading-tight">
                     {testimonial.position}
