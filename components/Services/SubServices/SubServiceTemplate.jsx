@@ -6,7 +6,7 @@ import ReusableFAQ from "@/components/FAQ/ReusableFAQ";
 
 const SubServiceTemplate = ({ data, faqData }) => {
   return (
-    <div className="bg-gradient-to-b from-[#BCC8F2] to-[#E1E8FF] w-full pb-20 sm:pb-32 px-4 sm:px-6 lg:px-0">
+    <div className="bg-gradient-to-b from-[#BCC8F2] to-[#E1E8FF] w-full pb-20 md:pb-0 px-4 sm:px-6 lg:px-0">
       <div className="w-full pb-20 sm:pb-32 lg:pb-40 text-[#364483] text-[16px] sm:text-[18px] lg:text-[20px] font-semibold">
         <div className="flex items-center justify-center pt-24 sm:pt-32 lg:pt-40 pb-8 sm:pb-10 lg:pb-12">
           <p
@@ -27,7 +27,7 @@ const SubServiceTemplate = ({ data, faqData }) => {
         <div className="mx-0 sm:mx-[3%] lg:mx-[7%]">
           <div className="flex items-center justify-center p-2 sm:p-3 bg-[#EEF1FD] border-[1px] border-[#FFFFFF] rounded-[30px] sm:rounded-[40px] lg:rounded-[43px]">
             <div
-              className="gradient-text sm:text-[40px] lg:text-[58px] font-semibold h-[200px] sm:h-[280px] lg:h-[350px] flex flex-col sm:flex-row items-center justify-center bg-[#EEF1FD] border-[1px] border-[#FFFFFF] rounded-[30px] sm:rounded-[40px] lg:rounded-[43px] my-4 sm:my-6 lg:my-8 px-4 sm:px-6"
+              className="gradient-text lg:mx-10 sm:text-[40px] lg:text-[58px] font-semibold h-[200px] sm:h-[280px] lg:h-[350px] flex flex-col sm:flex-row items-center justify-center bg-[#EEF1FD] border-[1px] border-[#FFFFFF] rounded-[30px] sm:rounded-[40px] lg:rounded-[43px] my-4 sm:my-6 lg:my-8 px-4 sm:px-6"
               style={{
                 boxShadow: "0px 4px 15.5px 0px #00000040",
               }}
@@ -217,13 +217,13 @@ const SubServiceTemplate = ({ data, faqData }) => {
             {/* Desktop: Complex Overlapping Layout */}
             <div className="hidden lg:flex relative w-full justify-center items-center z-20">
               <div
-                className="absolute -left-[18%]  bg-gradient-to-r from-[#DADFF1] to-[#EEF1FD] w-[80%] h-[290px] border border-white rounded-[43px]"
+                className="absolute -left-[18%]  bg-gradient-to-r from-[#DADFF1] to-[#EEF1FD] w-[80%] h-auto min-h-[290px] border border-white rounded-[43px]"
                 style={{
                   boxShadow: "0px 4px 15.5px 0px #00000040",
                 }}
               >
-                <div className="absolute left-[40%] py-3 pr-3">
-                  <ul className="list-disc  text-[17px]">
+                <div className="absolute left-[40%] pt-4 pr-16 ">
+                  <ul className="list-disc  text-[18px]">
                     {data.ourExpertiseCover2.map((p) => (
                       <li key={p.id} className="font-normal">
                         {p.desc}

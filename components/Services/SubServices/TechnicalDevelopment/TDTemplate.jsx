@@ -6,7 +6,7 @@ import ReusableFAQ from "@/components/FAQ/ReusableFAQ";
 
 const TDTemplate = ({ data, faqData }) => {
   return (
-    <div className="bg-gradient-to-b from-[#D5CBF0] to-[#E3DDFF] w-full pb-20 sm:pb-32 lg:pb-32 px-4 sm:px-6 lg:px-0">
+    <div className="bg-gradient-to-b from-[#D5CBF0] to-[#E3DDFF] w-full pb-20 sm:pb-32 lg:pb-0 px-4 sm:px-6 lg:px-0">
       <div className="w-full pb-20 sm:pb-32 lg:pb-40 text-[#6436A4] text-[16px] sm:text-[18px] lg:text-[20px] font-semibold">
         <div className="flex items-center justify-center pt-24 sm:pt-32 lg:pt-40 pb-8 sm:pb-10 lg:pb-12">
           <p

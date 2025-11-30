@@ -7,7 +7,7 @@ import ReusableFAQ from "@/components/FAQ/ReusableFAQ";
 const DMTemplate = ({ data, faqData }) => {
   return (
     <div
-      className="text-[#905D20] w-full pb-20 sm:pb-32 lg:pb-32 px-4 sm:px-6 lg:px-0"
+      className="text-[#905D20] w-full pb-20 sm:pb-32 lg:pb-0 px-4 sm:px-6 lg:px-0"
       style={{
         background:
           "linear-gradient(179.59deg, #FFF5EC 10.54%, #FDEAB2 68.04%)",
