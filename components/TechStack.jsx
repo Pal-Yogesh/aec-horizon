@@ -104,9 +104,8 @@ const TechStack = () => {
         <span className="gradient-text font-bold text-[32px] md:text-[48.08px] text-center">
           Tech Stack
         </span>
-        <p className="gradient-text text-[16px] md:text-[22.19px] leading-tight text-center px-4 md:px-0">
-          Software for AEC Professionals: From Design to Business Growth{" "}
-        </p>
+        <p className="gradient-text text-[16px] md:text-[22.19px] leading-tight text-center px-4 md:px-32">
+        Software for AEC Professionals: From Design to Expert Technical Business Growth        </p>
       </div>
 
       <div className="bg-[url('/ts2.svg')] bg-cover pb-12 md:pb-[20%]">
