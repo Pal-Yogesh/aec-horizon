@@ -69,10 +69,10 @@ const Navbar = () => {
       subServices: [
         "BIM Modelling & Drafting (LOD 100-500)",
         "Construction Documention Set/ As-built drawings",
-        "Revit Family Creation",
-        "BIM Template & Content Creation",
-        "BIM Automation",
+        "BIM Template & Content Creation Services",
         "BIM Coordination & Clash Detection",
+        "Revit Family Creation",
+        "BIM Automation",
         "MEPF Coordination",
         "Scan to BIM",
         "PDF/CAD to BIM",
@@ -319,7 +319,7 @@ const Navbar = () => {
                       key={index}
                       href={subServiceUrl}
                       onClick={() => handleServiceClick(subServiceUrl)}
-                      className="bg-[#DCE3FE] backdrop-blur-sm hover:bg-[#DCE3FE]/80 font-semibold text-[9px] xl:text-[10px] px-3 lg:pr-7 py-2 rounded-[9px] transition-all duration-300 hover:scale-105 hover:shadow-lg border border-white/60 inline-block"
+                      className="bg-[#DCE3FE] backdrop-blur-sm hover:bg-[#DCE3FE]/80 font-semibold text-[9px] xl:text-[10px] px-3 lg:pr-7  py-2 rounded-[9px] transition-all duration-300 hover:scale-105 hover:shadow-lg border border-white/60 inline-block"
                       style={{
                         color: hoveredService.arrowColor,
                         animation: `fadeInUp 0.3s ease-out ${
