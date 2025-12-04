@@ -1,5 +1,3 @@
-
-
 "use client";
 
 import React from "react";
@@ -12,28 +10,28 @@ const Testimonial = () => {
     {
       id: 1,
       name: "Michael Tan",
-      position: "Special Operator, LEO solutions",
+      position: "Project Head, Build Right Constructions Pvt. Ltd",
       image: "/test1.svg",
       testimonial:
-"The entire ecosystem at AEC Horizon is extremely optimised perfectly made for each of the services that are intertwining.",
+        "The blend of BIM precision and business insight is what sets them apart. Our on-site coordination and documentation improved dramatically after their intervention.",
       bgColor: "bg-[#E9E9FF]",
     },
     {
       id: 2,
       name: "Rahul Verma",
-      position: "Special Operator, LEO solutions",
+      position: "Director, Axis Engineering Consultants",
       image: "/test2.svg",
       testimonial:
-"The entire ecosystem at AEC Horizon is extremely optimised perfectly made for each of the services that are intertwining.",
+        "Their technical understanding of AEC systems is unmatched. From workflow optimisation to digital visibility, AEC horizon has helped us grow sustainbly across markets.",
       bgColor: "bg-[#BBBBFF]",
     },
     {
       id: 3,
       name: "Ananya Mehra",
-      position: "Special Operator, LEO solutions",
+      position: "Principle Architect, Lineform Studios",
       image: "/test3.svg",
       testimonial:
-"The entire ecosystem at AEC Horizon is extremely optimised perfectly made for each of the services that are intertwining.",
+        "AEC Horizon transformed how our studio manages design and delivery. Their BIM integration made our workflows seamless and our projects more client ready than ever",
       bgColor: "bg-[#E9E9FF]",
     },
     // {
@@ -71,9 +69,8 @@ const Testimonial = () => {
       <div className="absolute top-40 left-0 w-full h-full">
         <SectionBg />
         <div className="block md:hidden">
-
-        <SectionBg />
-        <SectionBg />
+          <SectionBg />
+          <SectionBg />
         </div>
       </div>
       {/* Title Button */}
@@ -92,9 +89,8 @@ const Testimonial = () => {
 
       {/* Testimonials Grid */}
       <div className="relative z-10 lg:max-w-7xl lg:mx-auto mt-20">
-        <div  className="flex overflow-x-auto sm:grid sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-2 pb-5 sm:pb-0 scrollbar-thin scrollbar-thumb-[#9CB0FF] scrollbar-track-[#E3E9FF] scrollbar-thumb-rounded-full scrollbar-track-rounded-full scroll-smooth snap-x snap-mandatory sm:snap-none">
+        <div className="flex overflow-x-auto sm:grid sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-2 pb-5 sm:pb-0 scrollbar-thin scrollbar-thumb-[#9CB0FF] scrollbar-track-[#E3E9FF] scrollbar-thumb-rounded-full scrollbar-track-rounded-full scroll-smooth snap-x snap-mandatory sm:snap-none">
           {testimonials.map((testimonial, index) => (
-            
             <motion.div
               key={testimonial.id}
               initial={{ opacity: 0, y: 50 }}
@@ -112,11 +108,8 @@ const Testimonial = () => {
                   damping: 15,
                 },
               }}
-             
-
               className={`${testimonial.bgColor} backdrop-blur-xl rounded-[30px] m-3 p-3 shadow-lg border-[2px] border-white relative flex-shrink-0 sm:flex-shrink w-[280px] sm:w-auto snap-center`}
             >
-              
               {/* Profile Section */}
               <div className="flex items-start gap-4 mb-6 ">
                 {/* Profile Image */}
