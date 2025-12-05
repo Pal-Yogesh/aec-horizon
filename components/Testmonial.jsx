@@ -34,33 +34,6 @@ const Testimonial = () => {
         "AEC Horizon transformed how our studio manages design and delivery. Their BIM integration made our workflows seamless and our projects more client ready than ever",
       bgColor: "bg-[#E9E9FF]",
     },
-    // {
-    //   id: 4,
-    //   name: "Danny Lopez",
-    //   position: "Special Operator, LEO solutions",
-    //   image: "/avatar.svg",
-    //   testimonial:
-    //     "The entire ecosystem at AEC Horizon is extremely optimised perfectly made for each of the services that are intertwining.",
-    //   bgColor: "bg-[#BBBBFF]",
-    // },
-    // {
-    //   id: 5,
-    //   name: "Danny Lopez",
-    //   position: "Special Operator, LEO solutions",
-    //   image: "/avatar.svg",
-    //   testimonial:
-    //     "The entire ecosystem at AEC Horizon is extremely optimised perfectly made for each of the services that are intertwining.",
-    //   bgColor: "bg-[#E9E9FF]",
-    // },
-    // {
-    //   id: 6,
-    //   name: "Danny Lopez",
-    //   position: "Special Operator, LEO solutions",
-    //   image: "/avatar.svg",
-    //   testimonial:
-    //     "The entire ecosystem at AEC Horizon is extremely optimised perfectly made for each of the services that are intertwining.",
-    //   bgColor: "bg-[#BBBBFF]",
-    // },
   ];
 
   return (
@@ -74,17 +47,19 @@ const Testimonial = () => {
         </div>
       </div>
       {/* Title Button */}
-      <div className="flex justify-center items-center pt-20 relative z-10">
-        <button
-          className="text-white text-[24px] md:text-[32px] rounded-[47px]    cursor-pointer w-[180px] h-[42px] md:w-[259px] md:h-[51px] sheen-effect"
-          style={{
-            background:
-              "linear-gradient(-106.4deg, #47099F 0.28%, #F8AD1D 158.99%)",
-            boxShadow: "0px 4px 4px 0px #00000040",
-          }}
+      <div className="flex justify-center items-center mt-20 ">
+        <div
+            className="inline-block border-[2px] rounded-[44px] px-12 py-3 font-semibold text-[25px] border-[#FFFFFF4D]"
+            style={{
+              background:
+                "linear-gradient(261.45deg, rgba(255, 255, 255, 0.63) 37.39%, rgba(219, 213, 255, 0.63) 106.65%)",
+              boxShadow: "0px 2.96px 5.03px 0px #00000040",
+            }}
         >
-          Testimonials
-        </button>
+          <p className="text-[20px] md:text-[29px] gradient-text-about font-semibold">
+            Testimonials{" "}
+          </p>
+        </div>
       </div>
 
       {/* Testimonials Grid */}

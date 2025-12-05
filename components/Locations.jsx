@@ -6,14 +6,14 @@ import AboutSectionBg from "./AboutUS/AboutSectionBg";
 
 const Locations = () => {
   const serviceLocations = [
-    { id: 1, country: "Netherlands", image: "/netherland.svg" },
-    { id: 2, country: "Singapore", image: "/singapore.svg" },
-    { id: 3, country: "United States", image: "/us.svg" },
-    { id: 4, country: "United Kingdom", image: "/uk.svg" },
+    { id: 1, country: "United States", image: "/us.svg" },
+    { id: 2, country: "Canada", image: "/canada.svg" },
+    { id: 3, country: "United Kingdom", image: "/uk.svg" },
+    { id: 4, country: "Netherlands", image: "/netherland.svg" },
     { id: 5, country: "Denmark", image: "/denmark.svg" },
     { id: 6, country: "Germany", image: "/germany.svg" },
-    { id: 7, country: "India", image: "/india.svg" },
-    { id: 8, country: "Canada", image: "/canada.svg" },
+    { id: 7, country: "Singapore", image: "/singapore.svg" },
+    { id: 8, country: "India", image: "/india.svg" },
   ];
 
   return (

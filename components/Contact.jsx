@@ -85,7 +85,7 @@ const Contact = () => {
                   </div>
 
                   {/* Contact Card */}
-                  <div className="flex flex-row lg:flex-col items-center justify-center gap-3 sm:gap-4 lg:gap-3 pt-6 sm:pt-8 lg:pt-10 pb-4">
+                  <div className="flex flex-row lg:flex-col  gap-3 sm:gap-4 lg:gap-3 pt-6 sm:pt-8 lg:pt-10 pb-4">
                     <div
                       className="w-full max-w-[280px] sm:w-[220px] md:w-[243px] h-[124px] text-[13px] sm:text-[15px] md:text-[16px] bg-[#EBEEF88F] backdrop-blur-[3.35px] border border-white rounded-[15px] text-[#4B336D]"
                       style={{

@@ -139,11 +139,12 @@ const WhoWeServe = () => {
             className="font-bold text-[24px] md:text-[26px] lg:text-[29px] text-[#4B336D]"
             style={{ opacity: 1, transform: "none" }}
           >
-            AEC Partners <span> </span> <br  className="md:hidden block"/>
+            AEC Partners <span> </span> <br className="md:hidden block" />
             <span className="gradient-text">We Help Empower</span>
           </h2>
           <p className="mt-2 sm:mt-3 text-[#000000] text-[14px] sm:text-[16px] md:text-[18px] lg:text-[19px]">
-          Here&apos;s who we specifically target to help scale <strong>AEC efficiency</strong>, growth, and innovation.
+            Here&apos;s who we specifically target to help scale{" "}
+            <strong>AEC efficiency</strong>, growth, and innovation.
           </p>
         </motion.div>
 
@@ -372,7 +373,7 @@ const WhoWeServe = () => {
               </div>
             </div>
             <span className="mt-2 sm:mt-2 md:mt-2.5 lg:mt-3.5 rounded-[20px] sm:rounded-[24px] lg:rounded-[27.5px] bg-white/40 px-1.5 sm:px-2 py-1.5 sm:py-2 text-[9px] font-semibold text-[#4B336D] border border-white shadow-[0px_3px_3px_rgba(0,0,0,0.2)] sm:shadow-[0px_4px_4px_rgba(0,0,0,0.25)]">
-            Architecture & AEC Design Firms
+              Architecture & AEC Design Firms
             </span>
           </motion.div>
           <motion.div
@@ -459,7 +460,7 @@ const WhoWeServe = () => {
               </div>
             </div>
             <span className="mt-1.5 sm:mt-2 md:mt-2.5 lg:mt-3.5 rounded-[20px] sm:rounded-[24px] lg:rounded-[27.5px] bg-white/40 px-1.5 sm:px-2 py-1.5 sm:py-2 text-[9px] font-semibold text-[#4B336D] border border-white shadow-[0px_3px_3px_rgba(0,0,0,0.2)] sm:shadow-[0px_4px_4px_rgba(0,0,0,0.25)]">
-            Engineering Consultancies
+              Engineering Consultancies
             </span>
           </motion.div>
           <motion.div
@@ -607,7 +608,7 @@ const WhoWeServe = () => {
               </div>
             </div>
             <span className="mt-1.5 sm:mt-2 md:mt-2.5 lg:mt-4 rounded-[20px] sm:rounded-[24px] lg:rounded-[27.5px] bg-white/40 px-1.5 sm:px-2 py-1.5 sm:py-2 text-[9px] font-semibold text-[#4B336D] border border-white shadow-[0px_3px_3px_rgba(0,0,0,0.2)] sm:shadow-[0px_4px_4px_rgba(0,0,0,0.25)]">
-            Construction & Contracting Companies
+              Construction & Contracting Companies
             </span>
           </motion.div>
           <motion.div
@@ -742,7 +743,7 @@ const WhoWeServe = () => {
               </div>
             </div>
             <span className="mt-1.5 sm:mt-2 md:mt-2.5 lg:mt-3 rounded-[20px] sm:rounded-[24px] lg:rounded-[27.5px] bg-white/40 px-1.5 sm:px-2 py-1.5 sm:py-2 text-[9px] font-semibold text-[#4B336D] border border-white shadow-[0px_3px_3px_rgba(0,0,0,0.2)] sm:shadow-[0px_4px_4px_rgba(0,0,0,0.25)]">
-            AEC Tech & Allied Services Agencies
+              AEC Tech & Allied Services Agencies
             </span>
           </motion.div>
         </div>
@@ -754,7 +755,7 @@ const WhoWeServe = () => {
           animate={controlsButton}
         >
           <Link
-            href="/about"
+            href="/services/bim-drafting/bim-modelling-drafting-lod-100-500"
             className="rounded-xl sm:rounded-2xl bg-gradient-to-r from-[#C76F4E] via-[#772b85] to-[#47099F] px-4 sm:px-5 md:px-6 py-2 sm:py-2.5 md:py-3 text-[12px] sm:text-[13px] md:text-sm font-semibold text-white shadow-[0_8px_18px_rgba(120,90,200,0.3)] sm:shadow-[0_10px_22px_rgba(120,90,200,0.35)] hover:opacity-95 transition-opacity duration-300"
             type="button"
           >

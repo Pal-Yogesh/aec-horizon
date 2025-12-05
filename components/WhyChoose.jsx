@@ -147,7 +147,7 @@ const WhyChoose = () => {
           {/* ✅ Button */}
           <div className="flex justify-center items-center py-8 sm:py-10 lg:py-12">
             <Link
-              href="/services"
+              href="/services/bim-drafting/bim-modelling-drafting-lod-100-500"
               className="text-white text-[15px] sm:text-[17px] lg:text-[18px] px-5 sm:px-6 py-3 sm:py-4 rounded-[13px] shadow-xl cursor-pointer hover:scale-105 transition-transform duration-300"
               style={{
                 background:

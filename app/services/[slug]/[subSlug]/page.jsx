@@ -40,7 +40,7 @@ export default async function SubServicePage({ params }) {
     if (subSlug === "revit-family-creation") {
       return <RevitFamily />;
     }
-    if (subSlug === "bim-template-content-creation") {
+    if (subSlug === "bim-template-content-creation-services") {
       return <BimTemplate />;
     }
     if (subSlug === "bim-automation") {
