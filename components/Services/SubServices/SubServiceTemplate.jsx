@@ -1,7 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import BimProjects from "../BimandDrafting/BimProjects";
-import BimServiceLocation from "../BimandDrafting/BimServiceLocation";
+
 import ReusableFAQ from "@/components/FAQ/ReusableFAQ";
 
 const SubServiceTemplate = ({ data, faqData }) => {
