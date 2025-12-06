@@ -212,7 +212,7 @@ const SubServiceTemplate = ({ data, faqData }) => {
 
               {/* LEFT CONTENT BOX */}
               <div
-                className="relative -ml-[18%] z-10 bg-gradient-to-r from-[#DADFF1] to-[#EEF1FD] w-[80%] h-auto min-h-[290px] flex items-center py-10 border border-white rounded-[43px]"
+                className="relative -ml-[18%] z-10 bg-gradient-to-r from-[#DADFF1] to-[#EEF1FD] w-[80%] h-auto min-h-[100px] flex items-center py-10 border border-white rounded-[43px]"
                 style={{
                   boxShadow: "0px 4px 15.5px 0px #00000040",
                 }}

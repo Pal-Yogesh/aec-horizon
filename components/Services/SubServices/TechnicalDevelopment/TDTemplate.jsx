@@ -212,7 +212,7 @@ const TDTemplate = ({ data, faqData }) => {
             <div className="hidden lg:flex relative w-full items-center z-20">
               {/* LEFT CONTENT BOX */}
               <div
-                className="relative -left-[18%] w-[80%] z-10 h-auto min-h-[300px] flex items-center py-10 border backdrop-blur-2xl border-white rounded-[43px]"
+                className="relative -left-[18%] w-[80%] z-10 h-auto min-h-[100px] flex items-center py-10 border backdrop-blur-2xl border-white rounded-[43px]"
                 style={{
                   boxShadow: "0px 4px 15.5px 0px #00000040",
                   background:
