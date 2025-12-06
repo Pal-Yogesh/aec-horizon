@@ -7,7 +7,7 @@ import ReusableFAQ from "@/components/FAQ/ReusableFAQ";
 const TDTemplate = ({ data, faqData }) => {
   return (
     <div className="bg-gradient-to-b from-[#D5CBF0] to-[#E3DDFF] w-full pb-20 sm:pb-32 lg:pb-0 px-4 sm:px-6 lg:px-0">
-      <div className="w-full pb-20 sm:pb-32 lg:pb-40 text-[#6436A4] text-[16px] sm:text-[18px] lg:text-[20px] font-semibold">
+      <div className="w-full pb-20 sm:pb-32 lg:pb-0 text-[#6436A4] text-[16px] sm:text-[18px] lg:text-[20px] font-semibold">
         <div className="flex items-center justify-center pt-24 sm:pt-32 lg:pt-40 pb-8 sm:pb-10 lg:pb-12">
           <p
             className="bg-gradient-to-r from-[#E8D4FF] to-[#D2ACFF] text-[#62228B] text-[9px] sm:text-[10px] py-1.5 sm:py-2 px-3 sm:px-4 border-[1px] border-white rounded-[20px] sm:rounded-[24.18px]"
@@ -31,7 +31,6 @@ const TDTemplate = ({ data, faqData }) => {
               boxShadow: "0px 4px 12.3px 0px #00000040",
             }}
           >
-
             <div
               className=" gradient-text sm:text-[40px] lg:mx-10 lg:text-[58px] font-semibold h-[200px] sm:h-[280px] lg:h-[350px] flex flex-col sm:flex-row items-center justify-center border-[1px] border-[#FFFFFF] rounded-[30px] sm:rounded-[40px] lg:rounded-[43px] my-4 sm:my-6 lg:my-8 px-4 sm:px-6"
               style={{
@@ -51,7 +50,7 @@ const TDTemplate = ({ data, faqData }) => {
                   height={1000}
                   className="w-[250px] h-[155px] sm:w-[350px] sm:h-[218px] lg:w-[330px] lg:h-[330px] object-contain"
                 />
-            </div>
+              </div>
             </div>
           </div>
 
@@ -73,7 +72,7 @@ const TDTemplate = ({ data, faqData }) => {
           )}
 
           <div>
-            <div className="my-8 sm:my-12 lg:my-14 sm:pb-18 lg:pb-24 mx-[5%] sm:mx-[10%] lg:mx-[13%]">
+            <div className="my-8 sm:my-12 lg:my-14 sm:pb-18 lg:pb-0 mx-[5%] sm:mx-[10%] lg:mx-[13%]">
               <div className="space-y-5 sm:space-y-7 lg:space-y-9">
                 <h2 className="text-[22px] sm:text-[28px] lg:text-[35px] w-[100%] text-center gradient-text-about leading-tight">
                   {data.heading}
@@ -132,17 +131,18 @@ const TDTemplate = ({ data, faqData }) => {
             </div>
 
             {/* Desktop: Complex Overlapping Layout */}
-            <div className="hidden lg:flex relative w-full justify-center items-center z-20">
+            <div className="hidden lg:flex relative w-full items-center z-20">
+              {/* LEFT CONTENT BOX */}
               <div
-                className="absolute -left-[18%] w-[80%] h-[313px] border backdrop-blur-2xl border-white rounded-[43px]"
+                className="relative -left-[18%] w-[80%] z-10 h-auto min-h-[300px] flex items-center py-10 border backdrop-blur-2xl border-white rounded-[43px]"
                 style={{
                   boxShadow: "0px 4px 15.5px 0px #00000040",
                   background:
-                    "linear-gradient(90deg, rgba(218, 223, 241, 0) 0%, #BBA0FF 81.25%)",
+                    "linear-gradient(90deg, rgba(218, 223, 241, 0) 0%, #9D76FF 81.25%)",
                 }}
               >
-                <div className="ml-[39%] pt-5">
-                  <ul className="list-disc  text-[18px]">
+                <div className="ml-[39%] pr-12 w-full">
+                  <ul className="list-disc text-[18px]">
                     <p className="mb-3">Our Expertise Covers:</p>
                     {data.ourExpertiseCover.map((p) => (
                       <li key={p.id} className="font-normal">
@@ -153,19 +153,19 @@ const TDTemplate = ({ data, faqData }) => {
                 </div>
               </div>
 
-              <div className="absolute -z-10 left-[30%]">
-                <Image
-                  src="/dm.svg"
-                  alt="dm"
-                  width={1000}
-                  height={1000}
-                  className="w-[830px] mt-3 h-[600px]"
-                />
-              </div>
+              {/* RIGHT GRADIENT RECTANGLE */}
+              <div
+                className="absolute right-32 z-0 w-[45%] h-full rounded-[43px] border border-white"
+                style={{
+                  background:
+                    "linear-gradient(90deg, rgba(218, 223, 241, 0) 0%, #9D76FF 81.25%)",
+                  boxShadow: "0px 4px 15.5px 0px #00000040",
+                }}
+              ></div>
             </div>
           </div>
           <div>
-            <div className="pt-10 sm:pt-32 lg:pt-40 pb-10 sm:pb-32 lg:pb-40 mx-[5%] sm:mx-[10%] lg:mx-[13%]">
+            <div className="pt-10 sm:pt-32 lg:pt-0 pb-10 sm:pb-32 lg:pb-0 mx-[5%] sm:mx-[10%] lg:mx-[13%]">
               <div className="text-[16px] sm:text-[18px] lg:text-[20px] py-8 sm:py-10 lg:py-12">
                 <h2 className="font-semibold">Why choose AEC Horizon?</h2>
 
@@ -209,17 +209,18 @@ const TDTemplate = ({ data, faqData }) => {
             </div>
 
             {/* Desktop: Complex Overlapping Layout */}
-            <div className="hidden lg:flex relative w-full justify-center items-center z-20">
+            <div className="hidden lg:flex relative w-full items-center z-20">
+              {/* LEFT CONTENT BOX */}
               <div
-                className="absolute -left-[18%] w-[80%] h-[300px] border backdrop-blur-2xl border-white rounded-[43px]"
+                className="relative -left-[18%] w-[80%] z-10 h-auto min-h-[300px] flex items-center py-10 border backdrop-blur-2xl border-white rounded-[43px]"
                 style={{
                   boxShadow: "0px 4px 15.5px 0px #00000040",
                   background:
-                    "linear-gradient(90deg, rgba(218, 223, 241, 0) 0%, #BBA0FF 81.25%)",
+                    "linear-gradient(90deg, rgba(218, 223, 241, 0) 0%, #9D76FF 81.25%)",
                 }}
               >
-                <div className="absolute left-[39%] py-3">
-                  <ul className="list-disc  text-[17px]">
+                <div className="ml-[39%] pr-10 w-full">
+                  <ul className="list-disc text-[17px]">
                     {data.ourExpertiseCover2.map((p) => (
                       <li key={p.id} className="font-normal">
                         {p.desc}
@@ -229,15 +230,15 @@ const TDTemplate = ({ data, faqData }) => {
                 </div>
               </div>
 
-              <div className="absolute -z-10 left-[31%]">
-                <Image
-                  src="/dm.svg"
-                  alt="dm"
-                  width={1000}
-                  height={1000}
-                  className="w-[801px] mt-3 h-[600px]"
-                />
-              </div>
+              {/* RIGHT GRADIENT RECTANGLE */}
+              <div
+                 className="absolute right-32 z-0 w-[45%] h-full rounded-[43px] border border-white"
+                 style={{
+                   background:
+                     "linear-gradient(90deg, rgba(218, 223, 241, 0) 0%, #9D76FF 81.25%)",
+                   boxShadow: "0px 4px 15.5px 0px #00000040",
+                 }}
+              ></div>
             </div>
           </div>
         </div>
@@ -245,11 +246,11 @@ const TDTemplate = ({ data, faqData }) => {
 
       {/* <TBDProjects />
       <TBDServiceLocation /> */}
-      
+
       {/* FAQ Section */}
       {faqData && (
-        <ReusableFAQ 
-          faqData={faqData} 
+        <ReusableFAQ
+          faqData={faqData}
           title="Frequently Asked Questions"
           showContactCard={true}
         />
