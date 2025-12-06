@@ -1,7 +1,5 @@
 import Image from "next/image";
 import React from "react";
-import TBDProjects from "../../TBD/TBDProjects";
-import TBDServiceLocation from "../../TBD/TBDServiceLocation";
 import ReusableFAQ from "@/components/FAQ/ReusableFAQ";
 
 const TDTemplate = ({ data, faqData }) => {
