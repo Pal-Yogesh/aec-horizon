@@ -147,7 +147,7 @@ const BimModelling = () => {
         ),
       },
     ],
-    imagePath: "/s11.svg",
+    imagePath: "/bimmodelling.svg",
     bgColor: "from-[#A8C8FF] to-[#6B9FFF]",
     features: [
       {

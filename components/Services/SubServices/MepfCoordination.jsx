@@ -240,7 +240,7 @@ const MepfCoordination = () => {
       },
     ],
 
-    imagePath: "/s11.svg",
+    imagePath: "/bimmepf.svg",
     bgColor: "from-[#A8C8FF] to-[#6B9FFF]",
     features: [
       {

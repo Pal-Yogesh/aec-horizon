@@ -241,7 +241,7 @@ const BimCoordination = () => {
       },
     ],
 
-    imagePath: "/s11.svg",
+    imagePath: "/bimcoordination.svg",
     bgColor: "from-[#A8C8FF] to-[#6B9FFF]",
     features: [
       {

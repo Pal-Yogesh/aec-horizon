@@ -220,7 +220,7 @@ const Structural3D = () => {
       },
     ],
 
-    imagePath: "/s11.svg",
+    imagePath: "/bim3d.svg",
     bgColor: "from-[#A8C8FF] to-[#6B9FFF]",
     features: [
       {

@@ -243,7 +243,7 @@ const BimAutomation = () => {
       },
     ],
 
-    imagePath: "/s11.svg",
+    imagePath: "/bimautomation.svg",
     bgColor: "from-[#A8C8FF] to-[#6B9FFF]",
     features: [
       {

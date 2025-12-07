@@ -227,7 +227,7 @@ const RevitFamily = () => {
       },
     ],
 
-    imagePath: "/s11.svg",
+    imagePath: "/revitfamily.svg",
     bgColor: "from-[#A8C8FF] to-[#6B9FFF]",
     features: [
       {
