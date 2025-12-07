@@ -15,6 +15,14 @@ const MarketingPresentation = () => {
     desc3:
       "Whether you need bid-winning decks, investor presentations, or capability showcases, our team blends visual design with AEC-specific messaging to deliver presentations that improve recall, clarity, and response.",
 
+      keywords: [
+        "Corporate Decks",
+        "Bid & Tender presentations",
+        "BIM & technical visualisations",
+        "Investor and stakeholder decks",
+        "Marketing & collateral design"
+      ],
+      
     whatWeOffer: [
       {
         id: 1,

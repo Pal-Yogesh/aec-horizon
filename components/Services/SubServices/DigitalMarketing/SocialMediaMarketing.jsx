@@ -14,7 +14,17 @@ const SocialMediaMarketing = () => {
       "We combine technical communication with compelling visual storytelling to help design, engineering, and construction companies turn their on-site expertise into digital authority. Our AEC-focused social media strategies consistently deliver measurable results, including up to 3× higher engagement and a 40% increase in qualified B2B inquiries across global regions.",
     desc3:
       "Whether your firm serves European consultants, Middle East mega-projects, or US-based contractors, we create content frameworks that build influence where your next opportunity begins.",
-    whatWeOffer: [
+   
+      keywords: [
+        "Strategic campaign architecture",
+        "Thought leadership programs",
+        "Creative content development",
+        "Performance analytics",
+        "Paid Campaign management"
+      ],
+      
+   
+      whatWeOffer: [
       {
         id: 1,
         title: "Strategic Campaign Architecture:",

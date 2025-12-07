@@ -14,6 +14,13 @@ const SeoConstruction = () => {
     desc3:
       "We don't just optimize pages, we position your company as a trusted authority in the digital AEC landscape through compelling technical storytelling and visibility-focused campaigns.",
 
+      keywords: [
+        "Technical SEO Audit",
+        "Finding high-intent terms",
+        "On-Page & Structural Optimization",
+        "Off-Page SEO & Authority Building",
+        "Analytics & Reporting"
+      ],
     whatWeOffer: [
       {
         id: 1,

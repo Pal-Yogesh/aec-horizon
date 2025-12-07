@@ -12,6 +12,14 @@ const EmailCampaigns = () => {
     desc2:
       "With strong engagement performance and industry-specific positioning, we help business development teams present their expertise confidently to architects, engineers, contractors, developers, and investors.",
     desc3: "",
+    keywords: [
+      "B2B Email campaigns",
+      "Automated lead nurturing",
+      "Personalised pitch deck designs",
+      "Client re-engagement campaigns",
+      "Performance tracking",
+    ],
+
     whatWeOffer: [
       {
         id: 1,
@@ -117,7 +125,7 @@ const EmailCampaigns = () => {
         desc: "Better alignment between marketing outreach and AEC business development goals.",
       },
     ],
-    
+
     imagePath: "/dmemail.svg",
     bgColor: "from-[#D5CBF0] to-[#E3DDFF]",
     features: [
@@ -144,7 +152,12 @@ const EmailCampaigns = () => {
     ],
   };
 
-  return <DMTemplate data={serviceData} faqData={faqData.digitalMarketing.emailCampaigns} />;
+  return (
+    <DMTemplate
+      data={serviceData}
+      faqData={faqData.digitalMarketing.emailCampaigns}
+    />
+  );
 };
 
 export default EmailCampaigns;

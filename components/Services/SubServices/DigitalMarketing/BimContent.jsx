@@ -14,6 +14,14 @@ const BimContent = () => {
       "Every BIM object, from parametric Revit families to manufacturer-specific components, is optimized for performance, functionality, and compliance, ensuring smooth integration into project workflows and online BIM platforms.",
     desc3: "",
 
+    keywords: [
+      "Creating geometry-rich, data-driven components",
+      "Library Standardisation",
+      "Manufacturer specific models",
+      "File optimisation",
+      "Quality assurance and compliance"
+    ],
+    
     whatWeOffer: [
       {
         id: 1,

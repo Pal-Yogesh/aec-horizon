@@ -12,6 +12,15 @@ const ProjectPlanning = () => {
     desc2:
       "To ensure accuracy from concept to completion, our project planning and scheduling services incorporate AI-powered forecasting, 4D BIM simulation, critical path analysis, and intelligent resource planning. Every activity, dependency, and milestone is carefully mapped to give your team complete clarity, control, and cost efficiency throughout the entire project lifecycle.",
     desc3: "",
+
+    keywords: [
+      "Creating baseline, and resource-loaded schedules",
+      "Connecting design models to construction schedules",
+      "Finding dependencies and limitations",
+      "Progress tracking and forecasting",
+      "Earned Value Management"
+    ],
+    
     whatWeOffer: [
       {
         id: 1,
