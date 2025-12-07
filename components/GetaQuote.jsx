@@ -103,7 +103,12 @@ const GetaQuote = () => {
                         <h1 className="font-semibold">Call us at</h1>
                         <h1 className="font-semibold">874950450835</h1>
                         <h1 className="font-semibold pt-7">Email us at</h1>
-                        <h1 className="font-semibold">ksdhkjsdj@gmail.com</h1>
+                        <a
+                          href="mailto:team@aechorizon.com"
+                          className="font-semibold"
+                        >
+                          team@aechorizon.com
+                        </a>
                       </div>
                     </div>
                     <div

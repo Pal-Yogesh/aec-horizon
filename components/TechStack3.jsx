@@ -214,7 +214,7 @@ const TechStack3 = () => {
                 {softwareDataTop.map((software) => (
                   <div
                     key={software.id}
-                    className="group w-[160px] h-[170px] md:w-[199px] md:h-[205px] rounded-[22px] md:rounded-[29px] text-center pt-2 md:pt-3 px-2 transition-all duration-300 hover:scale-105 cursor-pointer"
+                    className="group w-[160px] h-[170px] md:w-[199px] md:h-[205px] rounded-[22px] md:rounded-[29px] text-center pt-2 md:pt-3 px-2 border-2 border-[#FFDCA9] hover:border-white transition-all duration-300 hover:scale-105 cursor-pointer"
                     style={{
                       background:
                         "radial-gradient(64.61% 64.61% at 59.41% 35.39%, #DAE3FF 0%, #FFFFFF 100%)",
@@ -273,7 +273,7 @@ const TechStack3 = () => {
                 {softwareDataCenter.map((software) => (
                   <div
                     key={software.id}
-                    className="group w-[160px] h-[170px] md:w-[199px] md:h-[205px] rounded-[22px] md:rounded-[29px] text-center pt-2 md:pt-3 px-2 transition-all duration-300 hover:scale-105 cursor-pointer"
+                    className="group w-[160px] h-[170px] md:w-[199px] md:h-[205px] rounded-[22px] md:rounded-[29px] text-center pt-2 md:pt-3 px-2 border-2 border-[#FFDCA9] hover:border-white transition-all duration-300 hover:scale-105 cursor-pointer"
                     style={{
                       background:
                         "radial-gradient(64.61% 64.61% at 59.41% 35.39%, #DAE3FF 0%, #FFFFFF 100%)",

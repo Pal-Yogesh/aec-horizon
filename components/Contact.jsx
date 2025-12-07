@@ -97,10 +97,10 @@ const Contact = () => {
                         <h1 className="font-semibold">874950450835</h1>
                         <h1 className="font-semibold pt-7">Email us at</h1>
                         <a
-                          href="mailto:info@aechorizon.com"
+                          href="mailto:team@aechorizon.com"
                           className="font-semibold"
                         >
-                          info@aechorizon.com
+                          team@aechorizon.com
                         </a>
                       </div>
                     </div>
